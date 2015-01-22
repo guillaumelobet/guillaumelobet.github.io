@@ -61,3 +61,5 @@ When root are not grown in systems such as aeroponics or agar, the image you wil
 ### The type of measurement
 
 Finally, one major limitation to the type of image you wan use in your analysis is the type of measurement you plant to do on them.If you want to have **global data** such as total root length and a detailed description of the architecture (connection, topology), the roots on the images will have to be perfectly separated and still all connected.On the other hand, if you only need **variable that can be estimated locally**, such as root diameter of branching densities, the quality of your image can be lower and the time you will spend to prepare your roots before the acquisition will be highly decreased.
+
+{% include twitter_plug.html %}
