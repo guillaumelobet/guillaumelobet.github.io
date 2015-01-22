@@ -53,7 +53,7 @@ If two roots are superposed on the image, it will not be possible any more to di
 
 ![Example of dirts in a root image](/_figures/good-image-5.jpg)
 
-**Figure 5. ** Example of dirts in a root image
+**Figure 5.** Example of dirts in a root image
 
 
 When root are not grown in systems such as aeroponics or agar, the image you will get might be full of dirt particles, on and around your roots.Again, these particles can distord you measurement such as root diameter or root number (for large dirt particles) so it is always better to get rid of them.Of course, the first way would be to **clean your root** before the image acquisition step, but, as for the root separation it could be highly time consuming.Fortunately, as I will show in a future post, you **image can be easily cleaned** from all the particles surrounding your roots. There is even some trick to get rid of the particles sticking to your roots.
