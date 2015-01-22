@@ -4,7 +4,7 @@ relative_permalinks: true
 
 # Setup
 title:            Guillaume's Blog
-paginate:         5
+paginate:         1
 baseurl:          /
 author:
   name:           Guillaume Lobet
