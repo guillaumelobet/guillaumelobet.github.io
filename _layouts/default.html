@@ -14,6 +14,8 @@
   		&nbsp;&nbsp;&nbsp;
   		<small><a href="{{ page[1]  }}">{{ page[0] }}</a></small>
 		{% endfor %}
+      &nbsp;&nbsp;&nbsp;
+      <small><a href="http://wwww.guillaumelobet.be">Homepage</a></small>
 		</h3> 
       </header>
       
@@ -22,13 +24,14 @@
       <main>
         {{ content }}
       </main>
+
 		{% include comments.html %}
 
 
 
       <footer class="footer">
         <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. CC-BY Licence
         </small>
       </footer>
     </div>
