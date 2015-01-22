@@ -1,0 +1,57 @@
+
+-
+  name: AlloMaize
+  description: >
+    Plant growth is highly regulated, and coordination of shoot and roots ensures that energy production in leaves is fine-tuned to the availability of water and nutrients. Hence modification in the root-shoot ratio has impact on total plant growth, but the molecular mechanisms underlying this balancing are still poorly known. The question “how can one part of the plant influence cell division and cell expansion that drive growth in a distant organ?” will be addressed in this project.
+  image: /img/allomaize.png
+-
+  name: SmartRoot
+  description: >
+    SmartRoot is a semi-automated image analysis software which streamlines the quantification of root growth and architecture for complex root systems. 
+    The software combines a vectorial representation of root objects with a powerful tracing algorithm which accommodates to a wide range of image source and quality. 
+    The software supports a sampling-based analysis of root system images, in which detailed information is collected on a limited number of roots selected by the user according to specific research requirements. 
+  image: /img/smartroot.png
+  url: http://www.uclouvain.be/en-smartroot
+
+-
+  name: plant-image-analysis.org
+  description: >
+    The Plant Image Analysis website is an online, manually curated, database referencing more than 110 plant image analysis software solutions. 
+    The website presents each software in a uniform and concise manner enabling users to identify the available solutions for their experimental needs. 
+    The website also enables user feedback, evaluations and new software submissions. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
+  image: /img/pia.png
+  url: http://www.plant-image-analysis.org  
+
+-
+  name: Root System Markup Language
+  description: >
+    Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort.
+  image: /img/rsml.png
+  url: http://rootsystemml.github.io/
+
+-
+  name: Modelling tomato inflorescence
+  description: >
+    Two recently proposed models help to comprehend the development of the tomato inflorescence, based on the fact that the arrangement of flowers reflects the spatiotemporal balance between maintenance of meristem indeterminancy and acquisition of floral meristem identity. In the unifying model of Prusinkiewicz et al. (2007), an inflorescence is built from different meristems that lose their initial « vegetativeness » to become flowers at different times and rates. In the Solanaceae model proposed by Lippman et al. (2008), the branching of the inflorescence depends on the maturation rate of the IM towards FM fate. We combined these two concepts for modelling the tomato inflorescence and gain further insight into the dynamics of the genetic network controling meristem fate.
+  image: /img/flomato.jpg
+  url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/full
+-
+  name: PlaNet-Maize
+  description: >
+    The water uptake capacity of a plant is largely influenced by (i) soil exploration (root architecture), (ii) hydraulic conductivity of individual root segments, (iii) quantity and capacity of bulk-to-rhizosphere water flow, and (iv) regulation of stomatal conductance. These factors must be considered simultaneously if we aim to tailor plants towards improved water deficit resistance. PlaNet-Maize is a functional-structural plant model which encompasses the entire soil-plant-atmosphere continuum with a resolution down to individual root segment. The model simulates individual maize plant growth and development, along with water uptake.  
+  image: /img/planet.gif
+  url: http://dx.doi.org/10.1016/j.ecolmodel.2013.11.025
+
+-
+  name: Impact CV 
+  description: >
+    Impact-CV is a small web-based widget that create a CV (or a .bib file) based on an [ImpactStory profile](https://impactstory.org/GuillaumeLobet).
+  image: /img/is.png
+  url: http://www.guillaumelobet.be/impact
+
+-
+  name: LaTeX thesis template
+  description: >
+    LaTeX template for a master/PhD thesis. It is based on the template developed by Eivind Uggedal ([available here](https://github.com/jrk/uggedal-thesis)) and was modified by myself.
+  image: /img/latex.png
+  url: https://github.com/guillaumelobet/latex_thesis

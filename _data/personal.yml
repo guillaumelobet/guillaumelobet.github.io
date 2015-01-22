@@ -1,0 +1,62 @@
+name: Guillaume Lobet
+
+label: FNRS Post-Doc Researcher - Roots - Image Analysis - Modeling
+
+picture: /img/profile-picture.jpg
+
+email: guillaume.lobet@ulg.ac.be
+
+phone: 
+
+curriculum: https://www.dropbox.com/s/w0tsqv82oc0qm76/cv_g_lobet.pdf
+
+department: PhytoSYSTEMS
+
+institution: Université de Liège
+
+mailing_address: >
+    Boulevard du Rectorat 27
+    4000 Liège
+    Belgium
+
+websites:
+    - 
+        name: plant-image-analysis.org
+        url: http://www.plant-image-analysis.org
+    - 
+        name: The Topless Ninja
+        url: http://toplessninja.tumblr.com
+    - 
+        name: ImpactStory profile
+        url: https://impactstory.org/GuillaumeLobet
+    - 
+        name: PhytoSYSTEMS
+        url: https://www.phytosystems.ulg.ac.be
+
+profiles:
+  - 
+    network: Google Scholar
+    username:
+    url: http://scholar.google.com/citations?user=XHIe6wsAAAAJ&hl=en
+  -
+    network: Twitter
+    username: guillaumelobet
+    url: https://twitter.com/guillaumelobet/
+  -
+    network: Github
+    username: guillaumelobet
+    url: https://github.com/guillaumelobet/    
+
+intro:
+  title: Hello!
+  body: >
+    I am a post-doc researcher at the [Université de Liège](http://www.ulg.ac.be), in [Belgium](http://www.google.com/search?hl=en&q=Belgium), in the Plant Physiology lab of Pr. Claire Perilleux.    
+      
+    
+    The aim of my research project is to better understand how root and shoot influence each other and how this interaction contributes to the development of the plant. Such an integrated approach represents a realistic potential to identify major plant growth controlling components, therefore we aim to transfer this knowledge to the crop species maize.  
+      
+      
+    I also love to develop [image analysis](/perso/researches/image-analysis) and phenotyping tools to help researchers in their scientific workflow. And when I am not implementing image analysis tools, I often play with [plant models](perso/researches/modelisation).  
+      
+      
+    Apart from my daily research activity, I love to reference [plant image analysis software](http://www.plant-image-analysis.org) and [funny plant genes names](http://www.toplessninja.tumblr.com).

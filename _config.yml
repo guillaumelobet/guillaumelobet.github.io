@@ -1,6 +1,8 @@
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+# Build settings
+markdown: kramdown
+
+# http://jekyllrb.com/docs/github-pages/#project-page-url-structure
+baseurl: /elbowpatched-boilerplate/
 
 # Setup
 title:            Guillaume's Blog
@@ -10,13 +12,3 @@ author:
   name:           Guillaume Lobet
   url:            https://twitter.com/guillaumelobet
   email:          guillaume.lobet@ulg.ac.be
-
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/guillaumelobet/guillaumelobet.github.io/
-  
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'

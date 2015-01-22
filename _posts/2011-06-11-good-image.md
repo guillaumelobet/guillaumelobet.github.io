@@ -11,7 +11,7 @@ The quality of an image is central if you want to get useful information out of 
 - the image preparation (thresholding,.. )
 - the image analysis (the type of measurement, software)
 
-![Image analysis pipeline](/_figures/good-image-1.png)
+![Image analysis pipeline](/img/good-image-1.png)
 
 **Figure 1.** Image analysis pipeline
 
@@ -21,7 +21,7 @@ The quality of an image is central if you want to get useful information out of 
 
 The resolution of an images describe the details an image holds. It is often express as the number of pixels per surface unit. In the Anglo-Saxon system, the resolution is expressed in Dots Per Inch (DPI).
 
-![The same object represented with different resolution](/_figures/good-image-2.jpg)
+![The same object represented with different resolution](/img/good-image-2.jpg)
 
 **Figure 2.** The same object represented with different resolution
 
@@ -32,7 +32,7 @@ The first rule is that the greater the DPI value is, the more information is con
 
 The contrast of an image is the colour difference between the object you want to† analyse and the background of the image. This difference is important for the analysis software as it will allow it to separate the root objects from the environment.
 
-![Images having different contrast between the root object and the background](/_figures/good-image-3.jpg)
+![Images having different contrast between the root object and the background](/img/good-image-3.jpg)
 
 **Figure 3.** Images having different contrast between the root object and the background
 
@@ -42,7 +42,7 @@ For analysis purpose, the bigger the contrast is between the root and the backgr
 
 One quality parameter which is specific to root image is the quantity of root crossing and overlapping.
 
-![Example of root overlap](/_figures/good-image-4.jpg)
+![Example of root overlap](/img/good-image-4.jpg)
 
 **Figure 4.** Example of root overlap
 
@@ -51,7 +51,7 @@ If two roots are superposed on the image, it will not be possible any more to di
 
 ### Dirts
 
-![Example of dirts in a root image](/_figures/good-image-5.jpg)
+![Example of dirts in a root image](/img/good-image-5.jpg)
 
 **Figure 5.** Example of dirts in a root image
 
