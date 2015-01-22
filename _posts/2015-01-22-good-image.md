@@ -11,7 +11,7 @@ The quality of an image is central if you want to get useful information out of 
 - the image preparation (thresholding,.. )
 - the image analysis (the type of measurement, software)
 
-![Image analysis pipeline](https://github.com/guillaumelobet/guillaumelobet.github.io/blob/master/_figures/good-image-1.png)
+![Image analysis pipeline](/_figures/good-image-1.png)
 
 **Figure 1.** Image analysis pipeline
 
