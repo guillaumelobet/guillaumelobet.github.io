@@ -44,7 +44,7 @@ Once we found the right fabric, we decided to design a holder that could support
 - **D.** Picture of the overall growing setup.
 
 
-<img src="http://www.guillaumelobet.be/assets/images/rhizoponics/rhizoponic-2.png" alt="vertical camera" width="100%">
+<img src="/img/rhizoponic-2.png" alt="rhizo2" width="50%">
 
 
 ### Imaging the plants
@@ -57,12 +57,12 @@ Design the setup was only one part of the story. Since we wanted to be able to t
 - **C.** an indirect lightning
 - **D.** a dark background.
 
-<img src="http://www.guillaumelobet.be/assets/images/rhizoponics/rhizoponic-1.png" alt="vertical camera" width="100%">
+<img src="/img/rhizoponic-1.png" alt="rhizo1" width="50%">
 
 
 As a result, we could fairly well discriminate the roots from the mesh, which was  critical for the image analysis. In the end, the quality of the images was such as we could perform both a global analysis of the root system (depth, width, surface) using a [custom made ImageJ macro](https://github.com/guillaumelobet/rhizoponics) as well as a local analysis (lateral density, lateral length, ...) using [SmartRoot](http://www.guillaumelobet.be/codes/smartroot).
 
-<img src="http://www.guillaumelobet.be/assets/images/rhizoponics/rhizoponic-3.png" alt="vertical camera" width="100%">
+<img src="/img/rhizoponic-3.png" alt="rhizo3" width="50%">
 
 **Examples of images obtained in our setup**
 
