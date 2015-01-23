@@ -7,14 +7,14 @@ title: Using thresholding method on root images
 Many root image analysis procedures have a thresholding step in their workflow (e.i. WinRHIZO or EZ-RHIZO). The thresholding step aims at segmenting the original image (fig. 1A) in two parts: the "object" (the roots) and the "background", and to assign to each of them a different pixel value (typically 1 and 0). The subsequent binary image (fig. 1B) can be used, for instance, to generate a "root skeleton" (fig. 1C) or to estimate root diameter.
 
 
-<img src="http://www.guillaumelobet.be/assets/images/threshold_workflow.jpg" alt="vertical camera" width="100%">
+<img src="/img/threshold_workflow.jpg" alt="threshold workflow" width="100%">
 
 **Figure 1.** A. Original image. B. Binary image. C. Skeleton
 
 
 Even if **thresholding** is a common image manipulation, it** has to be performed carefully** on root images. Indeed, the threshold value, defining the separation between the objects and the background, can have a great influence on the obtained binary image and therefore on the final results.Inappropriate threshold value can lead to a poor segmentation, typically "forgetting" the thinner roots (fig. 2B) or "creating" roots that are too large (fig. 2C).
 
-<img src="http://www.guillaumelobet.be/assets/images/threshold_diam.jpg" alt="vertical camera" width="100%">
+<img src="/img/threshold_diam.jpg" alt="threshold diameter" width="100%">
 
 **Figure 2.** A. Original image. B. Threshold is too low, thinner roots where not selected. C. Threshold is too high, roots are too large
 
@@ -23,7 +23,7 @@ Even if **thresholding** is a common image manipulation, it** has to be performe
 
 As the threshold value influences the final results of the analysis it important the follow an identical methodology for the all the roots of the same experiment (or group of experiments). For this reason, it is not recommended to visually determine a threshold on every images as the human estimation could vary over time. It is also important that all the images of the same experiment have been acquired in the same conditions (light, devise, background, resolution, etc).
 
-<img src="http://www.guillaumelobet.be/assets/images/imagej_threshold.jpg" alt="vertical camera" width="100%">
+<img src="/img/imagej_threshold.jpg" alt="imagej threshold" width="100%">
 
 **Figure 3.** ImageJ thresholding window
 
