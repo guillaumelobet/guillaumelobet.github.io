@@ -3,7 +3,7 @@
   name: AlloMaize
   description: >
     Plant growth is highly regulated, and coordination of shoot and roots ensures that energy production in leaves is fine-tuned to the availability of water and nutrients. Hence modification in the root-shoot ratio has impact on total plant growth, but the molecular mechanisms underlying this balancing are still poorly known. The question “how can one part of the plant influence cell division and cell expansion that drive growth in a distant organ?” will be addressed in this project.
-  image: guillaumelobet.github.io/img/allomaize.png
+  image: /img/allomaize.png
 -
   name: SmartRoot
   description: >
