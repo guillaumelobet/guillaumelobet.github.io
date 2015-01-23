@@ -31,9 +31,9 @@ It is threatened by habitat loss.
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
 
-  <link rel="stylesheet" href="{{ site.baseurl }}/public/css/albertine.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/albertine.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +52,7 @@ It is threatened by habitat loss.
   <!-- HEADER -->
   <!-- ==================== -->
   <header>
-    <div class="container">
+    <div class="container" id="section_start">
       <div class="row">
         <div class="col-xs-9 col-lg-8">
           <h1>
@@ -64,13 +64,15 @@ It is threatened by habitat loss.
         </div>
 
         <div class="col-xs-2 col-lg-4">
-          <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
+          <a  href="#section-start">
+            <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
                class="img-circle"
                style="margin-top:-6px;width:56px;border:2px solid rgba(255,255,255,0.75); margin-right: 20px;">
-               <a  href="#section-about">About</a> | 
-               <a  href="#projects">Projects</a> | 
-               <a  href="#publications">Publications</a> |
-               <a  href="blog.html">Blog</a>
+          </a>
+          <a  href="#projects">Projects</a> | 
+          <a  href="#publications">Publications</a> |
+          <a  href="#misc">Misc</a> |
+          <a  href="blog.html">Blog</a>
         </div>
       </div>
     </div>
@@ -288,6 +290,34 @@ It is threatened by habitat loss.
   </div>
 
   
+  <!-- ==================== -->
+  <!-- MISC -->
+  <!-- ==================== -->
+
+  <div class="container" id="misc">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Miscelaneous</h3>
+
+        {% for ms in site.data.misc %}
+          <p>
+              <b>
+                {% if ms.url %}
+                <a href="{{ ms.url }}">
+                  {{ ms.name }}
+                </a>
+                {% else %}
+                  {{ ms.name }}
+                {% endif %}
+              </b>
+              <br>
+              {{ ms.description | markdownify }}
+          </p>
+        {% endfor %}
+      </div>
+    </div>
+
 
   <!-- ==================== -->
   <!-- FOOTER -->

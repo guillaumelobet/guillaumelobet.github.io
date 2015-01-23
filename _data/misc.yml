@@ -1,0 +1,32 @@
+
+-
+  name: ImpactStory advisor
+  description: >
+    ImpactStory is a web-based service that allow researchers to create a profile referencing all their research impact.
+  url: https://impactstory.org/GuillaumeLobet
+
+-
+  name: Ad hoc referee
+  description: >
+    Plant Physiology, PLoS One, Journal of Experimental Botany, Plant and Soil, Functional Plant Biology, Plant Methods, Microscopy and Microanalysis, Plant Signaling and Behavior, Journal of Hydrology
+  url: https://publons.com/author/207362/guillaume-lobet
+
+-
+  name: Scientific meeting organisation
+  description: >
+    - [CVPPP 2014](): program commity member
+
+    - [IAMPS 2015](): co-organiser
+    
+    - [EMBO Practical course on Plant Phenotyping](): co-organiser
+
+-
+  name: Teaching
+  description: >
+    - Introduction to LaTeX
+
+    - Introduction to ImageJ
+    
+    - [Science output valorisation]()
+
+    - Scientifique figures preparation

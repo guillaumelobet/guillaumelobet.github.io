@@ -2,12 +2,11 @@
 markdown: kramdown
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: /elbowpatched-boilerplate/
+baseurl: /perso/
 
 # Setup
 title:            Guillaume's Blog
 paginate:         1
-baseurl:          /
 author:
   name:           Guillaume Lobet
   url:            https://twitter.com/guillaumelobet
