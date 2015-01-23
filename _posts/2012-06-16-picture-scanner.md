@@ -8,7 +8,7 @@ Using a scanner is the best way to have picture with a high contrast and resolut
 - Spread your root carefully (A)
 - Choose a sufficient resolution
 
-<img src="http://www.guillaumelobet.be/assets/images/scanner.png" alt="vertical camera" width="100%">
+<img src="/img/scanner.png" alt="scanner" width="50%">
 
 
 <h3>About the root system</h3>
