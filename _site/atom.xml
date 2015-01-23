@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title></title>
- <link href="/elbowpatched-boilerplateatom.xml" rel="self"/>
- <link href="/elbowpatched-boilerplate"/>
- <updated>2015-01-22T20:23:47+01:00</updated>
+ <title>Guillaume's Blog</title>
+ <link href="/perso/atom.xml" rel="self"/>
+ <link href="/perso/"/>
+ <updated>2015-01-23T06:35:31+01:00</updated>
  <id></id>
  <author>
-   <name></name>
-   <email></email>
+   <name>Guillaume Lobet</name>
+   <email>guillaume.lobet@ulg.ac.be</email>
  </author>
 
  
  <entry>
    <title>Impactstory Advisor of the Month</title>
-   <link href="/elbowpatched-boilerplate/2014/09/19/impactstory.html"/>
+   <link href="/perso//2014/09/19/impactstory.html"/>
    <updated>2014-09-19T00:00:00+02:00</updated>
    <id>/2014/09/19/impactstory</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
@@ -65,7 +65,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Root image analysis papers</title>
-   <link href="/elbowpatched-boilerplate/2012/08/12/image-analysis-papers.html"/>
+   <link href="/perso//2012/08/12/image-analysis-papers.html"/>
    <updated>2012-08-12T00:00:00+02:00</updated>
    <id>/2012/08/12/image-analysis-papers</id>
    <content type="html">&lt;p&gt;Not all papers on root image analysis present a new software and therefore I do not present them on this website. However, some of them are worth reading since they can bring new perspectives or methods that can be useful for all root researchers. So in order to be able to share all the interesting papers I read on root image analysis, I decide to create a group on the &amp;lt;a href=”http://www.mendeley.com”, target=”_blank”&amp;gt;Mendeley website&amp;lt;/a&amp;gt; (Mendeley is a free citation manager with several sharing and social features). I am therefore delighted to invite you to consult or even join this group and hope it will turn out to be useful for everyone interested.&lt;/p&gt;
@@ -76,7 +76,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Using a camera to take vertical root pictures</title>
-   <link href="/elbowpatched-boilerplate/2012/06/16/picture-vertical-camera.html"/>
+   <link href="/perso//2012/06/16/picture-vertical-camera.html"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/picture-vertical-camera</id>
    <content type="html">&lt;p&gt;One way to take root picture using a camera is just to hold your root system by the collar and take a picture. While this technique might be the fastest and the easiest one, it is also to easiest way to get a bad picture. &lt;/p&gt;
@@ -113,7 +113,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Using a scanner to take root pictures</title>
-   <link href="/elbowpatched-boilerplate/2012/06/16/picture-scanner.html"/>
+   <link href="/perso//2012/06/16/picture-scanner.html"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/picture-scanner</id>
    <content type="html">&lt;p&gt;Using a scanner is the best way to have picture with a high contrast and resolution. However, the speed of the acquisition is rather slow compared to a camera, specially if the resolution is high.&lt;/p&gt;
@@ -139,7 +139,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Cleaning root systems</title>
-   <link href="/elbowpatched-boilerplate/2012/06/16/cleaning-root.html"/>
+   <link href="/perso//2012/06/16/cleaning-root.html"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/cleaning-root</id>
    <content type="html">&lt;p&gt;If you want to take a picture or scan a root system, one of the requirements is that this root system is clean of soil. While this is not an issue if the plant is grown in aeroponic or hydroponics, it is important for field- / pot-grown plants.The easiest way to clean roots is to simply let them soak in water, eventually with soap for several minutes. Then take them out and use pressurised water to remove the mud.If you need to clean smaller root or finer particles, you can use a brush to gently remove them from the roots.&lt;/p&gt;
@@ -148,7 +148,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Using a camera to take horizontal root pictures</title>
-   <link href="/elbowpatched-boilerplate/2012/06/16/camera-horizontal.html"/>
+   <link href="/perso//2012/06/16/camera-horizontal.html"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/camera-horizontal</id>
    <content type="html">&lt;p&gt;One way to take root picture using a camera is to put the root system on a flat surface and take picture from above. This technique is fast and can be used with large root system.&lt;/p&gt;
@@ -181,7 +181,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>Acquiring root images</title>
-   <link href="/elbowpatched-boilerplate/2012/06/16/Acquiring-root-images.html"/>
+   <link href="/perso//2012/06/16/Acquiring-root-images.html"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/Acquiring-root-images</id>
    <content type="html">&lt;p&gt;The image acquisition step is a critical one as it will determine the quantity of information contained in the final image. Fortunately, good images can be obtain fairly simply without buying fancy expensive material.&lt;/p&gt;
@@ -205,7 +205,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>How to choose the right root image analysis software</title>
-   <link href="/elbowpatched-boilerplate/2011/12/06/choose-software.html"/>
+   <link href="/perso//2011/12/06/choose-software.html"/>
    <updated>2011-12-06T00:00:00+01:00</updated>
    <id>/2011/12/06/choose-software</id>
    <content type="html">&lt;p&gt;In this post, I will try to point out the most important characteristics you will have to consider while choosing your root image analysis software.&lt;/p&gt;
@@ -257,7 +257,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
  
  <entry>
    <title>What makes a root image suitable for analysis?</title>
-   <link href="/elbowpatched-boilerplate/2011/06/11/good-image.html"/>
+   <link href="/perso//2011/06/11/good-image.html"/>
    <updated>2011-06-11T00:00:00+02:00</updated>
    <id>/2011/06/11/good-image</id>
    <content type="html">&lt;p&gt;The quality of an image is central if you want to get useful information out of it. Even the best software will not be able to analyse crappy images, so it is crucial to think about what makes a good image and how to acquire it. Usually, you will have the opportunity to improve your images at different steps of the process:&lt;/p&gt;
@@ -329,7 +329,7 @@ or
  
  <entry>
    <title>Using thresholding method on root images</title>
-   <link href="/elbowpatched-boilerplate/2011/05/15/thresholding.html"/>
+   <link href="/perso//2011/05/15/thresholding.html"/>
    <updated>2011-05-15T00:00:00+02:00</updated>
    <id>/2011/05/15/thresholding</id>
    <content type="html">&lt;p&gt;Many root image analysis procedures have a thresholding step in their workflow (e.i. WinRHIZO or EZ-RHIZO). The thresholding step aims at segmenting the original image (fig. 1A) in two parts: the “object” (the roots) and the “background”, and to assign to each of them a different pixel value (typically 1 and 0). The subsequent binary image (fig. 1B) can be used, for instance, to generate a “root skeleton” (fig. 1C) or to estimate root diameter.&lt;/p&gt;
