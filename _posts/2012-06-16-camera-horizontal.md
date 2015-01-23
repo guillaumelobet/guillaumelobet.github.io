@@ -16,7 +16,7 @@ Here is a couple of things to think of before taking such image.
 - Place a scale on the background (D)
 - Carefully separate the different roots
 
-<img src="http://www.guillaumelobet.be/assets/images/camera_horizontal.png" alt="vertical camera" width="100%">
+<img src="/img/camera_horizontal.png" alt="horizontal camera" width="100%">
 
 
 <h3>About the root system</h3>
