@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: https://github.com/guillaumelobet/guillaumelobet.github.io/blob/master/
+baseurl: https://guillaumelobet.github.io/
 
 # Setup
 title:            Guillaume's Blog
