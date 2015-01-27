@@ -17,7 +17,7 @@
       </header>
 
       <main>
-        {{ content }}
+        {{ content  | markdownify }}
       </main>
 
 		  {% include comments.html %}
