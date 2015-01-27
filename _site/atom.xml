@@ -4,7 +4,7 @@
  <title>Guillaume's Blog</title>
  <link href="/perso/atom.xml" rel="self"/>
  <link href="/perso/"/>
- <updated>2015-01-23T08:43:02+01:00</updated>
+ <updated>2015-01-27T11:43:37+01:00</updated>
  <id></id>
  <author>
    <name>Guillaume Lobet</name>
@@ -68,7 +68,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
    <link href="/perso//2012/08/12/image-analysis-papers.html"/>
    <updated>2012-08-12T00:00:00+02:00</updated>
    <id>/2012/08/12/image-analysis-papers</id>
-   <content type="html">&lt;p&gt;Not all papers on root image analysis present a new software and therefore I do not present them on this website. However, some of them are worth reading since they can bring new perspectives or methods that can be useful for all root researchers. So in order to be able to share all the interesting papers I read on root image analysis, I decide to create a group on the &amp;lt;a href=”http://www.mendeley.com”, target=”_blank”&amp;gt;Mendeley website&amp;lt;/a&amp;gt; (Mendeley is a free citation manager with several sharing and social features). I am therefore delighted to invite you to consult or even join this group and hope it will turn out to be useful for everyone interested.&lt;/p&gt;
+   <content type="html">&lt;p&gt;Not all papers on root image analysis present a new software and therefore I do not present them on this website. However, some of them are worth reading since they can bring new perspectives or methods that can be useful for all root researchers. So in order to be able to share all the interesting papers I read on root image analysis, I decide to create a group on the &lt;a href=&quot;http://www.mendeley.com&quot;&gt;Mendeley website&lt;/a&gt; (Mendeley is a free citation manager with several sharing and social features). I am therefore delighted to invite you to consult or even join this group and hope it will turn out to be useful for everyone interested.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;&lt;iframe style=&quot;width: 100%; height: 820px;&quot; src=&quot;http://www.mendeley.com/groups/2469541/root-image-analysis/widget/17/10/&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 </content>
@@ -91,7 +91,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
   &lt;li&gt;Place a scale on the background (D)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/camera_vertical.png&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/camera_vertical.png&quot; alt=&quot;vertical camera&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;About the root system&lt;/h3&gt;
 
@@ -123,7 +123,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
   &lt;li&gt;Choose a sufficient resolution&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/scanner.png&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/scanner.png&quot; alt=&quot;scanner&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;About the root system&lt;/h3&gt;
 
@@ -163,7 +163,7 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
   &lt;li&gt;Carefully separate the different roots&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/camera_horizontal.png&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/camera_horizontal.png&quot; alt=&quot;horizontal camera&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
 
 &lt;h3&gt;About the root system&lt;/h3&gt;
 
@@ -334,13 +334,13 @@ or
    <id>/2011/05/15/thresholding</id>
    <content type="html">&lt;p&gt;Many root image analysis procedures have a thresholding step in their workflow (e.i. WinRHIZO or EZ-RHIZO). The thresholding step aims at segmenting the original image (fig. 1A) in two parts: the “object” (the roots) and the “background”, and to assign to each of them a different pixel value (typically 1 and 0). The subsequent binary image (fig. 1B) can be used, for instance, to generate a “root skeleton” (fig. 1C) or to estimate root diameter.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/threshold_workflow.jpg&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/threshold_workflow.jpg&quot; alt=&quot;threshold workflow&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Figure 1.&lt;/strong&gt; A. Original image. B. Binary image. C. Skeleton&lt;/p&gt;
 
 &lt;p&gt;Even if &lt;strong&gt;thresholding&lt;/strong&gt; is a common image manipulation, it** has to be performed carefully** on root images. Indeed, the threshold value, defining the separation between the objects and the background, can have a great influence on the obtained binary image and therefore on the final results.Inappropriate threshold value can lead to a poor segmentation, typically “forgetting” the thinner roots (fig. 2B) or “creating” roots that are too large (fig. 2C).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/threshold_diam.jpg&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/threshold_diam.jpg&quot; alt=&quot;threshold diameter&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Figure 2.&lt;/strong&gt; A. Original image. B. Threshold is too low, thinner roots where not selected. C. Threshold is too high, roots are too large&lt;/p&gt;
 
@@ -348,7 +348,7 @@ or
 
 &lt;p&gt;As the threshold value influences the final results of the analysis it important the follow an identical methodology for the all the roots of the same experiment (or group of experiments). For this reason, it is not recommended to visually determine a threshold on every images as the human estimation could vary over time. It is also important that all the images of the same experiment have been acquired in the same conditions (light, devise, background, resolution, etc).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://www.guillaumelobet.be/assets/images/imagej_threshold.jpg&quot; alt=&quot;vertical camera&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/imagej_threshold.jpg&quot; alt=&quot;imagej threshold&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Figure 3.&lt;/strong&gt; ImageJ thresholding window&lt;/p&gt;
 
