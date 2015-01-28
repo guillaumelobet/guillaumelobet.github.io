@@ -2,15 +2,15 @@
 layout: post
 title: The story behind the papers
 author: Guillaume Lobet
-xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/2015-01-27_story_behind_papers.md
+xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/2015-01-27-story-behind-papers.md
 ---
 
 
-Often, when I read a paper I wonder about the story behind the project. When did it start and how long did it took to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?
 
-![the publishing iceberg](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/story_behind/iceberg.jpg)
 
-Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. 
+![the publishing iceberg](/img/story_behind/iceberg.jpg)
+
+Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. So, often, when I read a paper I wonder about the story behind the project. When did it start and how long did it take to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?
 
 Then, recently, I remembered the [Tree of Life](http://phylogenomics.blogspot.be/) blog, written by [Jonathan Eisen](https://plus.google.com/+JonathanEisen/posts). The blog features a [Story behind the paper](http://phylogenomics.blogspot.be/p/story-behind-paper-series.html) section, which I always found great. Written by Jonathan Eisen or invited contributors, each post is a about a recently (or not) published paper and brings a more human view of the research.
 
