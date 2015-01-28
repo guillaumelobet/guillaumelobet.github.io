@@ -2,7 +2,6 @@
 layout: post
 title: The story behind the papers
 author: Guillaume Lobet
-xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/2015-01-27-story-behind-papers.md
 ---
 
 
