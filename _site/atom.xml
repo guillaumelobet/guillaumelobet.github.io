@@ -4,7 +4,7 @@
  <title>Guillaume's Blog</title>
  <link href="/perso/atom.xml" rel="self"/>
  <link href="/perso/"/>
- <updated>2015-01-27T11:43:37+01:00</updated>
+ <updated>2015-01-27T17:02:28+01:00</updated>
  <id></id>
  <author>
    <name>Guillaume Lobet</name>
@@ -18,8 +18,7 @@
    <updated>2014-09-19T00:00:00+02:00</updated>
    <id>/2014/09/19/impactstory</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
-
-This interview was originally posted by Stacy Konkiel on http://blog.impactstory.org/.
+This interview was originally posted by Stacy Konkiel on http://blog.impactstory.org/].
 &lt;/div&gt;
 
 &lt;p&gt;Guillaume is a post-doc researcher at the Université de Liège in Belgium, in the Plant Physiology lab of Pr. Claire Perilleux. He’s also a dedicated practitioner of open, web native science, creating awesome tools ranging from a Plant Image Analysis software finder to an image analysis toolbox that allows the quantitative analysis of root system architecture. He’s even created an open source webapp that uses Impactstory’s open profile data to automatically create CVs in LaTeX, HTML, and PDF formats. (More on that below.)&lt;/p&gt;

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Acquiring root images
+author: Guillaume Lobet
 ---
 
 The image acquisition step is a critical one as it will determine the quantity of information contained in the final image. Fortunately, good images can be obtain fairly simply without buying fancy expensive material.

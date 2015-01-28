@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rhizoponics, the story behind the paper
+author: Guillaume Lobet
 ---
 
 <div class="message">

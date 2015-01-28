@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using thresholding method on root images
+author: Guillaume Lobet
 ---
 
 
