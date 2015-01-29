@@ -69,7 +69,7 @@ As a result, we could fairly well discriminate the roots from the mesh, which wa
 
 ### The publication process
 
-At some point, we decided that it was worth trying publishing our technique. It was working very well in our lab, and we wanted to share it with the Plant Science Community. So we started by making a *proof of concept* experience, demonstrating the panel of measurements our system allowed. We analysed the root architectural difference between mock and cadmium treated plants. Then, we chose to submit to the open-access journal BMC Plant Methods, with which I had good experience in the past. As usual, the reviewing process was fast and, we were gladly happy about that, highly positive ([see the reviews](https://www.dropbox.com/s/3vros8tafeweulu/Responsetoeditorandreviewers.pdf?dl=0)). In two month, the paper was published and here we are!
+At some point, we decided that it was worth trying publishing our technique. It was working very well in our lab, and we wanted to share it with the Plant Science Community. So we started by making a *proof of concept* experience, demonstrating the panel of measurements our system allowed. We analysed the root architectural difference between mock and cadmium treated plants. Then, we chose to submit to the open-access journal BMC Plant Methods, with which I had good experience in the past. As usual, the reviewing process was fast and, we were gladly happy about that, highly positive ([see the reviews]()). In two month, the paper was published and here we are!
 
 
 ### Miscellaneous tips
