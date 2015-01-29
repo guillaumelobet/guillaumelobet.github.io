@@ -16,3 +16,4 @@ Then, recently, I remembered the [Tree of Life](http://phylogenomics.blogspot.be
 Of course, my writing skills and publication record are far more modest than J. Eisen's. But I figured I might take his example and write about the story behind my own papers. I believe the scientific process is, in most case, as important as the results. From an educational point of view, it is crucial for futures scientist to understand how science is made so they can choose this path in full understanding of what lies ahead.  I hope it will be useful to someone. 
 
 
+{% include twitter_plug.html %}

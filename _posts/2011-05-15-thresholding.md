@@ -45,3 +45,6 @@ In a <a href="http://www.sciencedirect.com/science/article/pii/S0378429011000414
 
 
 The idea is that a single method, even if it is highly appropriate for a specific application, might not be good enough for slightly different usage. In this particular example, the Triangle algorithm works great with scanned root images having a good contrast, but is not optimal for images having an uneven background and a poor contrast...**An algorithm has to be always validated on a specific image before using it.**
+
+{% include twitter_plug.html %}
+

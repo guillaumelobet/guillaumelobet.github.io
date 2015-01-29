@@ -67,3 +67,4 @@ A few months ago, I needed to update my resume and my IS profile contained all m
 
 Academic freedom is definitely the best part about working in a University. It gives us the latitude to explore unexpected paths. And I work with great people!
 
+{% include twitter_plug.html %}

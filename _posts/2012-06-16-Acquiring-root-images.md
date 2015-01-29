@@ -19,3 +19,4 @@ In a previous post I presented the main features required to have an image suita
 - highly contrasted (between the roots and the background)
 - scaled (number of pixels / cm)
 
+{% include twitter_plug.html %}

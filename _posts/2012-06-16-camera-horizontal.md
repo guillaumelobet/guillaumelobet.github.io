@@ -31,3 +31,5 @@ Choose a camera with a high-resolution. If the resolution if too low, the number
 <h3>About the image scale</h3>
 
 When you take a picture with a camera, its scale (pixels/cm) will change if the distance between the object and the camera changes. It is therefore important that an object of a known size is present in the picture to scale your image during the image processing steps. &nbsp;
+
+{% include twitter_plug.html %}

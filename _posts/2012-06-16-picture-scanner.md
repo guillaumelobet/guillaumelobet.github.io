@@ -21,3 +21,5 @@ An easy way to separate the different root is to place the root system in a thin
 <h3>About the resolution</h3>
 
 Before scanning the image most scanning software (if not, then it is a bad one) let you choose the resolution you want for your image. This resolution is often given in DPI, which stands for Dots Per Inch (even in countries using the metric system). In other words, a resolution of 300 DPI means that an inch on the image is represented by 300 pixels (or 118 pixels per centimeters). If you know the diameter of the roots you plan to scan you can therefore adapt the resolution of the scanner to your needs. For instance, if the smaller roots on your root system has a diameter of 0.1 mm and you scan it at 300 DPI, the diameter of these roots will be represented by 1-2 pixels, which is not enough for most image analysis software. You would need to increase the scanner resolution to have a image suitable for analysis.
+
+{% include twitter_plug.html %}
