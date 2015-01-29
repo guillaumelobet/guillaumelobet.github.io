@@ -8,6 +8,7 @@ author: Guillaume Lobet
 
 
 ![the publishing iceberg](/img/story_behind/iceberg.jpg)
+Image credit: Pere, [https://www.flickr.com/photos/pere/523019984/]()
 
 Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. So, often, when I read a paper I wonder about the story behind the project. When did it start and how long did it take to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?
 
