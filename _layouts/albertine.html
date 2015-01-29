@@ -247,7 +247,7 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'bookchapter' %}
             <b>
-              <a href="{{ publication.pdf }}">
+              <a href="{{ publication.url }}">
                 {{ publication.title }}
               </a>
             </b>
@@ -270,7 +270,7 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'thesis' %}
             <b>
-              <a href="{{ publication.pdf }}">
+              <a href="{{ publication.url }}">
                 {{ publication.title }}
               </a>
             </b>
