@@ -21,19 +21,21 @@ mailing_address: >
 
 websites:
     - 
-        name: plant-image-analysis.org
-        url: http://www.plant-image-analysis.org
-    - 
         name: The Topless Ninja
         url: http://toplessninja.tumblr.com
-    - 
-        name: ImpactStory profile
-        url: https://impactstory.org/GuillaumeLobet
     - 
         name: PhytoSYSTEMS
         url: https://www.phytosystems.ulg.ac.be
 
 profiles:
+  - 
+    network: Plant Image Analysis
+    username:
+    url: https://www.plant-image-analysis.org
+  - 
+    network: ImpactStory
+    username:
+    url: https://impactstory.org/GuillaumeLobet
   - 
     network: Google Scholar
     username:
