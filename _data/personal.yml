@@ -47,7 +47,11 @@ profiles:
   -
     network: Github
     username: guillaumelobet
-    url: https://github.com/guillaumelobet/    
+    url: https://github.com/guillaumelobet/   
+  -
+    network: Publons
+    username: 
+    url: https://publons.com/author/207362/guillaume-lobet
 
 intro:
   title: Hello!
