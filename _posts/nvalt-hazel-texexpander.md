@@ -68,7 +68,7 @@ In my case, I use Hazel to
 
 The Hazel rule look like this:
 
-;md![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel.png)
+![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel.png)
 
 You need two conditions:
 
