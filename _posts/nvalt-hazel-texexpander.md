@@ -2,7 +2,6 @@
 type: post
 title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
-xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/nvalt-hazel-texexpander.md
 ---
 
 ![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel-nvalt.png)
@@ -33,7 +32,7 @@ TextExpander is Mac utility that was designed to rapidly write down piece of fre
 In my case I use TextExpander to automatically generate the meta data of my markdown notes. In addition, TextExpander prompt me to choose a folder where I want to store my notes (in addition to the nvAlt folder).
 
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/textexpander.png)
+![legend ](/img/nvalt/textexpander.png)
 
 
 The TextExpander, written in AppleScript, looks like this: 
@@ -68,7 +67,7 @@ In my case, I use Hazel to
 
 The Hazel rule look like this:
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel.png)
+![legend ](/img/nvalt/hazel.png)
 
 You need two conditions:
 
