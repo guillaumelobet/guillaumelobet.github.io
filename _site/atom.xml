@@ -4,13 +4,39 @@
  <title>Guillaume's Blog</title>
  <link href="/perso/atom.xml" rel="self"/>
  <link href="/perso/"/>
- <updated>2015-01-27T17:02:28+01:00</updated>
+ <updated>2015-01-30T23:45:43+01:00</updated>
  <id></id>
  <author>
    <name>Guillaume Lobet</name>
    <email>guillaume.lobet@ulg.ac.be</email>
  </author>
 
+ 
+ <entry>
+   <title>The story behind the papers</title>
+   <link href="/perso//2015/01/27/story-behind-papers.html"/>
+   <updated>2015-01-27T00:00:00+01:00</updated>
+   <id>/2015/01/27/story-behind-papers</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/img/story_behind/iceberg.jpg&quot; alt=&quot;the publishing iceberg&quot; /&gt;
+&lt;small&gt;Image credit: Pere, &lt;a href=&quot;&quot;&gt;https://www.flickr.com/photos/pere/523019984/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. So, often, when I read a paper I wonder about the story behind the project. When did it start and how long did it take to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?&lt;/p&gt;
+
+&lt;p&gt;Then, recently, I remembered the &lt;a href=&quot;http://phylogenomics.blogspot.be/&quot;&gt;Tree of Life&lt;/a&gt; blog, written by &lt;a href=&quot;https://plus.google.com/+JonathanEisen/posts&quot;&gt;Jonathan Eisen&lt;/a&gt;. The blog features a &lt;a href=&quot;http://phylogenomics.blogspot.be/p/story-behind-paper-series.html&quot;&gt;Story behind the paper&lt;/a&gt; section, which I always found great. Written by Jonathan Eisen or invited contributors, each post is a about a recently (or not) published paper and brings a more human view of the research.&lt;/p&gt;
+
+&lt;p&gt;Of course, my writing skills and publication record are far more modest than J. Eisen’s. But I figured I might take his example and write about the story behind my own papers. I believe the scientific process is, in most case, as important as the results. From an educational point of view, it is crucial for futures scientist to understand how science is made so they can choose this path in full understanding of what lies ahead.  I hope it will be useful to someone. &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2015/01/27/story-behind-papers.html&amp;amp;text=The story behind the papers&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Impactstory Advisor of the Month</title>
@@ -59,6 +85,15 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
 
 &lt;p&gt;Academic freedom is definitely the best part about working in a University. It gives us the latitude to explore unexpected paths. And I work with great people!&lt;/p&gt;
 
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2014/09/19/impactstory.html&amp;amp;text=Impactstory Advisor of the Month&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -70,6 +105,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
    <content type="html">&lt;p&gt;Not all papers on root image analysis present a new software and therefore I do not present them on this website. However, some of them are worth reading since they can bring new perspectives or methods that can be useful for all root researchers. So in order to be able to share all the interesting papers I read on root image analysis, I decide to create a group on the &lt;a href=&quot;http://www.mendeley.com&quot;&gt;Mendeley website&lt;/a&gt; (Mendeley is a free citation manager with several sharing and social features). I am therefore delighted to invite you to consult or even join this group and hope it will turn out to be useful for everyone interested.&lt;/p&gt;
 
 &lt;div align=&quot;center&quot;&gt;&lt;iframe style=&quot;width: 100%; height: 820px;&quot; src=&quot;http://www.mendeley.com/groups/2469541/root-image-analysis/widget/17/10/&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/08/12/image-analysis-papers.html&amp;amp;text=Root image analysis papers&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -107,6 +152,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
 &lt;h3&gt;About the image scale&lt;/h3&gt;
 
 &lt;p&gt;When you take a picture with a camera, its scale (pixels/cm) will change if the distance between the object and the camera changes. It is therefore important that an object of a known size is present in the picture to scale your image during the image processing steps.  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/06/16/picture-vertical-camera.html&amp;amp;text=Using a camera to take vertical root pictures&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -133,6 +188,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
 &lt;h3&gt;About the resolution&lt;/h3&gt;
 
 &lt;p&gt;Before scanning the image most scanning software (if not, then it is a bad one) let you choose the resolution you want for your image. This resolution is often given in DPI, which stands for Dots Per Inch (even in countries using the metric system). In other words, a resolution of 300 DPI means that an inch on the image is represented by 300 pixels (or 118 pixels per centimeters). If you know the diameter of the roots you plan to scan you can therefore adapt the resolution of the scanner to your needs. For instance, if the smaller roots on your root system has a diameter of 0.1 mm and you scan it at 300 DPI, the diameter of these roots will be represented by 1-2 pixels, which is not enough for most image analysis software. You would need to increase the scanner resolution to have a image suitable for analysis.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/06/16/picture-scanner.html&amp;amp;text=Using a scanner to take root pictures&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -142,6 +207,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/cleaning-root</id>
    <content type="html">&lt;p&gt;If you want to take a picture or scan a root system, one of the requirements is that this root system is clean of soil. While this is not an issue if the plant is grown in aeroponic or hydroponics, it is important for field- / pot-grown plants.The easiest way to clean roots is to simply let them soak in water, eventually with soap for several minutes. Then take them out and use pressurised water to remove the mud.If you need to clean smaller root or finer particles, you can use a brush to gently remove them from the roots.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/06/16/cleaning-root.html&amp;amp;text=Cleaning root systems&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -175,6 +250,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
 &lt;h3&gt;About the image scale&lt;/h3&gt;
 
 &lt;p&gt;When you take a picture with a camera, its scale (pixels/cm) will change if the distance between the object and the camera changes. It is therefore important that an object of a known size is present in the picture to scale your image during the image processing steps.  &lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/06/16/camera-horizontal.html&amp;amp;text=Using a camera to take horizontal root pictures&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -198,6 +283,15 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
   &lt;li&gt;highly contrasted (between the roots and the background)&lt;/li&gt;
   &lt;li&gt;scaled (number of pixels / cm)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2012/06/16/Acquiring-root-images.html&amp;amp;text=Acquiring root images&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
 
 </content>
  </entry>
@@ -251,6 +345,16 @@ This interview was originally posted by Stacy Konkiel on http://blog.impactstory
 &lt;h3&gt;In conclusion&lt;/h3&gt;
 
 &lt;p&gt;The biggest constrain while choosing a root image analysis software is often the adequacy between the measurement you plan to make and the capabilities of the software. All the other constrains can be circumvent one way or an other. Just &lt;strong&gt;try out the different software&lt;/strong&gt; to found your perfect match.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2011/12/06/choose-software.html&amp;amp;text=How to choose the right root image analysis software&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  
@@ -366,6 +470,16 @@ or
 &lt;blockquote&gt;...any non-specialist faced with an image analysis problem rapidly realises that a unique image transformation usually fails to solve it.&lt;/blockquote&gt;
 
 &lt;p&gt;The idea is that a single method, even if it is highly appropriate for a specific application, might not be good enough for slightly different usage. In this particular example, the Triangle algorithm works great with scanned root images having a good contrast, but is not optimal for images having an uneven background and a poor contrast…&lt;strong&gt;An algorithm has to be always validated on a specific image before using it.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2011/05/15/thresholding.html&amp;amp;text=Using thresholding method on root images&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
 </content>
  </entry>
  

@@ -1,0 +1,6 @@
+—
+type: post
+title: 
+author: Guillaume Lobet
+xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/
+—
