@@ -4,7 +4,7 @@ title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
 ---
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel-nvalt.png)
+![legend ](/img/nvalt/hazel-nvalt.png)
 
 The aim of this post is the share the setup I came up to write down and organise notes / reports / articles. My workflow is based on three essential tools: 
 
