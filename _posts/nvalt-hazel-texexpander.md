@@ -5,7 +5,7 @@ author: Guillaume Lobet
 xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/nvalt-hazel-texexpander.md
 ---
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel-nvalt.png)
+![legend ](/img/nvalt/hazel-nvalt.png)
 
 As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / ...). This is important, as I want my different project folders to be complete and contains everything related to the project. On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:
 
@@ -57,7 +57,7 @@ In my case, I use Hazel to
 
 The Hazel rule look like this:
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/hazel.png)
+![legend ](/img/nvalt/hazel.png)
 
 You need two conditions:
 
@@ -85,7 +85,7 @@ If you want to push the automation a bit further, you can add TextExpander to th
 In my case I use TextExpander to automatically generate the metadata of my markdown notes. In addition, TextExpander prompt me to choose a folder where I want to store my notes (the `xpath` field).
 
 
-![legend ](file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/nvalt/textexpander.png)
+![legend ](/img/nvalt/textexpander.png)
 
 
 The TextExpander snippet I use is written in AppleScript and looks like this: 
