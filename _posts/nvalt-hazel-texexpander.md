@@ -2,7 +2,6 @@
 type: post
 title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
-xpath:/Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/_posts/nvalt-hazel-texexpander.md
 ---
 
 ![legend ](/img/nvalt/hazel-nvalt.png)
