@@ -1,5 +1,5 @@
 ---
-type: post
+layout: post
 title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
 ---
