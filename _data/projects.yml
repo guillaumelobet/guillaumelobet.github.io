@@ -1,7 +1,7 @@
 -
   name: GLO-RIA
   description: >
-    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with Ruben Rellan-Alvarez and José Dinneny. It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters)
+    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters)
   image: /img/gloria_logo.png
 
 -
