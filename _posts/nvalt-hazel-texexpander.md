@@ -6,7 +6,8 @@ author: Guillaume Lobet
 
 ![legend ](/img/nvalt/hazel-nvalt.png)
 
-The aim of this post is the share the setup I came up to write down and organise notes / reports / articles. My workflow is based on three essential tools: 
+As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. 
+The aim of this post is to share the setup I came up to write down and organise notes / reports / articles. My workflow is based on three essential tools: 
 
 - [nvAlt](http://brettterpstra.com/projects/nvalt/): for fast and easy markdown writing
 - [TextExpander](http://smilesoftware.com/TextExpander/index.html): for a faster typing
