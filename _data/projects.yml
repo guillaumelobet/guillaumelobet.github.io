@@ -1,10 +1,15 @@
 -
+  name: GLO-RIA
+  description: >
+    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with Ruben Rellan-Alvarez and José Dinneny. It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters)
+  image: /img/gloria_logo.png
+
+-
   name: Rhizoponic growing setup
   description: >
     Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
   image: /img/rhizoponics.png
   url: https://github.com/guillaumelobet/rhizoponics
-
 -
   name: AlloMaize
   description: >
