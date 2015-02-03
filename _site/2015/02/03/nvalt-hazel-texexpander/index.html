@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+
+  </title>
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="/perso//public/css/poole.css">
+  <link rel="stylesheet" href="/perso//public/css/syntax.css">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/perso/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Guillaume's Blog" href="/perso/atom.xml">
+
+
+
+</head>
+
+
+  <body>
+
+    <div class="container content">
+      <header class="masthead">
+		<h3 class="masthead-title">
+
+      <small><a href="/perso//">About</a></small> &nbsp;&nbsp;&nbsp; 
+      <small><a href="/perso//blog">Archive</a></small>&nbsp;&nbsp;&nbsp; 
+      <small><a href="/perso//atom.xml">Feed</a></small>
+		  </h3>     
+
+      </header>
+
+      <main>
+        <article class="post">
+  <time datetime="2015-02-03T00:00:00+01:00" class="page-date">03 Feb 2015</time>
+  <h1 class="post-title">Efficient note taking using nvAlt, TextExpander and Hazel.</h1>
+  by Guillaume Lobet
+  <hr>
+  <p><img src="/img/nvalt/hazel-nvalt.png" alt="legend " /></p>
+
+<p>As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / …). This is important, as I want my different project folders to be complete and contains everything related to the project. On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:</p>
+
+<ul>
+  <li>centralised (to find everything quickly)</li>
+  <li>distributed (for a tidy organisation)</li>
+  <li>in plain text (markdown is even better)</li>
+  <li>lightweight and fast</li>
+</ul>
+
+<p>The aim of this post is to share the <strong>writing setup</strong> I came up with. It is not perfect yet (any suggestions are welcome!), but it is getting efficient. My workflow is based on three essential tools: </p>
+
+<ul>
+  <li><a href="http://brettterpstra.com/projects/nvalt/">nvAlt</a>: for fast and easy markdown writing</li>
+  <li><a href="http://www.noodlesoft.com/hazel.php">Hazel</a>: for an automated organisation.</li>
+  <li><a href="http://smilesoftware.com/TextExpander/index.html">TextExpander</a>: for a faster typing</li>
+</ul>
+
+<div class="message">
+I am afraid this workflow is only for Mac users, since neither Hazel nor TextExpander are available for Windows..
+</div>
+
+<h2 id="part-1-writing-using-nvalt">Part 1: Writing using nvAlt</h2>
+
+<p>nvAlt is a forked version of <a href="http://notational.net/">Notational Velocity</a>, an application to write, store and retrieve plain text notes. I will not be long on the multiple qualities of nvAlt, as <a href="http://www.macworld.com/article/2047073/nvalt-review-makes-writing-and-finding-plain-text-notes-simple.html">others have done the exercice before</a>. The bottom line is that it meets three of my initial requirement:</p>
+
+<ul>
+  <li>It is centralised and allow a fast retrieval of any notes</li>
+  <li>It is fast and lightweight</li>
+  <li>It support plain text, rich text, Markdown and MultiMarkdown.</li>
+</ul>
+
+<p>The only thing it does not do, is keep the different notes in my folder structure. And this where Hazel comes into play. But before going to Hazel, I first need to quickly describe the basic structure of my notes. They all contain a header with the following metadata:</p>
+
+<pre><code>---
+type: post
+title: My title
+author: Guillaume Lobet
+xpath:/myfolder/myfile.md
+---
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+</code></pre>
+
+<p>Notice the <code>xpath</code> field in the metadata? This is the important part, that will be used by Hazel to sort the notes in various folders (see below). </p>
+
+<h2 id="part-2-sorting-the-files-using-hazel">Part 2: Sorting the files using Hazel</h2>
+
+<p>Hazel is an utility to automate your computed organisation. In short, you ask Hazel to keep an eye on folders, and apply actions to the files they contain. Again, for a short introduction, see <a href="http://computers.tutsplus.com/tutorials/9-hazel-rules-to-increase-your-productivity--mac-47144">elsewhere</a>.</p>
+
+<p>In my case, I use Hazel to</p>
+
+<ul>
+  <li>watch my nvAlt <code>Notes</code> folder</li>
+  <li>look for recently modified files</li>
+  <li>look for files that contains the term <code>xpath</code> in the metadata</li>
+  <li>copy the note to the file specified by <code>xpath</code></li>
+</ul>
+
+<p>The Hazel rule look like this:</p>
+
+<p><img src="/img/nvalt/hazel.png" alt="legend " /></p>
+
+<p>You need two conditions:</p>
+
+<ul>
+  <li>Contents -&gt; contain match -&gt; <code>xpath:</code></li>
+  <li>Date Last Modified -&gt; is -&gt; Today</li>
+</ul>
+
+<p>When these conditions are met, ask Hazel to do the following:</p>
+
+<ul>
+  <li>Run shell stript -&gt; embedded script</li>
+</ul>
+
+<p>In the script editor(click on the <code>i</code> icon), write down the following lines:</p>
+
+<pre><code>P=$(grep "xpath:" $1) 
+arr=($(echo $P | tr ":" "\n"))
+cp $1 ${arr[1]}
+</code></pre>
+
+<p>This will tell Hazel to copy the file to the desired place. This will keep you notes both organised (in the Notes folder) and distributed (in your folder hierarchy)! Voilà!</p>
+
+<h2 id="part-3-generating-the-metadata-using-textexpander">Part 3: Generating the metadata using TextExpander</h2>
+
+<p>If you want to push the automation a bit further, you can add TextExpander to the workflow. TextExpander is Mac utility that was designed to rapidly write down piece of frequently-used text. <a href="http://lifehacker.com/a-comprehensive-guide-to-textexpander-1616374942">Here is a short tutorial to TextExpander</a>.</p>
+
+<p>In my case I use TextExpander to automatically generate the metadata of my markdown notes. In addition, TextExpander prompt me to choose a folder where I want to store my notes (the <code>xpath</code> field).</p>
+
+<p><img src="/img/nvalt/textexpander.png" alt="legend " /></p>
+
+<p>The TextExpander snippet I use is written in AppleScript and looks like this: </p>
+
+<pre><code>tell application "System Events"
+	set applicationName to (name of every process whose frontmost is true) as string
+end tell
+
+using terms from application "AppleScript Editor"
+	tell application applicationName
+    	set expansionString to POSIX path of (choose folder with prompt "Please select a file.")
+	end tell
+end using terms from
+
+return "— \n type: post \n title: My great post\n author: Guillaume Lobet \n xpath:" &amp; expansionString &amp; "mynote.md \n—"
+</code></pre>
+
+<p>Once called, this snippet will automatically create the following metadata:</p>
+
+<pre><code>---
+type: post
+title: My great post
+author: Guillaume Lobet
+xpath:/myfolder/mynote.md
+---
+</code></pre>
+
+<h2 id="part-4-start-to-write">Part 4: Start to write</h2>
+
+<p>Now all you need is to create a new note in nvAlt, call the TextExpander snippet, choose where you want to copy your note and start writing!</p>
+
+<p>Enjoy!</p>
+
+<hr />
+
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=/2015/02/03/nvalt-hazel-texexpander/&amp;text=Efficient note taking using nvAlt, TextExpander and Hazel.&amp;via=guillaumelobet" target="_blank">
+  share it with your followers</a> 
+or 
+<a href="https://twitter.com/guillaumelobet">
+  follow me on Twitter</a>!</p>
+
+
+</article>
+
+    </main>
+
+		  
+ <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'guillaumelobetblog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
+
+
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="2015-02-03T08:43:51+01:00">2015</time>. CC-BY Licence
+        </small>
+      </footer>
+    </div>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58845854-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+  </body>
+</html>
