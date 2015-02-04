@@ -1,9 +1,13 @@
 -
+  name: Building a database of flowering time genes in Arabidopsis
+  description: >
+    The flowering time regulation in Arabidopsis thaliana is a very complex process that has been extensively studied. Hence, a lot of data about the molecular mechanisms regulating this process have been collected. Nevertheless, the absence of a is a major gap that we are currently adressing by creating a comprehensive and currated repository of those genes and the associated phenotypes. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
+  image: /img/flowering_net.png
+-
   name: GLO-RIA
   description: >
     GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters)
   image: /img/gloria_logo.png
-
 -
   name: Rhizoponic growing setup
   description: >
