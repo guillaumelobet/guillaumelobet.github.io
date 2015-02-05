@@ -8,7 +8,7 @@ author: Guillaume Lobet
 
 This post was written following the publication of the following article:
 
- [Mathieu et al. 2015, “Rhizoponics”: a novel hydroponic rhizotron for root system analyses on mature *Arabidopsis thaliana* plants, Plant Methods, 11:3](http://www.plantmethods.com/content/11/1/3/abstract)
+ <a href="http://www.plantmethods.com/content/11/1/3/abstract">Mathieu et al. 2015, “Rhizoponics”: a novel hydroponic rhizotron for root system analyses on mature *Arabidopsis thaliana* plants, Plant Methods, 11:3</a>
 
 </div>
 
