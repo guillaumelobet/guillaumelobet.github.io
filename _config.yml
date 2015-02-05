@@ -16,3 +16,5 @@ author:
   name:           Guillaume Lobet
   url:            https://twitter.com/guillaumelobet
   email:          guillaume.lobet@ulg.ac.be
+gems:
+  - jekyll-sitemap
