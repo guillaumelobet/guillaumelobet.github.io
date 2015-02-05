@@ -63,7 +63,7 @@ Design the setup was only one part of the story. Since we wanted to be able to t
 
 As a result, we could fairly well discriminate the roots from the mesh, which was  critical for the image analysis. In the end, the quality of the images was such as we could perform both a global analysis of the root system (depth, width, surface) using a [custom made ImageJ macro](https://github.com/guillaumelobet/rhizoponics) as well as a local analysis (lateral density, lateral length, ...) using [SmartRoot](http://www.guillaumelobet.be/codes/smartroot).
 
-<img src="/img/rhizoponics/rhizoponic-3.png" alt="rhizo3" width="50%">
+<img src="/img/rhizoponics/rhizoponic-3.png" alt="rhizo3" width="100%">
 
 **Examples of images obtained in our setup**
 
