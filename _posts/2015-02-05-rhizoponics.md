@@ -74,7 +74,7 @@ At some point, we decided that it was worth trying publishing our technique. It 
 
 ### Miscellaneous tips
 
-- If you make heavy metal experiment and want to clean the frame with hydrogen chloride (HCl), **DON'T**. We’ve tried.... You will end up with a lot of smoke (most likely unfriendly to your lungs), a nasty smell and a bunch of melted aluminium frame... It looked roughly [like this](http://www.youtube.com/watch?v=VZD-LIPiFyk).
+- If you make heavy metal experiment and want to clean the frame with hydrogen chloride (HCl), **DON'T**. We’ve tried.... You will end up with a lot of smoke (most likely unfriendly to your lungs), a nasty smell and a bunch of melted aluminium frame... It looked roughly [like this](https://www.youtube.com/watch?v=VZD-LIPiFyk#t=61).
 
 - for better results, try to keep the mesh as straight as possible in the frame. A wavy mesh will produce a lot of noise in the pictures and the roots might grow out of it.
 
