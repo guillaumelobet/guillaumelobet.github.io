@@ -78,7 +78,7 @@ At some point, we decided that it was worth trying publishing our technique. It 
 
 - for better results, try to keep the mesh as straight as possible in the frame. A wavy mesh will produce a lot of noise in the pictures and the roots might grow out of it.
 
-- If you have any questions or suggestions, leave us a comment below (or contact me by [e-mail](http://www.guillaumelobet.be/contact))!
+- If you have any questions or suggestions, leave us a comment below (or contact me by [e-mail](http://www.guillaumelobet.be))!
 
 
 ### More informations and data
