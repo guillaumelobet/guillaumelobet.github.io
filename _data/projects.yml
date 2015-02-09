@@ -1,7 +1,7 @@
 -
   name: Building a database of flowering time genes in Arabidopsis
   description: >
-    The flowering time regulation in Arabidopsis thaliana is a very complex process that has been extensively studied. Hence, a lot of data about the molecular mechanisms regulating this process have been collected. Nevertheless, the absence of a is a major gap that we are currently adressing by creating a comprehensive and currated repository of those genes and the associated phenotypes. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
+    The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. Our knowledge of the molecular mechanisms governing the floral induction of Arabidopsis thaliana increases quickly and a significant number of reviews are published every year on this topic. Nevertheless, we believe that the current landscape of flowering time research in Arabidopsis misses an exhaustive repository of the genes involved in the control of flowering and their regulatory pathways. Hence, we are currently building a new web-based interactive resource organized around a curated database of the flowering time genes. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
   image: /img/flowering_net.png
 -
   name: GLO-RIA
