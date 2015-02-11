@@ -25,17 +25,17 @@ websites:
         url: http://toplessninja.tumblr.com
     - 
         name: PhytoSYSTEMS
-        url: https://www.phytosystems.ulg.ac.be
+        url: http://www.phytosystems.ulg.ac.be
 
 profiles:
   - 
     network: Plant Image Analysis
     username:
-    url: https://www.plant-image-analysis.org
+    url: http://www.plant-image-analysis.org
   - 
     network: ImpactStory
     username:
-    url: https://impactstory.org/GuillaumeLobet
+    url: http://impactstory.org/GuillaumeLobet
   - 
     network: Google Scholar
     username:
@@ -43,11 +43,11 @@ profiles:
   -
     network: Twitter
     username: guillaumelobet
-    url: https://twitter.com/guillaumelobet/
+    url: http://twitter.com/guillaumelobet/
   -
     network: Github
     username: guillaumelobet
-    url: https://github.com/guillaumelobet/   
+    url: http://github.com/guillaumelobet/   
   -
     network: Figshare
     username: 
@@ -55,7 +55,7 @@ profiles:
   -
     network: Publons
     username: 
-    url: https://publons.com/author/207362/guillaume-lobet
+    url: http://publons.com/author/207362/guillaume-lobet
 
 intro:
   title: Hello!
