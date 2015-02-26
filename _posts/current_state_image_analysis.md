@@ -1,7 +1,7 @@
 ---
-- layout: post
-- title: Image Analysis in Plant Sciences: some thoughts about the current challenges and perspectives.
-- author: Guillaume Lobet
+layout: post
+title: Image Analysis in Plant Sciences: some thoughts about the current challenges and perspectives.
+author: Guillaume Lobet
 ---
 
 
@@ -110,5 +110,4 @@ Although image analysis is becoming an important field in plant sciences, the nu
 ### Cited littérature
 
 - Das, A., Bucksch, A., Price, C. A., & Weitz, J. S. (2014). ClearedLeavesDB: an online database of cleared plant leaf images. Plant Methods, 10(1), 1–8. doi:10.1186/1746-4811-10-8
-- 
 - Lobet, G., Pound, M. P., Diener, J., Pradal, C., Draye, X., Godin, C., et al. (2015). Root System Markup Language: toward a unified root architecture description language. Plant Physiology, pp.114.253625. doi:10.1104/pp.114.253625
