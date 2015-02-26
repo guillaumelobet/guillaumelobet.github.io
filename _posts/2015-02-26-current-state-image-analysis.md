@@ -100,14 +100,15 @@ Although image analysis is becoming an important field in plant sciences, the nu
 - You'll help [feed to world!](https://www.youtube.com/watch?v=tUZTdtnO3Xw)
 
 
-{% include twitter_plug.html %}
-
 ###  Additional Resources
 
 - If you want to stay up to date with the existing plant image analysis tools, go check the [plant-image-analysis.org](http://www.plant-image-analysis.org) website.
 - Most of the figures in this post are coming from a [presentation I made](http://figshare.com/articles/Plant_image_analysis_tools_current_trends_and_future_challenges/1169928) at the IAMPS 2014 workshop. All data are coming from the [plant-image-analysis.org](http://www.plant-image-analysis.org) website.
 
-### Cited littérature
+### Cited literature
 
 - Das, A., Bucksch, A., Price, C. A., & Weitz, J. S. (2014). ClearedLeavesDB: an online database of cleared plant leaf images. Plant Methods, 10(1), 1–8. doi:10.1186/1746-4811-10-8
 - Lobet, G., Pound, M. P., Diener, J., Pradal, C., Draye, X., Godin, C., et al. (2015). Root System Markup Language: toward a unified root architecture description language. Plant Physiology, pp.114.253625. doi:10.1104/pp.114.253625
+
+{% include twitter_plug.html %}
+
