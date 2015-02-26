@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Image Analysis in Plant Sciences: some thoughts about the current challenges and perspectives.
+title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
 ---
 
