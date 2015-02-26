@@ -100,6 +100,7 @@ Although image analysis is becoming an important field in plant sciences, the nu
 - You'll help feed to world!
 
 
+{% include twitter_plug.html %}
 
 ###  Additional Resources
 
