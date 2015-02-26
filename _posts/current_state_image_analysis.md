@@ -4,7 +4,6 @@ title: Image Analysis in Plant Sciences: some thoughts about the current challen
 author: Guillaume Lobet
 ---
 
-
 Nobody questions it anymore: image analysis is an essential tool in plant sciences. From the object detection algorithm used by the microscope software to the dedicated ImageJ plugin for rosette area measurements, images analysis tools and methods are presents in many plant researchers' pipeline. In this post, I will try to give a short overview of the existing plant image analysis tools (mainly with data coming from the [plant-image-analysis.org website](http://www.plant-image-analysis.org)). I will also discuss some of the current challenges that the field is facing and I will give you my two cents on how we might resolve them in the future.
 	
 The importance of image analysis in plant sciences is reflected by the increase of related publications in the past few years (figure 1). Since 2005, the number of published tools has been (almost) steadily increasing. In the recent past, as much as 20 tools were published every years.
