@@ -95,8 +95,8 @@ Although image analysis is becoming an important field in plant sciences, the nu
 - We have a **lot** of complex issues that still need to be solved.
 - Roots, veins and neurons have a lot in common.
 - No ethical issues in plant sciences. We will gladly provide **thousands of images** and kill **hundreds of plants** if you ask for it.
-- Most of us are not afraid of playing with some code. We do not necessary need a ready-to-use solution.
-- Plant biologists are nice fellas.
+- Most of us are not afraid of playing with some code. We do not always need a ready-to-use solution.
+- Plant biologists are [nice fellas](https://www.youtube.com/watch?v=oaRPCh8isUA).
 - You'll help [feed to world!](https://www.youtube.com/watch?v=tUZTdtnO3Xw)
 
 
