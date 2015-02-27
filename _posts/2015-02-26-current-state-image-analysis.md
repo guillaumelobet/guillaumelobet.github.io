@@ -28,7 +28,7 @@ What is more interesting is the fact that most of these tools were not published
 
 Let's have a look now at the characteristics of the existing tools. They can be classified in multiple ways (figure 3). For instance, we can first distinguish the commercial from the freely available ones. Out of the 112 tools referenced on the [plant-image-analysis.org](http://www.plant-image-analysis.org) website, 84 (75%) are either freeware or open-source tools, generally created by researchers. I'll refer to these tools as *academic* tools, as opposed to *commercial* tools. This is an important distinction, as I'll explain a bit later. It is important to note here that some of the freely available academic tools rely on paid platforms, such as [MatLab©](http://www.matlab.com), which might bring a barrier to their use.
 
-Out of the 85 academic tools, almost all of them are available on Windows, and 53 (62%) are cross-platform (averrable on Windows, Mac and Linux). This is, in my opinion, a very positive trend. Coupled with their free access, it opens the way to more collaborations between research groups, without the need to rely on an homogenised computing system.
+Out of the 85 academic tools, almost all of them are available on Windows, and 53 (62%) are cross-platform (available on Windows, Mac and Linux). This is, in my opinion, a very positive trend. Coupled with their free access, it opens the way to more collaborations between research groups, without the need to rely on an homogenised computing system.
 
 ---
 
