@@ -8,6 +8,7 @@
   description: >
     GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters). A visualisation of the GLO_Root results [is available here](http://www.guillaumelobet.be/rootreporter_d3/)
   image: /img/gloria_logo.png
+  url: http://www.rrlab.org/glo_roots/
 -
   name: Rhizoponic growing setup
   description: >
