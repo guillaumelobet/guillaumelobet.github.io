@@ -70,7 +70,7 @@
   description: >
     Impact-CV is a small web-based widget that create a CV (or a .bib file) based on an [ImpactStory profile](https://impactstory.org/GuillaumeLobet).
   image: /img/is.png
-  url: http://www.guillaumelobet.be/impact
+  url: http://impact.guillaumelobet.be
 
 -
   name: LaTeX thesis template
