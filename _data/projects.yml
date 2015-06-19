@@ -1,8 +1,9 @@
 -
   name: PaperFlow
   description: >
-    Coming soon...
+    PaperFlow display your publication in network fashion, making sense of your scientific journey. 
   image: /img/paperflow_icon.png
+  url: http://www.guillaumelobet.be/paperflow/
 -
   name: Flowering Interactive Database - FLOR-ID
   description: >
