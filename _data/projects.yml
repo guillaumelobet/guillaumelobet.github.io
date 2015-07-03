@@ -1,4 +1,10 @@
 -
+  name: Science Valorisation
+  description: >
+    For decades, the only way to valorise one's research was to publish a manuscript in a peer-reviewed journal. While the paper is still the golden standard for scientific productivity, it is not the only one anymore. Nowadays, researchers have access to a wide variety of means to valorise their research.
+  image: /img/network.png
+  url: http://www.guillaumelobet.be/science_valorisation/
+-
   name: PaperFlow
   description: >
     PaperFlow display your publication in network fashion, making sense of your scientific journey. 
