@@ -1,4 +1,9 @@
 -
+  name: AlloMaize
+  description: >
+    The **AlloMaize** project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
+  image: /img/allomaize.png
+-
   name: Science Valorisation
   description: >
     For decades, the only way to valorise one's research was to publish a manuscript in a peer-reviewed journal. While the paper is still the golden standard for scientific productivity, it is not the only one anymore. Nowadays, researchers have access to a wide variety of means to valorise their research.
@@ -28,11 +33,6 @@
     Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
   image: /img/rhizoponics.png
   url: http://www.guillaumelobet.be/rhizoponics/
--
-  name: AlloMaize
-  description: >
-    The **AlloMaize** project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
-  image: /img/allomaize.png
 -
   name: SmartRoot
   description: >
