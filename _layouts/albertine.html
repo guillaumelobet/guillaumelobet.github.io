@@ -111,7 +111,8 @@ It is threatened by habitat loss.
         </p>
 
         <hr>
-
+        
+        <h4>Social media</h4>
         <p>
           {% for profile in site.data.personal.profiles %}
             {% if profile.network == 'ORCID' %}
@@ -145,7 +146,7 @@ It is threatened by habitat loss.
         </p>
  
          <hr>
-       
+        <h4>Other websites</h4>
         <p>
           {% for website in site.data.personal.websites %}
             <i class="fa fa-external-link-square"></i>
@@ -160,6 +161,7 @@ It is threatened by habitat loss.
         
         <hr>
         
+        <h4>CV</h4>
         <p>
             <i class="fa fa-cloud-download"></i>
             <a href="{{ site.data.personal.curriculum }}"><b>Download CV</b></a>
