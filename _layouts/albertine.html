@@ -114,7 +114,8 @@ It is threatened by habitat loss.
 
         <p>
           {% for profile in site.data.personal.profiles %}
-            
+            {% if profile.network == 'ORCID' %}
+              <i class="fa fa-user"></i>            
             {% if profile.network == 'Google Scholar' %}
               <i class="fa fa-google"></i>
             {% elsif profile.network == 'LinkedIn' %}
