@@ -21,6 +21,9 @@ mailing_address: >
 
 websites:
     - 
+        name: Plant Image Analysis
+        url: http://www.plant-image-analysis.org
+    - 
         name: The Topless Ninja
         url: http://toplessninja.tumblr.com
     - 
@@ -28,10 +31,6 @@ websites:
         url: http://www.phytosystems.ulg.ac.be
 
 profiles:
-  - 
-    network: Plant Image Analysis
-    username:
-    url: http://www.plant-image-analysis.org
   - 
     network: ORCID
     username:
