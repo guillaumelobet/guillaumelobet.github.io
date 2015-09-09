@@ -1,6 +1,17 @@
  
 -
   type: journal
+  title: archiDART, an R package for the automated 2D computation of plant root architectural traits
+  authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pages̀ L, Delaplace P
+  journal: Plant and Soil
+  volume: 
+  pages:  
+  year: 2015
+  month: 
+  pdf: #
+  url: #
+-
+  type: journal
   title: GLO-Roots, an imaging platform enabling multidimensional characterization of soil grown root systems
   authors: Rellán-Álvarez R, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee C, Yu G, LaRue T, Trontin C, Nieu R, Vogel J, Dinneny J
   journal: eLife
