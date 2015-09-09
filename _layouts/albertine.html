@@ -225,12 +225,13 @@ It is threatened by habitat loss.
         <h4>Peer-review articles</h4>
 
         {% for publication in site.data.publications %}
-          <p>
             {% case publication.type %}
               {% when 'journal' %}
                 {% assign counter = counter | plus: 1 %}
-              {% endcase %}
-            {% endfor %}
+            {% endcase %}
+        {% endfor %}
+        {% for publication in site.data.publications %}
+          <p>
             {% case publication.type %}
               {% when 'journal' %}
               {% assign counter = counter | minus: 1 %}
