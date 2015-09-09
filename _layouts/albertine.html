@@ -228,6 +228,13 @@ It is threatened by habitat loss.
           <p>
             {% case publication.type %}
               {% when 'journal' %}
+                {% assign counter = counter | plus: 1 %}
+              {% endcase %}
+            {% endfor %}
+            {% case publication.type %}
+              {% when 'journal' %}
+              {% assign counter = counter | minus: 1 %}
+              ({{ counter }}) 
             	<b>
               	<a href="{{ publication.url }}">
                 	{{ publication.title }}
