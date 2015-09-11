@@ -1,6 +1,17 @@
  
 -
   type: journal
+  title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis thaliana
+  authors: Bouché F*, Lobet G*, Tocquin P, Périlleux C
+  journal: Nucleic Acid Research
+  volume: in press
+  pages:  
+  year: 2016
+  month: 
+  pdf: #
+  url: #
+-
+  type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
   authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L, Delaplace P
   journal: Plant and Soil
@@ -35,7 +46,7 @@
 -
   type: journal
   title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature Arabidopsis thaliana plants
-  authors: Mathieu L, Lobet G, Tocquin P, Périlleux C
+  authors: Mathieu L*, Lobet G*, Tocquin P, Périlleux C
   journal: Plant Methods
   volume: 11
   pages: 1-7
@@ -46,7 +57,7 @@
 -
   type: journal
   title: Inflorescence architecture in tomato genes functions within a zigzag model
-  authors: Périlleux C.,Lobet G.,Tocquin P.
+  authors: Périlleux C*,Lobet G*,Tocquin P
   journal: Frontiers in Plant Sciences
   volume: 5
   pages: 1-12
