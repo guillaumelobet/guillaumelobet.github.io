@@ -2,7 +2,7 @@
 -
   type: journal
   title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis thaliana
-  authors: Bouché F*, Lobet G*, Tocquin P, Périlleux C
+  authors: Bouché F*, Lobet G*, Tocquin P and Périlleux C
   journal: Nucleic Acid Research
   volume: in press
   pages:  
@@ -13,7 +13,7 @@
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
-  authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L, Delaplace P
+  authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L and Delaplace P
   journal: Plant and Soil
   volume: 
   pages:  
@@ -24,7 +24,7 @@
 -
   type: journal
   title: GLO-Roots, an imaging platform enabling multidimensional characterization of soil grown root systems
-  authors: Rellán-Álvarez R, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee C, Yu G, LaRue T, Trontin C, Nieu R, Vogel J, Dinneny J
+  authors: Rellán-Álvarez R, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee C, Yu G, LaRue T, Trontin C, Nieu R, Vogel J and Dinneny J
   journal: eLife
   volume: 
   pages:  
@@ -46,7 +46,7 @@
 -
   type: journal
   title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature Arabidopsis thaliana plants
-  authors: Mathieu L*, Lobet G*, Tocquin P, Périlleux C
+  authors: Mathieu L*, Lobet G*, Tocquin P and Périlleux C
   journal: Plant Methods
   volume: 11
   pages: 1-7
@@ -57,7 +57,7 @@
 -
   type: journal
   title: Inflorescence architecture in tomato genes functions within a zigzag model
-  authors: Périlleux C*,Lobet G*,Tocquin P
+  authors: Périlleux C*, Lobet G* and Tocquin P
   journal: Frontiers in Plant Sciences
   volume: 5
   pages: 1-12
@@ -68,7 +68,7 @@
 -
   type: journal
   title: Plant Water Uptake in Drying Soils
-  authors: Lobet G., Couvreur C., Meunier F., Javaux M., Draye X.
+  authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
   journal: Plant Physiology
   volume: 164 
   pages: 1619-1627
@@ -79,7 +79,7 @@
 -
   type: journal
   title: A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system
-  authors: Lobet G., Pagès P., Draye X.
+  authors: Lobet G, Pagès P and Draye X
   journal: Ecological Modeling
   volume: 290 
   pages: 65-75
@@ -90,7 +90,7 @@
 -
   type: journal
   title: Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens. Implications for phytostabilization
-  authors: Lambrechts T., Lequeue G., Lobet G., Godin B., Bielders C. L., Lutts S.
+  authors: Lambrechts T, Lequeue G, Lobet G, Godin B, Bielders CL and Lutts S
   journal: Plant and Soil
   volume: 376
   pages: 229-244
@@ -101,7 +101,7 @@
 -
   type: journal
   title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale processes
-  authors: Hill K., Porco S., Lobet G., Zappala S., Mooney S., Draye X. and Bennett M.J.
+  authors: Hill K, Porco S, Lobet G, Zappala S, Mooney S, Draye X and Bennett MJ
   journal: Plant Physiology
   volume: 163
   pages: 1487-1503
@@ -112,7 +112,7 @@
 -
   type: journal
   title: An online database for plant image analysis software tools
-  authors: Lobet G., Draye X., Périlleux C.
+  authors: Lobet G, Draye X and Périlleux C
   journal: Plant Methods
   volume: 9
   pages: 
@@ -123,7 +123,7 @@
 -
   type: journal
   title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems
-  authors: Lobet G., Draye X.
+  authors: Lobet G and Draye X
   journal: Plant Methods
   volume: 9
   pages: 
@@ -134,7 +134,7 @@
 -
   type: journal
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture
-  authors: Lobet G., Pagès L., Draye X.
+  authors: Lobet G, Pagès L and Draye X
   journal: Plant Physiology
   volume: 157
   pages: 29-39
@@ -145,7 +145,7 @@
 -
   type: journal
   title:  Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils
-  authors: Draye X., Kim Y. X., Lobet G., Javaux M.
+  authors: Draye X, Kim YX, Lobet G and Javaux M
   journal: Journal of Experimental Botany
   volume: 61
   pages: 2145-2155
@@ -156,14 +156,14 @@
 -
   type: bookchapter
   title:  Root water uptake and water flow in the soil-root domain
-  authors: Lobet G., Hachez C., Chaumont F., Javaux M., Draye X.
+  authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
   year: 2013
   book: Plant Roots, The Hidden Half, 4h edition,
   url: http://www.crcpress.com/product/isbn/9781439846483
 -
   type: thesis
   title:  Regulation of water flow in the soil-root domain. New tools and methods.
-  authors: Lobet G.
+  authors: Lobet G
   year: 2012
   book: Université catholique de Louvain
   url: https://www.dropbox.com/s/swm97mc5k80wbao/thesis_main.pdf
