@@ -10,14 +10,16 @@ phone:
 
 curriculum: https://www.dropbox.com/s/w0tsqv82oc0qm76/cv_g_lobet.pdf
 
-department: PhytoSYSTEMS
+department: IBG-3 Agrosphere
 
-institution: Université de Liège
+institution: Forschungszentrum Juelich
 
 mailing_address: >
-    Boulevard du Rectorat 27
-    4000 Liège
-    Belgium
+    Wilhelm-Johnen-Strasse
+    52428 Juelich
+    Germany
+    
+    
 
 websites:
     - 
@@ -29,6 +31,9 @@ websites:
     - 
         name: PhytoSYSTEMS
         url: http://www.phytosystems.ulg.ac.be
+    - 
+        name: FLOR-ID
+        url: http://www.flor-id.org
 
 profiles:
   - 
@@ -63,7 +68,7 @@ profiles:
 intro:
   title: Hello!
   body: >
-    I am a post-doc researcher at the [Université de Liège](http://www.ulg.ac.be), in [Belgium](http://www.google.com/search?hl=en&q=Belgium), in the Plant Physiology lab of Pr. Claire Perilleux.    
+    I am a FNRS post-doc researcher at the [Université de Liège](http://www.ulg.ac.be), in [Belgium](http://www.google.com/search?hl=en&q=Belgium), in the Plant Physiology lab of Pr. Claire Perilleux. I am currently doing a 6 months research internship at the [Forschungszentrum Jülich](http://www.fz-juelich.de/portal/DE/Home/home_node.html), in the group of Pr. Andrea Schnepf. 
       
     The aim of my current project is to quantify the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.        
       
