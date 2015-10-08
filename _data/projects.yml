@@ -45,7 +45,7 @@
 -
   name: plant-image-analysis.org
   description: >
-    The Plant Image Analysis website is an online, manually curated, database referencing more than 110 plant image analysis software solutions. 
+    The Plant Image Analysis website is an online, manually curated, database referencing more than 130 plant image analysis software solutions. 
     The website presents each software in a uniform and concise manner enabling users to identify the available solutions for their experimental needs. 
     The website also enables user feedback, evaluations and new software submissions. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
   image: /img/pia.png
