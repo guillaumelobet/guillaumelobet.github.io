@@ -1,7 +1,7 @@
 -
   name: AlloMaize
   description: >
-    The **AlloMaize** project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
+    The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
   image: /img/allomaize.png
 -
   name: Science Valorisation
@@ -12,7 +12,7 @@
 -
   name: PaperFlow
   description: >
-    PaperFlow display your publication in network fashion, making sense of your scientific journey. 
+    PaperFlow display your publications in a network fashion, trying to make sense of your scientific journey. 
   image: /img/paperflow_icon.png
   url: http://www.guillaumelobet.be/paperflow/
 -
