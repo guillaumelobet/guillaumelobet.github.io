@@ -8,8 +8,8 @@
   pages:  
   year: 2016
   month: 
-  pdf: http://orbi.ulg.ac.be/bitstream/2268/186136/1/2015_09_11_preprint_author_Bouche_et_al_2016.pdf
-  url: http://orbi.ulg.ac.be/handle/2268/186136
+  pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf
+  url: http://dx.doi.org/10.1093/nar/gkv1054
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
