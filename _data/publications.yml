@@ -5,8 +5,8 @@
   authors: Bouché F*, Lobet G*, Tocquin P and Périlleux C
   journal: Nucleic Acid Research
   volume: in press
-  pages:  
-  year: 2016
+  pages: 1-5
+  year: 2015
   month: 
   pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf
   url: http://dx.doi.org/10.1093/nar/gkv1054
@@ -15,11 +15,11 @@
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
   authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L and Delaplace P
   journal: Plant and Soil
-  volume: 
-  pages:  
+  volume: in press
+  pages: 1-15
   year: 2015
   month: 
-  pdf: http://link.springer.com/content/pdf/10.1007%2Fs11104-015-2673-4.pdf
+  pdf: https://www.dropbox.com/s/onakb6kkvonclvv/RevisedManuscript_PlantSoil_2015.pdf?dl=0
   url: http://link.springer.com/article/10.1007/s11104-015-2673-4
 -
   type: journal
