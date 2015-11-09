@@ -72,6 +72,7 @@ It is threatened by habitat loss.
           <a  href="#projects">Projects</a> | 
           <a  href="#publications">Publications</a> |
           <a  href="#misc">Misc</a> |
+          <a  href="https://www.dropbox.com/s/w0tsqv82oc0qm76/cv_g_lobet.pdf">CV</a> | 
           <a  href="blog">Blog</a>
         </div>
       </div>
@@ -158,12 +159,12 @@ It is threatened by habitat loss.
           {% endfor %}
         </p>   
         
-        <hr>
+        <!--hr>
         
         <p>
             <i class="fa fa-cloud-download"></i>
             <a href="{{ site.data.personal.curriculum }}"><b>Download CV</b></a>
-        </p>               
+        </p-->               
       </section>
     </div>
   </div>
@@ -236,7 +237,7 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'journal' %}
               {% assign counter = counter | minus: 1 %}
-              <small>{{ counter }} - </small>
+              <small>{{ counter }}. </small>
             	<b>
               	<!--a href="{{ publication.url }}"></a-->
                 	{{ publication.title }}
