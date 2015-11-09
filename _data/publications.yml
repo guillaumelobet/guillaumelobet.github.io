@@ -10,6 +10,8 @@
   month: 
   pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf
   url: http://dx.doi.org/10.1093/nar/gkv1054
+  link: http://www.flor-id.org
+  link_name: View Database
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
@@ -32,6 +34,8 @@
   month: 
   pdf: http://elifesciences.org/content/elife/early/2015/08/19/eLife.07597.full.pdf
   url: http://elifesciences.org/content/early/2015/08/19/eLife.07597
+  link: https://carnegiescience.edu/node/1864
+  link_name: View press release
 -
   type: journal
   title: Root System Markup Language. Toward an unified root architecture description language
