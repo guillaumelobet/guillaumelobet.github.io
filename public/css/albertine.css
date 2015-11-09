@@ -33,7 +33,7 @@ header {
   right:0;
   padding:22px 0;
   background-color:#fff;
-  border-bottom: 1px solid grey;
+  border-bottom: 3px solid grey;
 }
 header a:hover{
   text-decoration: none;
