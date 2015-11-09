@@ -33,7 +33,7 @@ header {
   right:0;
   padding:22px 0;
   background-color:#fff;
-  border-bottom: 3px solid grey;
+  border-bottom: 3px solid #5294f7;
 }
 header a:hover{
   text-decoration: none;
@@ -99,7 +99,7 @@ section {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color: #5294f7; /*#44a9eb;*/
+  background-color: #49AEC0; /*#5294f7;*/
   color:#fff;
   border-bottom: 3px solid white;
 }
