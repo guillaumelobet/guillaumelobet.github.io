@@ -237,9 +237,8 @@ It is threatened by habitat loss.
               {% assign counter = counter | minus: 1 %}
               <small>{{ counter }} - </small>
             	<b>
-              	<a href="{{ publication.url }}">
+              	<!--a href="{{ publication.url }}"></a-->
                 	{{ publication.title }}
-              	</a>
             	</b>
             	<small>
               		- {{ publication.year }}
@@ -247,10 +246,11 @@ It is threatened by habitat loss.
             	<br>
             		{{ publication.authors }}
             	<br>              
-                	{{ publication.journal }},
+                	<!--{{ publication.journal }},
                 	{{ publication.volume }},
-                	{{ publication.pages }}
-                	  <a href="{{ publication.pdf }}">[PDF]</a>
+                	{{ publication.pages }}-->
+                	  <a href="{{ publication.url }}">[View papers]</a> | 
+                	  <a href="{{ publication.pdf }}">[View PDF]</a>
                 	  {% if publication.link %}
                       <a href="{{ publication.link }}">
                         [{{ publication.link_name }}]
