@@ -251,7 +251,10 @@ It is threatened by habitat loss.
                 	{{ publication.pages }}-->
                 	  <a href="{{ publication.url }}">[View at publisher]</a>
                 	  <a href="{{ publication.pdf }}">[View PDF]</a>
-                	  {% if publication.link %}
+                	  {% if publication.pmid %}
+                      <a href="http://http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}">[View on PubMed]</a>
+                    {% endif %}
+                    {% if publication.link %}
                       <a href="{{ publication.link }}">
                         [{{ publication.link_name }}]
                       </a>
