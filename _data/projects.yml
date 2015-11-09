@@ -4,35 +4,18 @@
     The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
   image: /img/allomaize.png
 -
-  name: Science Valorisation
-  description: >
-    For decades, the only way to valorise one's research was to publish a manuscript in a peer-reviewed journal. While the paper is still the golden standard for scientific productivity, it is not the only one anymore. Nowadays, researchers have access to a wide variety of means to valorise their research.
-  image: /img/network.png
-  url: http://www.guillaumelobet.be/science_valorisation/
--
-  name: PaperFlow
-  description: >
-    PaperFlow display your publications in a network fashion, trying to make sense of your scientific journey. 
-  image: /img/paperflow_icon.png
-  url: http://www.guillaumelobet.be/paperflow/
--
   name: Flowering Interactive Database - FLOR-ID
   description: >
     The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
   image: /img/flowering_net.png
   url: http://www.phytosystems.ulg.ac.be/florid
 -
-  name: GLO-RIA
+  name: Root System Markup Language
   description: >
-    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters). A visualisation of the GLO_Root results [is available here](http://www.rrlab.org/GLO-Roots/). [Press release here](https://carnegiescience.edu/node/1864)
-  image: /img/gloria_logo.png
-  url: https://dinnenylab.wordpress.com/glo-roots/
--
-  name: Rhizoponic growing setup
-  description: >
-    Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
-  image: /img/rhizoponics.png
-  url: http://www.guillaumelobet.be/rhizoponics/
+    Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort.
+  image: /img/rsml.png
+  url: http://rootsystemml.github.io/
+
 -
   name: SmartRoot
   description: >
@@ -50,14 +33,18 @@
     The website also enables user feedback, evaluations and new software submissions. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
   image: /img/pia.png
   url: http://www.plant-image-analysis.org  
-
 -
-  name: Root System Markup Language
+  name: GLO-RIA
   description: >
-    Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort.
-  image: /img/rsml.png
-  url: http://rootsystemml.github.io/
-
+    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters). A visualisation of the GLO_Root results [is available here](http://www.rrlab.org/GLO-Roots/). [Press release here](https://carnegiescience.edu/node/1864)
+  image: /img/gloria_logo.png
+  url: https://dinnenylab.wordpress.com/glo-roots/
+-
+  name: Rhizoponic growing setup
+  description: >
+    Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
+  image: /img/rhizoponics.png
+  url: http://www.guillaumelobet.be/rhizoponics/
 -
   name: Modelling tomato inflorescence
   description: >
@@ -77,6 +64,18 @@
     In order to decrypt the water dynamics in the soil-plant-atmosphere continuum, we combined several phenotyping tools into a small platform. The platform enables the <em>in-situ</em> observation of plant architecture (both root and shoot), plant water status and soil water content. 
   image: /img/lti.png
 
+-
+  name: Science Valorisation
+  description: >
+    For decades, the only way to valorise one's research was to publish a manuscript in a peer-reviewed journal. While the paper is still the golden standard for scientific productivity, it is not the only one anymore. Nowadays, researchers have access to a wide variety of means to valorise their research.
+  image: /img/network.png
+  url: http://www.guillaumelobet.be/science_valorisation/
+-
+  name: PaperFlow
+  description: >
+    PaperFlow display your publications in a network fashion, trying to make sense of your scientific journey. 
+  image: /img/paperflow_icon.png
+  url: http://www.guillaumelobet.be/paperflow/
 -
   name: Impact CV 
   description: >
