@@ -101,6 +101,7 @@ section {
 .intro-screen header {
   background-color: #5294f7; /*#44a9eb;*/
   color:#fff;
+  border-bottom: 3px solid white;
 }
   .intro-screen h1,
   .intro-screen h2,
