@@ -272,7 +272,7 @@ It is threatened by habitat loss.
             
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
               {% if publication.doi %}
-                <div class='altmetric-embed' data-hide-no-mentions="true" data-badge-popover="right" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
+                <div class='altmetric-embed' data-hide-less-than="5" data-hide-no-mentions="true" data-badge-popover="right" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
               {% endif  %}
             </div>
 
@@ -372,7 +372,7 @@ It is threatened by habitat loss.
             
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
               {% if presentation.doi %}
-                <div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-doi="{{presentation.doi}}"></div>
+                <div class='altmetric-embed' data-hide-less-than="5" data-badge-popover="right" data-badge-type='donut' data-doi="{{presentation.doi}}"></div>
               {% endif  %}
             </div>
 
