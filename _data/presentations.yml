@@ -4,12 +4,14 @@
   date: November 2015
   slides_url: http://www.guillaumelobet.be/science_valorisation/
   status: invited speaker
+  doi: 10.6084/m9.figshare.1057995
 -
   title: Structural Root Modelling
   location: Winter on Root Phenotyping, Jülich, Germany
   date: November 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1594792
   status: invited speaker
+  doi: 10.6084/m9.figshare.1594792
 -
   title: Science Valorisation 
   location: Let's Talk Science, Leuven, Belgium
@@ -29,6 +31,7 @@
   date: April 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   status: invited speaker
+  doi: 10.6084/m9.figshare.1169928
   
 -
   title: Introducing Root System Markup Language, a new toolbox to link experimental data with simulation
@@ -36,6 +39,7 @@
   date: April 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1379862
   status: invited speaker
+  doi: 10.6084/m9.figshare.1379862
   
 -
   title: Water relations in the SPAC. What can we learn from functional-structural plant models
@@ -43,6 +47,7 @@
   date: December 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker
+  doi: 10.6084/m9.figshare.1091425
   
 -
   title: Water relations in the soil-plant system. What can we learn from functional-structural plant models
@@ -50,19 +55,22 @@
   date: October 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker  
+  doi: 10.6084/m9.figshare.1091425
 
 -
   title: Plant Image Analysis tools. Current trends and limitations
   location: International workshop on Image analysis methods for the plant sciences - Aberythwyth
   date: September 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
+  doi: 10.6084/m9.figshare.1169928
 
 -
   title: Modelling water relations in the soil-plant-atmosphere system
   location: SEB Main Meeting - Manchester
   date: July 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
-  status: invited speaker  
+  status: invited speaker 
+  doi: 10.6084/m9.figshare.1091425
 
 -
   title: Inflorescence development in tomato. Gene functions within a zigzag model.
