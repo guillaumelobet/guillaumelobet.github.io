@@ -13,6 +13,7 @@
   name: Scientific meeting organisation
   description: >
     - Co-organiser
+      - [Roundtable on Emerging technologies for root system imaging and phenotyping, 2015](http://rhizo4.org/roundtables)
       - [International Workshop on Image Analysis Methods for the Plant Sciences, 2015](http://www.phytosystems.ulg.ac.be/iamps15/)
       - [EMBO Practical Course, Insights into plant biological processes through phenotyping, 2015](http://events.embo.org/15-plant-phenotyping/)
     - Program commity member
@@ -27,6 +28,8 @@
 -
   name: Teaching
   description: >
+    - [Root Modelling](http://dx.doi.org/10.6084/m9.figshare.1594792) 
+    
     - Introduction to LaTeX
 
     - Introduction to ImageJ
