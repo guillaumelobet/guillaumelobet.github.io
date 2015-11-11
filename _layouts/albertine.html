@@ -45,6 +45,8 @@ It is threatened by habitat loss.
   <!-- Javascript -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  
 </head>
 <body class="intro-screen">
 
@@ -234,36 +236,42 @@ It is threatened by habitat loss.
             {% endcase %}
         {% endfor %}
         {% for publication in site.data.publications %}
-          <p>
-            {% case publication.type %}
-              {% when 'journal' %}
-              {% assign counter = counter | minus: 1 %}
-              <small>{{ counter }}. </small>
-            	<b>
-              	<!--a href="{{ publication.url }}"></a-->
-                	{{ publication.title }}
-            	</b>
-            	<small>
-              		- {{ publication.year }}
-            	</small>
-            	<br>
-            		{{ publication.authors }}
-            	<br>              
-                	<!--{{ publication.journal }},
-                	{{ publication.volume }},
-                	{{ publication.pages }}-->
-                	  <a href="{{ publication.url }}" target="_blank">[View at publisher]</a>
-                	  <a href="{{ publication.pdf }}" target="_blank">[View PDF]</a>
-                	  {% if publication.pmid %}
-                      <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">[View on PubMed]</a>
-                    {% endif %}
-                    {% if publication.link %}
-                      <a href="{{ publication.link }}" target="_blank">
-                        [{{ publication.link_name }}]
-                      </a>
-                    {% endif %}
-            {% endcase %}
-          </p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-6 col-lg-7">
+              {% case publication.type %}
+                {% when 'journal' %}
+                {% assign counter = counter | minus: 1 %}
+                <small>{{ counter }}. </small>
+              	<b>
+                	<!--a href="{{ publication.url }}"></a-->
+                  	{{ publication.title }}
+              	</b>
+              	<small>
+                		- {{ publication.year }}
+              	</small>
+              	<br>
+              		{{ publication.authors }}
+              	<br>              
+                  	<!--{{ publication.journal }},
+                  	{{ publication.volume }},
+                  	{{ publication.pages }}-->
+                  	  <a href="{{ publication.url }}" target="_blank">[View at publisher]</a>
+                  	  <a href="{{ publication.pdf }}" target="_blank">[View PDF]</a>
+                  	  {% if publication.pmid %}
+                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">[View on PubMed]</a>
+                      {% endif %}
+                      {% if publication.link %}
+                        <a href="{{ publication.link }}" target="_blank">
+                          [{{ publication.link_name }}]
+                        </a>
+                      {% endif %}
+              {% endcase %}
+            </div>
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2">
+              {% if publication.doi %}
+                <div class='altmetric-embed' data-badge-type='donut' data-doi="{{publication.doi}}"></div>
+              {% endif  %}
+            </div>
         {% endfor %}
     
   <!-------------------------------->  
