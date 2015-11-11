@@ -290,11 +290,11 @@ It is threatened by habitat loss.
             {% endcase %}
         {% endfor %}
         {% for publication in site.data.publications %}
-          <p>
             {% case publication.type %}
               {% when 'bookchapter' %}
               {% assign counter = counter | minus: 1 %}
               <small>{{ counter }} - </small>              
+          <p>
             <b>
               <a href="{{ publication.url }}">
                 {{ publication.title }}
@@ -307,8 +307,8 @@ It is threatened by habitat loss.
             {{ publication.authors }}
             <br>              
                 {{ publication.book }}
-            {% endcase %}
           </p>
+            {% endcase %}
         {% endfor %}
   <!-------------------------------->  
         <h4>Thesis</h4>
@@ -320,10 +320,10 @@ It is threatened by habitat loss.
             {% endcase %}
         {% endfor %}
         {% for publication in site.data.publications %}
-          <p>
             {% case publication.type %}
               {% when 'thesis' %}
                 {% assign counter = counter | minus: 1 %}
+          <p>
                 <small>{{ counter }} - </small>                
             <b>
               <a href="{{ publication.url }}">
@@ -337,8 +337,8 @@ It is threatened by habitat loss.
             {{ publication.authors }}
             <br>              
                 {{ publication.book }}
-            {% endcase %}
           </p>
+            {% endcase %}
         {% endfor %}        
 <!-------------------------------->
         <h4>Presentations | <a href="http://figshare.com/authors/Guillaume_Lobet/98389">figshare profile</a></h4>
@@ -372,7 +372,7 @@ It is threatened by habitat loss.
             
             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
               {% if publication.doi %}
-                <div class='altmetric-embed' data-hide-no-mentions="true" data-badge-popover="right" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
+                <div class='altmetric-embed' data-badge-popover="right" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
               {% endif  %}
             </div>
 
