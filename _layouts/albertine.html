@@ -237,11 +237,7 @@ It is threatened by habitat loss.
         {% endfor %}
         {% for publication in site.data.publications %}
           <div class="row">
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              {% if publication.doi %}
-                <div class='altmetric-embed' data-hide-no-mentions="true" data-badge-popover="left" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
-              {% endif  %}
-            </div>
+
             
             <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
               <p>
@@ -274,6 +270,12 @@ It is threatened by habitat loss.
                       {% endif %}
               {% endcase %}
               </p>
+            </div>
+            
+            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
+              {% if publication.doi %}
+                <div class='altmetric-embed' data-hide-no-mentions="true" data-badge-popover="left" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
+              {% endif  %}
             </div>
 
           </div>
