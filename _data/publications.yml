@@ -13,6 +13,7 @@
   link: http://www.flor-id.org
   link_name: View Database
   pmid: 26476447
+  doi: 10.1093/nar/gkv1054
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
@@ -24,6 +25,7 @@
   month: 
   pdf: https://www.dropbox.com/s/onakb6kkvonclvv/RevisedManuscript_PlantSoil_2015.pdf?dl=0
   url: http://link.springer.com/article/10.1007/s11104-015-2673-4
+  doi: 10.1007/s11104-015-2673-4
 -
   type: journal
   title: GLO-Roots, an imaging platform enabling multidimensional characterization of soil grown root systems
@@ -33,11 +35,12 @@
   pages:  
   year: 2015
   month: 
-  pdf: http://elifesciences.org/content/elife/early/2015/08/19/eLife.07597.full.pdf
-  url: http://elifesciences.org/content/early/2015/08/19/eLife.07597
+  pdf: http://elifesciences.org/content/4/e07597.full.pdf
+  url: http://dx.doi.org/10.7554/eLife.07597
   link: https://carnegiescience.edu/node/1864
   link_name: View press release
   pmid: 26287479
+  doi: 10.7554/eLife.07597
 -
   type: journal
   title: Root System Markup Language. Toward an unified root architecture description language
