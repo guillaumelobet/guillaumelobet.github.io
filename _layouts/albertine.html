@@ -293,12 +293,11 @@ It is threatened by habitat loss.
             {% case publication.type %}
               {% when 'bookchapter' %}
               {% assign counter = counter | minus: 1 %}
-              <small>{{ counter }} - </small>              
           <p>
+            <small>{{ counter }} - </small>              
+          
             <b>
-              <a href="{{ publication.url }}">
                 {{ publication.title }}
-              </a>
             </b>
             <small>
               {{ publication.year }}
@@ -307,6 +306,8 @@ It is threatened by habitat loss.
             {{ publication.authors }}
             <br>              
                 {{ publication.book }}
+            <br>
+            <a href="{{ publication.url }}">[View PDF]</a>
           </p>
             {% endcase %}
         {% endfor %}
@@ -326,9 +327,7 @@ It is threatened by habitat loss.
           <p>
                 <small>{{ counter }} - </small>                
             <b>
-              <a href="{{ publication.url }}">
                 {{ publication.title }}
-              </a>
             </b>
             <small>
               {{ publication.year }}
@@ -337,6 +336,8 @@ It is threatened by habitat loss.
             {{ publication.authors }}
             <br>              
                 {{ publication.book }}
+            <br>
+            <a href="{{ publication.url }}">[View PDF]</a>
           </p>
             {% endcase %}
         {% endfor %}        
@@ -360,9 +361,10 @@ It is threatened by habitat loss.
             </small>
             <br>
             {{ presentation.location }}
-          <b> - {{ presentation.status }}</b></br>
-            {% if presentation.url %}
-              <a href="{{ presentation.url }}" target="_blank">[View on figshare]</a>
+          <b> - {{ presentation.status }}</b>
+          <br>
+            {% if presentation.slides_url %}
+              <a href="{{ presentation.slides_url }}" target="_blank">[View on figshare]</a>
             {% endif %}
           </p>
             </div>
