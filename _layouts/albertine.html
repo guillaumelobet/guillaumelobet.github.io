@@ -238,6 +238,7 @@ It is threatened by habitat loss.
         {% for publication in site.data.publications %}
           <div class="row">
             <div class="col-xs-12 col-sm-9 col-md-6 col-lg-7">
+              <p>
               {% case publication.type %}
                 {% when 'journal' %}
                 {% assign counter = counter | minus: 1 %}
@@ -266,12 +267,14 @@ It is threatened by habitat loss.
                         </a>
                       {% endif %}
               {% endcase %}
+              </p>
             </div>
             <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2">
               {% if publication.doi %}
                 <div class='altmetric-embed' data-badge-type='donut' data-doi="{{publication.doi}}"></div>
               {% endif  %}
             </div>
+          </div>
         {% endfor %}
     
   <!-------------------------------->  
