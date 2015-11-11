@@ -55,6 +55,7 @@
   link: http://www.externaldiffusion.com/rsml-a-novel-toolbox-for-root-system-architecture-data-by-guillaume-lobet-universite-de-liege-forschungszentrum-julich/
   link_name: External Diffusion
   pmid: 25614065
+  doi: 10.1104/pp.114.253625
 -
   type: journal
   title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature Arabidopsis thaliana plants
@@ -67,6 +68,7 @@
   url: http://www.plantmethods.com/content/11/1/3/abstract
   pdf: http://www.plantmethods.com/content/pdf/s13007-015-0046-x.pdf
   pmid: 25657812
+  doi: 10.1186/s13007-015-0046-x
 -
   type: journal
   title: Inflorescence architecture in tomato genes functions within a zigzag model
@@ -79,6 +81,7 @@
   pdf: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/pdf
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/abstract
   pmid: 24744766
+  doi: 10.3389/fpls.2014.00121
 -
   type: journal
   title: Plant Water Uptake in Drying Soils
@@ -91,6 +94,7 @@
   pdf: http://www.plantphysiol.org/content/164/4/1619.full.pdf
   url: http://www.plantphysiol.org/content/164/4/1619
   pmid: 24515834
+  doi: 10.1104/pp.113.233486
 -
   type: journal
   title: A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system
@@ -102,6 +106,7 @@
   month: March
   pdf: https://www.dropbox.com/s/s8m9jmsolak7kkb/lobet2013.pdf
   url: http://dx.doi.org/10.1016/j.ecolmodel.2013.11.025
+  doi: 10.1016/j.ecolmodel.2013.11.025
 -
   type: journal
   title: Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -113,6 +118,7 @@
   month: March
   pdf: http://link.springer.com/content/pdf/10.1007%2Fs11104-013-1975-7.pdf
   url: http://dx.doi.org/10.1007/s11104-013-1975-7
+  doi: 10.1007/s11104-013-1975-7
 -
   type: journal
   title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale processes
@@ -125,6 +131,7 @@
   pdf: http://www.plantphysiol.org/content/early/2013/10/18/pp.113.227215.full.pdf
   url: http://dx.doi.org/10.1104/pp.113.227215
   pmid: 24143806
+  doi: 10.1104/pp.113.227215
 -
   type: journal
   title: An online database for plant image analysis software tools
@@ -139,6 +146,7 @@
   pmid: 24107223
   link: http://www.plant-image-analysis.org
   link_name: View Database
+  doi: 10.1186/1746-4811-9-38
 -
   type: journal
   title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems
@@ -151,6 +159,7 @@
   pdf: http://www.plantmethods.com/content/pdf/1746-4811-9-1.pdf
   url: http://www.plantmethods.com/content/9/1/1/abstract
   pmid: 23286457
+  doi: 10.1186/1746-4811-9-1
 -
   type: journal
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture
@@ -163,6 +172,7 @@
   pdf: http://www.plantphysiol.org/content/157/1/29.full.pdf
   url: http://www.plantphysiol.org/content/157/1/29.full
   pmid: 21771915
+  doi: 10.​1104/​pp.​111.​179895
 -
   type: journal
   title:  Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils
@@ -175,6 +185,7 @@
   pdf: http://jxb.oxfordjournals.org/content/61/8/2145.full.pdf
   url: http://jxb.oxfordjournals.org/content/61/8/2145.full
   pmid: 20453027
+  doi: 10.1093/jxb/erq077
 -
   type: bookchapter
   title:  Root water uptake and water flow in the soil-root domain
