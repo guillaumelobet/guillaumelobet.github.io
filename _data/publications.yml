@@ -14,7 +14,7 @@
   link_name: View Database
   pmid: 26476447
   doi: 10.1093/nar/gkv1054
-  f1000: <a href="http://f1000.com/prime/725855174?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" alt="Access the recommendation on F1000Prime" id="bg" /></a>
+  f1000: <a href="http://f1000.com/prime/725855174?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" alt="Access the recommendation on F1000Prime" id="bg" height="20px"/></a>
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
