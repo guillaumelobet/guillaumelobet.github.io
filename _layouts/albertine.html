@@ -266,6 +266,9 @@ It is threatened by habitat loss.
                           [{{ publication.link_name }}]
                         </a>
                       {% endif %}
+                      {% if publication.f1000 %}
+                          {{ publication.f1000 }}
+                      {% endif %}                      
               {% endcase %}
               </p>
             </div>
