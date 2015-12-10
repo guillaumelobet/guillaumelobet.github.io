@@ -8,6 +8,7 @@
   year: 2016
   month: 
   url: http://www.annualreviews.org/doi/abs/10.1146/annurev-arplant-043015-111848
+  review: yes
 -
   type: journal
   title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis thaliana
@@ -105,6 +106,7 @@
   url: http://www.plantphysiol.org/content/164/4/1619
   pmid: 24515834
   doi: 10.1104/pp.113.233486
+  review: yes
 -
   type: journal
   title: A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system
@@ -142,6 +144,7 @@
   url: http://dx.doi.org/10.1104/pp.113.227215
   pmid: 24143806
   doi: 10.1104/pp.113.227215
+  review: yes
 -
   type: journal
   title: An online database for plant image analysis software tools
