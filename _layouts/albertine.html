@@ -234,7 +234,10 @@ It is threatened by habitat loss.
             <li><b>Number of citations:</b> 197</li>
           </ul>
           </br>
-          <small>Journal names were intentionally left blank.</small>
+          <small>Journal names were intentionally left blank.</br>
+          * co-first author</br>
+          <i class="fa fa-book"></i> Reviews
+          <i class="fa fa-book"></i>
         </div>
         
 <!-------------------------------->
@@ -254,6 +257,7 @@ It is threatened by habitat loss.
                 {% when 'journal' %}
                 {% assign counter = counter | minus: 1 %}
                 <small>{{ counter }}. </small>
+                {% if publication.review %} <i class="fa fa-book"></i> {% endif %}
               	<b>
                 	<!--a href="{{ publication.url }}"></a-->
                   	{{ publication.title }}
