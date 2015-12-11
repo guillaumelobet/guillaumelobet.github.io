@@ -383,10 +383,21 @@ It is threatened by habitat loss.
                     col-md-4
                     col-lg-3">
            <p>
-              <img src="{{ site.baseurl }}{{ presentation.image }}" 
-              class="img-responsive img-thumbnail"
-              style="width:100%">                
+            {% if presentation.slides_url %}
+                <a href="{{ presentation.slides_url }}">
+                    <img src="{{ site.baseurl }}{{ presentation.image }}" 
+                    class="img-responsive img-thumbnail"
+                    style="width:80%">                
+                </a>
+            {% else %}
+            <img src="{{ site.baseurl }}{{ presentation.image }}" 
+                 class="img-responsive img-thumbnail"
+                 style="width:80%">
+            {% endif %}              
           </p>
+        
+          
+          
           <p>
             {% assign counter = counter | minus: 1 %}
             <small>{{ counter }} - </small>              
