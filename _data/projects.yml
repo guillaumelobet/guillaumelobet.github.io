@@ -4,12 +4,6 @@
     The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. Very little information about the root system exists at these stages.    
   image: /img/allomaize.png
 -
-  name: MARIA
-  description: >
-    Coming soon...
-  image: /img/maria-logo.png
-  url: http://maria-pipeline.github.io/MARIAProject/
--
   name: Flowering Interactive Database - FLOR-ID
   description: >
     The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
@@ -88,7 +82,12 @@
     Impact-CV is a small web-based widget that create a CV (or a .bib file) based on an [ImpactStory profile](https://impactstory.org/GuillaumeLobet).
   image: /img/is.png
   url: http://impact.guillaumelobet.be
-
+-
+  name: MARIA
+  description: >
+    Coming soon...
+  image: /img/maria-logo.png
+  url: http://maria-pipeline.github.io/MARIAProject/
 -
   name: LaTeX thesis template
   description: >
