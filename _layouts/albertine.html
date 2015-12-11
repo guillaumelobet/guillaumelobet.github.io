@@ -407,7 +407,9 @@ It is threatened by habitat loss.
             <br>
             {{ presentation.location }}
           </br>
-          <b>{{ presentation.status }}</b>
+          {% if presentation.status %}
+            <b>{{ presentation.status }}</b>
+          {% endif %}
           </small>
           <br>
             {% if presentation.slides_url %}
