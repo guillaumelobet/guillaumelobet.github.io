@@ -33,7 +33,7 @@ header {
   right:0;
   padding:22px 0;
   background-color:#fff;
-  border-bottom: 3px solid #7E8E9F;
+  border-bottom: 3px solid #2D4972;
 }
 header a:hover{
   text-decoration: none;
@@ -44,7 +44,7 @@ header a:hover{
     line-height:24px;
     font-weight:bold;
     font-size:1.5em;
-    color:#7E8E9F;
+    color:#2D4972;
     
   }
   header h2 {
@@ -59,7 +59,7 @@ footer {
   font-size:14px;
 }
 .img-circle{
-  border:2px solid #7E8E9F;
+  border:2px solid #2D4972;
 }
 /*******************
  * SECTION
@@ -99,7 +99,7 @@ section {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color: #7E8E9F; /*#5294f7;*/
+  background-color: #2D4972; /*#5294f7;*/
   color:#fff;
   border-bottom: 3px solid white;
 }
@@ -110,7 +110,7 @@ section {
   }
   .intro-screen a,
   .intro-screen a:hover {
-    color:#DAEFFE;
+    color:#FBCA00;
   }
   
   .intro-screen .img-circle{
