@@ -1,7 +1,7 @@
 -
   name: AlloMaize
   description: >
-    The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. A direct consequence of such constraints is that very little information about the root system development exist at these stages.    
+    The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. Very little information about the root system exists at these stages.    
   image: /img/allomaize.png
 -
   name: Flowering Interactive Database - FLOR-ID
@@ -48,7 +48,7 @@
 -
   name: Modelling tomato inflorescence
   description: >
-    Two recently proposed models help to comprehend the development of the tomato inflorescence, based on the fact that the arrangement of flowers reflects the spatiotemporal balance between maintenance of meristem indeterminancy and acquisition of floral meristem identity. In the unifying model of Prusinkiewicz et al. (2007), an inflorescence is built from different meristems that lose their initial « vegetativeness » to become flowers at different times and rates. In the Solanaceae model proposed by Lippman et al. (2008), the branching of the inflorescence depends on the maturation rate of the IM towards FM fate. We combined these two concepts for modelling the tomato inflorescence and gain further insight into the dynamics of the genetic network controling meristem fate.
+    Two recently proposed models help to comprehend the development of the tomato inflorescence, based on the fact that the arrangement of flowers reflects the spatiotemporal balance between maintenance of meristem indeterminancy and acquisition of floral meristem identity. In the model of Prusinkiewicz et al. (2007), an inflorescence is built from meristems that lose their initial « vegetativeness » to become flowers. In the model proposed by Lippman et al. (2008), the branching of the inflorescence depends on the maturation rate of the IM towards FM fate. We combined these two concepts for modelling the tomato inflorescence and gain further insight into the dynamics of the genetic network controling meristem fate.
   image: /img/flomato.jpg
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/full
 -
@@ -60,8 +60,8 @@
 -
   name:  Water relations in the soil-plant system
   description: >
-    Observing the water flows in the soil-plant system is challenging by nature. Until recently, the techniques used were mainly based on averaged estimation of the soil water content variation, down to the plant level. However, in the past few years, new methods have been developed, such as MRI, x-ray computed tomography or light transmission imaging, which enabled a more precise observation of the water flows in the soil-plant system.
-    In order to decrypt the water dynamics in the soil-plant-atmosphere continuum, we combined several phenotyping tools into a small platform. The platform enables the <em>in-situ</em> observation of plant architecture (both root and shoot), plant water status and soil water content. 
+    Observing the water flows in the soil-plant system is challenging by nature. Until recently, the techniques used were mainly based on averaged estimation of the soil water content variation, down to the plant level. However, in the past few years, new methods have been developed which enabled a more precise observation of the water flows in the soil-plant system.
+    In order to decrypt the water dynamics in the SPAC, we combined several phenotyping tools into a small platform. The platform enables the <em>in-situ</em> observation of plant architecture (both root and shoot), plant water status and soil water content. 
   image: /img/lti.png
 
 -

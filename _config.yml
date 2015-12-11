@@ -6,8 +6,8 @@ permalink:        pretty
 relative_permalinks: true
 
 # http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: https://guillaumelobet.github.io/
-#baseurl: /perso/ # for local testing
+#baseurl: https://guillaumelobet.github.io/
+baseurl: /perso/ # for local testing
 
 # Setup
 title:            Guillaume's Blog

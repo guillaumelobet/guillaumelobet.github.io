@@ -172,31 +172,36 @@ It is threatened by habitat loss.
   </div>
 
 <!-- ==================== -->
-  <!-- PROJECTS -->
-  <!-- ==================== -->
+<!-- PROJECTS -->
+<!-- ==================== -->
+
+
   <section class="container" id="projects">
     <div class="row">
       <div class="col-md-9">
         <h3>Projects</h3>
       </div>
     </div>
+      <div class="row-fluid">
 
     {% for project in site.data.projects %}
-      <div class="row">
-        <div class="col-xs-4
-                    col-sm-3
-                    col-md-3
-                    col-lg-2">
+        <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
           <p>
+            {% if project.url %}
+                <a href="{{ project.url }}">
+                    <img src="{{ site.baseurl }}{{ project.image }}" 
+                    class="img-responsive img-thumbnail"
+                    style="width:80%">                
+                </a>
+            {% else %}
             <img src="{{ site.baseurl }}{{ project.image }}" 
                  class="img-responsive img-thumbnail"
-                 style="width:100%">
+                 style="width:80%">
+            {% endif %}
           </p>
-        </div>
-        <div class="col-xs-12
-                    col-sm-9
-                    col-md-6
-                    col-lg-7">
           <p>
             <b>
               {% if project.url %}
@@ -211,9 +216,13 @@ It is threatened by habitat loss.
 
           {{ project.description | markdownify }}
         </div>
-      </div>
-      <hr>
+
     {% endfor %}
+      </div>
+
+
+
+
   </section>
 
   <!-- ==================== -->
@@ -361,42 +370,43 @@ It is threatened by habitat loss.
             {% endcase %}
         {% endfor %}        
 <!-------------------------------->
-        <h4>Presentations | <a href="http://figshare.com/authors/Guillaume_Lobet/98389">figshare profile</a></h4>
+        <h4>Presentations | <a href="http://figshare.com/authors/Guillaume_Lobet/98389">view figshare profile</a></h4>
         {% assign counter = 1 %}
         {% for presentation in site.data.presentations %}
           {% assign counter = counter | plus: 1 %}
         {% endfor %}
+
+        <div class="row-fluid">
         {% for presentation in site.data.presentations %}
-          <div class="row">
-            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">         
+        <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+           <p>
+              <img src="{{ site.baseurl }}{{ presentation.image }}" 
+              class="img-responsive img-thumbnail"
+              style="width:100%">                
+          </p>
           <p>
-              {% assign counter = counter | minus: 1 %}
-                <small>{{ counter }} - </small>              
-            <b>
-                {{ presentation.title }}
-            </b>
+            {% assign counter = counter | minus: 1 %}
+            <small>{{ counter }} - </small>              
+            {{ presentation.title }}
             <small>
               - {{ presentation.date }}
-            </small>
             <br>
             {{ presentation.location }}
-          <b> - {{ presentation.status }}</b>
+          </br>
+          <b>{{ presentation.status }}</b>
+          </small>
           <br>
             {% if presentation.slides_url %}
-              <a href="{{ presentation.slides_url }}" target="_blank">[View on figshare]</a>
+              <a href="{{ presentation.slides_url }}" target="_blank">[View PDF]</a>
             {% endif %}
           </p>
-            </div>
-            
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              {% if presentation.doi %}
-                <div class='altmetric-embed' data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="right" data-badge-type='donut' data-doi="{{presentation.doi}}"></div>
-              {% endif  %}
-            </div>
+            </div>          
 
-          </div>
         {% endfor %}
-
+          </div>
       </section>     
     </div>
   </div>

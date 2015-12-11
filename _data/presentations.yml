@@ -1,106 +1,116 @@
 -
   title: Science Valorisation 
   location: Communiquer sa recherche, ULB, Brussels, Belgium
-  date: November 2015
-  slides_url: http://www.guillaumelobet.be/science_valorisation/
+  date: Nov 2015
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.1057995
   status: invited speaker
   doi: 10.6084/m9.figshare.1057995
+  image: /img/pres-valor.png
 -
   title: Structural Root Modelling
   location: Winter on Root Phenotyping, Jülich, Germany
-  date: November 2015
+  date: Nov 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1594792
   status: invited speaker
   doi: 10.6084/m9.figshare.1594792
+  image: /img/pres-rootmod.png
 -
   title: Science Valorisation 
   location: Let's Talk Science, Leuven, Belgium
-  date: July 2015
-  slides_url: http://www.guillaumelobet.be/science_valorisation/
+  date: Jul 2015
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.1057995
   status: invited speaker
   doi: 10.6084/m9.figshare.1057995
+  image: /img/pres-valor.png
 -
   title: FLOR-ID, an interactive database of flowering gene network in Arabidopsis
   location: Workshop on Mechanisms Controling Flower Development, Aiguablava, Spain
-  date: June 2015
-  slides_url: http://www.phytosystems.ulg.ac.be/florid
+  date: Jun 2015
+  slides_url: http://orbi.ulg.ac.be/handle/2268/180776
+  image: /img/pres-florid.png
   
 -
   title: Plant Image Analysis tools. Current trends and limitations
   location: Plant Image Analysis Problems and Solution - Madison, Misconsin
-  date: April 2015
+  date: Apr 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   status: invited speaker
   doi: 10.6084/m9.figshare.1169928
-  
+  image: /img/pres-pia.png
+
 -
-  title: Introducing Root System Markup Language, a new toolbox to link experimental data with simulation
+  title: Introducing Root System Markup Language
   location: Modeling plant development from the organ to the whole plant scale - Montpellier
-  date: April 2015
+  date: Apr 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1379862
   status: invited speaker
   doi: 10.6084/m9.figshare.1379862
-  
+  image: /img/pres-rsml.png
+
 -
   title: Water relations in the SPAC. What can we learn from functional-structural plant models
   location: Soil Science Society Belgium - Brussels
-  date: December 2014
+  date: Dec 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker
   doi: 10.6084/m9.figshare.1091425
+  image: /img/pres-fspm.png
   
 -
   title: Water relations in the soil-plant system. What can we learn from functional-structural plant models
   location: BASF Top Science Meeting - 
-  date: October 2014
+  date: Oct 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker  
   doi: 10.6084/m9.figshare.1091425
+  image: /img/pres-waterrel.png
 
 -
   title: Plant Image Analysis tools. Current trends and limitations
   location: International workshop on Image analysis methods for the plant sciences - Aberythwyth
-  date: September 2014
+  date: Sep 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   doi: 10.6084/m9.figshare.1169928
+  image: /img/pres-pia.png
 
 -
   title: Modelling water relations in the soil-plant-atmosphere system
   location: SEB Main Meeting - Manchester
-  date: July 2014
+  date: Jul 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker 
   doi: 10.6084/m9.figshare.1091425
+  image: /img/pres-waterrel.png
 
 -
   title: Inflorescence development in tomato. Gene functions within a zigzag model.
   location: Genetic Variation of Flowering Time Genes and Applications for Crop Improvement - Bielefeld
-  date: March 2014
+  date: Mar 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.976039
+  image: /img/pres-flomato.png
 
 
 -
   title: First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics
   location: 9th International Workshop on Sap Flow - Ghent
-  date: June 2013
+  date: Jun 2013
   slides_url: http://dx.doi.org/10.6084/m9.figshare.713568
+  image: /img/pres-aba.png
 
 -
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture.
   location: International Workshop on Image Analysis Methods for Plant Science - Nottingham
-  date: September 2012
+  date: Sep 2012
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95665
   status: invited speaker  
+  image: /img/pres-smartroot.png
 
 
 -
   title: New insights on the role of root radial conductivity on the overall uptake dynamics
   location: Roots for improving resource acquisition in crops - Grasmere, UK
-  date: April 2011
+  date: Apr 2011
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95591
   status: invited speaker 
+  image: /img/pres-radial.png
 
--
-  title: Integrating soil and plant knowledge at different scales to better understand the dynamics of water in SPAC.
-  location: Association of Applied Biologists - Nottingham, UK
-  date: October 2008
