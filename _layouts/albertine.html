@@ -409,9 +409,10 @@ It is threatened by habitat loss.
           </br>
           {% if presentation.status %}
             <b>{{ presentation.status }}</b>
+            </br>
           {% endif %}
           </small>
-          <br>
+          
             {% if presentation.slides_url %}
               <a href="{{ presentation.slides_url }}" target="_blank">[View PDF]</a>
             {% endif %}
