@@ -425,22 +425,14 @@ It is threatened by habitat loss.
     </section>
   </div>
 </div>
-  <!----------- BOOK CHAPTERS -------------------->
+  <!----------- OTHERS -------------------->
 
 
   <div class="container">
     <div class="row">
       <section class="col-md-9">
 
-        <h3>Book chapters</h3>
-
-        {% assign counter = 1 %}
-        {% for publication in site.data.publications %}
-            {% case publication.type %}
-              {% when 'bookchapter' %}
-                {% assign counter = counter | plus: 1 %}
-            {% endcase %}
-        {% endfor %}
+        <h3>Book chapters - thesis</h3>
 
         <div class="row-fluid">
 
@@ -457,11 +449,7 @@ It is threatened by habitat loss.
                         style="width:100%">                
                   </p> 
 
-                  {% assign counter = counter | minus: 1 %}
-
                   <p>
-                    <small>{{ counter }} - </small>              
-                
                     {{ publication.title }}<small> - {{ publication.year }}</small><br>
 
                     <small>{{ publication.authors }}</small><br>
@@ -474,34 +462,8 @@ It is threatened by habitat loss.
                   </p>
 
               </div>
-            {% endcase %}
-        {% endfor %}
-      </div>
-    </section>
-  </div>
-</div>
-  <!----------- THESIS ---------------->  
 
-        
-  <div class="container">
-    <div class="row">
-      <section class="col-md-9">
-
-        <h3>Thesis</h3>
-
-        {% assign counter = 1 %}
-        {% for publication in site.data.publications %}
-            {% case publication.type %}
               {% when 'thesis' %}
-                {% assign counter = counter | plus: 1 %}
-            {% endcase %}
-        {% endfor %}
-
-        <div class="row-fluid">
-
-        {% for publication in site.data.publications %}
-              {% case publication.type %}
-                {% when 'thesis' %}
               <div class="col-xs-12
                     col-sm-6
                     col-md-4
@@ -512,9 +474,8 @@ It is threatened by habitat loss.
                        style="width:80%">
                   </p> 
 
-                  {% assign counter = counter | minus: 1 %}
                   <p>
-                    <small>{{ counter }}. </small> {{ publication.title }}
+                    {{ publication.title }}
                     
                     <small> - {{ publication.year }}</small><br>
 
@@ -527,14 +488,14 @@ It is threatened by habitat loss.
                     </a>
                   </p>
 
-                </div>
-
+                </div>              
             {% endcase %}
-        {% endfor %} 
-        </div>     
+        {% endfor %}
+      </div>
     </section>
   </div>
 </div>
+
 <!-------------  PRESENTATIONS ------------------>
         
 
