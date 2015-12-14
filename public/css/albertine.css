@@ -31,9 +31,12 @@ header {
   top:0;
   left:0;
   right:0;
-  padding:22px 0;
-  background-color:#fff;
-  border-bottom: 3px solid #2D4972;
+  padding:10px 0;
+  padding-bottom:5px;
+  /*background-color: #F2F2F2;¨*/
+  border-bottom: 3px solid #3A7CC2;
+  background-color: #4789CF;  /* #2D4972; #5294f7;*/
+  color:#fff;
 }
 header a:hover{
   text-decoration: none;
@@ -44,7 +47,8 @@ header a:hover{
     line-height:24px;
     font-weight:bold;
     font-size:1.5em;
-    color:#2D4972;
+    /*color:#4789CF;*/
+    color:#fff;
     
   }
   header h2 {
@@ -59,7 +63,7 @@ footer {
   font-size:14px;
 }
 .img-circle{
-  border:2px solid #2D4972;
+  border:2px solid #fff;/**#4789CF;*/
 }
 /*******************
  * SECTION
@@ -91,7 +95,7 @@ section {
   }
   section a,
   section a:hover {
-    color:#609AD6;
+    color: #4789CF; /**#609AD6;*/
   }
 
 /*******************
@@ -99,7 +103,7 @@ section {
  *******************/
 .intro-screen,
 .intro-screen header {
-  background-color: #2D4972; /*#5294f7;*/
+  background-color: #4789CF;  /* #2D4972; #5294f7;*/
   color:#fff;
   border-bottom: 3px solid white;
 }
@@ -110,7 +114,7 @@ section {
   }
   .intro-screen a,
   .intro-screen a:hover {
-    color:#FBCA00;
+    color: #F2C36F; /*#FBCA00;*/
   }
   
   .intro-screen .img-circle{
