@@ -183,6 +183,10 @@ It is threatened by habitat loss.
       </div>
     </div>
       <div class="row-fluid">
+    
+    {% assign counterLG = 0 %}
+    {% assign counterMD = 0 %}
+    {% assign counterSM = 0 %}
 
     {% for project in site.data.projects %}
         <div class="col-xs-12
@@ -217,6 +221,23 @@ It is threatened by habitat loss.
           {{ project.description | markdownify }}
         </div>
 
+        {% assign counterLG = counterLG | plus: 1 %}
+        {% assign counterMD = counterMD | plus: 1 %}
+        {% assign counterSM = counterSM | plus: 1 %}
+
+        {% if counterLG == 4 %}
+          <div class="clearfix visible-lg-block"></div>
+          {% assign counterLG = 0 %}
+        {% endif %}
+        {% if counterMD == 3 %}
+          <div class="clearfix visible-md-block"></div>
+          {% assign counterMD = 0 %}
+        {% endif %}
+        {% if counterSM == 2 %}
+          <div class="clearfix visible-sm-block"></div>
+          {% assign counterSM = 0 %}
+        {% endif %}
+
     {% endfor %}
       </div>
 
@@ -229,12 +250,18 @@ It is threatened by habitat loss.
   <!-- PUBLICATIONS -->
   <!-- ==================== -->
 
+
+            
+<!-------------  ARTICLES   ------------------>
+
+
+
   <div class="container" id="publications">
     <div class="row">
-      <section class="col-md-9">
+      <section class="col-md-9 col-lg-12">
 
-        <h3>Publications</h3>
-        
+        <h3>Peer-review articles</h3>
+
         <div class="alert alert-info">
           <ul>
             <li><b>Number of articles:</b> 15</li>
@@ -243,14 +270,14 @@ It is threatened by habitat loss.
             <li><b>Number of citations:</b> 197</li>
           </ul>
           </br>
-          <small>Journal names were intentionally left blank.</br>
-          * co-first author</br>
-          <i class="fa fa-book"></i> Reviews
-          </small>
+          <small>Journal names were intentionally left blank.</small></br>
+          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i> first author</button>
+          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-thumbs-up"></i> F1000Prime recommanded</button>
+          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i> review</button>
+          <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> plant organ</button>
+          <button type="button" class="btn btn-info btn-xs"><i class="fa fa-cogs"></i> technique</button>
         </div>
-        
-<!-------------------------------->
-        <h4>Peer-review articles</h4>
+
         {% assign counter = 1 %}
         {% for publication in site.data.publications %}
             {% case publication.type %}
@@ -258,57 +285,139 @@ It is threatened by habitat loss.
                 {% assign counter = counter | plus: 1 %}
             {% endcase %}
         {% endfor %}
+
+        <div class="row-fluid">
+
+        {% assign counterLG = 0 %}
+        {% assign counterMD = 0 %}
+        {% assign counterSM = 0 %}
+
         {% for publication in site.data.publications %}
-          <div class="row">
-            <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
-              <p>
+
               {% case publication.type %}
                 {% when 'journal' %}
+
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+
+                <p>
+                  <img src="{{ site.baseurl }}{{ publication.image }}" 
+                       class="img-responsive img-thumbnail"
+                       style="width:80%">
+                </p> 
+
+                <p>
                 {% assign counter = counter | minus: 1 %}
-                <small>{{ counter }}. </small>
-                {% if publication.review %} <i class="fa fa-book"></i> {% endif %}
-              	<b>
-                	<!--a href="{{ publication.url }}"></a-->
-                  	{{ publication.title }}
-              	</b>
-              	<small>
-                		- {{ publication.year }}
-              	</small>
-              	<br>
-              		{{ publication.authors }}
-              	<br>              
-                  	<!--{{ publication.journal }},
-                  	{{ publication.volume }},
-                  	{{ publication.pages }}-->
-                  	  <a href="{{ publication.url }}" target="_blank">[View at publisher]</a>
-                  	  {% if publication.pdf %}
-                  	    <a href="{{ publication.pdf }}" target="_blank">[View PDF]</a>
-                  	  {% endif %}
-                  	  {% if publication.pmid %}
-                        <a href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">[View on PubMed]</a>
-                      {% endif %}
-                      {% if publication.link %}
-                        <a href="{{ publication.link }}" target="_blank">
-                          [{{ publication.link_name }}]
-                        </a>
-                      {% endif %}
-                      {% if publication.f1000 %}
-                          {{ publication.f1000 }}
-                      {% endif %}                      
-              {% endcase %}
-              </p>
+                
+                <small>{{ counter }}. </small>{{ publication.title }}
+              	
+                <small>- {{ publication.year }}</small><br>
+
+                <small>{{ publication.authors }}</small><br>              
+
+                <!-------- TAGS -------->
+
+                {% assign auths = publication.authors | split:"," %}
+                {% if publication.authors contains 'G*' %}
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i></button>
+                {% elsif auths[0] contains "Lobet"%}
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i></button>
+                {% endif %} 
+
+                {% if publication.f1000 %}
+                    <a class="btn btn-danger btn-xs" href="http://f1000.com/prime/{{ publication.f1000 }}?bd=1" target="_blank">
+                      <i class="fa fa-thumbs-up"></i> F1000Prime
+                    </a>
+                {% endif %} 
+
+                {% if publication.review %}
+                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i></button>
+                {% endif %} 
+
+                {% if publication.tags1 %}
+                    {% for tag in publication.tags1 %}
+                        <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> {{tag}}</button>
+                    {% endfor %}
+                {% endif %} 
+
+                {% if publication.tags2 %}
+                    {% for tag in publication.tags2 %}
+                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-cogs"></i> {{tag}}</button>
+                    {% endfor %}
+                {% endif %} 
+
+                
+                <!-------- LINKS -------->
+
+                </br>
+                <div class="btn-group" role="group" aria-label="pub_links">
+              	  {% if publication.doi %}
+                      <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+              	  {% elsif publication.url %}
+                      <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                  {% endif %}
+
+                  {% if publication.pmid %}
+                      <a class="btn btn-default btn-xs" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>
+                  {% endif %}
+
+
+                  {% if publication.pdf %}
+                      <a class="btn btn-default btn-xs" href="{{ publication.pdf }}" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a>
+              	  {% endif %}
+                </div>            	               
+
+                </br>
+                {% if publication.doi %}
+                  <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="right" data-badge-type='bar' data-doi="{{publication.doi}}"></div>
+                {% endif  %}
+                
+                </p>               
+
             </div>
-            
-            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
-              {% if publication.doi %}
-                <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="right" data-badge-type='donut' data-doi="{{publication.doi}}"></div>
-              {% endif  %}
-            </div>
-          </div>
+
+            {% assign counterLG = counterLG | plus: 1 %}
+            {% assign counterMD = counterMD | plus: 1 %}
+            {% assign counterSM = counterSM | plus: 1 %}
+
+            {% if counterLG == 4 %}
+              <div class="clearfix visible-lg-block"></div>
+              {% assign counterLG = 0 %}
+            {% endif %}
+            {% if counterMD == 3 %}
+              <div class="clearfix visible-md-block"></div>
+              {% assign counterMD = 0 %}
+            {% endif %}
+            {% if counterSM == 2 %}
+              <div class="clearfix visible-sm-block"></div>
+              {% assign counterSM = 0 %}
+            {% endif %}
+
+
+          {% endcase %}
         {% endfor %}
-    
-  <!-------------------------------->  
-        <h4>Book chapters</h4>
+      </div>
+    </section>
+  </div>
+</div>
+  <!----------- BOOK CHAPTERS -------------------->
+
+
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Book chapters</h3>
 
         {% assign counter = 1 %}
         {% for publication in site.data.publications %}
@@ -317,30 +426,52 @@ It is threatened by habitat loss.
                 {% assign counter = counter | plus: 1 %}
             {% endcase %}
         {% endfor %}
+
+        <div class="row-fluid">
+
         {% for publication in site.data.publications %}
-            {% case publication.type %}
-              {% when 'bookchapter' %}
-              {% assign counter = counter | minus: 1 %}
-          <p>
-            <small>{{ counter }} - </small>              
-          
-            <b>
-                {{ publication.title }}
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.authors }}
-            <br>              
-                {{ publication.book }}
-            <br>
-            <a href="{{ publication.url }}">[View PDF]</a>
-          </p>
+              {% case publication.type %}
+                {% when 'bookchapter' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                      <img src="{{ site.baseurl }}{{ publication.image }}" 
+                        class="img-responsive img-thumbnail"
+                        style="width:100%">                
+                  </p> 
+
+                  {% assign counter = counter | minus: 1 %}
+
+                  <p>
+                    <small>{{ counter }} - </small>              
+                
+                    {{ publication.title }}<small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>
+
+                    <small>{{ publication.book }}</small><br>
+
+                    <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">PDF</a>
+                  </p>
+
+              </div>
             {% endcase %}
         {% endfor %}
-  <!-------------------------------->  
-        <h4>Thesis</h4>
+      </div>
+    </section>
+  </div>
+</div>
+  <!----------- THESIS ---------------->  
+
+        
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Thesis</h3>
+
         {% assign counter = 1 %}
         {% for publication in site.data.publications %}
             {% case publication.type %}
@@ -348,79 +479,125 @@ It is threatened by habitat loss.
                 {% assign counter = counter | plus: 1 %}
             {% endcase %}
         {% endfor %}
+
+        <div class="row-fluid">
+
         {% for publication in site.data.publications %}
-            {% case publication.type %}
-              {% when 'thesis' %}
-                {% assign counter = counter | minus: 1 %}
-          <p>
-                <small>{{ counter }} - </small>                
-            <b>
-                {{ publication.title }}
-            </b>
-            <small>
-              {{ publication.year }}
-            </small>
-            <br>
-            {{ publication.authors }}
-            <br>              
-                {{ publication.book }}
-            <br>
-            <a href="{{ publication.url }}">[View PDF]</a>
-          </p>
+              {% case publication.type %}
+                {% when 'thesis' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                    <img src="{{ site.baseurl }}{{ publication.image }}" 
+                       class="img-responsive img-thumbnail"
+                       style="width:80%">
+                  </p> 
+
+                  {% assign counter = counter | minus: 1 %}
+                  <p>
+                    <small>{{ counter }}. </small> {{ publication.title }}
+                    
+                    <small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>              
+
+                    <small>{{ publication.book }}</small><br>
+
+                    <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">PDF</a>
+                  </p>
+
+                </div>
+
             {% endcase %}
-        {% endfor %}        
-<!-------------------------------->
-        <h4>Presentations | <a href="http://figshare.com/authors/Guillaume_Lobet/98389">view figshare profile</a></h4>
+        {% endfor %} 
+        </div>     
+    </section>
+  </div>
+</div>
+<!-------------  PRESENTATIONS ------------------>
+        
+
+        
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9 col-lg-12">
+        
+        <h3>Presentations | <small><a href="http://figshare.com/authors/Guillaume_Lobet/98389">view figshare profile</a></small></h3>
+
         {% assign counter = 1 %}
         {% for presentation in site.data.presentations %}
           {% assign counter = counter | plus: 1 %}
         {% endfor %}
 
-        <div class="row-fluid">
-        {% for presentation in site.data.presentations %}
-        <div class="col-xs-12
-                    col-sm-6
-                    col-md-4
-                    col-lg-3">
-           <p>
-            {% if presentation.slides_url %}
-                <a href="{{ presentation.slides_url }}">
-                    <img src="{{ site.baseurl }}{{ presentation.image }}" 
-                    class="img-responsive img-thumbnail"
-                    style="width:80%">                
-                </a>
-            {% else %}
-            <img src="{{ site.baseurl }}{{ presentation.image }}" 
-                 class="img-responsive img-thumbnail"
-                 style="width:80%">
-            {% endif %}              
-          </p>
-        
-          
-          
-          <p>
-            {% assign counter = counter | minus: 1 %}
-            <small>{{ counter }} - </small>              
-            {{ presentation.title }}
-            <small>
-              - {{ presentation.date }}
-            <br>
-            {{ presentation.location }}
-          </br>
-          {% if presentation.status %}
-            <b>{{ presentation.status }}</b>
-            </br>
-          {% endif %}
-          </small>
-          
-            {% if presentation.slides_url %}
-              <a href="{{ presentation.slides_url }}" target="_blank">[View PDF]</a>
-            {% endif %}
-          </p>
-            </div>          
+        {% assign counterLG = 0 %}
+        {% assign counterMD = 0 %}
+        {% assign counterSM = 0 %}
 
-        {% endfor %}
-          </div>
+        <div class="row-fluid">
+          {% for presentation in site.data.presentations %}
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-4
+                        col-lg-3">
+               <p>
+                    <img src="{{ site.baseurl }}{{ presentation.image }}" 
+                     class="img-responsive img-thumbnail"
+                     style="width:80%">            
+              </p> 
+              <p>
+                {% assign counter = counter | minus: 1 %}
+                <small>{{ counter }} - </small>{{ presentation.title }}
+                <small>- {{ presentation.date }}<br>
+
+                {{ presentation.location }}</br>
+                
+                {% if presentation.status %}
+                  <b>{{ presentation.status }}</b>
+                  </br>
+                {% endif %}
+              
+                </small>
+              
+                {% if presentation.doi %}
+                  <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
+                    PDF
+                  </a>
+                {% elsif presentation.slides_url %}
+                  <a class="btn btn-default btn-xs" href="{{ presentation.slides_url }}" target="_blank">
+                    PDF
+                  </a>
+                {% endif %}
+
+                {% if presentation.doi %}
+                  <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="right" data-badge-type='bar' data-doi="{{presentation.doi}}"></div>
+                {% endif  %}
+
+              </p>
+            
+            </div>
+          
+            {% assign counterLG = counterLG | plus: 1 %}
+            {% assign counterMD = counterMD | plus: 1 %}
+            {% assign counterSM = counterSM | plus: 1 %}
+                      
+            {% if counterLG == 4 %}
+              <div class="clearfix visible-lg-block"></div>
+              {% assign counterLG = 0 %}
+            {% endif %}
+            {% if counterMD == 3 %}
+              <div class="clearfix visible-md-block"></div>
+              {% assign counterMD = 0 %}
+            {% endif %}
+            {% if counterSM == 2 %}
+              <div class="clearfix visible-sm-block"></div>
+              {% assign counterSM = 0 %}
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
       </section>     
     </div>
   </div>
@@ -451,8 +628,9 @@ It is threatened by habitat loss.
               {{ ms.description | markdownify }}
           </p>
         {% endfor %}
-      </div>
+      </section>
     </div>
+  </div>
 
 
   <!-- ==================== -->

@@ -2,13 +2,19 @@
 -
   type: journal
   title: Environmental Control of Root System Biology
-  authors: Rellan-Alvarez, R*, Lobet G*, Dinneny J
-  journal: Nucleic Acid Research
+  authors: Rellan-Alvarez R*, Lobet G*, Dinneny J
+  journal: Annual Reviews in Plant Biology
   volume: in press
   year: 2016
   month: 
   url: http://www.annualreviews.org/doi/abs/10.1146/annurev-arplant-043015-111848
   review: yes
+  image: img/art-envi.png
+  tags1:
+    - root
+  tags2:        
+    - modelling
+  firsta: yes
 -
   type: journal
   title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis thaliana
@@ -19,12 +25,15 @@
   year: 2015
   month: 
   pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf
-  url: http://dx.doi.org/10.1093/nar/gkv1054
-  link: http://www.flor-id.org
-  link_name: View Database
   pmid: 26476447
   doi: 10.1093/nar/gkv1054
-  f1000: <a href="http://f1000.com/prime/725855174?bd=1" target="_blank"><img src="http://cdn.f1000.com.s3.amazonaws.com/images/badges/badgef1000.gif" alt="Access the recommendation on F1000Prime" id="bg" height="20px"/></a>
+  f1000: 725855174
+  image: img/art-florid.png
+  tags2: 
+    - database
+  tags1:    
+    - flowering
+  firsta: yes
 -
   type: journal
   title: archiDART, an R package for the automated 2D computation of plant root architectural traits
@@ -35,8 +44,12 @@
   year: 2015
   month: 
   pdf: https://www.dropbox.com/s/onakb6kkvonclvv/RevisedManuscript_PlantSoil_2015.pdf?dl=0
-  url: http://link.springer.com/article/10.1007/s11104-015-2673-4
   doi: 10.1007/s11104-015-2673-4
+  image: img/art-archidart.png
+  tags1:
+    - root
+  tags2:      
+    - data analysis
 -
   type: journal
   title: GLO-Roots, an imaging platform enabling multidimensional characterization of soil grown root systems
@@ -47,11 +60,13 @@
   year: 2015
   month: 
   pdf: http://elifesciences.org/content/4/e07597.full.pdf
-  url: http://dx.doi.org/10.7554/eLife.07597
-  link: https://carnegiescience.edu/node/1864
-  link_name: View press release
   pmid: 26287479
   doi: 10.7554/eLife.07597
+  image: img/art-gloroot.png
+  tags1: 
+    - root
+  tags2:        
+    - phenotyping
 -
   type: journal
   title: Root System Markup Language. Toward an unified root architecture description language
@@ -62,11 +77,17 @@
   year: 2015
   month: March
   pdf: http://www.plantphysiol.org/content/early/2015/01/22/pp.114.253625.full.pdf+html
-  url: http://dx.doi.org/10.1104/pp.114.253625
-  link: http://www.externaldiffusion.com/rsml-a-novel-toolbox-for-root-system-architecture-data-by-guillaume-lobet-universite-de-liege-forschungszentrum-julich/
-  link_name: External Diffusion
   pmid: 25614065
   doi: 10.1104/pp.114.253625
+  image: img/art-rsml.png
+  tags1:
+    - root
+  tags2:    
+    - image analysis
+    - modelling
+    - data analysis
+  firsta: yes
+
 -
   type: journal
   title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature Arabidopsis thaliana plants
@@ -76,10 +97,17 @@
   pages: 1-7
   year: 2015
   month: March
-  url: http://www.plantmethods.com/content/11/1/3/abstract
   pdf: http://www.plantmethods.com/content/pdf/s13007-015-0046-x.pdf
   pmid: 25657812
   doi: 10.1186/s13007-015-0046-x
+  image: img/art-rhizoponics.png
+  tags1: 
+    - root
+    - shoot
+  tags2:  
+    - phenotyping
+  firsta: yes
+
 -
   type: journal
   title: Inflorescence architecture in tomato genes functions within a zigzag model
@@ -90,9 +118,15 @@
   year: 2014
   month: March
   pdf: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/pdf
-  url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/abstract
   pmid: 24744766
   doi: 10.3389/fpls.2014.00121
+  image: img/art-flomato.png
+  tags1:
+    - flowering
+  tags2:
+    - modelling
+  firsta: yes
+
 -
   type: journal
   title: Plant Water Uptake in Drying Soils
@@ -103,10 +137,16 @@
   year: 2014
   month: March
   pdf: http://www.plantphysiol.org/content/164/4/1619.full.pdf
-  url: http://www.plantphysiol.org/content/164/4/1619
   pmid: 24515834
   doi: 10.1104/pp.113.233486
   review: yes
+  image: img/art-water.png
+  tags1:
+    - root
+    - water
+  firsta: yes
+
+
 -
   type: journal
   title: A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system
@@ -117,8 +157,15 @@
   year: 2014
   month: March
   pdf: https://www.dropbox.com/s/s8m9jmsolak7kkb/lobet2013.pdf
-  url: http://dx.doi.org/10.1016/j.ecolmodel.2013.11.025
   doi: 10.1016/j.ecolmodel.2013.11.025
+  image: img/art-planet.png
+  tags1:
+    - root
+    - water
+  tags2:
+    - modelling
+  first: yes
+
 -
   type: journal
   title: Comparative analysis of Cd and Zn impacts on root distribution and morphology of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -129,8 +176,10 @@
   year: 2014
   month: March
   pdf: http://link.springer.com/content/pdf/10.1007%2Fs11104-013-1975-7.pdf
-  url: http://dx.doi.org/10.1007/s11104-013-1975-7
   doi: 10.1007/s11104-013-1975-7
+  image: img/art-lamb.png
+  tags1:
+    - root
 -
   type: journal
   title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale processes
@@ -141,10 +190,13 @@
   year: 2013
   month: March
   pdf: http://www.plantphysiol.org/content/early/2013/10/18/pp.113.227215.full.pdf
-  url: http://dx.doi.org/10.1104/pp.113.227215
   pmid: 24143806
   doi: 10.1104/pp.113.227215
   review: yes
+  image: img/art-hill.png
+  tags1:
+    - root
+  tags2: modelling
 -
   type: journal
   title: An online database for plant image analysis software tools
@@ -155,11 +207,16 @@
   year: 2013
   month: March
   pdf: http://www.plantmethods.com/content/pdf/1746-4811-9-38.pdf
-  url: http://www.plantmethods.com/content/9/1/38/abstract
   pmid: 24107223
   link: http://www.plant-image-analysis.org
   link_name: View Database
   doi: 10.1186/1746-4811-9-38
+  image: img/art-pia.png
+  tags2:
+    - database
+    - image analysis
+  first: yes
+
 -
   type: journal
   title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown root systems
@@ -170,9 +227,15 @@
   year: 2013
   month: March
   pdf: http://www.plantmethods.com/content/pdf/1746-4811-9-1.pdf
-  url: http://www.plantmethods.com/content/9/1/1/abstract
   pmid: 23286457
   doi: 10.1186/1746-4811-9-1
+  image: img/art-scanning.png
+  tags1:
+    - root
+  tags2:
+    - phenotyping
+  first: yes
+
 -
   type: journal
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture
@@ -183,9 +246,15 @@
   year: 2011
   month: March
   pdf: http://www.plantphysiol.org/content/157/1/29.full.pdf
-  url: http://www.plantphysiol.org/content/157/1/29.full
   pmid: 21771915
   doi: 10.​1104/​pp.​111.​179895
+  image: img/art-smartroot.png
+  tags1: 
+    - root
+  tags2:
+    - image analysis
+  first: yes
+
 -
   type: journal
   title:  Model-assisted integration of physiological and environmental constraints affecting the dynamic and spatial patterns of root water uptake from soils
@@ -196,9 +265,14 @@
   year: 2010
   month: March
   pdf: http://jxb.oxfordjournals.org/content/61/8/2145.full.pdf
-  url: http://jxb.oxfordjournals.org/content/61/8/2145.full
   pmid: 20453027
   doi: 10.1093/jxb/erq077
+  image: img/art-model.png
+  tags1: 
+    - root
+    - water
+  tags2: 
+    - modelling
 -
   type: bookchapter
   title:  Root water uptake and water flow in the soil-root domain
@@ -206,11 +280,13 @@
   year: 2013
   book: Plant Roots, The Hidden Half, 4h edition,
   url: http://www.crcpress.com/product/isbn/9781439846483
+  image: img/book-water.png
 -
   type: thesis
   title:  Regulation of water flow in the soil-root domain. New tools and methods.
   authors: Lobet G
   year: 2012
   book: Université catholique de Louvain
-  url: https://www.dropbox.com/s/swm97mc5k80wbao/thesis_main.pdf
+  doi: 10.6084/m9.figshare.2009226
+  image: img/thesis.png
 -
