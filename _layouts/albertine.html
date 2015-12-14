@@ -571,14 +571,14 @@ It is threatened by habitat loss.
                 <small>- {{ presentation.date }}<br>
 
                 {{ presentation.location }}</br>
-                
-                {% if presentation.status %}
-                  <b>{{ presentation.status }}</b>
-                  </br>
-                {% endif %}
-              
+                            
                 </small>
               
+                {% if presentation.status %}
+                    <button type="button" class="btn btn-info btn-xs">
+                      <i class="fa fa-check"></i> invited
+                    </button>
+                {% endif %}
                 {% if presentation.doi %}
                   <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
                     <i class="fa fa-file-pdf-o"></i> PDF
@@ -594,9 +594,10 @@ It is threatened by habitat loss.
                 {% endif  %}
 
               </p>
-            
+            </br></br>
             </div>
-          
+            
+
             {% assign counterLG = counterLG | plus: 1 %}
             {% assign counterMD = counterMD | plus: 1 %}
             {% assign counterSM = counterSM | plus: 1 %}
