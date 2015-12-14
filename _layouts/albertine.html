@@ -195,7 +195,7 @@ It is threatened by habitat loss.
                     col-lg-3">
           <p>
             {% if project.url %}
-                <a href="{{ project.url }}">
+                <a href="{{ project.url }}" target="_blank">
                     <img src="{{ site.baseurl }}{{ project.image }}" 
                     class="img-responsive img-thumbnail"
                     style="width:80%">                
@@ -209,7 +209,7 @@ It is threatened by habitat loss.
           <p>
             <b>
               {% if project.url %}
-                <a href="{{ project.url }}">
+                <a href="{{ project.url }}" target="_blank">
                   {{ project.name }}
                 </a>
               {% else %}
@@ -262,29 +262,45 @@ It is threatened by habitat loss.
 
         <h3>Peer-review articles</h3>
 
-        <div class="alert alert-info">
-          <ul>
-            <li><b>Number of articles:</b> 15</li>
-            <li><b>Number of articles as first/cofirst/last author:</b> 10</li>
-            <li><b>Scopus h-index:</b> 6</li>
-            <li><b>Number of citations:</b> 197</li>
-          </ul>
-          </br>
-          <small>Journal names were intentionally left blank.</small></br>
-          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i> first author</button>
-          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-thumbs-up"></i> F1000Prime recommanded</button>
-          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i> review</button>
-          <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> plant organ</button>
-          <button type="button" class="btn btn-info btn-xs"><i class="fa fa-cogs"></i> technique</button>
-        </div>
 
+        <!- Count the publications ->
         {% assign counter = 1 %}
+        {% assign counter2 = 0 %}
         {% for publication in site.data.publications %}
             {% case publication.type %}
               {% when 'journal' %}
                 {% assign counter = counter | plus: 1 %}
+                {% assign auths = publication.authors | split:"," %}
+                {% if publication.authors contains 'G*' %}
+                  {% assign counter2 = counter2 | plus: 1 %}
+                {% elsif auths[0] contains "Lobet"%}
+                  {% assign counter2 = counter2 | plus: 1 %}
+                {% endif %}
+              {% when 'summary' %}
+                {% assign hindex = publication.hindex %}
+                {% assign citations = publication.citations %}
+                {% assign update = publication.update %}                
             {% endcase %}
         {% endfor %}
+        {% assign counter3 = counter | minus :1 %}
+
+        <div class="alert alert-info">
+          <ul>
+            <li>Number of articles:<b> {{counter3}}</b></li>
+            <li>As first/last author:<b> {{counter2}}</b></li>
+            <li>Scopus h-index:<b> {{hindex}}</b></li>
+            <li>Number of citations:<b> {{citations}}</b></li>
+          </ul>
+        </br>
+          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i> first author</button>
+          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-thumbs-up"></i> F1000Prime recommanded</button>
+          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i> review</button>
+          <button type="button" class="btn btn-info btn-xs"><i class="fa fa-tag"></i> tags</button>
+          <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-quote-left"></i> citations</button></br></br>
+          <small>Journal names were intentionally left blank. Last update on {{update}}.</small>
+        </div>
+
+
 
         <div class="row-fluid">
 
@@ -311,9 +327,7 @@ It is threatened by habitat loss.
                 <p>
                 {% assign counter = counter | minus: 1 %}
                 
-                <small>{{ counter }}. </small>{{ publication.title }}
-              	
-                <small>- {{ publication.year }}</small><br>
+                {{ publication.title }} <small> - {{ publication.year }}</small><br>
 
                 <small>{{ publication.authors }}</small><br>              
 
@@ -321,14 +335,14 @@ It is threatened by habitat loss.
 
                 {% assign auths = publication.authors | split:"," %}
                 {% if publication.authors contains 'G*' %}
-                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i></button>
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i></button>
                 {% elsif auths[0] contains "Lobet"%}
-                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-star"></i></button>
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i></button>
                 {% endif %} 
 
                 {% if publication.f1000 %}
                     <a class="btn btn-danger btn-xs" href="http://f1000.com/prime/{{ publication.f1000 }}?bd=1" target="_blank">
-                      <i class="fa fa-thumbs-up"></i> F1000Prime
+                      <i class="fa fa-thumbs-up"></i>
                     </a>
                 {% endif %} 
 
@@ -336,19 +350,20 @@ It is threatened by habitat loss.
                         <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i></button>
                 {% endif %} 
 
-                {% if publication.tags1 %}
-                    {% for tag in publication.tags1 %}
-                        <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-tag"></i> {{tag}}</button>
-                    {% endfor %}
-                {% endif %} 
-
-                {% if publication.tags2 %}
-                    {% for tag in publication.tags2 %}
-                        <button type="button" class="btn btn-info btn-xs"><i class="fa fa-cogs"></i> {{tag}}</button>
-                    {% endfor %}
-                {% endif %} 
-
                 
+                {% if publication.tags %}
+                    {% for tag in publication.tags %}
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> {{tag}}
+                        </button>
+                    {% endfor %}
+                {% endif %} 
+
+                {% if publication.citations %}
+                        <button type="button" class="btn btn-primary btn-xs">
+                          <i class="fa fa-quote-left"></i> {{publication.citations | round}}
+                        </button>
+                {% endif %} 
                 <!-------- LINKS -------->
 
                 </br>
@@ -383,7 +398,7 @@ It is threatened by habitat loss.
                 {% endif  %}
                 
                 </p>               
-
+                </br></br>
             </div>
 
             {% assign counterLG = counterLG | plus: 1 %}
@@ -453,7 +468,9 @@ It is threatened by habitat loss.
 
                     <small>{{ publication.book }}</small><br>
 
-                    <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">PDF</a>
+                    <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                      <i class="fa fa-file-pdf-o"></i> PDF
+                    </a>
                   </p>
 
               </div>
@@ -505,7 +522,9 @@ It is threatened by habitat loss.
 
                     <small>{{ publication.book }}</small><br>
 
-                    <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">PDF</a>
+                    <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                      <i class="fa fa-file-pdf-o"></i> PDF
+                    </a>
                   </p>
 
                 </div>
@@ -562,11 +581,11 @@ It is threatened by habitat loss.
               
                 {% if presentation.doi %}
                   <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
-                    PDF
+                    <i class="fa fa-file-pdf-o"></i> PDF
                   </a>
                 {% elsif presentation.slides_url %}
                   <a class="btn btn-default btn-xs" href="{{ presentation.slides_url }}" target="_blank">
-                    PDF
+                    <i class="fa fa-file-pdf-o"></i> PDF
                   </a>
                 {% endif %}
 
@@ -581,7 +600,7 @@ It is threatened by habitat loss.
             {% assign counterLG = counterLG | plus: 1 %}
             {% assign counterMD = counterMD | plus: 1 %}
             {% assign counterSM = counterSM | plus: 1 %}
-                      
+
             {% if counterLG == 4 %}
               <div class="clearfix visible-lg-block"></div>
               {% assign counterLG = 0 %}

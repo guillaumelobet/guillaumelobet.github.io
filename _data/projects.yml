@@ -6,13 +6,13 @@
 -
   name: Flowering Interactive Database - FLOR-ID
   description: >
-    The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/)
+    The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/). [Article about the database (in french)](http://le15ejour.ulg.ac.be/jcms/c_49741/fr/genetique-de-la-floraison).
   image: /img/flowering_net.png
   url: http://www.phytosystems.ulg.ac.be/florid
 -
   name: Root System Markup Language
   description: >
-    Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort.
+    Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort. [External Diffusion post](http://www.externaldiffusion.com/rsml-a-novel-toolbox-for-root-system-architecture-data-by-guillaume-lobet-universite-de-liege-forschungszentrum-julich/)
   image: /img/rsml.png
   url: http://rootsystemml.github.io/
 
