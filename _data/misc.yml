@@ -25,6 +25,7 @@
   description: >
     - 1 PhD student
     - 6 master theses
+
 -
   name: Teaching
   description: >
@@ -37,3 +38,10 @@
     - [Science output valorisation](http://dx.doi.org/10.6084/m9.figshare.1057995)
 
     - Scientifique figures preparation
+-
+  name: Website design and creation
+  description: >
+    - [http://www.plant-image-analysis.org/]()
+    - [http://www.phytosystems.ulg.ac.be/]()
+    - [http://www.flor-id.org]()
+    - [http://www.phytosystems.ulg.ac.be/iamps15/]()
