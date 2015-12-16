@@ -3,18 +3,30 @@
   description: >
     The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. Very little information about the root system exists at these stages.    
   image: /img/allomaize.png
+  tags:
+    - root
+    - shoot
+    - modelling
+    - flowering
 -
   name: Flowering Interactive Database - FLOR-ID
   description: >
     The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/). [Article about the database (in french)](http://le15ejour.ulg.ac.be/jcms/c_49741/fr/genetique-de-la-floraison).
   image: /img/flowering_net.png
   url: http://www.phytosystems.ulg.ac.be/florid
+  tags:
+    - flowering
+    - database
 -
   name: Root System Markup Language
   description: >
     Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort. [External Diffusion post](http://www.externaldiffusion.com/rsml-a-novel-toolbox-for-root-system-architecture-data-by-guillaume-lobet-universite-de-liege-forschungszentrum-julich/)
   image: /img/rsml.png
   url: http://rootsystemml.github.io/
+    - root
+    - modelling
+    - image analysis
+    - data analysis
 
 -
   name: SmartRoot
@@ -24,6 +36,9 @@
     The software supports a sampling-based analysis of root system images, in which detailed information is collected on a limited number of roots selected by the user according to specific research requirements. 
   image: /img/smartroot.png
   url: http://www.uclouvain.be/en-smartroot
+  tags:
+    - root
+    - image analysis
 
 -
   name: plant-image-analysis.org
@@ -33,36 +48,56 @@
     The website also enables user feedback, evaluations and new software submissions. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
   image: /img/pia.png
   url: http://www.plant-image-analysis.org  
+  tags:
+    - database
+    - image analysis
 -
   name: GLO-RIA
   description: >
     GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters). A visualisation of the GLO_Root results [is available here](http://www.rrlab.org/GLO-Roots/). [Press release here](https://carnegiescience.edu/node/1864)
   image: /img/gloria_logo.png
   url: https://dinnenylab.wordpress.com/glo-roots/
+  tags:
+    - root
+    - image analysis  
 -
   name: Rhizoponic growing setup
   description: >
     Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
   image: /img/rhizoponics.png
   url: http://www.guillaumelobet.be/rhizoponics/
+  tags:
+    - root
+    - phenotyping  
 -
   name: Modelling tomato inflorescence
   description: >
     Two recently proposed models help to comprehend the development of the tomato inflorescence, based on the fact that the arrangement of flowers reflects the spatiotemporal balance between maintenance of meristem indeterminancy and acquisition of floral meristem identity. In the model of Prusinkiewicz et al. (2007), an inflorescence is built from meristems that lose their initial « vegetativeness » to become flowers. In the model proposed by Lippman et al. (2008), the branching of the inflorescence depends on the maturation rate of the IM towards FM fate. We combined these two concepts for modelling the tomato inflorescence and gain further insight into the dynamics of the genetic network controling meristem fate.
   image: /img/flomato.jpg
   url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/full
+  tags: 
+    - flowering
+    - modelling
 -
   name: PlaNet-Maize
   description: >
     The water uptake capacity of a plant is largely influenced by (i) soil exploration (root architecture), (ii) hydraulic conductivity of individual root segments, (iii) quantity and capacity of bulk-to-rhizosphere water flow, and (iv) regulation of stomatal conductance. These factors must be considered simultaneously if we aim to tailor plants towards improved water deficit resistance. PlaNet-Maize is a functional-structural plant model which encompasses the entire soil-plant-atmosphere continuum with a resolution down to individual root segment. The model simulates individual maize plant growth and development, along with water uptake.  
   image: /img/planet.gif
   url: http://dx.doi.org/10.1016/j.ecolmodel.2013.11.025
+  tags:
+    - root
+    - shoot
+    - modelling
+    - water
 -
   name:  Water relations in the soil-plant system
   description: >
     Observing the water flows in the soil-plant system is challenging by nature. Until recently, the techniques used were mainly based on averaged estimation of the soil water content variation, down to the plant level. However, in the past few years, new methods have been developed which enabled a more precise observation of the water flows in the soil-plant system.
     In order to decrypt the water dynamics in the SPAC, we combined several phenotyping tools into a small platform. The platform enables the <em>in-situ</em> observation of plant architecture (both root and shoot), plant water status and soil water content. 
   image: /img/lti.png
+  tags:
+    - root
+    - water
 
 -
   name: Science Valorisation
@@ -70,27 +105,38 @@
     For decades, the only way to valorise one's research was to publish a manuscript in a peer-reviewed journal. While the paper is still the golden standard for scientific productivity, it is not the only one anymore. Nowadays, researchers have access to a wide variety of means to valorise their research.
   image: /img/network.png
   url: http://www.guillaumelobet.be/science_valorisation/
+  tags:
+    - open science
 -
   name: PaperFlow
   description: >
     PaperFlow display your publications in a network fashion, trying to make sense of your scientific journey. 
   image: /img/paperflow_icon.png
   url: http://www.guillaumelobet.be/paperflow/
+  tags:
+    - open science
 -
   name: Impact CV 
   description: >
     Impact-CV is a small web-based widget that create a CV (or a .bib file) based on an [ImpactStory profile](https://impactstory.org/GuillaumeLobet).
   image: /img/is.png
   url: http://impact.guillaumelobet.be
+  tags:
+    - open science  
 -
   name: MARIA
   description: >
     Coming soon..
   image: /img/maria-logo.png
   url: http://maria-pipeline.github.io/MARIAProject/
+  tags: 
+    - root
+    - image analysis
 -
   name: LaTeX thesis template
   description: >
     LaTeX template for a master/PhD thesis. It is based on the template developed by Eivind Uggedal ([available here](https://github.com/jrk/uggedal-thesis)) and was modified by myself.
   image: /img/latex.png
   url: https://github.com/guillaumelobet/latex_thesis
+  tags:
+    - open science  

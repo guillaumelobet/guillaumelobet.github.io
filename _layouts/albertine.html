@@ -210,30 +210,28 @@ It is threatened by habitat loss.
                     col-md-4
                     col-lg-3">
           <p>
-            {% if project.url %}
-                <a href="{{ project.url }}" target="_blank">
-                    <img src="{{ site.baseurl }}{{ project.image }}" 
-                    class="img-responsive img-thumbnail"
-                    style="width:80%">                
-                </a>
-            {% else %}
             <img src="{{ site.baseurl }}{{ project.image }}" 
                  class="img-responsive img-thumbnail"
                  style="width:80%">
-            {% endif %}
           </p>
           <p>
             <b>
-              {% if project.url %}
-                <a href="{{ project.url }}" target="_blank">
-                  {{ project.name }}
-                </a>
-              {% else %}
-                {{ project.name }}
-              {% endif %}
+              {{ project.name }}
             </b>
           </p>
-
+          {% if project.tags %}
+              {% for tag in project.tags %}
+                  <button type="button" class="btn btn-info btn-xs">
+                    <i class="fa fa-tag"></i> {{tag}}
+                  </button>
+              {% endfor %}
+          {% endif %}
+          {% if project.url %}
+              <a class="btn btn-default btn-xs" href="{{ project.url }}" target="_blank">
+                <i class="fa fa-external-link"></i> More info
+              </a>
+          {% endif %} 
+        </br></br>
           {{ project.description | markdownify }}
         </div>
 
