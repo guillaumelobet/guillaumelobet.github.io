@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/albertine.css">
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+
+<!-- Javascript -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+
+
+
+  <body>
+
+    <div class="container content">
+
+      <!-- Header -->
+      {% include blog_header.html %}
+
+
+      <!-- CONTENT -->
+
+      <main>
+        <div class="container" id="main">
+          <div class="row">
+            <div class="col-xs-12 col-lg-10 archive"> 
+              
+              {{ content }}
+                          
+            </div>
+          </div>
+        </div>
+      </main>
+
+
+      <footer class="footer">
+      <hr>
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. CC-BY Licence
+        </small>
+      </footer>
+
+    </div>
+
+	{% include google_analytics.html %}
+
+  </body>
+</html>

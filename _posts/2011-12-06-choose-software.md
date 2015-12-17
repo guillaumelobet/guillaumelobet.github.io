@@ -2,6 +2,8 @@
 layout: post
 title: How to choose the right root image analysis software
 author: Guillaume Lobet
+tags: root image_analysis
+image: img/choose_root.png
 ---
 
 In this post, I will try to point out the most important characteristics you will have to consider while choosing your root image analysis software.

@@ -2,15 +2,10 @@
 layout: post
 title: Rhizoponics, the story behind the paper
 author: Guillaume Lobet
+tags: root phenotyping story_behind
+image: /img/rhizoponics/rhizoponic-3.png
 ---
 
-<div class="message">
-
-This post was written following the publication of the following article:
-
- <a href="http://www.plantmethods.com/content/11/1/3/abstract">Mathieu et al. 2015, “Rhizoponics”: a novel hydroponic rhizotron for root system analyses on mature *Arabidopsis thaliana* plants, Plant Methods, 11:3</a>
-
-</div>
 
 
 About two years ago, we ([Laura Mathieu](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/laura-mathieu), [Pierre Tocquin](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/pierre-tocquin), [Claire Périlleux](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/claire-perilleux) and myself) started to think about an efficient way to monitor the development of the Arabidopsis root system from the seedling to the flowering stages. 

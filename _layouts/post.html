@@ -3,9 +3,29 @@ layout: default
 ---
 
 <article class="post">
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="page-date">{{ page.date | date_to_string }}</time>
+  
+
+
+
+
+
   <h1 class="post-title">{{ page.title }}</h1>
-  by {{page.author}}
+  <div class="author">by {{page.author}}</div>
+  <div class="post-date">{{ page.date | date_to_string }}</div>
+
+
+  {% if page.tags %}
+    {% for tag in page.tags %}
+        <button type="button" class="btn btn-default btn-xs" disabled="disabled">
+          <i class="fa fa-tag"></i> {{tag}}
+        </button>
+    {% endfor %}
+  {% endif %}
+  <button type="button" class="btn btn-success btn-xs">
+  	<i class="fa fa-eye">  </i>  {% include read_time.html %} read
+  </button>
   <hr>
+
   {{ content }}
+
 </article>

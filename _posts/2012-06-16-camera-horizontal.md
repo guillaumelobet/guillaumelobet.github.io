@@ -2,6 +2,8 @@
 layout: post
 title: Using a camera to take horizontal root pictures
 author: Guillaume Lobet
+tags: root image camera
+image: img/camera_horizontal.png
 ---
 
 

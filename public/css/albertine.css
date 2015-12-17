@@ -130,3 +130,71 @@ header {
      -moz-transition:background-color .5s;
           transition:background-color .5s;
 }
+
+/*******************
+ * BLOG POST
+ *******************/
+
+.blog-post{
+  margin-bottom: 50px;
+  margin-right: 0px;
+}
+
+.post-date{
+  font-size: 0.8em;
+  color: grey;
+}
+.post-title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.post-excerpt{
+  padding-top: 20px;
+  font-size: 0.8;
+  padding-right: 50px;
+  text-align: justify;
+}
+
+.post{
+  font-size: 1.3em;
+}
+.archive{
+  font-size: 1.4em;
+}
+.archive h1{
+  margin-bottom: 30px;
+}
+
+.post h3{
+  padding-top: 20px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.post h2{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.post .message{
+  padding-left: 20px;
+  border-left: solid 8px #4789CF;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.post .author{
+  color: grey;
+}
+
+.tags-col{
+  margin-top: 50px;
+  border-left: solid 3px #4789CF;
+  padding-left: 20px
+}
+
+.tag-button{
+  margin-bottom: 10px;
+}
+

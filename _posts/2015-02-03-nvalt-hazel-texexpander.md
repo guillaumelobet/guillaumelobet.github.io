@@ -2,11 +2,16 @@
 layout: post
 title: Efficient note taking using nvAlt, TextExpander and Hazel.
 author: Guillaume Lobet
+tags: productivity
+image: /img/nvalt/hazel-nvalt.png
 ---
+As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / ...). This is important, as I want my different project folders to be complete and contains everything related to the project. 
+
 
 ![legend ](/img/nvalt/hazel-nvalt.png)
 
-As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / ...). This is important, as I want my different project folders to be complete and contains everything related to the project. On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:
+
+On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:
 
 - centralised (to find everything quickly)
 - distributed (for a tidy organisation)

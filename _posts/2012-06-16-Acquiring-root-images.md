@@ -2,9 +2,12 @@
 layout: post
 title: Acquiring root images
 author: Guillaume Lobet
+tags: root image_analysis
+image: img/camera_horizontal.png
 ---
 
 The image acquisition step is a critical one as it will determine the quantity of information contained in the final image. Fortunately, good images can be obtain fairly simply without buying fancy expensive material.
+
 
 In the next posts I will give simple tips to acquire nice root images with either a CCD camera or a scanner (which are probably the most widely used image acquisition devices as well as the less expensive). But first a small reminder on the image requirements.
 

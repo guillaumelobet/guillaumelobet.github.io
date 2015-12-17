@@ -2,9 +2,12 @@
 layout: post
 title: Using a scanner to take root pictures
 author: Guillaume Lobet
+tags: root image scanner
+image: img/scanner_small.png
 --- 
 
 Using a scanner is the best way to have picture with a high contrast and resolution. However, the speed of the acquisition is rather slow compared to a camera, specially if the resolution is high.
+
 
 - Spread your root carefully (A)
 - Choose a sufficient resolution
