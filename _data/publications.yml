@@ -1,7 +1,7 @@
 -  type: summary
    hindex: '6'
-   citations: '193'
-   update: '2015-12-14'
+   citations: '200'
+   update: '2016-01-04'
 -  type: journal
    title: Environmental Control of Root System Biology
    authors: Rellan-Alvarez R*, Lobet G*, Dinneny J
@@ -50,7 +50,7 @@
    tags:
    - data analysis
    - root
-   citations: '0'
+   citations: '1'
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
@@ -68,7 +68,7 @@
    tags:
    - root
    - phenotyping
-   citations: '0'
+   citations: '1'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -88,7 +88,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '4'
+   citations: '5'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -207,7 +207,7 @@
    tags:
    - database
    - image analysis
-   citations: '22'
+   citations: '25'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -224,7 +224,7 @@
    tags:
    - root
    - phenotyping
-   citations: '11'
+   citations: '12'
 -  type: journal
    title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System
       Architecture
