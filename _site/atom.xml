@@ -4,7 +4,7 @@
  <title>Guillaume's Blog</title>
  <link href="/perso/atom.xml" rel="self"/>
  <link href="/perso/"/>
- <updated>2015-02-03T08:45:19+01:00</updated>
+ <updated>2015-12-17T14:54:07+01:00</updated>
  <id></id>
  <author>
    <name>Guillaume Lobet</name>
@@ -13,13 +13,305 @@
 
  
  <entry>
+   <title>The story behind the Root System Markup Language</title>
+   <link href="/perso//2015/12/17/rsml/"/>
+   <updated>2015-12-17T00:00:00+01:00</updated>
+   <id>/2015/12/17/rsml</id>
+   <content type="html">&lt;p&gt;If you have ever analysed root system images, you might now the unspoken truth: it requires a great deal of time and efforts! Either you work with an automated tracing software (such as &lt;a href=&quot;http://www.psrg.org.uk/plant-biometrics.html&quot;&gt;EZ-Rhizo&lt;/a&gt; or &lt;a href=&quot;http://www.csc.univie.ac.at/rootbox/rsa.html&quot;&gt;RootSystemAnalyzer&lt;/a&gt;) and as soon as the root systems are getting old (more than 10 days) you’ll need to spend quite some time correcting the detection; or you work with a semi-automated tool (such as &lt;a href=&quot;http://www.uclouvain.be/en-smartroot&quot;&gt;SmartRoot&lt;/a&gt; or &lt;a href=&quot;https://www.cpib.ac.uk/tools-resources/software/rootnav/&quot;&gt;RootNav&lt;/a&gt;) and you’ll have to go through every single image to trace the roots. The &lt;strong&gt;good thing&lt;/strong&gt; is that you know you’ll get great data out of it! Architectural data are extremely rich and can be analysed in multiple ways. However, the &lt;strong&gt;downside of the story&lt;/strong&gt; is that you will use only a fraction of the data and the rest might be lost. This is what the &lt;a href=&quot;rootsystemml.github.io&quot;&gt;Root System Markup Language&lt;/a&gt; is about.&lt;/p&gt;
+
+&lt;h3 id=&quot;from-nottingham-to-louvain-la-neuve&quot;&gt;From Nottingham to Louvain-la-Neuve&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Back to 2012.&lt;/strong&gt; &lt;a href=&quot;http://www.uclouvain.be/xavier.draye&quot;&gt;Xavier Draye&lt;/a&gt; and myself were in Nottingham for the first workshop on Image Analysis Methods in Plant Sciences. Before going to the meeting, we visited the folks at the CPIB. There, we met &lt;a href=&quot;https://www.cpib.ac.uk/people/michael-pound/&quot;&gt;Michael Pound&lt;/a&gt; and &lt;a href=&quot;https://www.cpib.ac.uk/people/tony-pridmore/&quot;&gt;Tony Pridmore&lt;/a&gt;, who was developing RootNav at that time. We discussed about root image analysis tools and how they were complementary with each others. We thought it would be great to have a way to share information between the different tools and groups. That was the first time we talked about having a common format. In the following months, Mike and I made a couple of tests and we ended up having a first draft of a commons structure, based on XML. Then, both of us had a thesis to write down and other projects to finish and the common format was left aside for a while…&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Early 2014.&lt;/strong&gt; The root format hasn’t moved much. Mike and I kept in touch and continued working on it for a while, but without any face to face meeting, it was hard to get things done. So, with Xavier, we decided to invite people interested in developing the language in Louvain-la-Neuve. A couple of e-mails later, a date was set and colleagues were invited. The machine was rolling again.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;February 2014.&lt;/strong&gt; Three-days meeting to discuss the format. A nice team was gathered: Tony and Mike from the CPIB (RootNav, &lt;a href=&quot;https://www.cpib.ac.uk/tools-resources/software/rootrak/&quot;&gt;RooTrak&lt;/a&gt; and &lt;a href=&quot;https://www.cpib.ac.uk/tools-resources/software/roottrace/&quot;&gt;RootTrace&lt;/a&gt;), &lt;a href=&quot;https://team.inria.fr/virtualplants/christophe-pradal/&quot;&gt;Christophe Pradal&lt;/a&gt; and &lt;a href=&quot;http://home-juliendiener.rhcloud.com/&quot;&gt;Julien Diener&lt;/a&gt; from INRIA (&lt;a href=&quot;http://openalea.gforge.inria.fr/dokuwiki/doku.php&quot;&gt;OpenAlea&lt;/a&gt;), &lt;a href=&quot;&quot;&gt;Philippe Nacry&lt;/a&gt; from INRA (the plant guy), &lt;a href=&quot;http://www.fz-juelich.de/ibg/ibg-3/EN/Staff/S/Schnepf%20Dr.%20Andrea.html?nn=1239630&quot;&gt;Andrea Schnepf&lt;/a&gt; from Juelich (RootSystemAnalyser), &lt;a href=&quot;http://www.uclouvain.be/mathieu.javaux&quot;&gt;Mathieu Javaux&lt;/a&gt; (&lt;a href=&quot;http://www.fz-juelich.de/ibg/ibg-3/EN/Research/Research%20Topics/Flow%20and%20Transport%20in%20Soil-Plant%20Systems/R-SWMS/artikel.html&quot;&gt;R-SWMS&lt;/a&gt;), Xavier and myself (SmartRoot). So around the table we had specialist in plant biology, root image analysis and plant modelling. We had everything we needed to created a bridge between the different piece of the root research, our very own One Ring.&lt;/p&gt;
+
+&lt;p&gt;Three days of discussions, coding, drawing and drinking beers (Belgian ones, of course) latter, we had a prototype format. The Root System Markup Language, aka RSML, was born. Back in our respective labs, we each implemented the format in our own tools. We exchanged root files and played with each other data. We set up a &lt;a href=&quot;rootsystemml.github.io&quot;&gt;website&lt;/a&gt; with all the require informations. And we started writing a paper about it.&lt;/p&gt;
+
+&lt;h3 id=&quot;writing-re-writing-re-re-writing&quot;&gt;Writing. Re-writing. Re-re-writing.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;June 2014.&lt;/strong&gt; Plant Physiology was having a Root issue, so we thought it might be a great opportunity to spread the world inside the plant community. We wanted to touch as large a community as possible so the format will be largely adopted.&lt;/p&gt;
+
+&lt;p&gt;If you ever need to write a paper collaboratively, try out Google Docs. I know, I know. They will stole your data to sell it to the Devil… Nevertheless, they make great tools! We had 1 document, 12 writers. Sometimes 5 at a time. No more  &lt;em&gt;version-final.doc&lt;/em&gt; / &lt;em&gt;version-final-final.doc&lt;/em&gt; / &lt;em&gt;version-final-final-draft-definitive.doc&lt;/em&gt; issues. One document, version controlled, multiple users, figure managements, and so on. As a result, in a bit more than a month, the paper was written and submitted.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;July 2014.&lt;/strong&gt; The manuscript is back. And rejected. But, and this is important, with “&lt;em&gt;encouragement to re-submit&lt;/em&gt;”. After the initial “&lt;em&gt;the paper will never be published&lt;/em&gt;” phase, we were back on tracks. In fact, the reviewers had an excellent point: it was fine to have a common format, but it is close to useless if you do not have the tools to open and analyse them… So we were back to coding. We developed tools that could be use by every scientists and could be incorporated in regular research pipeline. We developed API in Java, Python, Excel, R and C#. In additions, we implemented the RSML in a couple of additional tools. In total, at this time, RSML bridges the gap between 6 image analysis tools, 5 data analysis packages and 4 modelling tools.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;file:///Users/guillaumelobet/Dropbox/research/scripts/websites/guillaumelobet.github.io/img/rsml/figure-4.png&quot; alt=&quot;legend &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;November 2014.&lt;/strong&gt; Submission again. Finger crossed in the team.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;January 2014.&lt;/strong&gt; We receive new comments from the reviewers. Two of them are highly positive. One is still skeptical. But in the end the paper went through!&lt;/p&gt;
+
+&lt;h3 id=&quot;what-lies-ahead&quot;&gt;What lies ahead…&lt;/h3&gt;
+
+&lt;p&gt;For the RSML, we believe publication is not the end of the story. Quite the opposite, it is the very start. Indeed, we believe RSML will enable a better collaboration between root researchers in multiple ways:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;it enables an easy data sharing between team and software.&lt;/li&gt;
+  &lt;li&gt;it provides a way to evaluate the performance of different image analysis tools&lt;/li&gt;
+  &lt;li&gt;it opens the door to a central repository for root data. As I said earlier, root data acquisition is highly time consuming and it would be much more efficient if we could easily share and re-use them.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Of time will tell us if we are right… In the meantime, if you have any comments / suggestions / remarks about the RSML, just drop us a line!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2015/12/17/rsml/&amp;amp;text=The story behind the Root System Markup Language&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Image Analysis in Plant Sciences. Some thoughts about the current challenges and perspectives.</title>
+   <link href="/perso//2015/02/26/current-state-image-analysis/"/>
+   <updated>2015-02-26T00:00:00+01:00</updated>
+   <id>/2015/02/26/current-state-image-analysis</id>
+   <content type="html">&lt;p&gt;Nobody questions it anymore: image analysis is an essential tool in plant sciences. From the object detection algorithm used by the microscope software to the dedicated ImageJ plugin for rosette area measurements, images analysis tools and methods are presents in many plant researchers’ pipeline. In this post, I will try to give a short overview of the existing plant image analysis tools (mainly with data coming from the &lt;a href=&quot;http://www.plant-image-analysis.org&quot;&gt;plant-image-analysis.org website&lt;/a&gt;). I will also discuss some of the current challenges that the field is facing and I will give you my two cents on how we might resolve them in the future.&lt;/p&gt;
+
+&lt;p&gt;The importance of image analysis in plant sciences is reflected by the increase of related publications in the past few years (figure 1). Since 2005, the number of published tools has been (almost) steadily increasing. In the recent past, as much as 20 tools were published every years.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/current_image_1.png&quot; alt=&quot;Evolution of the number of published plant image analysis software. [Source: www.plant-image-analysis.org]&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 1:&lt;/strong&gt; Evolution of the number of published plant image analysis software. [Source: www.plant-image-analysis.org]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;What is more interesting is the fact that most of these tools were not published in computer sciences journals, but in generalists plant journals (figure 2), illustrating the broad interest of such tools for the overall plant community. Image analysis is not just a fancy method used by some insiders. It has become a central technique in the botanist’s toolbox.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/current_image_2.png&quot; alt=&quot;Distribution of the different plant image analysis tools between scientific journals. [Source: www.plant-image-analysis.org]&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 2:&lt;/strong&gt; Distribution of the different plant image analysis tools between scientific journals. [Source: www.plant-image-analysis.org]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Let’s have a look now at the characteristics of the existing tools. They can be classified in multiple ways (figure 3). For instance, we can first distinguish the commercial from the freely available ones. Out of the 112 tools referenced on the &lt;a href=&quot;http://www.plant-image-analysis.org&quot;&gt;plant-image-analysis.org&lt;/a&gt; website, 84 (75%) are either freeware or open-source tools, generally created by researchers. I’ll refer to these tools as &lt;em&gt;academic&lt;/em&gt; tools, as opposed to &lt;em&gt;commercial&lt;/em&gt; tools. This is an important distinction, as I’ll explain a bit later. It is important to note here that some of the freely available academic tools rely on paid platforms, such as &lt;a href=&quot;http://www.matlab.com&quot;&gt;MatLab©&lt;/a&gt;, which might bring a barrier to their use.&lt;/p&gt;
+
+&lt;p&gt;Out of the 85 academic tools, almost all of them are available on Windows, and 53 (62%) are cross-platform (available on Windows, Mac and Linux). This is, in my opinion, a very positive trend. Coupled with their free access, it opens the way to more collaborations between research groups, without the need to rely on an homogenised computing system.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/current_image_3.png&quot; alt=&quot;Classification of existing image analysis tools. [Source: www.plant-image-analysis.org]&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 3:&lt;/strong&gt; Classification of existing image analysis tools. [Source: www.plant-image-analysis.org]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;a-need-for-benchmark-datasets&quot;&gt;A need for benchmark datasets&lt;/h3&gt;
+
+&lt;p&gt;From the user’s point of view, the diversity of existing tools can be confusing. Looking at the figure 4, we can see that a scientist looking for a tool able to extract the rosette area from Arabidopsis pictures will be faced with more than 20 choices. On the one hand, this is good. It gives the user the opportunity to choose the most appropriate tool for her/his research. On the other hand, comparing these tools can be difficult. Practical consideration (price, operating system, …) are a first easy way to reduce the number of candidate. However, the tricky part is to choose between the remaining once. The best candidate should be the most accurate, or the fastest, but, unfortunately, this information is usually hard to get…&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/current_image_4.png&quot; alt=&quot;Measurements overlap between existing tools. Each circle represent a measurement type (such as the surface, the length, the direction, ...). The size of each circle represent the number of tools performing this measurement. [Source: www.plant-image-analysis.org]&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 4:&lt;/strong&gt; Measurements overlap between existing tools. Each circle represent a measurement type (such as the surface, the length, the direction, …). The size of each circle represent the number of tools performing this measurement. [Source: www.plant-image-analysis.org]&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Most tools were designed to be efficient on specific datasets, obtained in specific experimental conditions. As such, using a particular tool in slightly different conditions might not work or, even worse, might work and produce inaccurate results. It can therefore quickly become a nightmare for the user to find the most appropriate tool for their research. This might be the reason why people keep developing new ones.&lt;/p&gt;
+
+&lt;p&gt;These issues points out a crucial need in the plant image analysis community: &lt;strong&gt;benchmark, ground-truthed datasets&lt;/strong&gt;. Such dataset are needed for two major steps in the creation of a new tool. First they can be used to validate the results obtained with the new algorithms (accuracy) and second they can be used to compare these results with existing tools (performance). This basic procedure is an easy way to validate new tools.&lt;/p&gt;
+
+&lt;p&gt;The main issue with such dataset is that they simply do not exists. Biological object are complex and heterogeneous by nature and having a ground-truth datasets out of experimental data is often a nightmare. For instance, the total root length of mature root systems is virtually impossible to accurately measure by hand. Even more for dozen of plants as it would be required for a test dataset. In addition, even if such datasets might exist, they are often confined in individual labs, are not available for cross validation of multiple tools and might not even be compatible with other existing datasets.&lt;/p&gt;
+
+&lt;p&gt;Two key elements are therefore essential to improve the situation in the future. Firstly, we need a better consistency between existing dataset and &lt;strong&gt;defined standards&lt;/strong&gt; to store the different informations. For instance, a step has already been taken in that direction for root systems, for which a common format has been defined (Root System Markup Language, or &lt;a href=&quot;http://rootsystemml.github.io/&quot;&gt;RSML&lt;/a&gt;, Lobet et al 2015). Secondly, there is a need for the development of freely available &lt;strong&gt;online image repositories&lt;/strong&gt;. Again, such repositories already exist in certain fields (e.g. the &lt;a href=&quot;http://clearedleavesdb.org/&quot;&gt;ClearedLeafDB&lt;/a&gt;, Das et al 2014). Furthermore, in addition to their value for the plant image analysis community, online repositories can be used for meta-analysis and help answer biological questions.&lt;/p&gt;
+
+&lt;h3 id=&quot;long-term-maintenance-of-existing-tools&quot;&gt;Long term maintenance of existing tools&lt;/h3&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/current_image_5.png&quot; alt=&quot;&amp;quot;Piled Higher and Deeper&amp;quot; by Jorge Cham [www.phdcomics.com](www.phdcomics.com)&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Figure 5:&lt;/strong&gt; “Piled Higher and Deeper” by Jorge Cham &lt;a href=&quot;www.phdcomics.com&quot;&gt;www.phdcomics.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Many academic plant image analysis tools suffer from a lack of long-term maintenance. A couple of years after its publication, a tools has a good chance to be left un-maintained and to quickly become obsolete (new algorithms, incompatible operating systems, …). No one is to blame for this phenomenon but the way Academia works. Here is my understanding of the image analysis tool life cycle:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;For a specific Project, you need to analyse a lot of plant images.&lt;/li&gt;
+  &lt;li&gt;Unfortunately, the ideal Tool for your research does not exist, so you decide to hire Jane, an image analysis specialist, to develop what you need.&lt;/li&gt;
+  &lt;li&gt;After a couple of years, the Tool is developed, tested and described in a nice Paper.&lt;/li&gt;
+  &lt;li&gt;Once published, the Tool continues to be used in your Lab. Jane does some support and improvements.&lt;/li&gt;
+  &lt;li&gt;Jane’s funding ends and she moves to another lab. She does not have time for users support anymore. And let’s be honest, support cannot be published…&lt;/li&gt;
+  &lt;li&gt;The Project ends and you are not using the Tool anymore.&lt;/li&gt;
+  &lt;li&gt;Windows XP is not supported anymore. The Tool does not work on Windows 8.&lt;/li&gt;
+  &lt;li&gt;The Lab changed its website. The reference in the Paper is not valid anymore.&lt;/li&gt;
+  &lt;li&gt;Nobody remembers the Tool.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;While this story might be caricatural, I believe there is some truth in it. It takes a lot of time and effort to keep a software up to date and long term support is not well valorised in academia. However, I believe some simple steps can be taken to increase the life-span of a new tool:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Use well-known image analysis framework such as MatLab or, even better (it’s free), ImageJ or Fiji. You will not have to worry about the operating system compatibility, they will do it for you.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make your code open-source and share it on version control repositories (Github, SourceForge). Other developers will be able to help you maintain the code.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;wanted-plant-image-analysis-specialists&quot;&gt;Wanted: plant image analysis specialists&lt;/h3&gt;
+
+&lt;p&gt;Although image analysis is becoming an important field in plant sciences, the number of trained computer scientists coming to the field remains limited (sorry, no numbers to validate this feeling…). It seems that other fields, such as biomedical sciences are more attractive and have more money to hire freshly graduated specialists. This is a pity because plant sciences is a great place to work for computer scientists. So here is the message I’d like to say to any computer scientist reading this post:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;We have a &lt;strong&gt;lot&lt;/strong&gt; of complex issues that still need to be solved.&lt;/li&gt;
+  &lt;li&gt;Roots, veins and neurons have a lot in common.&lt;/li&gt;
+  &lt;li&gt;No ethical issues in plant sciences. We will gladly provide &lt;strong&gt;thousands of images&lt;/strong&gt; and kill &lt;strong&gt;hundreds of plants&lt;/strong&gt; if you ask for it.&lt;/li&gt;
+  &lt;li&gt;Most of us are not afraid of playing with some code. We do not always need a ready-to-use solution.&lt;/li&gt;
+  &lt;li&gt;Plant biologists are &lt;a href=&quot;https://www.youtube.com/watch?v=oaRPCh8isUA&quot;&gt;nice fellas&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;You’ll help &lt;a href=&quot;https://www.youtube.com/watch?v=tUZTdtnO3Xw&quot;&gt;feed to world!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you want to stay up to date with the existing plant image analysis tools, go check the &lt;a href=&quot;http://www.plant-image-analysis.org&quot;&gt;plant-image-analysis.org&lt;/a&gt; website.&lt;/li&gt;
+  &lt;li&gt;Most of the figures in this post are coming from a &lt;a href=&quot;http://figshare.com/articles/Plant_image_analysis_tools_current_trends_and_future_challenges/1169928&quot;&gt;presentation I made&lt;/a&gt; at the IAMPS 2014 workshop. All data are coming from the &lt;a href=&quot;http://www.plant-image-analysis.org&quot;&gt;plant-image-analysis.org&lt;/a&gt; website.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cited-literature&quot;&gt;Cited literature&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Das, A., Bucksch, A., Price, C. A., &amp;amp; Weitz, J. S. (2014). ClearedLeavesDB: an online database of cleared plant leaf images. Plant Methods, 10(1), 1–8. doi:10.1186/1746-4811-10-8&lt;/li&gt;
+  &lt;li&gt;Lobet, G., Pound, M. P., Diener, J., Pradal, C., Draye, X., Godin, C., et al. (2015). Root System Markup Language: toward a unified root architecture description language. Plant Physiology, pp.114.253625. doi:10.1104/pp.114.253625&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2015/02/26/current-state-image-analysis/&amp;amp;text=Image Analysis in Plant Sciences. Some thoughts about the current challenges and perspectives.&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rhizoponics, the story behind the paper</title>
+   <link href="/perso//2015/02/05/rhizoponics/"/>
+   <updated>2015-02-05T00:00:00+01:00</updated>
+   <id>/2015/02/05/rhizoponics</id>
+   <content type="html">&lt;p&gt;About two years ago, we (&lt;a href=&quot;http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/laura-mathieu&quot;&gt;Laura Mathieu&lt;/a&gt;, &lt;a href=&quot;http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/pierre-tocquin&quot;&gt;Pierre Tocquin&lt;/a&gt;, &lt;a href=&quot;http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/claire-perilleux&quot;&gt;Claire Périlleux&lt;/a&gt; and myself) started to think about an efficient way to monitor the development of the Arabidopsis root system from the seedling to the flowering stages.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-we-needed-something-new&quot;&gt;Why we needed something new…&lt;/h3&gt;
+
+&lt;p&gt;The first obvious solution was to try to grow plant in rhizotrons, which we did. Although the plants grew well and seemed quite happy, we weren’t entirely satisfied with this setup for three mains reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;we could not see all the roots, only the ones touching the transparent side of the device&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we did not have a full control on the root environment (e.g. water and nutrient availability)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;we did not have an easy, non-destructive access to the roots for sampling&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;People in our &lt;a href=&quot;http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/&quot;&gt;lab&lt;/a&gt; have been successfully using an &lt;a href=&quot;http://wwww.araponics.com&quot;&gt;hydroponic setup&lt;/a&gt; for both Arabidopsis and tobacco. The main advantages of this technique is that it allows a good control and homogeneity of the root environment. It also enable the plant to complete its full life cycle (from seed to seed). However, the main issue was that roots, although they are easily accessible for sampling, are completely tangled, preventing any kind of root system architecture observation.&lt;/p&gt;
+
+&lt;p&gt;Next, we tried to use the pouches techniques [Hund et al 2009], but it wasn’t working so well for Arabidopsis plants. We faced two main issues: the roots were growing &lt;em&gt;inside&lt;/em&gt; the filter paper and, as is it well known with this technique, we had a rapid development of fungi in the setup. So it wasn’t the right solution for us either.&lt;/p&gt;
+
+&lt;p&gt;We then decided to try to combine both the advantages of the rhizotrons and the hydroponics setup. We needed a setup that provides a mechanical support for the root to grow in the nutrient solution.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-design-process&quot;&gt;The design process&lt;/h3&gt;
+
+&lt;p&gt;The first tests we performed consisted on transferring young plants (from petri dishes) to different types of fabrics, themselves submerged in nutrient solution. While some fabrics did not work at all (mesh either to wide or too narrow), one of them (a narrow black nylon mesh called “crinoline”) proved to be working well for Arabidopsis plants. A nice surprise was that the roots grew following the mesh and few of them were loose in the nutrient solution.&lt;/p&gt;
+
+&lt;p&gt;Once we found the right fabric, we decided to design a holder that could support the mesh in the nutrient solution and allows an easy manipulation of the setup. We wanted something fast to build, light and not too expensive. We produced the first prototypes (about 10) in collaboration with the mechanical workshop of the &lt;a href=&quot;http://www.ulg.ac.be&quot;&gt;university&lt;/a&gt;. They turn out to be working well, but were a bit too heavy and expensive for our taste. We simplified the design and reduced both at once (the unit price was strongly linked with the amont of material required). This time, we asked the guys at the workshop to produce 50 of them. The great thing about having access to such workshop was that they had very competitive prices. The downside was that, because they were only a couple of workers and they had many projects, it took them 4 months to produce all the frame… Fortunately, when we go them, they worked perfectly and since they haven’t been resting for long&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A.&lt;/strong&gt; Picture of the rhizoponic setup.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;B.&lt;/strong&gt; Blueprint of the assembled setup.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;C.&lt;/strong&gt; Blueprint of the composing parts.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;D.&lt;/strong&gt; Picture of the overall growing setup.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rhizoponics/rhizoponic-2.png&quot; alt=&quot;rhizo2&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;imaging-the-plants&quot;&gt;Imaging the plants&lt;/h3&gt;
+
+&lt;p&gt;Design the setup was only one part of the story. Since we wanted to be able to track the root system development during the whole growth period, we needed to find a way to efficiently image the root system, with a minimal disturbance for the plant. After trying out different option (direct lightning, backlighting, …). We ended up using a low tech, Do It Yourself setup composed of:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;A.&lt;/strong&gt; a regular CCD camera&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;B.&lt;/strong&gt; a frame holder&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;C.&lt;/strong&gt; an indirect lightning&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;D.&lt;/strong&gt; a dark background.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rhizoponics/rhizoponic-1.png&quot; alt=&quot;rhizo1&quot; width=&quot;50%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As a result, we could fairly well discriminate the roots from the mesh, which was  critical for the image analysis. In the end, the quality of the images was such as we could perform both a global analysis of the root system (depth, width, surface) using a &lt;a href=&quot;https://github.com/guillaumelobet/rhizoponics&quot;&gt;custom made ImageJ macro&lt;/a&gt; as well as a local analysis (lateral density, lateral length, …) using &lt;a href=&quot;http://www.guillaumelobet.be/codes/smartroot&quot;&gt;SmartRoot&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/rhizoponics/rhizoponic-3.png&quot; alt=&quot;rhizo3&quot; width=&quot;100%&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Examples of images obtained in our setup&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-publication-process&quot;&gt;The publication process&lt;/h3&gt;
+
+&lt;p&gt;At some point, we decided that it was worth trying publishing our technique. It was working very well in our lab, and we wanted to share it with the Plant Science Community. So we started by making a &lt;em&gt;proof of concept&lt;/em&gt; experience, demonstrating the panel of measurements our system allowed. We analysed the root architectural difference between mock and cadmium treated plants. Then, we chose to submit to the open-access journal Plant Methods, with which I had good experience in the past. As usual, the reviewing process was fast and, we were gladly happy about that, highly positive (&lt;a href=&quot;https://www.dropbox.com/s/3vros8tafeweulu/Responsetoeditorandreviewers.pdf?dl=0&quot;&gt;see the reviews&lt;/a&gt;). In two month, the paper was published and here we are!&lt;/p&gt;
+
+&lt;h3 id=&quot;miscellaneous-tips&quot;&gt;Miscellaneous tips&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you make heavy metal experiment and want to clean the frame with hydrogen chloride (HCl), &lt;strong&gt;DON’T&lt;/strong&gt;. We’ve tried…. You will end up with a lot of smoke (most likely unfriendly to your lungs), a nasty smell and a bunch of melted aluminium frame… It looked roughly &lt;a href=&quot;https://www.youtube.com/watch?v=VZD-LIPiFyk#t=61&quot;&gt;like this&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;for better results, try to keep the mesh as straight as possible in the frame. A wavy mesh will produce a lot of noise in the pictures and the roots might grow out of it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If you have any questions or suggestions, leave us a comment below (or contact me by &lt;a href=&quot;http://www.guillaumelobet.be&quot;&gt;e-mail&lt;/a&gt;)!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;more-informations-and-data&quot;&gt;More informations and data&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.plantmethods.com/content/11/1/3/abstract&quot;&gt;Mathieu et al. 2015, “Rhizoponics”: a novel hydroponic rhizotron for root system analyses on mature &lt;em&gt;Arabidopsis thaliana&lt;/em&gt; plants, Plant Methods, 11:3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/3vros8tafeweulu/Responsetoeditorandreviewers.pdf?dl=0&quot;&gt;Reviews + response&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/guillaumelobet/rhizoponics&quot;&gt;Github repository (blueprints, codes, …)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology&quot;&gt;Our lab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;If you liked this post, you can
+&lt;a href=&quot;https://twitter.com/intent/tweet?url=/2015/02/05/rhizoponics/&amp;amp;text=Rhizoponics, the story behind the paper&amp;amp;via=guillaumelobet&quot; target=&quot;_blank&quot;&gt;
+  share it with your followers&lt;/a&gt; 
+or 
+&lt;a href=&quot;https://twitter.com/guillaumelobet&quot;&gt;
+  follow me on Twitter&lt;/a&gt;!&lt;/p&gt;
+
+</content>
+ </entry>
+ 
+ <entry>
    <title>Efficient note taking using nvAlt, TextExpander and Hazel.</title>
    <link href="/perso//2015/02/03/nvalt-hazel-texexpander/"/>
    <updated>2015-02-03T00:00:00+01:00</updated>
    <id>/2015/02/03/nvalt-hazel-texexpander</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/img/nvalt/hazel-nvalt.png&quot; alt=&quot;legend &quot; /&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / …). This is important, as I want my different project folders to be complete and contains everything related to the project.&lt;/p&gt;
 
-&lt;p&gt;As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / …). This is important, as I want my different project folders to be complete and contains everything related to the project. On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/nvalt/hazel-nvalt.png&quot; alt=&quot;legend &quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;On top of that, I am a plain text lover (fast, light and not compatibility issues). So my writing workflow has to be:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;centralised (to find everything quickly)&lt;/li&gt;
@@ -28,7 +320,7 @@
   &lt;li&gt;lightweight and fast&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The aim of this post is to share the &lt;strong&gt;writing setup&lt;/strong&gt; I came up with. It is not perfect yet (any suggestions are welcome!), but it is getting efficient. My workflow is based on three essential tools: &lt;/p&gt;
+&lt;p&gt;The aim of this post is to share the &lt;strong&gt;writing setup&lt;/strong&gt; I came up with. It is not perfect yet (any suggestions are welcome!), but it is getting efficient. My workflow is based on three essential tools:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;http://brettterpstra.com/projects/nvalt/&quot;&gt;nvAlt&lt;/a&gt;: for fast and easy markdown writing&lt;/li&gt;
@@ -61,7 +353,7 @@ xpath:/myfolder/myfile.md
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Notice the &lt;code&gt;xpath&lt;/code&gt; field in the metadata? This is the important part, that will be used by Hazel to sort the notes in various folders (see below). &lt;/p&gt;
+&lt;p&gt;Notice the &lt;code&gt;xpath&lt;/code&gt; field in the metadata? This is the important part, that will be used by Hazel to sort the notes in various folders (see below).&lt;/p&gt;
 
 &lt;h2 id=&quot;part-2-sorting-the-files-using-hazel&quot;&gt;Part 2: Sorting the files using Hazel&lt;/h2&gt;
 
@@ -110,7 +402,7 @@ cp $1 ${arr[1]}
 
 &lt;p&gt;&lt;img src=&quot;/img/nvalt/textexpander.png&quot; alt=&quot;legend &quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The TextExpander snippet I use is written in AppleScript and looks like this: &lt;/p&gt;
+&lt;p&gt;The TextExpander snippet I use is written in AppleScript and looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;tell application &quot;System Events&quot;
 	set applicationName to (name of every process whose frontmost is true) as string
@@ -158,14 +450,16 @@ or
    <link href="/perso//2015/01/27/story-behind-papers/"/>
    <updated>2015-01-27T00:00:00+01:00</updated>
    <id>/2015/01/27/story-behind-papers</id>
-   <content type="html">&lt;p&gt;&lt;img src=&quot;/img/story_behind/iceberg.jpg&quot; alt=&quot;the publishing iceberg&quot; /&gt;
+   <content type="html">&lt;p&gt;Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. So, often, when I read a paper I wonder about the story behind the project. When did it start and how long did it take to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/story_behind/iceberg.jpg&quot; alt=&quot;the publishing iceberg&quot; /&gt;
 &lt;small&gt;Image credit: Pere, &lt;a href=&quot;&quot;&gt;https://www.flickr.com/photos/pere/523019984/&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
 
 &lt;p&gt;Published papers are only the tip of the research iceberg. The visible part is often a fraction of the results acquired over the years while the hidden part is made of sweat and perseverance. Of repeated cycles of failures and success. Of (lonely) hours in the lab or in front of a computer. Of writing, submitting, re-writing, re-submitting. The hidden part is where the people (we, as scientists) are. So, often, when I read a paper I wonder about the story behind the project. When did it start and how long did it take to achieve it all? Why did they choose such approach? In short, what is the story behind this paper?&lt;/p&gt;
 
 &lt;p&gt;Then, recently, I remembered the &lt;a href=&quot;http://phylogenomics.blogspot.be/&quot;&gt;Tree of Life&lt;/a&gt; blog, written by &lt;a href=&quot;https://plus.google.com/+JonathanEisen/posts&quot;&gt;Jonathan Eisen&lt;/a&gt;. The blog features a &lt;a href=&quot;http://phylogenomics.blogspot.be/p/story-behind-paper-series.html&quot;&gt;Story behind the paper&lt;/a&gt; section, which I always found great. Written by Jonathan Eisen or invited contributors, each post is a about a recently (or not) published paper and brings a more human view of the research.&lt;/p&gt;
 
-&lt;p&gt;Of course, my writing skills and publication record are far more modest than J. Eisen’s. But I figured I might take his example and write about the story behind my own papers. I believe the scientific process is, in most case, as important as the results. From an educational point of view, it is crucial for futures scientist to understand how science is made so they can choose this path in full understanding of what lies ahead.  I hope it will be useful to someone. &lt;/p&gt;
+&lt;p&gt;Of course, my writing skills and publication record are far more modest than J. Eisen’s. But I figured I might take his example and write about the story behind my own papers. I believe the scientific process is, in most case, as important as the results. From an educational point of view, it is crucial for futures scientist to understand how science is made so they can choose this path in full understanding of what lies ahead.  I hope it will be useful to someone.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -185,7 +479,7 @@ or
    <updated>2014-09-19T00:00:00+02:00</updated>
    <id>/2014/09/19/impactstory</id>
    <content type="html">&lt;div class=&quot;message&quot;&gt;
-This interview was originally posted by Stacy Konkiel on http://blog.impactstory.org/].
+This interview was originally posted by Stacy Konkiel on the &lt;a href=&quot;http://blog.impactstory.org/&quot; target=&quot;_blank&quot;&gt;ImpactStory blog&lt;/a&gt;.
 &lt;/div&gt;
 
 &lt;p&gt;Guillaume is a post-doc researcher at the Université de Liège in Belgium, in the Plant Physiology lab of Pr. Claire Perilleux. He’s also a dedicated practitioner of open, web native science, creating awesome tools ranging from a Plant Image Analysis software finder to an image analysis toolbox that allows the quantitative analysis of root system architecture. He’s even created an open source webapp that uses Impactstory’s open profile data to automatically create CVs in LaTeX, HTML, and PDF formats. (More on that below.)&lt;/p&gt;
@@ -264,7 +558,7 @@ or
    <link href="/perso//2012/06/16/picture-vertical-camera/"/>
    <updated>2012-06-16T00:00:00+02:00</updated>
    <id>/2012/06/16/picture-vertical-camera</id>
-   <content type="html">&lt;p&gt;One way to take root picture using a camera is just to hold your root system by the collar and take a picture. While this technique might be the fastest and the easiest one, it is also to easiest way to get a bad picture. &lt;/p&gt;
+   <content type="html">&lt;p&gt;One way to take root picture using a camera is just to hold your root system by the collar and take a picture. While this technique might be the fastest and the easiest one, it is also to easiest way to get a bad picture.&lt;/p&gt;
 
 &lt;p&gt;Here is a couple of things to think of before taking such image.&lt;/p&gt;
 
@@ -280,7 +574,7 @@ or
 
 &lt;h3&gt;About the root system&lt;/h3&gt;
 
-&lt;p&gt;Large root systems are not suitable for such pictures. Because they have a lot of roots, they will probably be stuck together, and you will be unable the take any picture. &lt;/p&gt;
+&lt;p&gt;Large root systems are not suitable for such pictures. Because they have a lot of roots, they will probably be stuck together, and you will be unable the take any picture.&lt;/p&gt;
 
 &lt;h3&gt;About the camera&lt;/h3&gt;
 
@@ -324,7 +618,7 @@ or
 
 &lt;p&gt;Scanning can be used with large root system as it is possible to separate the different root on scanner surface. It is important to carefully spread the root in order to avoid overlaps and crossing as much as possible. They are a nightmare for most of the root image analysis softwares.&lt;/p&gt;
 
-&lt;p&gt;An easy way to separate the different root is to place the root system in a thin film of water. The roots will tend to recover their initial shape and they are easier to untangle as they float. This might require modify the scanner and to mount it on a specially design box (see image below).In order to avoid shadow around the roots floating in the water, a simple trick is to put a sheet of transparent paper on the spread roots. &lt;/p&gt;
+&lt;p&gt;An easy way to separate the different root is to place the root system in a thin film of water. The roots will tend to recover their initial shape and they are easier to untangle as they float. This might require modify the scanner and to mount it on a specially design box (see image below).In order to avoid shadow around the roots floating in the water, a simple trick is to put a sheet of transparent paper on the spread roots.&lt;/p&gt;
 
 &lt;h3&gt;About the resolution&lt;/h3&gt;
 
@@ -504,7 +798,9 @@ or
    <link href="/perso//2011/06/11/good-image/"/>
    <updated>2011-06-11T00:00:00+02:00</updated>
    <id>/2011/06/11/good-image</id>
-   <content type="html">&lt;p&gt;The quality of an image is central if you want to get useful information out of it. Even the best software will not be able to analyse crappy images, so it is crucial to think about what makes a good image and how to acquire it. Usually, you will have the opportunity to improve your images at different steps of the process:&lt;/p&gt;
+   <content type="html">&lt;p&gt;The quality of an image is central if you want to get useful information out of it. Even the best software will not be able to analyse crappy images, so it is crucial to think about what makes a good image and how to acquire it.&lt;/p&gt;
+
+&lt;p&gt;Usually, you will have the opportunity to improve your images at different steps of the process:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;the growth of the plant (substrate, …)&lt;/li&gt;
