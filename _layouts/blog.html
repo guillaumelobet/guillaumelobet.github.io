@@ -60,7 +60,7 @@
           
                     <p>
                       <div class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-                      <div class="post-date">{{ post.date | date_to_string }} - {{ post.author}}</div>
+                      <div class="post-date">{{ post.date | date_to_string }}, by {{ post.author}}</div>
                     </p>
 
                     {% if post.tags %}
