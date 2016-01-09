@@ -1,7 +1,23 @@
 -  type: summary
    hindex: '6'
    citations: '200'
-   update: '2016-01-04'
+   update: '2016-01-08'
+-  type: journal
+   title: Integrating roots into a whole plant network of flowering time genes in
+      Arabidopsis thaliana
+   authors: Bouché F, D'Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
+   journal: bioRxiv
+   volume: pre-print
+   year: 2016
+   pages: 1-32
+   url: http://biorxiv.org/content/early/2016/01/08/036244
+   pdf: http://biorxiv.org/content/early/2016/01/08/036244.full.pdf
+   doi: 10.1101/036244
+   image: img/microarrays.png
+   tags:
+   - root
+   - flowering
+   citations: '0'
 -  type: journal
    title: Environmental Control of Root System Biology
    authors: Rellan-Alvarez R*, Lobet G*, Dinneny J
