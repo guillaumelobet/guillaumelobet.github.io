@@ -309,6 +309,7 @@ It is threatened by habitat loss.
           <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i> first author</button>
           <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-thumbs-up"></i> F1000Prime recommanded</button>
           <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i> review</button>
+          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-recycle"></i> preprint</button>
           <button type="button" class="btn btn-info btn-xs"><i class="fa fa-tag"></i> tags</button>
           <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-quote-left"></i> citations</button></br></br>
           <small>Journal names were intentionally left blank. Last update on {{update}}.</small>
@@ -362,6 +363,10 @@ It is threatened by habitat loss.
 
                 {% if publication.review %}
                         <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i></button>
+                {% endif %} 
+
+                {% if publication.preprint %}
+                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-recycle"></i></button>
                 {% endif %} 
 
                 
