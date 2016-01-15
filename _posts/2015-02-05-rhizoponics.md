@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Rhizoponics, the story behind the paper
 author: Guillaume Lobet
 tags: root phenotyping story_behind

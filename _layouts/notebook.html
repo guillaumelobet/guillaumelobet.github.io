@@ -19,13 +19,14 @@
     <div class="container content">
 
       <!-- Header -->
-      {% include blog_header.html %}
+      {% include nb_header.html %}
 
       {% assign counter = 0 %}
       {% assign tags_array = [] %}
       {% assign tags_string = "" %}
+
       {% for post in site.posts %}
-        {% if post.type == 'blog' %}
+        {% if post.type == 'note' %}
           {% for tag in post.tags %}
               {% if tags_array contains tag %}
               {% else %}
@@ -34,12 +35,13 @@
                 {% endif %}
                 {% assign counter = counter | plus: 1  %}
                 {% assign tags_string = tags_string | append:tag %}
-                {% assign tags_array = tags_string | split:"," %}
+                {% assign tags_array = tags_string | split:"," %}             
               {% endif %}
           {% endfor %}
-        {% endif %}
+        {% endif %}  
       {% endfor %}
 
+      
 
       <!-- CONTENT -->
 
@@ -47,62 +49,21 @@
         <div class="container" id="main">
           <div class="row">
             <div class="col-md-10">
-              <div class="row-fluid">
-    
-                {% assign counterLG = 0 %}
-                {% assign counterMD = 0 %}
 
                 {% for post in site.posts %}
-                  {% if post.type == 'blog' %}
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 blog-post">
-                      <p>
-                        <img src="{{ site.baseurl }}{{ post.image }}" 
-                             class="img-responsive img-thumbnail"
-                             style="width:80%">
-                      </p>
-            
-                      <p>
-                        <div class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
-                        <div class="post-date">{{ post.date | date_to_string }}, by {{ post.author}}</div>
-                      </p>
+                  {% if post.type == 'note' %}
 
+                    <p>
+                      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.date  | date_to_string }}</a>, by <small>{{ post.author}}</small>
                       {% if post.tags %}
                           {% for tag in post.tags %}
-                              <button type="button" class="btn btn-default btn-xs" disabled="disabled">
-                                <i class="fa fa-tag"></i> {{tag}}
-                              </button>
+                              <button type="button" class="btn btn-default btn-xs" disabled="disabled">{{tag}}</button>
                           {% endfor %}
                       {% endif %}
-                      <button type="button" class="btn btn-success btn-xs">
-                        <i class="fa fa-eye">  </i>  {% include read_time_2.html %} read
-                      </button>                    
-                      </br>
-                      <div class="post-excerpt"> {{ post.excerpt }}</div>
-
-
-                      <a class="btn btn-primary btn-xs" href="{{ site.baseurl }}{{ post.url }}">
-                        <i class="fa fa-link"></i> More...
-                      </a>
-                    </div>
-
-                    {% assign counterLG = counterLG | plus: 1 %}
-                    {% assign counterMD = counterMD | plus: 1 %}
-                    {% assign counterSM = counterSM | plus: 1 %}
-
-                    {% if counterLG == 2 %}
-                      <div class="clearfix visible-lg-block"></div>
-                      {% assign counterLG = 0 %}
+                      <button type="button" class="btn btn-success btn-xs" disabled="disabled">{% include read_time_2.html %}</button>
+                    </p>
                     {% endif %}
-                    {% if counterMD == 2 %}
-                      <div class="clearfix visible-md-block"></div>
-                      {% assign counterMD = 0 %}
-                    {% endif %}
-
-                  {% endif %}
                 {% endfor %}
-
-                    
-              </div>
             </div>
             
             <div class="hidden-xs">
@@ -114,8 +75,10 @@
                           </button>
                           <ul class="dropdown-menu">
                           {% for post in site.posts %}
-                            {% if post.tags contains tag %}
-                            <li><a href="{{ site.baseurl }}{{ post.url}}">{{post.title}}</a></li>                       
+                            {% if post.type == 'note' %}
+                              {% if post.tags contains tag %}
+                              <li><a href="{{ site.baseurl }}{{ post.url}}">{{ post.date  | date_to_string }}</a></li>                       
+                              {% endif %}
                             {% endif %}
                           {% endfor %}
                           </ul>

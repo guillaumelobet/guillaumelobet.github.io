@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: What makes a root image suitable for analysis?
 author: Guillaume Lobet
 tags: root image_analysis

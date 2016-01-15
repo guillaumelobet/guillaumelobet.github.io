@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Image Analysis in Plant Sciences. Some thoughts about the current challenges and perspectives.
 author: Guillaume Lobet
 tags: image_analysis

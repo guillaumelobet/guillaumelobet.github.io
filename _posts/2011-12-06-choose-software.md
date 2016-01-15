@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: How to choose the right root image analysis software
 author: Guillaume Lobet
 tags: root image_analysis

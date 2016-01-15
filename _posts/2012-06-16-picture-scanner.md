@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Using a scanner to take root pictures
 author: Guillaume Lobet
 tags: root image scanner

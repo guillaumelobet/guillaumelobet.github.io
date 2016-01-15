@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Using a camera to take vertical root pictures
 author: Guillaume Lobet
 tags: root image camera

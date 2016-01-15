@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Impactstory Advisor of the Month 
 author: Stacy Konkiel
 image: img/is.png

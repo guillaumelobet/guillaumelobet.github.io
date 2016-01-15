@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Root image analysis papers
 author: Guillaume Lobet
 tags: image_analysis literature

@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: Cleaning root systems
 author: Guillaume Lobet
 tags: root

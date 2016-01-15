@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title: The story behind the papers
 author: Guillaume Lobet
 tags: publishing open_science
