@@ -1,7 +1,7 @@
 -  type: summary
    hindex: '6'
-   citations: '200'
-   update: '2016-01-08'
+   citations: '204'
+   update: '2016-01-19'
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
@@ -85,7 +85,7 @@
    tags:
    - root
    - phenotyping
-   citations: '1'
+   citations: '2'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -139,7 +139,7 @@
    tags:
    - flowering
    - modelling
-   citations: '2'
+   citations: '3'
 -  type: journal
    title: Plant Water Uptake in Drying Soils
    authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
@@ -258,7 +258,7 @@
    tags:
    - root
    - image analysis
-   citations: '63'
+   citations: '65'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
