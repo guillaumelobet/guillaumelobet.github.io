@@ -114,8 +114,10 @@
                           </button>
                           <ul class="dropdown-menu">
                           {% for post in site.posts %}
-                            {% if post.tags contains tag %}
-                            <li><a href="{{ site.baseurl }}{{ post.url}}">{{post.title}}</a></li>                       
+                            {% if post.type != 'note' %}
+                              {% if post.tags contains tag %}
+                                <li><a href="{{ site.baseurl }}{{ post.url}}">{{post.title}}</a></li>
+                              {% endif %}                       
                             {% endif %}
                           {% endfor %}
                           </ul>
