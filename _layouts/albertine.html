@@ -268,7 +268,7 @@ It is threatened by habitat loss.
 
 
             
-<!-------------  ARTICLES   ------------------>
+<!-------------  ARTICLES   ----------------->
 
 
 
@@ -446,7 +446,7 @@ It is threatened by habitat loss.
     </section>
   </div>
 </div>
-  <!----------- OTHERS -------------------->
+  <!----------- OTHERS ------------------->
 
 
   <div class="container">
@@ -477,9 +477,19 @@ It is threatened by habitat loss.
 
                     <small>{{ publication.book }}</small><br>
 
-                    <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
-                      <i class="fa fa-file-pdf-o"></i> PDF
-                    </a>
+	                <div class="btn-group" role="group" aria-label="pub_links">
+    	          	  {% if publication.url %}
+        	              <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+            	            <i class="fa fa-link"></i> Publisher
+            	          </a>
+            	      {% endif %}
+            	      
+            	      {% if publication.pdf %}
+            	          <a class="btn btn-default btn-xs" href="{{ publication.pdf }}" target="_blank">
+            	            <i class="fa fa-link"></i> PDF
+            	          </a>
+            	      {% endif %}
+					</div>
                   </p>
 
               </div>
