@@ -1,7 +1,7 @@
 -  type: summary
    hindex: '6'
-   citations: '204'
-   update: '2016-01-19'
+   citations: '209'
+   update: '2016-02-03'
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
@@ -67,7 +67,7 @@
    tags:
    - data analysis
    - root
-   citations: '1'
+   citations: '0'
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
@@ -105,7 +105,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '5'
+   citations: '6'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -123,7 +123,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '0'
+   citations: '1'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -206,7 +206,7 @@
    tags:
    - root
    - modelling
-   citations: '10'
+   citations: '12'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -224,7 +224,7 @@
    tags:
    - database
    - image analysis
-   citations: '25'
+   citations: '26'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -258,7 +258,7 @@
    tags:
    - root
    - image analysis
-   citations: '65'
+   citations: '66'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
