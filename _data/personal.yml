@@ -41,7 +41,7 @@ profiles:
   - 
     network: ImpactStory
     username:
-    url: http://impactstory.org/GuillaumeLobet
+    url: https://impactstory.org/u/0000-0002-5883-4572
   - 
     network: Google Scholar
     username:
