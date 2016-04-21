@@ -38,6 +38,7 @@ header {
   background-color: #4789CF;  /* #2D4972; #5294f7;*/
   color:#fff;
 }
+
 header a:hover{
   text-decoration: none;
   font-weight: bold;
@@ -134,6 +135,10 @@ header {
 /*******************
  * BLOG POST
  *******************/
+
+h1 a{
+  color: white;
+}
 
 .blog-post{
   margin-bottom: 50px;
