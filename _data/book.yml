@@ -1,0 +1,144 @@
+-  goodread: 25733983-lab-girl
+   image: http://d.gr-assets.com/books/1441826687l/25733983.jpg
+   title: Lab Girl
+   isbn: '1101874937'
+   author: Hope Jahren
+   url: http://www.goodreads.com/book/show/25733983-lab-girl
+   tag: science
+-  goodread: 23379245-the-dragons-of-dorcastle
+   image: http://d.gr-assets.com/books/1417241658l/23379245.jpg
+   title: 'The Dragons of Dorcastle (The Pillars of Reality, #1)'
+   isbn: '1491540338'
+   author: Jack Campbell
+   url: http://www.goodreads.com/book/show/23379245-the-dragons-of-dorcastle
+   serie: The Pillars of Reality
+   tags: fantasy
+-  goodread: 33.The_Lord_of_the_Rings
+   serie: The Lord of the Rings
+   tags: fantasy
+   image: http://d.gr-assets.com/books/1411114164l/33.jpg
+   title: 'The Lord of the Rings (The Lord of the Rings, #1-3)'
+   isbn: 0618640150
+   author: J.R.R. Tolkien
+   url: http://www.goodreads.com/book/show/33.The_Lord_of_the_Rings
+-  goodread: 228665.The_Eye_of_the_World
+   serie: The Wheel of Time
+   tags: fantasy
+   image: http://d.gr-assets.com/books/1337818095l/228665.jpg
+   title: 'The Eye of the World (Wheel of Time, #1)'
+   isbn: 0812511816
+   author: Robert Jordan
+   url: http://www.goodreads.com/book/show/228665.The_Eye_of_the_World
+-  goodread: 45100.Ship_of_Magic
+   serie: LiveShip Traders
+   tags: fantasy
+   image: http://d.gr-assets.com/books/1360507722l/45100.jpg
+   title: 'Ship of Magic (Liveship Traders, #1)'
+   isbn: 000649885X
+   author: Robin Hobb
+   url: http://www.goodreads.com/book/show/45100.Ship_of_Magic
+-  goodread: 97905.The_No_Asshole_Rule
+   serie: ~
+   tags: work
+   image: http://d.gr-assets.com/books/1406910242l/97905.jpg
+   title: The No Asshole Rule
+   isbn: 0446526568
+   author: Robert I. Sutton
+   url: http://www.goodreads.com/book/show/97905.The_No_Asshole_Rule
+-  goodread: 2474830.Tomorrow_s_Table
+   serie: ~
+   tags: GMO
+   image: http://d.gr-assets.com/books/1347611624l/2474830.jpg
+   title: Tomorrow's Table
+   isbn: 0195301757
+   author: Pamela C. Ronald
+   url: http://www.goodreads.com/book/show/2474830.Tomorrow_s_Table
+-  goodread: 8520610-quiet
+   serie: ~
+   tags: work
+   image: http://d.gr-assets.com/books/1328562861l/8520610.jpg
+   title: Quiet
+   isbn: '0307352145'
+   author: Susan Cain
+   url: http://www.goodreads.com/book/show/8520610-quiet
+-  goodread: 11084145-steve-jobs
+   serie: ~
+   tags: apple
+   image: http://d.gr-assets.com/books/1327861368l/11084145.jpg
+   title: Steve Jobs
+   isbn: '1451648537'
+   author: Walter Isaacson
+   url: http://www.goodreads.com/book/show/11084145-steve-jobs
+-  goodread: 3869.A_Brief_History_of_Time
+   serie: ~
+   tags: science
+   image: http://d.gr-assets.com/books/1333578746l/3869.jpg
+   title: A Brief History of Time
+   isbn: 0553380168
+   author: Stephen Hawking
+   url: http://www.goodreads.com/book/show/3869.A_Brief_History_of_Time
+-  goodread: 13496.A_Game_of_Thrones
+   serie: A Song of Fire and Ice
+   tags: fantasy
+   image: http://d.gr-assets.com/books/1436732693l/13496.jpg
+   title: 'A Game of Thrones (A Song of Ice and Fire, #1)'
+   isbn: 0553588486
+   author: George R.R. Martin
+   url: http://www.goodreads.com/book/show/13496.A_Game_of_Thrones
+-  goodread: 589455.Full_Catastrophe_Living
+   serie: ~
+   tags: livestyle
+   image: http://d.gr-assets.com/books/1441601293l/589455.jpg
+   title: Full Catastrophe Living
+   isbn: 0385303122
+   author: Jon Kabat-Zinn
+   url: http://www.goodreads.com/book/show/589455.Full_Catastrophe_Living
+-  goodread: 17316682-remote
+   serie: ~
+   tags: work
+   image: http://d.gr-assets.com/books/1363265098l/17316682.jpg
+   title: Remote
+   isbn: 0804148996
+   author: David Heinemeier Hansson
+   url: http://www.goodreads.com/book/show/17316682-remote
+-  goodread: 12262741-wild
+   serie: ~
+   tags: adventure
+   image: http://d.gr-assets.com/books/1453189881l/12262741.jpg
+   title: Wild
+   isbn: 0307592731
+   author: Cheryl Strayed
+   url: http://www.goodreads.com/book/show/12262741-wild
+-  goodread: 11038479-the-whisperer
+   serie: ~
+   tags: polar
+   image: http://d.gr-assets.com/books/1344264752l/11038479.jpg
+   title: The Whisperer
+   isbn: 0316194727
+   author: Donato Carrisi
+   url: http://www.goodreads.com/book/show/11038479-the-whisperer
+-  goodread: 17333325-the-lost-girls-of-rome
+   serie: ~
+   tags: polar
+   image: http://d.gr-assets.com/books/1365992985l/17333325.jpg
+   title: The Lost Girls of Rome
+   isbn: 0316246794
+   author: Donato Carrisi
+   url: http://www.goodreads.com/book/show/17333325-the-lost-girls-of-rome
+-  goodread: 23434395-l-corch-e
+   serie: ~
+   tags: polar
+   image: http://d.gr-assets.com/books/1413966280l/23434395.jpg
+   title: L'Ã©corchÃ©e
+   isbn: '2253179124'
+   author: Donato Carrisi
+   url: http://www.goodreads.com/book/show/23434395-l-corch-e
+-  goodread: 26514505-malefico
+   serie: ~
+   tags: polar
+   image: http://d.gr-assets.com/books/1442211579l/26514505.jpg
+   title: Malefico
+   isbn: ''
+   author: Donato Carrisi
+   url: http://www.goodreads.com/book/show/26514505-malefico
+
