@@ -1,7 +1,7 @@
 -  type: summary
-   hindex: '6'
-   citations: '212'
-   update: '2016-02-23'
+   hindex: '7'
+   citations: '225'
+   update: '2016-04-25'
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
@@ -88,7 +88,7 @@
    tags:
    - root
    - phenotyping
-   citations: '2'
+   citations: '4'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -108,7 +108,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '6'
+   citations: '7'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -126,7 +126,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '1'
+   citations: '2'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -209,7 +209,7 @@
    tags:
    - root
    - modelling
-   citations: '12'
+   citations: '13'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -227,7 +227,7 @@
    tags:
    - database
    - image analysis
-   citations: '26'
+   citations: '27'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -261,7 +261,7 @@
    tags:
    - root
    - image analysis
-   citations: '67'
+   citations: '73'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -279,7 +279,7 @@
    - root
    - water
    - modelling
-   citations: '63'
+   citations: '64'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
