@@ -32,7 +32,8 @@ It is threatened by habitat loss.
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
-
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400' rel='stylesheet' type='text/css'>    
+  
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/albertine.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -68,6 +69,8 @@ It is threatened by habitat loss.
               <li><a href="#publications"><i class="fa fa-file-text-o"></i>  Publications</a></li>
               <li><a href="#presentations"><i class="fa fa-picture-o"></i>  Presentations</a></li>
               <li><a href="#misc"><i class="fa fa-plus-square"></i>  Other stuffs</a></li>
+              <li><a href="#failures"><i class="fa fa-thumbs-o-down"></i>  My Failures</a></li>
+              <li role="separator" class="divider"></li>
               <li><a href="blog"><i class="fa fa-pencil"></i>  Blog</a></li>
               <li><a href="book"><i class="fa fa-book"></i>  Books</a></li>
               <li role="separator" class="divider"></li>
@@ -630,22 +633,81 @@ It is threatened by habitat loss.
 
         {% for ms in site.data.misc %}
           <p>
-              <b>
-                {% if ms.url %}
-                <a href="{{ ms.url }}">
-                  {{ ms.name }}
-                </a>
-                {% else %}
-                  {{ ms.name }}
-                {% endif %}
-              </b>
-              <br>
+              <h4>{{ ms.name }}</h4>
               {{ ms.description | markdownify }}
           </p>
         {% endfor %}
       </section>
     </div>
   </div>
+
+
+  <!-- ==================== -->
+  <!-- REJECTIONS -->
+  <!-- ==================== -->
+
+
+  <div class="container" id="failures">
+    <div class="row">
+      <section class="col-md-9 col-lg-9">
+
+        <h3>My failures</h3>
+
+        <div class="alert alert-info">
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'intro' %}
+              {{reject.title}}
+          {% endcase %}
+        {% endfor %}
+        </div>
+
+        <h4>What referees (anonymous) have said about my work</h4>
+        <ul>
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'quote' %}
+              <li><quote>{{reject.title}}</quote></li>
+          {% endcase %}
+        {% endfor %}
+        </ul>
+
+
+
+        <h4>Paper rejections from academic journals</h4>
+
+        <ul>
+        {% for year in (2015..2016) %}
+          <li>
+            <b>{{year}}: </b>
+            {% for reject in site.data.rejections %}
+              {% case reject.type %}
+                {% when 'paper' %}
+                  {% if reject.year == year %}
+                    {{reject.title}},
+                  {% endif %}
+              {% endcase %}
+            {% endfor %}  
+          </li>      
+        {% endfor %}
+        </ul>
+
+        <h4>Grants I did not get</h4>
+        <ul>
+
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'grant' %}
+              <li>{{reject.title}} - <small>{{reject.year}}</small></li>
+          {% endcase %}
+        {% endfor %}        
+        </ul>        
+
+      </div>
+    </section>
+  </div>
+</div>
+
 
 
   <!-- ==================== -->
