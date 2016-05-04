@@ -2,10 +2,44 @@
    hindex: '7'
    citations: '225'
    update: '2016-04-25'
+-  type: dataset
+   title: Root phenotyping data
+   authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
+   journal: Zenodo
+   year: 2016
+   url: https://zenodo.org/record/50831
+   doi: 10.5281/zenodo.50831
+   image: img/dataset_flowering.png
+   tags:
+   - root
+   - rsml
+   citations: '0'
+-  type: dataset
+   title: Maize root emergence
+   authors: Lobet G
+   journal: figshare
+   year: 2015
+   url: https://dx.doi.org/10.6084/m9.figshare.1411214.v1
+   doi: 10.6084/m9.figshare.1411214.v1
+   image: img/dataset_emergence.png
+   tags:
+   - root
+-  type: dataset
+   title: Rhizotron blueprints
+   authors: Lobet G, Draye X
+   journal: figshare
+   year: 2012
+   url: https://dx.doi.org/10.6084/m9.figshare.97204.v5
+   doi: 10.6084/m9.figshare.97204.v5
+   image: img/dataset_rhizotron.png
+   tags:
+   - root 
+   - phenotyping  
+   citations: '0'   
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
-   authors: Bouché F, D'Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
+   authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
    journal: bioRxiv
    volume: pre-print
    year: 2016

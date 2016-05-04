@@ -452,7 +452,9 @@ It is threatened by habitat loss.
     </section>
   </div>
 </div>
-  <!----------- OTHERS ------------------->
+
+
+  <!----------- OTHERS ------------------>
 
 
   <div class="container">
@@ -526,6 +528,66 @@ It is threatened by habitat loss.
                   </p>
 
                 </div>              
+            {% endcase %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+
+
+ <!----------- OTHERS ------------------>
+
+
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Datasets</h3>
+
+        <div class="row-fluid">
+
+        {% for publication in site.data.publications %}
+              {% case publication.type %}
+                {% when 'dataset' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                      <img src="{{ site.baseurl }}{{ publication.image }}" 
+                        class="img-responsive img-thumbnail"
+                        style="width:100%">                
+                  </p> 
+
+                  <p>
+                    {{ publication.title }}<small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>
+
+                    <small>{{ publication.journal }}</small><br>
+                  
+                    {% if publication.tags %}
+                        {% for tag in publication.tags %}
+                            <button type="button" class="btn btn-info btn-xs">
+                              <i class="fa fa-tag"></i> {{tag}}
+                            </button>
+                        {% endfor %}
+                    {% endif %} 
+
+                    <div class="btn-group" role="group" aria-label="pub_links">
+                      {% if publication.url %}
+                          <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                            <i class="fa fa-link"></i> View dataset
+                          </a>
+                      {% endif %}
+                      
+                   </div>
+
+                  </p>
+
+              </div>
+           
             {% endcase %}
         {% endfor %}
       </div>
