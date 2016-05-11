@@ -5,7 +5,7 @@ type: blog
 title: Publish more of publish better? 
 author: Guillaume Lobet
 tags: publishing
-image: img/current_image_4.png
+image: img/h_predictor.png
 ---
 
 
