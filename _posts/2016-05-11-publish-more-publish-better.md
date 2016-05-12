@@ -91,7 +91,7 @@ Collaborations are most likely the best way to achieve this. Good long term coll
 
 The hard part is that in order to be able to continue to do research (and we all know that Science is not getting more money these days), researchers have to publish papers quickly, early in their career. Placing that much weight on the h-index in evaluation boards encourages young scientists to minimise risk when writing or choosing projects. You can hardly afford a couple of years without any papers, so you might have to focus on efficiency, not always scientific interest. Maybe more on that later...
 
-To conclude, the predictor told me that, based on my current scientific production, I will reach my goal in 2018... My funding ends in Sept 2017, so we'll see how it goes. Fortunately, the h-index is not King everywhere. I heard many stories where it was used only for what it is: merely an indicator. Let's hope it stays that way. 
+To conclude, the predictor told me that, based on my current scientific production, I will reach my goal in 2018... My funding ends in Sept 2017, so we will see how it goes. Fortunately, the h-index is not King everywhere. I heard many stories where it was used only for what it is: merely an indicator. Let's hope it stays that way. 
 
 > Many thanks to [Stacy Konkiel](skonkiel) for her comments and advices on this post!
 
