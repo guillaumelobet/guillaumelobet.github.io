@@ -43,7 +43,7 @@ So, the simulator is very basic, is more likely to have many flaws (e.g. it assu
 
 ---
 
-![Figure 1: Interface of the h-index simulator](img/h_predictor.png)
+![Figure 1: Interface of the h-index simulator](/img/h_predictor.png)
 
 **Figure 1:** Interface of the h-index simulator
 
@@ -59,7 +59,7 @@ Then, I started playing around with the parameters to see how they influenced th
 
 ---
 
-![Result from the h-index simulations.](img/h_evol_no_auto.png)
+![Result from the h-index simulations.](/img/h_evol_no_auto.png)
 
 **Figure 2**: Result from the h-index simulations. Colours represent the number of years needed to reach an h-index of 10, for each quality/quantity pairs. Red is fast, blue is slow.
 
@@ -72,7 +72,7 @@ Then, I wondered about auto-citations. Auto-citations (when you cite your own wo
 
 ---
 
-![Result from the h-index simulations, with AUTOCITE FRENZY mode enabled.](img/h_evol_auto_diff.png)
+![Result from the h-index simulations, with AUTOCITE FRENZY mode enabled.](/img/h_evol_auto_diff.png)
 
 **Figure 3**: Result from the h-index simulations, with *AUTOCITE FRENZY* mode enabled. Colours represent the number of years gained in order to reach an h-index of 10 compared to the classical mode. Red is none gained, blue is .
 
