@@ -85,7 +85,7 @@ Without much surprise, the *AUTOCITE FRENZY* mode fasten the evolution of the h-
 ## Publish more and cite yourself
 
 
-This small exercice did not teach me anything really knew. It just put some hard-cold number on the reality: to increase your h-index, you need papers and ou need these papers to be cited (that's the very definition of the index). So to increase it, publish more and better, or punish more and cite yourself... 
+This small exercice did not teach me anything really knew. It just put some hard-cold number on the reality: to increase your h-index, you need papers and ou need these papers to be cited (that's the very definition of the index). So to increase it, publish more and better, or publish more and cite yourself... 
 
 Collaborations are most likely the best way to achieve this. Good long term collaboration will be fruitful in terms of finished projects. However, not all topics/teams lead to collaborations. In addition, having only papers with your name in the middle might also be seen critically (believe me, I have been there). So there is no magic recipe, but I believe the right balance needs be find quickly. 
 
