@@ -39,7 +39,7 @@ Then the simulator follows a couple of simple rules:
 
 So, the simulator is very basic, is more likely to have many flaws (e.g. it assumes a constant scientific production, a constant citation rate, ...) and could be improved, but I figured it would be enough for what I wanted to do. 
 
-> If you want to try it out yourself, just [go here](https://github.com/guillaumelobet/h-index-simulator) and follow the instructions. The simulator has been wrapped into a [Shiny app](shiny.rstudio.com) (see fig. 1), so no computing knowledge is needed to make it run. The only requirement is to have a functional installation of R on you computer. 
+> If you want to try it out yourself, just [go here](https://github.com/guillaumelobet/h-index-simulator) and follow the instructions. The simulator has been wrapped into a [Shiny app](http://shiny.rstudio.com) (see fig. 1), so no computing knowledge is needed to make it run. The only requirement is to have a functional installation of R on you computer. 
 
 ---
 
