@@ -40,14 +40,13 @@
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
-   journal: bioRxiv
-   volume: pre-print
+   journal: Scientific Reports
+   volume: 6
    year: 2016
-   pages: 1-32
-   preprint: yes
-   url: http://biorxiv.org/content/early/2016/01/08/036244
-   pdf: http://biorxiv.org/content/early/2016/01/08/036244.full.pdf
-   doi: 10.1101/036244
+   pages: 29042
+   url: http://www.nature.com/articles/srep29042
+   pdf: http://www.nature.com/articles/srep29042.pdf
+   doi: 10.1038/srep29042
    image: img/microarrays.png
    tags:
    - root
