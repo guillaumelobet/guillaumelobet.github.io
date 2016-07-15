@@ -1,7 +1,7 @@
 -  type: summary
    hindex: '7'
-   citations: '225'
-   update: '2016-04-25'
+   citations: '248'
+   update: '2016-07-14'
 -  type: dataset
    title: Root phenotyping data
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
@@ -22,8 +22,8 @@
    url: https://dx.doi.org/10.6084/m9.figshare.1411214.v1
    doi: 10.6084/m9.figshare.1411214.v1
    image: img/dataset_emergence.png
-   tags:
-   - root
+   tags: root
+   citations: '0'
 -  type: dataset
    title: Rhizotron blueprints
    authors: Lobet G, Draye X
@@ -33,9 +33,9 @@
    doi: 10.6084/m9.figshare.97204.v5
    image: img/dataset_rhizotron.png
    tags:
-   - root 
-   - phenotyping  
-   citations: '0'   
+   - root
+   - phenotyping
+   citations: '0'
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
@@ -48,6 +48,7 @@
    pdf: http://www.nature.com/articles/srep29042.pdf
    doi: 10.1038/srep29042
    image: img/microarrays.png
+   pmid: 27352932
    tags:
    - root
    - flowering
@@ -121,7 +122,7 @@
    tags:
    - root
    - phenotyping
-   citations: '4'
+   citations: '6'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -141,7 +142,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '7'
+   citations: '8'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -159,7 +160,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '2'
+   citations: '4'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -175,7 +176,7 @@
    tags:
    - flowering
    - modelling
-   citations: '4'
+   citations: '5'
 -  type: journal
    title: Plant Water Uptake in Drying Soils
    authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
@@ -192,7 +193,7 @@
    tags:
    - root
    - water
-   citations: '14'
+   citations: '15'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -210,7 +211,7 @@
    - root
    - water
    - modelling
-   citations: '2'
+   citations: '4'
 -  type: journal
    title: Comparative analysis of Cd and Zn impacts on root distribution and morphology
       of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -224,7 +225,7 @@
    doi: 10.1007/s11104-013-1975-7
    image: img/art-lamb.png
    tags: root
-   citations: '2'
+   citations: '0'
 -  type: journal
    title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale
       processes
@@ -242,7 +243,7 @@
    tags:
    - root
    - modelling
-   citations: '13'
+   citations: '14'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -260,7 +261,7 @@
    tags:
    - database
    - image analysis
-   citations: '27'
+   citations: '32'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -277,7 +278,7 @@
    tags:
    - root
    - phenotyping
-   citations: '13'
+   citations: '15'
 -  type: journal
    title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System
       Architecture
@@ -294,7 +295,7 @@
    tags:
    - root
    - image analysis
-   citations: '73'
+   citations: '78'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -312,7 +313,7 @@
    - root
    - water
    - modelling
-   citations: '64'
+   citations: '67'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
