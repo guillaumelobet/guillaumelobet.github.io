@@ -1,7 +1,7 @@
 -  type: summary
-   hindex: '7'
-   citations: '256'
-   update: '2016-08-02'
+   hindex: '8'
+   citations: '255'
+   update: '2016-08-17'
 -  type: dataset
    title: Root phenotyping data
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
@@ -122,7 +122,7 @@
    tags:
    - root
    - phenotyping
-   citations: '7'
+   citations: '8'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -225,7 +225,7 @@
    doi: 10.1007/s11104-013-1975-7
    image: img/art-lamb.png
    tags: root
-   citations: '2'
+   citations: '0'
 -  type: journal
    title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale
       processes
