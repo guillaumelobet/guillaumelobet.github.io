@@ -142,7 +142,7 @@ It is threatened by habitat loss.
         <p>
           {% for profile in site.data.personal.profiles %}
             {% if profile.network == 'ORCID' %}
-              <i class="fa fa-user"></i>            
+              <b>iD</b>            
             {% elsif profile.network == 'Google Scholar' %}
               <i class="fa fa-google"></i>
             {% elsif profile.network == 'LinkedIn' %}
@@ -158,9 +158,7 @@ It is threatened by habitat loss.
         	{% elsif profile.network == 'Publons' %}
               <i class="fa fa-file-powerpoint-o"></i>   
         	{% elsif profile.network == 'Figshare' %}
-              <i class="fa fa-share-alt-square"></i>                 
-          {% elsif profile.network == 'ORCID' %}
-              <i>iD</i>              
+              <i class="fa fa-share-alt-square"></i>                              
         	{% elsif profile.network == 'Tumblr' %}
               <i class="fa fa-tumblr-square"></i>              
             {% endif %}
