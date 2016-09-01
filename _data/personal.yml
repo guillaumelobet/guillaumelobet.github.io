@@ -70,9 +70,9 @@ profiles:
 intro:
   title: Hello!
   body: >
-    I am a FNRS post-doc researcher at the [Université de Liège](http://www.ulg.ac.be), in [Belgium](http://www.google.com/search?hl=en&q=Belgium), in the Plant Physiology lab of Pr. Claire Perilleux. 
+    I am an Assistant Professor between the Forschungszentrum Jülich and the Université catholique de Louvain since Sept 2016. More about [my (new) group here](http://www.plantmodelling.xyz).
       
-    The aim of my current project is to quantify the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize. The project focuses on the events occurring before and after the floral transition. 
+    The aim of my research is (i) to understand how various signals that carry information are interacting and being conveyed and integrated at the plant level and (ii) to amplify discrete physiological knowledge into functional plant processes. All of that using Functional Structural Plant Models.
       
     I develop image analysis and phenotyping tools to help researchers in their scientific workflow. And when I am not implementing image analysis tools, I often play with plant models.  
       
@@ -83,3 +83,4 @@ intro:
     
 
     At the moment, I am also a Guest Editor for a [Plant Phenomics serie for the journal GigaScience](https://t.co/mrYQucjBhP).
+
