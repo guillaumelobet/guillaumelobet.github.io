@@ -1,3 +1,9 @@
+-  goodread: 1420.Hamlet
+   image: http://d2arxad8u2l0g7.cloudfront.net/books/1351051208l/1420.jpg
+   title: Hamlet
+   isbn: 0521618746
+   author: William Shakespeare
+   url: http://www.goodreads.com/book/show/1420.Hamlet
 -  goodread: 16033842-la-v-rit-sur-l-affaire-harry-quebert
    image: http://d2arxad8u2l0g7.cloudfront.net/books/1347987605l/16033842.jpg
    title: La Vérité sur l'affaire Harry Quebert
@@ -141,7 +147,7 @@
    serie: ~
    tags: polar
    image: http://d2arxad8u2l0g7.cloudfront.net/books/1413966280l/23434395.jpg
-   title: L'Ã©corchÃ©e
+   title: L'écorchée
    isbn: '2253179124'
    author: Donato Carrisi
    url: http://www.goodreads.com/book/show/23434395-l-corch-e
