@@ -2,7 +2,7 @@
    hindex: '8'
    citations: '255'
    update: '2016-08-17'
--  type: preprint
+-  type: journal
    title: Using a structural root system model for an in-depth assessment of root image analysis pipeline
    authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
    journal: bioRxiv
@@ -10,6 +10,7 @@
    url: http://dx.doi.org/10.1101/074922
    doi: 10.1101/074922
    image: img/segment.png
+   preprint: yes
    tags:
    - root
    - rsml
