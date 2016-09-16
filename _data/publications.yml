@@ -2,6 +2,20 @@
    hindex: '8'
    citations: '255'
    update: '2016-08-17'
+-  type: preprint
+   title: Using a structural root system model for an in-depth assessment of root image analysis pipeline
+   authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
+   journal: bioRxiv
+   year: 2016
+   url: http://dx.doi.org/10.1101/074922
+   doi: 10.1101/074922
+   image: img/segment.png
+   tags:
+   - root
+   - rsml
+   - modelling
+   - image analysis
+   citations: '0'
 -  type: dataset
    title: Root phenotyping data
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
