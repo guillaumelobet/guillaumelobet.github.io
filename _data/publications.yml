@@ -1,9 +1,10 @@
 -  type: summary
    hindex: '8'
-   citations: '255'
-   update: '2016-08-17'
+   citations: '299'
+   update: '2017-01-11'
 -  type: journal
-   title: Using a structural root system model for an in-depth assessment of root image analysis pipeline
+   title: Using a structural root system model for an in-depth assessment of root
+      image analysis pipeline
    authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
    journal: bioRxiv
    year: 2016
@@ -84,7 +85,7 @@
    tags:
    - root
    - modelling
-   citations: '0'
+   citations: '2'
 -  type: journal
    title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis
       thaliana
@@ -102,7 +103,7 @@
    tags:
    - flowering
    - database
-   citations: '0'
+   citations: '4'
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -119,7 +120,7 @@
    tags:
    - data analysis
    - root
-   citations: '0'
+   citations: '1'
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
@@ -137,7 +138,7 @@
    tags:
    - root
    - phenotyping
-   citations: '8'
+   citations: '16'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -157,7 +158,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '9'
+   citations: '10'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -175,7 +176,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '4'
+   citations: '5'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -191,7 +192,7 @@
    tags:
    - flowering
    - modelling
-   citations: '5'
+   citations: '7'
 -  type: journal
    title: Plant Water Uptake in Drying Soils
    authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
@@ -208,7 +209,7 @@
    tags:
    - root
    - water
-   citations: '15'
+   citations: '18'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -226,7 +227,7 @@
    - root
    - water
    - modelling
-   citations: '4'
+   citations: '5'
 -  type: journal
    title: Comparative analysis of Cd and Zn impacts on root distribution and morphology
       of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -240,7 +241,7 @@
    doi: 10.1007/s11104-013-1975-7
    image: img/art-lamb.png
    tags: root
-   citations: '0'
+   citations: '3'
 -  type: journal
    title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale
       processes
@@ -258,7 +259,7 @@
    tags:
    - root
    - modelling
-   citations: '14'
+   citations: '15'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -276,7 +277,7 @@
    tags:
    - database
    - image analysis
-   citations: '33'
+   citations: '38'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -310,7 +311,7 @@
    tags:
    - root
    - image analysis
-   citations: '80'
+   citations: '86'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -328,7 +329,7 @@
    - root
    - water
    - modelling
-   citations: '67'
+   citations: '73'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
