@@ -42,6 +42,10 @@ profiles:
     username:
     url: https://impactstory.org/u/0000-0002-5883-4572
   - 
+    network: Science Open
+    username:
+    url: https://www.scienceopen.com/user/guillaumelobet
+  - 
     network: Google Scholar
     username:
     url: http://scholar.google.com/citations?user=XHIe6wsAAAAJ&hl=en
