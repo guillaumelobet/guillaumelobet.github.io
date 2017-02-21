@@ -1,7 +1,19 @@
 -  type: summary
    hindex: '8'
-   citations: '299'
-   update: '2017-01-11'
+   citations: '314'
+   update: '2017-02-21'
+-  type: journal
+   title: An evaluation of inexpensive methods for root image acquisition when using
+      rhizotrons
+   authors: Mohamed A, Monnier Y,  Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
+   journal: Plant Methods
+   year: 2017
+   doi: 10.1101/074922
+   image: img/smartphone.png
+   tags:
+   - root
+   - phenotyping
+   citations: '0'
 -  type: journal
    title: Using a structural root system model for an in-depth assessment of root
       image analysis pipeline
@@ -103,7 +115,7 @@
    tags:
    - flowering
    - database
-   citations: '4'
+   citations: '6'
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -138,7 +150,7 @@
    tags:
    - root
    - phenotyping
-   citations: '16'
+   citations: '18'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -158,7 +170,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '10'
+   citations: '11'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -176,7 +188,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '5'
+   citations: '6'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -209,7 +221,7 @@
    tags:
    - root
    - water
-   citations: '18'
+   citations: '19'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -241,7 +253,7 @@
    doi: 10.1007/s11104-013-1975-7
    image: img/art-lamb.png
    tags: root
-   citations: '3'
+   citations: '5'
 -  type: journal
    title: Root Systems Biology. Bridging regulatory networks to rhizosphere-scale
       processes
@@ -277,7 +289,7 @@
    tags:
    - database
    - image analysis
-   citations: '38'
+   citations: '40'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -311,7 +323,7 @@
    tags:
    - root
    - image analysis
-   citations: '86'
+   citations: '89'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -329,7 +341,7 @@
    - root
    - water
    - modelling
-   citations: '73'
+   citations: '74'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
