@@ -219,29 +219,28 @@ It is threatened by habitat loss.
                     col-sm-6
                     col-md-6
                     col-lg-6">
-          <p>
-            <img src="{{ site.baseurl }}{{ project.image }}" 
-                 class="img-responsive img-thumbnail"
-                 style="width:50%">
-            <b>
-              {{ project.name }}
-            </b>
-          	</br>
-          {% if project.tags %}
-              {% for tag in project.tags %}
-                  <button type="button" class="btn btn-info btn-xs">
-                    <i class="fa fa-tag"></i> {{tag}}
-                  </button>
-              {% endfor %}
-          {% endif %}
-          {% if project.url %}
-              <a class="btn btn-default btn-xs" href="{{ project.url }}" target="_blank">
-                <i class="fa fa-external-link"></i> More info
-              </a>
-          {% endif %} 
-        	</br></br>
+		<div class="col-md-6">
+	            <img src="{{ site.baseurl }}{{ project.image }}" 
+        	         class="img-responsive img-thumbnail"
+                	 style="width:80%">
+		</div>
+		<div class="col-md-6">
+			<b>{{ project.name }}</b>
+          		</br>
+		  	{% if project.tags %}
+		      		{% for tag in project.tags %}
+				  <button type="button" class="btn btn-info btn-xs">
+				    <i class="fa fa-tag"></i> {{tag}}
+				  </button>
+			      {% endfor %}
+			  {% endif %}
+			  {% if project.url %}
+			      <a class="btn btn-default btn-xs" href="{{ project.url }}" target="_blank">
+				<i class="fa fa-external-link"></i> More info
+			      </a>
+			  {% endif %} 
+	      </div>
           {{ project.description | markdownify }}
-	</p>
         </div>
 
         {% assign counterLG = counterLG | plus: 1 %}
