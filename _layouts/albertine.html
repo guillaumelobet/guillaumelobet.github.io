@@ -217,18 +217,16 @@ It is threatened by habitat loss.
     {% for project in site.data.projects %}
         <div class="col-xs-12
                     col-sm-6
-                    col-md-4
-                    col-lg-3">
+                    col-md-6
+                    col-lg-6">
           <p>
             <img src="{{ site.baseurl }}{{ project.image }}" 
                  class="img-responsive img-thumbnail"
-                 style="width:80%">
-          </p>
-          <p>
+                 style="width:50%">
             <b>
               {{ project.name }}
             </b>
-          </p>
+          	</br>
           {% if project.tags %}
               {% for tag in project.tags %}
                   <button type="button" class="btn btn-info btn-xs">
@@ -241,8 +239,9 @@ It is threatened by habitat loss.
                 <i class="fa fa-external-link"></i> More info
               </a>
           {% endif %} 
-        </br></br>
+        	</br></br>
           {{ project.description | markdownify }}
+	</p>
         </div>
 
         {% assign counterLG = counterLG | plus: 1 %}
