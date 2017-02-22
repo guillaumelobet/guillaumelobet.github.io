@@ -35,7 +35,7 @@
     The software combines a vectorial representation of root objects with a powerful tracing algorithm which accommodates to a wide range of image source and quality. 
     The software supports a sampling-based analysis of root system images, in which detailed information is collected on a limited number of roots selected by the user according to specific research requirements. 
   image: /img/smartroot.png
-  url: http://www.uclouvain.be/en-smartroot
+  url: https://smartroot.github.io/
   tags:
     - root
     - image analysis
