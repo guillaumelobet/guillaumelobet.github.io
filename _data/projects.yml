@@ -52,44 +52,6 @@
     - database
     - image analysis
 -
-  name: GLO-RIA
-  description: >
-    GLO-Root Image Analysis (GLO-RIA) is project in collaboration with [Ruben Rellan-Alvarez](http://www.rellan-alvarez.com/) and [José Dinneny](https://dpb.carnegiescience.edu/labs/dinneny-lab). It aims at developping imaging solution for the GLO-Root setup. The originality of the project is that it explicitelly combines the informations coming from different channels (soil, structure, reporters). A visualisation of the GLO_Root results [is available here](http://www.rrlab.org/GLO-Roots/). [Press release here](https://carnegiescience.edu/node/1864)
-  image: /img/gloria_logo.png
-  url: https://dinnenylab.wordpress.com/glo-roots/
-  tags:
-    - root
-    - image analysis  
--
-  name: Rhizoponic growing setup
-  description: >
-    Rhizoponics is an innovative design of hydroponic rhizotrons adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. 
-  image: /img/rhizoponics.png
-  url: http://www.guillaumelobet.be/rhizoponics/
-  tags:
-    - root
-    - phenotyping  
--
-  name: Modelling tomato inflorescence
-  description: >
-    Two recently proposed models help to comprehend the development of the tomato inflorescence, based on the fact that the arrangement of flowers reflects the spatiotemporal balance between maintenance of meristem indeterminancy and acquisition of floral meristem identity. In the model of Prusinkiewicz et al. (2007), an inflorescence is built from meristems that lose their initial « vegetativeness » to become flowers. In the model proposed by Lippman et al. (2008), the branching of the inflorescence depends on the maturation rate of the IM towards FM fate. We combined these two concepts for modelling the tomato inflorescence and gain further insight into the dynamics of the genetic network controling meristem fate.
-  image: /img/flomato.jpg
-  url: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/full
-  tags: 
-    - flowering
-    - modelling
--
-  name: PlaNet-Maize
-  description: >
-    The water uptake capacity of a plant is largely influenced by (i) soil exploration (root architecture), (ii) hydraulic conductivity of individual root segments, (iii) quantity and capacity of bulk-to-rhizosphere water flow, and (iv) regulation of stomatal conductance. These factors must be considered simultaneously if we aim to tailor plants towards improved water deficit resistance. PlaNet-Maize is a functional-structural plant model which encompasses the entire soil-plant-atmosphere continuum with a resolution down to individual root segment. The model simulates individual maize plant growth and development, along with water uptake.  
-  image: /img/planet.gif
-  url: http://dx.doi.org/10.1016/j.ecolmodel.2013.11.025
-  tags:
-    - root
-    - shoot
-    - modelling
-    - water
--
   name:  Water relations in the soil-plant system
   description: >
     Observing the water flows in the soil-plant system is challenging by nature. Until recently, the techniques used were mainly based on averaged estimation of the soil water content variation, down to the plant level. However, in the past few years, new methods have been developed which enabled a more precise observation of the water flows in the soil-plant system.
@@ -123,15 +85,6 @@
   url: http://impact.guillaumelobet.be
   tags:
     - open science  
--
-  name: MARIA
-  description: >
-    Coming soon..
-  image: /img/maria-logo.png
-  url: http://maria-pipeline.github.io/MARIAProject/
-  tags: 
-    - root
-    - image analysis
 -
   name: LaTeX thesis template
   description: >
