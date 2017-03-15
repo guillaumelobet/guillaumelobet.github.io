@@ -8,6 +8,8 @@
    authors: Mohamed A, Monnier Y,  Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
    journal: Plant Methods
    year: 2017
+   url: http://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0160-z
+   pdf: http://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-017-0160-z?site=plantmethods.biomedcentral.com
    doi: 10.1186/s13007-017-0160-z
    image: img/smartphone.png
    tags:
@@ -20,10 +22,11 @@
    authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
    journal: bioRxiv
    year: 2016
-   url: http://dx.doi.org/10.1101/074922
-   doi: 10.1101/074922
+   url: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/abstract
+   doi: 10.3389/fpls.2017.00447
+   pdf: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/pdf
    image: img/segment.png
-   preprint: yes
+   preprint: no
    tags:
    - root
    - rsml
