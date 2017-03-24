@@ -1,4 +1,14 @@
 -
+  name: Plant Illustrations
+  description: >
+    The aim of this profile is to collect in one place illustrations and pictures of plants, roots, shoots, inflorescences, ... The ultimate goal is to be a resource for the plant science community.
+  image: /img/plant_illustrations.png
+  tags:
+    - root
+    - shoot
+    - flowering
+    - database
+-
   name: AlloMaize
   description: >
     The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. Very little information about the root system exists at these stages.    
