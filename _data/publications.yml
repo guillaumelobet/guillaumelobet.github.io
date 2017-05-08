@@ -1,7 +1,7 @@
 -  type: summary
    hindex: '8'
-   citations: '314'
-   update: '2017-02-21'
+   citations: '345'
+   update: '2017-05-08'
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
       rhizotrons
@@ -100,7 +100,7 @@
    tags:
    - root
    - modelling
-   citations: '2'
+   citations: '3'
 -  type: journal
    title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis
       thaliana
@@ -118,7 +118,7 @@
    tags:
    - flowering
    - database
-   citations: '6'
+   citations: '9'
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -153,7 +153,7 @@
    tags:
    - root
    - phenotyping
-   citations: '18'
+   citations: '21'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -173,7 +173,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '11'
+   citations: '13'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -191,7 +191,7 @@
    - root
    - shoot
    - phenotyping
-   citations: '6'
+   citations: '8'
 -  type: journal
    title: Inflorescence architecture in tomato genes functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -224,7 +224,7 @@
    tags:
    - root
    - water
-   citations: '19'
+   citations: '22'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -274,7 +274,7 @@
    tags:
    - root
    - modelling
-   citations: '15'
+   citations: '16'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -292,7 +292,7 @@
    tags:
    - database
    - image analysis
-   citations: '40'
+   citations: '45'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -326,7 +326,7 @@
    tags:
    - root
    - image analysis
-   citations: '89'
+   citations: '96'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -344,7 +344,7 @@
    - root
    - water
    - modelling
-   citations: '74'
+   citations: '78'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
