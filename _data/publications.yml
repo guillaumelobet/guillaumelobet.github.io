@@ -3,6 +3,20 @@
    citations: '345'
    update: '2017-05-08'
 -  type: journal
+   title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
+   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng C, Zoerner M, Vanderborght J, Vereecken H
+   journal: biorxiv
+   year: 2017
+   url: https://doi.org/10.1101/139980
+   pdf: http://biorxiv.org/content/early/2017/05/19/139980.full.pdf
+   doi: 10.1101/139980
+   image: img/art-crootbox.jpg
+   tags:
+   - root
+   - phenotyping
+   citations: '0'
+   preprint: yes
+-  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
       rhizotrons
    authors: Mohamed A, Monnier Y,  Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
