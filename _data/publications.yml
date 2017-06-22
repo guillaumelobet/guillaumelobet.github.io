@@ -1,7 +1,35 @@
 -  type: summary
    hindex: '9'
-   citations: '345'
-   update: '2017-05-08'
+   citations: '355'
+   update: '2017-06-16'
+-  type: journal
+   title: Combining semi-automated image analysis techniques with machine learning algorithms to accelerate large scale genetic studies
+   authors: Atkinson J*, Lobet G*, Noll M, Meyer P, Griffiths M, Wells D
+   journal: biorxiv
+   year: 2017
+   url: http://biorxiv.org/content/early/2017/06/20/152702.full.pdf
+   doi: 10.1101/152702
+   image: img/art-combining.jpg
+   tags:
+   - machine learning
+   - image analysis
+   citations: '0'
+   preprint: yes   
+-  type: journal
+   title: Novel multiscale insights into the composite nature of water transport in roots
+   authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
+   journal: biorxiv
+   year: 2017
+   url: http://biorxiv.org/content/early/2017/06/07/147314.full.pdf
+   doi: 10.1101/147314
+   image: img/art-mecha.jpg
+   tags:
+   - anatomy
+   - root
+   - water
+   - model
+   citations: '0'  
+   preprint: yes    
 -  type: journal
    title: Image analysis in plant science. Publish then perish
    authors: Lobet G
@@ -16,7 +44,8 @@
    citations: '0'
 -  type: journal
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
-   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng C, Zoerner M, Vanderborght J, Vereecken H
+   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
+      C, Zoerner M, Vanderborght J, Vereecken H
    journal: biorxiv
    year: 2017
    url: https://doi.org/10.1101/139980
@@ -143,7 +172,7 @@
    tags:
    - flowering
    - database
-   citations: '9'
+   citations: '10'
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -178,7 +207,7 @@
    tags:
    - root
    - phenotyping
-   citations: '21'
+   citations: '24'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -198,7 +227,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: '13'
+   citations: '14'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -249,7 +278,7 @@
    tags:
    - root
    - water
-   citations: '22'
+   citations: '23'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -299,7 +328,7 @@
    tags:
    - root
    - modelling
-   citations: '16'
+   citations: '17'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -317,7 +346,7 @@
    tags:
    - database
    - image analysis
-   citations: '45'
+   citations: '46'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -351,7 +380,7 @@
    tags:
    - root
    - image analysis
-   citations: '96'
+   citations: '97'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -369,7 +398,7 @@
    - root
    - water
    - modelling
-   citations: '78'
+   citations: '79'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
