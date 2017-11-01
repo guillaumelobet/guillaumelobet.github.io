@@ -3,22 +3,31 @@
    citations: '387'
    update: '2017-08-10'
 -  type: journal
-   title: Combining semi-automated image analysis techniques with machine learning
-      algorithms to accelerate large scale genetic studies
-   authors: Atkinson J*, Lobet G*, Noll M, Meyer P, Griffiths M, Wells D
-   journal: biorxiv
+   title: Teaching Tools in Plant Biology, Phenomics of root system architecture
+   authors: York L and Lobet G
+   journal: The Plant Cell
    year: 2017
-   url: http://biorxiv.org/content/early/2017/06/20/152702.full.pdf
-   doi: 10.1101/152702
+   url: http://www.plantcell.org/highwire/filestream/68693/field_highwire_adjunct_files/1/TTPB36LectureNotes.pdf
+   doi: 10.1105/tpc.117.tt0917
+   image: img/art-teaching.jpg
+   tags:
+   - root
+   - image analysis
+   citations: '0'
+-  type: journal
+   title: Combining semi-automated image analysis techniques with machine learning algorithms to accelerate large scale genetic studies
+   authors: Atkinson J*, Lobet G*, Noll M, Meyer P, Griffiths M, Wells D
+   journal: GigaScience
+   year: 2017
+   url: https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/gix084/19566986/gix084.pdf
+   doi: 10.1093/gigascience/gix084
    image: img/art-combining.jpg
    tags:
    - machine learning
    - image analysis
    citations: '0'
-   preprint: yes
 -  type: journal
-   title: Novel multiscale insights into the composite nature of water transport in
-      roots
+   title: Novel multiscale insights into the composite nature of water transport in roots
    authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
    journal: biorxiv
    year: 2017
