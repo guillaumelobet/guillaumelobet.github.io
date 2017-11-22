@@ -24,6 +24,7 @@
     Together with researchers from INRIA, CPIB, Juelich, Vienna and Louvain, we created the Root System Markup Language (RSML) that has been designed to alleviate two major bottlenecks: (i) to enable portability of root architecture data between different software tools in an easy and interoperable manner allowing seamless collaborative work, and (ii) to provide a standard format upon which to base central repositories which will soon arise following the expanding worldwide root phenotyping effort. [External Diffusion post](http://www.externaldiffusion.com/rsml-a-novel-toolbox-for-root-system-architecture-data-by-guillaume-lobet-universite-de-liege-forschungszentrum-julich/)
   image: /img/rsml.png
   url: http://rootsystemml.github.io/
+  tags:
     - root
     - modelling
     - image analysis
