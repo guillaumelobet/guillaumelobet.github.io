@@ -1,7 +1,7 @@
 -  type: summary
-   hindex: '12'
-   citations: '630'
-   update: '2017-11-22'
+   hindex: '10'
+   citations: '387'
+   update: '2017-08-10'
 -  type: journal
    title: Teaching Tools in Plant Biology, Phenomics of root system architecture
    authors: York L and Lobet G
@@ -15,8 +15,7 @@
    - image analysis
    citations: '0'
 -  type: journal
-   title: Combining semi-automated image analysis techniques with machine learning
-      algorithms to accelerate large scale genetic studies
+   title: Combining semi-automated image analysis techniques with machine learning algorithms to accelerate large scale genetic studies
    authors: Atkinson J*, Lobet G*, Noll M, Meyer P, Griffiths M, Wells D
    journal: GigaScience
    year: 2017
@@ -26,10 +25,9 @@
    tags:
    - machine learning
    - image analysis
-   citations: 2.0
+   citations: '0'
 -  type: journal
-   title: Novel multiscale insights into the composite nature of water transport in
-      roots
+   title: Novel multiscale insights into the composite nature of water transport in roots
    authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
    journal: biorxiv
    year: 2017
@@ -41,7 +39,7 @@
    - root
    - water
    - model
-   citations: 1.0
+   citations: '0'
    preprint: yes
 -  type: journal
    title: Image analysis in plant science. Publish then perish
@@ -55,7 +53,7 @@
    tags:
    - palnt
    - image analysis
-   citations: 3.0
+   citations: '0'
 -  type: journal
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
    authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
@@ -69,7 +67,7 @@
    tags:
    - root
    - phenotyping
-   citations: 1.0
+   citations: '0'
    preprint: yes
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
@@ -84,10 +82,9 @@
    tags:
    - root
    - phenotyping
-   citations: 1.0
+   citations: '0'
 -  type: journal
-   title: Using a structural root system model to evaluate and improve the accuracy
-      of root image analysis pipelines
+   title: Using a structural root system model to evaluate and improve the accuracy of root image analysis pipelines
    authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
    journal: Frontiers in Plant Science
    year: 2016
@@ -100,7 +97,7 @@
    - rsml
    - modelling
    - image analysis
-   citations: 4.0
+   citations: '2'
 -  type: dataset
    title: Root phenotyping data
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
@@ -124,8 +121,7 @@
    citations: '0'
 -  type: dataset
    title: CRootBox parameter files
-   authors: Schnepf A, Leitner D, Lobet G, Mai T H, Zörner M, Landl M, Sheng C, Morandage
-      S, Vanderborght J, Vereecken H
+   authors: Schnepf A, Leitner D, Lobet G, Mai T H, Zörner M, Landl M, Sheng C, Morandage S, Vanderborght J, Vereecken H
    journal: figshare
    year: 2017
    url: https://doi.org/10.6084/m9.figshare.c.3745478.v1
@@ -135,8 +131,7 @@
    citations: '0'
 -  type: dataset
    title: Library of simulated root images, with degradations
-   authors: Lobet G, Koevoet T I, Noll M, Tocquin P, Meyer P E, Pagès L, Périlleux
-      C
+   authors: Lobet G, Koevoet T I, Noll M, Tocquin P, Meyer P E, Pagès L, Périlleux C
    journal: Zenodo
    year: 2016
    url: https://dx.doi.org/10.5281/zenodo.208214
@@ -182,7 +177,7 @@
    tags:
    - root
    - flowering
-   citations: 3.0
+   citations: '2'
 -  type: journal
    title: Environmental Control of Root System Biology
    authors: Rellan-Alvarez R*, Lobet G*, Dinneny J
@@ -199,7 +194,7 @@
    tags:
    - root
    - modelling
-   citations: 15.0
+   citations: '4'
 -  type: journal
    title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis
       thaliana
@@ -217,7 +212,7 @@
    tags:
    - flowering
    - database
-   citations: 27.0
+   citations: '13'
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -234,7 +229,7 @@
    tags:
    - data analysis
    - root
-   citations: 6.0
+   citations: '2'
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
@@ -252,7 +247,7 @@
    tags:
    - root
    - phenotyping
-   citations: 39.0
+   citations: '26'
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -272,7 +267,7 @@
    - image analysis
    - modelling
    - data analysis
-   citations: 34.0
+   citations: '16'
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -290,7 +285,7 @@
    - root
    - shoot
    - phenotyping
-   citations: 17.0
+   citations: '10'
 -  type: journal
    title: Inflorescence development in tomato, gene functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -306,7 +301,7 @@
    tags:
    - flowering
    - modelling
-   citations: 16.0
+   citations: '8'
 -  type: journal
    title: Plant Water Uptake in Drying Soils
    authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
@@ -323,7 +318,7 @@
    tags:
    - root
    - water
-   citations: 40.0
+   citations: '24'
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -341,7 +336,7 @@
    - root
    - water
    - modelling
-   citations: 9.0
+   citations: '7'
 -  type: journal
    title: Comparative analysis of Cd and Zn impacts on root distribution and morphology
       of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -355,10 +350,9 @@
    doi: 10.1007/s11104-013-1975-7
    image: img/art-lamb.png
    tags: root
-   citations: 8.0
+   citations: '5'
 -  type: journal
-   title: Root systems biology, integrative modeling across scales, from gene regulatory
-      networks to the rhizosphere
+   title: Root systems biology, integrative modeling across scales, from gene regulatory networks to the rhizosphere
    authors: Hill K, Porco S, Lobet G, Zappala S, Mooney S, Draye X and Bennett MJ
    journal: Plant Physiology
    volume: 163
@@ -373,7 +367,7 @@
    tags:
    - root
    - modelling
-   citations: 22.0
+   citations: '17'
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -391,7 +385,7 @@
    tags:
    - database
    - image analysis
-   citations: 77.0
+   citations: '48'
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -408,10 +402,9 @@
    tags:
    - root
    - phenotyping
-   citations: 28.0
+   citations: '17'
 -  type: journal
-   title: A novel image-analysis toolbox enabling quantitative analysis of root system
-      architecture
+   title: A novel image-analysis toolbox enabling quantitative analysis of root system architecture
    authors: Lobet G, Pagès L and Draye X
    journal: Plant Physiology
    volume: 157
@@ -425,7 +418,7 @@
    tags:
    - root
    - image analysis
-   citations: 160.0
+   citations: '104'
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -443,7 +436,7 @@
    - root
    - water
    - modelling
-   citations: 117.0
+   citations: '82'
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
