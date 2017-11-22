@@ -36,6 +36,7 @@ An Elbowpatched theme
   <![endif]-->
 
   <!-- Javascript -->
+  <!--script src="{{ site.baseurl }}public/js/isotope.pkgd.min.js"></script-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
@@ -318,8 +319,6 @@ An Elbowpatched theme
           <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-quote-left"></i> citations</button></br></br>
           <small>Journal names were intentionally left blank. Last update on {{update}}.</small>
         </div>
-
-
 
         <div class="row-fluid">
 
@@ -795,6 +794,40 @@ An Elbowpatched theme
   <!-- ==================== -->
   <!-- JAVASCRIPTS -->
   <!-- ==================== -->
+
+
+  <a href="#0" class="cd-top">Top</a>
+  <script>
+    jQuery(document).ready(function($){
+      // browser window scroll (in pixels) after which the "back to top" link is shown
+      var offset = 300,
+        //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+        offset_opacity = 1200,
+        //duration of the top scrolling animation (in ms)
+        scroll_top_duration = 700,
+        //grab the "back to top" link
+        $back_to_top = $('.cd-top');
+
+      //hide or show the "back to top" link
+      $(window).scroll(function(){
+        ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+        if( $(this).scrollTop() > offset_opacity ) { 
+          $back_to_top.addClass('cd-fade-out');
+        }
+      });
+
+      //smooth scroll to top
+      $back_to_top.on('click', function(event){
+        event.preventDefault();
+        $('body,html').animate({
+          scrollTop: 0 ,
+          }, scroll_top_duration
+        );
+      });
+
+    });
+  </script>
+
   <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
   <script>
     $(document).ready(function () {
