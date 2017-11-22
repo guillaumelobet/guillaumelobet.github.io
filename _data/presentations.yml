@@ -1,3 +1,33 @@
+
+-
+  title: Alternative plants, why we need models to understand the complexity of plants
+  location: IPG Symposium, Missouri, USA
+  date: May 2017
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.5089900.v1
+  status: invited speaker
+  doi: 10.6084/m9.figshare.5089900.v1
+  image: /img/pres-alternative.jpg
+-
+  title: Using structural models to validate and improve root image analysis pipelines
+  location: nternational Plant Phenotyping Symposium, Mexico City, Mexico
+  date: Dec 2016
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.4311848.v1
+  doi: 10.6084/m9.figshare.4311848.v1
+  image: /img/pres-improve.jpg  
+-
+  title: How to deal with the complexity of plants, a modelling vision
+  location: CPIB Seminar, Nottingham, UK
+  date: Nov. 2016
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.4239140.v3
+  doi: 10.6084/m9.figshare.4239140.v3
+  image: /img/pres-complexity.png
+-
+  title: plant-image-analysis.org, A platform referencing plant image analysis tools
+  location: Neubias Taggathon, Barcelona, Spain (video-conference)
+  date: Sep. 2016
+  slides_url: http://dx.doi.org/10.6084/m9.figshare.3826488
+  doi: 10.6084/m9.figshare.3826488
+  image: /img/pres-neubias.png  
 -
   title: Open Science. A view from the Bench
   location: Open Belgium Conference, Antwerpen, Belgium

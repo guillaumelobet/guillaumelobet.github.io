@@ -1,18 +1,15 @@
 
+
 -
-  name: ImpactStory advisor
+  name: Editorial duties
   description: >
-    ImpactStory is a web-based service that allow researchers to create a profile referencing all their research impact. [[My ImpactStory profile]](https://impactstory.org/GuillaumeLobet)
+    - Academic Editor for the open-access / preprint friendly / society journal [Plant Direct](http://www.plantdirectjournal.org)
+    - Invited Guest Editor for the [Plant Phenomics serie](https://t.co/mrYQucjBhP) from GigaScience
 
 -
   name: Ad hoc referee
   description: >
-    Plant Physiology, PLoS One, Journal of Experimental Botany, Plant and Soil, Functional Plant Biology, Plant Methods, Annals of Botany, Microscopy and Microanalysis, Plant Signaling and Behavior, Journal of Hydrology, Journal of Visualized Experiments. [[My reviewer profile]](https://publons.com/author/207362/guillaume-lobet).
-
--
-  name: Guest Editor
-  description: >
-    Invited Guest Editor for the [Plant Phenomics serie](https://t.co/mrYQucjBhP) from GigaScience
+    Plant Physiology, New Phytologist, GigaScience, PLoS One, Journal of Experimental Botany, Plant and Soil, Functional Plant Biology, Plant Methods, Annals of Botany, Microscopy and Microanalysis, Plant Signaling and Behavior, Journal of Hydrology, Journal of Visualized Experiments. [[My reviewer profile]](https://publons.com/author/207362/guillaume-lobet).
 
 
 -
@@ -26,31 +23,42 @@
       - [Computer Vision Problems in Plant Phenotyping, 2015](http://www.plant-phenotyping.org/CVPPP2015/) 
       - [Computer Vision Problems in Plant Phenotyping, 2014](http://www.plant-phenotyping.org/CVPPP2014/) 
       - [National Symposium of Applied Biological Sciences, 2015](http://www.uclouvain.be/nsabs-2015.html)
+
+-
+  name: ImpactStory advisor
+  description: >
+    ImpactStory is a web-based service that allow researchers to create a profile referencing all their research impact. [[My ImpactStory profile]](https://impactstory.org/GuillaumeLobet)
+
 -
   name: Research advisor
   description: >
-    - 1 PhD student
+    - 3 PhD students
     - 6 master theses
 
 -
   name: Teaching
   description: >
+    - [Soil-root interactions](https://plantmodelling.github.io/LBRES2106/)
+
     - [Root Modelling](http://dx.doi.org/10.6084/m9.figshare.1594792) 
     
     - Introduction to LaTeX
 
-    - Introduction to ImageJ
+    - [Introduction to ImageJ](https://plantmodelling.github.io/intro-imagej/)
     
     - [Science output valorisation](http://dx.doi.org/10.6084/m9.figshare.1057995)
 
     - Scientifique figures preparation
+
+
 -
   name: Website design and creation
   description: >
     - [http://www.plant-image-analysis.org/](http://www.plant-image-analysis.org/)
     
     - [http://www.phytosystems.ulg.ac.be/](http://www.phytosystems.ulg.ac.be/)
+
+    - [http://www.rosi.science/](http://www.rosi.science)
     
     - [http://www.flor-id.org](http://www.flor-id.org)
     
-    - [http://www.phytosystems.ulg.ac.be/iamps15/](http://www.phytosystems.ulg.ac.be/iamps15/)
