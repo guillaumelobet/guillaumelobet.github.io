@@ -26,7 +26,7 @@ for(i in 2:length(rs)){
   }
 }
 
-cites <- as.numeric(cites)
+cites <- round(as.numeric(cites))
 cites <- sort(cites, decreasing = T)
 hindex <- 0
 for(i in 1:length(cites)){
@@ -37,6 +37,6 @@ rs[[1]]$hindex <- as.character(hindex)
 rs[[1]]$citations <- as.character(sum(cites))
 rs[[1]]$update <- format(Sys.time(), "%Y-%m-%d")
 
-cat(as.yaml(rs, precision = 3, indent = 3), 
-    file=paste("~/OneDrive - UCL/04_outcomes//websites/guillaumelobet.github.io/_data/publications.yml",sep=""), sep='\n') # Create the input file for Archisimple
+cat(as.yaml(rs,  indent = 3), 
+    file=paste("~/Dropbox/science/outputs/websites/guillaumelobet.github.io/_data/publications.yml",sep=""), sep='\n') # Create the input file for Archisimple
 
