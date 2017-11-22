@@ -10,16 +10,6 @@
     - flowering
     - database
 -
-  name: AlloMaize
-  description: >
-    The AlloMaize project aims at quantifying the growth and developmental regulations (allometry) between the root and the shoot in the model plant maize (*Zea mays*). The project focuses on the events occurring before and after the floral transition. As this stage occurs late in the plant development, the size of the different organs, in particular that of the root system, hinder their observation and analysis. Very little information about the root system exists at these stages.    
-  image: /img/allomaize.png
-  tags:
-    - root
-    - shoot
-    - modelling
-    - flowering
--
   name: Flowering Interactive Database - FLOR-ID
   description: >
     The transition to flowering is an essential step of the plant life cycle that is tightly controlled by both endogenous and environmental cues. Its regulation is extremely complex and involves hundreds of genes that are part of highly interconnected pathways. We are currently building a new web-based interactive resource organized around a curated database of the flowering time genes, FLOR-ID. This project is a collaboration with [Fred Bouché](http://www.fredericbouche.com/). Article about the database [here (in french)](http://le15ejour.ulg.ac.be/jcms/c_49741/fr/genetique-de-la-floraison) and [here (Flowering Highlights)](http://floweringhighlights.org/2016/01/21/flowering-highlights-a-database-for-all-things-flowering-by-frank-wellmer/).
@@ -62,12 +52,3 @@
   tags:
     - database
     - image analysis
--
-  name:  Water relations in the soil-plant system
-  description: >
-    Observing the water flows in the soil-plant system is challenging by nature. Until recently, the techniques used were mainly based on averaged estimation of the soil water content variation, down to the plant level. However, in the past few years, new methods have been developed which enabled a more precise observation of the water flows in the soil-plant system.
-    In order to decrypt the water dynamics in the SPAC, we combined several phenotyping tools into a small platform. The platform enables the <em>in-situ</em> observation of plant architecture (both root and shoot), plant water status and soil water content. 
-  image: /img/lti.png
-  tags:
-    - root
-    - water
