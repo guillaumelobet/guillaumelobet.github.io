@@ -10,6 +10,7 @@
    pdf: http://www.plantcell.org/highwire/filestream/68693/field_highwire_adjunct_files/1/TTPB36LectureNotes.pdf
    doi: 10.1105/tpc.117.tt0917
    image: img/art-teaching.jpg
+   pmid: 29018159
    tags:
    - root
    - image analysis
@@ -23,6 +24,7 @@
    pdf: https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/gix084/19566986/gix084.pdf
    doi: 10.1093/gigascience/gix084
    image: img/art-combining.jpg
+   pmid: 29020748
    tags:
    - machine learning
    - image analysis
@@ -52,6 +54,7 @@
    pdf: https://authors.elsevier.com/a/1VFdf4rGdjAqQm
    doi: 10.1016/j.tplants.2017.05.002
    image: img/art-publish.jpg
+   pmid: 28571940
    tags:
    - palnt
    - image analysis
@@ -81,6 +84,7 @@
    pdf: http://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-017-0160-z?site=plantmethods.biomedcentral.com
    doi: 10.1186/s13007-017-0160-z
    image: img/smartphone.png
+   pmid: 28286541
    tags:
    - root
    - phenotyping
@@ -95,6 +99,7 @@
    doi: 10.3389/fpls.2017.00447
    pdf: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/pdf
    image: img/segment.png
+   pmid: 28421089
    tags:
    - root
    - rsml
