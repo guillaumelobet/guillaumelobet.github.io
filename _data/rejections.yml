@@ -2,20 +2,28 @@
   title: This is my list of failures. Being a scientist is not always easy and sometimes (often?) what you try does not work, for various reasons. But your failures are, at least, as important as your successes, as they make you think harder about yourself and your work! So, I decided to be proud of them!</br></br>The list below is still short, but I am confident it will flourish with time :) </br></br>Full disclosure, the idea is not from me and you can read more <a href="http://www.nature.com/naturejobs/science/articles/10.1038/nj7322-467a">about it here</a>. 
   type: intro
 -
+  title: The applicants don't appear to have any high impact papers that have been well cited. Their papers seem to report incremental advances rather than novel new ideas.
+  year: 2017
+  type: quote  
+-
+  title: The applicants [...] are relatively inexperienced. Consequently, although they publish regularly [...], their publications have attracted few citations
+  year: 2017
+  type: quote  
+-
   title: This is a worthy topic that deserves attention, however the authors fall short in their attempt. 
-  year: 
+  year: 2016
   type: quote
 -
   title: (this paper is) neither research nor science
-  year: 
+  year: 2015
   type: quote
 -
   title: (this paper is) not rocket science
-  year: 
+  year: 2015
   type: quote 
 -
   title: (his research is) solid, but neither excellent nor innovative
-  year: 
+  year: 2014
   type: quote  
 -
   title: Research Project (PDR) from the Belgium Science Fundation (FNRS)
