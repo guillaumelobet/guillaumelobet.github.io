@@ -721,7 +721,7 @@ An Elbowpatched theme
         {% for reject in site.data.rejections %}
           {% case reject.type %}
             {% when 'quote' %}
-              <li><quote>{{reject.title}}</quote></li>
+              <li><small>{{reject.year}}</small> - <quote>{{reject.title}}</quote></li>
           {% endcase %}
         {% endfor %}
         </ul>
