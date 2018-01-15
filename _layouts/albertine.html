@@ -415,6 +415,9 @@ An Elbowpatched theme
                 {% if publication.doi %}
 		  <div class='altmetric-embed' data-badge-type='1' data-hide-less-than="5" data-doi='{{publication.doi}}'></div>
                   <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="bottom" data-badge-type='bar' data-doi="{{publication.doi}}"></div>
+		 <span class="__dimensions_badge_embed__" data-doi="{{publication.doi}}" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8">
+			</script>
+
                 {% endif  %}
                 
                 </p>               
