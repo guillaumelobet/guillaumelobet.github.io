@@ -1,0 +1,42 @@
+-
+  name: Soil-Root interactions
+  description: >
+    Lecture on soil-root interactions given a the University of Louvain, to master students of the bio-engeneering faculty. 
+  image: /img/lbres2106.jpg
+  url: https://plantmodelling.github.io/LBRES2106/
+
+-
+  name: Systems biology modelling
+  description: >
+    LEcture on the modelisation of biological systems. Not a classical lecture, but project driven. Students are asked to learn about a model of their choice and use it to do some basic simulations. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on Botany One.
+  image: /img/systems.jpg
+  url: https://uclouvain.be/en-cours-2017-lbrai2219.html
+
+-
+  name: Root Modelling
+  description: >
+    Workshop I gave on structural root modelling
+  image: /img/model.jpg
+  url: http://dx.doi.org/10.6084/m9.figshare.1594792
+
+-
+  name: Introduction to ImageJ
+  description: >
+    Hands on on ImageJ. How to make some basic image analysis. Introduction to macros.
+  image: /img/imagej.jpg
+  url: https://plantmodelling.github.io/intro-imagej/        
+
+
+-
+  name: Scientifique figures preparation
+  description: >
+    How to make a good scientific figure. How the better convey the important information. How not to get lost in graphic junk.
+  image: /img/figure.jpg
+  url: https://www.dropbox.com/s/x5w3gjcs0m7uuku/Scientific_figure_1.pdf?dl=0  
+
+-
+  name: Science output valorisation
+  description: >
+    How to valorise all your research products. Very usefull for Early Career Researchers.
+  image: /img/valorisation.jpg
+  url: http://dx.doi.org/10.6084/m9.figshare.1057995  

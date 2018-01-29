@@ -1,4 +1,5 @@
 
+
 -
   title: Using machine learning and growth models to streamline large scale root phenotyping
   location: JST International Workshop on Field Phenotyping, Tokyo, Japan
@@ -6,7 +7,7 @@
   slides_url: https://doi.org/10.6084/m9.figshare.5682775.v1
   status: invited speaker
   doi: 10.6084/m9.figshare.5682775.v1
-  image: /img/pres-model-images.png
+  image: /img/pres-model-images.jpg
 -
   title: Alternative plants, why we need models to understand the complexity of plants
   location: IPG Symposium, Missouri, USA
@@ -21,21 +22,21 @@
   date: Dec 2016
   slides_url: http://dx.doi.org/10.6084/m9.figshare.4311848.v1
   doi: 10.6084/m9.figshare.4311848.v1
-  image: /img/pres-improve.png 
+  image: /img/pres-improve.jpg 
 -
   title: How to deal with the complexity of plants, a modelling vision
   location: CPIB Seminar, Nottingham, UK
   date: Nov. 2016
   slides_url: http://dx.doi.org/10.6084/m9.figshare.4239140.v3
   doi: 10.6084/m9.figshare.4239140.v3
-  image: /img/pres-complexity.png
+  image: /img/pres-complexity.jpg
 -
   title: plant-image-analysis.org, A platform referencing plant image analysis tools
   location: Neubias Taggathon, Barcelona, Spain (video-conference)
   date: Sep. 2016
   slides_url: http://dx.doi.org/10.6084/m9.figshare.3826488
   doi: 10.6084/m9.figshare.3826488
-  image: /img/pres-neubias.png  
+  image: /img/pres-neubias.jpg  
 -
   title: Open Science. A view from the Bench
   location: Open Belgium Conference, Antwerpen, Belgium
@@ -43,7 +44,7 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.3020170
   status: invited speaker
   doi: 10.6084/m9.figshare.3020170
-  image: /img/pres-open.png
+  image: /img/pres-open.jpg
 -
   title: Science Valorisation 
   location: Communiquer sa recherche, ULB, Brussels, Belgium
@@ -51,7 +52,7 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1057995
   status: invited speaker
   doi: 10.6084/m9.figshare.1057995
-  image: /img/pres-valor.png
+  image: /img/pres-valor.jpg
 -
   title: Structural Root Modelling
   location: Winter School on Root Phenotyping, Jülich, Germany
@@ -59,7 +60,7 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1594792
   status: invited speaker
   doi: 10.6084/m9.figshare.1594792
-  image: /img/pres-rootmod.png
+  image: /img/pres-rootmod.jpg
 -
   title: Science Valorisation 
   location: Let's Talk Science, Leuven, Belgium
@@ -67,13 +68,13 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1057995
   status: invited speaker
   doi: 10.6084/m9.figshare.1057995
-  image: /img/pres-valor.png
+  image: /img/pres-valor.jpg
 -
   title: FLOR-ID, an interactive database of flowering gene network in Arabidopsis
   location: Workshop on Mechanisms Controling Flower Development, Aiguablava, Spain
   date: Jun 2015
   slides_url: http://orbi.ulg.ac.be/handle/2268/180776
-  image: /img/pres-florid.png
+  image: /img/pres-florid.jpg
   
 -
   title: Plant Image Analysis tools. Current trends and limitations
@@ -82,7 +83,7 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   status: invited speaker
   doi: 10.6084/m9.figshare.1169928
-  image: /img/pres-pia.png
+  image: /img/pres-pia.jpg
 
 -
   title: Introducing Root System Markup Language
@@ -91,7 +92,7 @@
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1379862
   status: invited speaker
   doi: 10.6084/m9.figshare.1379862
-  image: /img/pres-rsml.png
+  image: /img/pres-rsml.jpg
 
 -
   title: Water relations in the SPAC. What can we learn from functional-structural plant models
@@ -100,7 +101,7 @@
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker
   doi: 10.6084/m9.figshare.1091425
-  image: /img/pres-fspm.png
+  image: /img/pres-fspm.jpg
   
 -
   title: Water relations in the soil-plant system. What can we learn from functional-structural plant models
@@ -109,7 +110,7 @@
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker  
   doi: 10.6084/m9.figshare.1091425
-  image: /img/pres-waterrel.png
+  image: /img/pres-waterrel.jpg
 
 -
   title: Plant Image Analysis tools. Current trends and limitations
@@ -117,7 +118,7 @@
   date: Sep 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   doi: 10.6084/m9.figshare.1169928
-  image: /img/pres-pia.png
+  image: /img/pres-pia.jpg
 
 -
   title: Modelling water relations in the soil-plant-atmosphere system
@@ -126,14 +127,14 @@
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker 
   doi: 10.6084/m9.figshare.1091425
-  image: /img/pres-waterrel.png
+  image: /img/pres-waterrel.jpg
 
 -
   title: Inflorescence development in tomato. Gene functions within a zigzag model.
   location: Genetic Variation of Flowering Time Genes and Applications for Crop Improvement - Bielefeld
   date: Mar 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.976039
-  image: /img/pres-flomato.png
+  image: /img/pres-flomato.jpg
 
 
 -
@@ -141,7 +142,7 @@
   location: 9th International Workshop on Sap Flow - Ghent
   date: Jun 2013
   slides_url: http://dx.doi.org/10.6084/m9.figshare.713568
-  image: /img/pres-aba.png
+  image: /img/pres-aba.jpg
 
 -
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture.
@@ -149,7 +150,7 @@
   date: Sep 2012
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95665
   status: invited speaker  
-  image: /img/pres-smartroot.png
+  image: /img/pres-smartroot.jpg
 
 
 -
@@ -158,5 +159,5 @@
   date: Apr 2011
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95591
   status: invited speaker 
-  image: /img/pres-radial.png
+  image: /img/pres-radial.jpg
 

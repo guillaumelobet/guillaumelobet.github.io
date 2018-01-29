@@ -2,6 +2,7 @@
    hindex: '12'
    citations: '669'
    update: '2018-01-08'
+
 -  type: journal
    title: archiDART v3.0, A new data analysis pipeline allowing the topological analysis of plant root systems
    authors: Delory B, Li M, Topp C and Lobet G
@@ -14,6 +15,9 @@
    - root
    citations: 0
    preprint: yes
+   description: >
+    Quantifying plant morphology is a very challenging task that requires methods able to capture the geometry and topology of plant organs at various spatial scales. Recently, the use of persistent homology as a mathematical framework to quantify plant morphology has been successfully demonstrated for leaves, shoots, and root systems. In this paper, we present a new data analysis pipeline implemented in the R package archiDART to analyse root system architectures using persistent homology. In addition, we also show that both geometric and topological descriptors are necessary to accurately compare root systems and assess their natural complexity.
+ 
 -  type: journal
    title: Teaching Tools in Plant Biology, Phenomics of root system architecture
    authors: York L and Lobet G
@@ -26,7 +30,13 @@
    tags:
    - root
    - image analysis
+   - phenotyping
    citations: 0.0e+00
+   description: >
+      Currently, the worldwide root research community is growing and becoming more active than ever. In the past few years, researchers have combined the latest technologies to image and quantify root systems (e.g., digital photography, x-ray computed tomography, transparent soils, high-throughput 3D reconstructions, or fluorescence-based imaging systems), generating an exciting landscape of new research strategies. In addition, recent collaborative efforts have led to the design of a common language for the description and storage of root architecture information. These technological innovations and robust standards have ushered in a new era in root research, namely, root phenomics. Phenomics is the scientific discipline concerned with the measure and study of phenotypes (physical form and function). Here, we will review the most recent advances in the phenomics of root system architecture and provide a comprehensive introduction to computational approaches that are becoming the new standards in root research.
+   other: >
+      This paper is part of the serie *Teaching Tools in Plant Biology* by The Plant Cell journal.
+
 -  type: journal
    title: Combining semi-automated image analysis techniques with machine learning
       algorithms to accelerate large scale genetic studies
@@ -41,6 +51,11 @@
    - machine learning
    - image analysis
    citations: 4.0
+   description: >
+      Genetic analyses of plant root systems require large datasets of extracted architectural traits. To quantify such traits from images of root systems, researchers often have to choose between automated tools (that are prone to error and extract only a limited number of architectural traits) or semi-automated ones (that are highly time consuming).
+      We trained a Random Forest algorithm to infer architectural traits from automatically extracted image descriptors. The training was performed on a subset of the dataset, then applied to its entirety. This strategy allowed us to (i) decrease the image analysis time by 73% and (ii) extract meaningful architectural traits based on image descriptors. We also show that these traits are sufficient to identify Quantitative Trait Loci that had previously been discovered using a semi-automated method.
+      We have shown that combining semi-automated image analysis with machine learning algorithms has the power to increase the throughput of large scale root studies. We expect that such an approach will enable the quantification ofmore complex root systems for genetic studies. We also believe that our approach could be extended to other areasof plant phenotyping
+
 -  type: journal
    title: Novel multiscale insights into the composite nature of water transport in
       roots
@@ -57,6 +72,9 @@
    - model
    citations: 1.0
    preprint: yes
+   description: >
+      MECHA is a novel mathematical model that computes the flow of water through the walls, membranes and plasmodesmata of each individual cell throughout complete root cross-sections, from a minimal set of cell level hydraulic properties and detailed root anatomical descriptions. Using the hydraulic anatomical framework of the Zea mays root reveals that hydraulic principles at the cell and root segment scales, derived independently by Katchalsky and Curran [1967] and Fiscus and Kramer [1975], are fully compatible, irrespective of apoplastic barriers leakiness. The hydraulic anatomy model accurately predicts empirical root radial permeability (kr) from relatively high cell wall hydraulic conductivity and low plasmodesmatal conductance reported in the literature. MECHA brings novel insights into contradictory interpretations of experiments from the literature by quantifying the impact of intercellular spaces, cortical cell permeability and plasmodesmata among others on root kr, and suggests new experiments efficiently addressing questions of root water relations.
+
 -  type: journal
    title: Image analysis in plant science. Publish then perish
    authors: Lobet G
@@ -68,9 +86,15 @@
    image: img/art-publish.jpg
    pmid: 28571940
    tags:
-   - palnt
+   - plant
    - image analysis
+   - open science
    citations: 5.0
+   description: >
+      Image analysis has become a powerful technique for most plant scientists. In recent years dozens of image analysis tools have been published in plant science journals. These tools cover the full spectrum of plant scales, from single cells to organs and canopies. However, the field of plant image analysis remains in its infancy. It still has to overcome important challenges, such as the lack of robust validation practices or the absence of long-term support. In this Opinion article, I: (i) present the current state of the field, based on data from the plant-image-analysis.org database; (ii) identify the challenges faced by its community; and (iii) propose workable ways of improvement.
+   other: >
+      The review made the cover of Trends in Plant Science in June 2017.
+
 -  type: journal
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
    authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
@@ -86,6 +110,10 @@
    - phenotyping
    citations: 1.0
    preprint: yes
+   description: >
+      Root architecture development determines the sites in soil where roots provide input of carbon and take up water and solutes. However, root architecture is difficult to determine experimentally when grown in opaque soil. Thus, root architectural models have been widely used and been further developed into functional-structural models that simulate the fate of water and solutes in the soil-root system. We present a root architectural model, CRootBox, as a flexible framework to model architecture and its interactions with static and dynamic soil environments. CRootBox is a C++-based root architecture model with Python binding, so that CRootBox can be included via a shared library into any Python code. Output formats include VTP, DGF, RSML and CSV. We further created a database of published root architectural parameters. The capabilities of CRootBox for the unconfined growth of single root systems, as well as the different parameter sets, are highlighted into a freely available web application. We demonstrate the use of CRootBox for 5 different cases (1) free growth of individual root systems (2) growth of root systems in containers as a way to mimic experimental setups, (3), field scale simulation, (4) root growth as affected by heterogeneous, static soil conditions, and (5) coupling CRootBox with Soil Physics with Python code to dynamically compute water flow in soil, root water uptake, and water flow inside roots. In conclusion, we present a fast and flexible functional-structural root model which is based on state-of-the-art computational science methods. Its aim is to facilitate modelling of root responses to environmental conditions as well as the impact of root on soil. In the future, we plan to extend this approach to the aboveground part of the plant.
+
+
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
       rhizotrons
@@ -95,12 +123,15 @@
    url: http://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0160-z
    pdf: http://plantmethods.biomedcentral.com/track/pdf/10.1186/s13007-017-0160-z?site=plantmethods.biomedcentral.com
    doi: 10.1186/s13007-017-0160-z
-   image: img/smartphone.png
+   image: img/smartphone.jpg
    pmid: 28286541
    tags:
    - root
    - phenotyping
    citations: 1.0
+   description: >
+      Belowground processes play an essential role in ecosystem nutrient cycling and the global carbon budget cycle. Quantifying fine root growth is crucial to the understanding of ecosystem structure and function and in predicting how ecosystems respond to climate variability. A better understanding of root system growth is necessary, but choosing the best method of observation is complex, especially in the natural soil environment. Here, we compare five methods of root image acquisition using inexpensive technology that is currently available on the market: flatbed scanner, handheld scanner, manual tracing, a smartphone application scanner and a time-lapse camera. Using the five methods, root elongation rate (RER) was measured for three months, on roots of hybrid walnut (Juglans nigra × Juglans regia L.) in rhizotrons installed in agroforests. When all methods were compared together, there were no significant differences in relative cumulative root length. However, the time-lapse camera and the manual tracing method significantly overestimated the relative mean diameter of roots compared to the three scanning methods. The smartphone scanning application was found to perform best overall when considering image quality and ease of use in the field. The automatic time-lapse camera was useful for measuring RER over several months without any human intervention. Our results show that inexpensive scanning and automated methods provide correct measurements of root elongation and length (but not diameter when using the time-lapse camera). These methods are capable of detecting fine roots to a diameter of 0.1 mm and can therefore be selected by the user depending on the data required.
+
 -  type: journal
    title: Using a structural root system model to evaluate and improve the accuracy
       of root image analysis pipelines
@@ -110,7 +141,7 @@
    url: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/abstract
    doi: 10.3389/fpls.2017.00447
    pdf: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/pdf
-   image: img/segment.png
+   image: img/segment.jpg
    pmid: 28421089
    tags:
    - root
@@ -118,6 +149,11 @@
    - modelling
    - image analysis
    citations: 4.0
+   description: >
+      Root system analysis is a complex task, often performed with fully automated image analysis pipelines. However, the outcome is rarely verified by ground-truth data, which might lead to underestimated biases. We have used a root model, ArchiSimple, to create a large and diverse library of ground-truth root system images (10,000). For each image, three levels of noise were created. This library was used to evaluate the accuracy and usefulness of several image descriptors classically used in root image analysis softwares. Our analysis highlighted that the accuracy of the different traits is strongly dependent on the quality of the images and the type, size, and complexity of the root systems analyzed. Our study also demonstrated that machine learning algorithms can be trained on a synthetic library to improve the estimation of several root system traits. Overall, our analysis is a call to caution when using automatic root image analysis tools. If a thorough calibration is not performed on the dataset of interest, unexpected errors might arise, especially for large and complex root images. To facilitate such calibration, both the image library and the different codes used in the study have been made available to the community.
+   other: >
+      This paper was one of the <a href="https://blog.frontiersin.org/2017/12/15/2017-frontiers-in-plant-science-highlights/">2017 highlights from Frontiers in Plant Science</a>
+
 -  type: dataset
    title: Root phenotyping data
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
@@ -125,20 +161,23 @@
    year: 2016
    url: https://zenodo.org/record/50831
    doi: 10.5281/zenodo.50831
-   image: img/dataset_flowering.png
+   image: img/dataset_flowering.jpg
    tags:
    - root
    - rsml
    citations: '0'
+   description: >
+
 -  type: dataset
    title: LaTeX thesis template
    authors: Lobet G
    journal: github
    year: 2017
    url: https://github.com/guillaumelobet/latex_thesis
-   image: img/latex.png
+   image: img/latex.jpg
    tags: design
    citations: '0'
+
 -  type: dataset
    title: CRootBox parameter files
    authors: Schnepf A, Leitner D, Lobet G, Mai T H, Zörner M, Landl M, Sheng C, Morandage
@@ -150,17 +189,18 @@
    image: img/dataset_crootbox.jpg
    tags: root
    citations: '0'
+
 -  type: dataset
    title: Library of simulated root images, with degradations
-   authors: Lobet G, Koevoet T I, Noll M, Tocquin P, Meyer P E, Pagès L, Périlleux
-      C
+   authors: Lobet G, Koevoet T I, Noll M, Tocquin P, Meyer P E, Pagès L, Périlleux C
    journal: Zenodo
    year: 2016
    url: https://dx.doi.org/10.5281/zenodo.208214
    doi: 10.5281/zenodo.208214
-   image: img/dataset_library.png
+   image: img/dataset_library.jpg
    tags: root
    citations: '0'
+
 -  type: dataset
    title: Maize root emergence
    authors: Lobet G
@@ -168,9 +208,10 @@
    year: 2015
    url: https://dx.doi.org/10.6084/m9.figshare.1411214.v1
    doi: 10.6084/m9.figshare.1411214.v1
-   image: img/dataset_emergence.png
+   image: img/dataset_emergence.jpg
    tags: root
    citations: '0'
+
 -  type: dataset
    title: Rhizotron blueprints
    authors: Lobet G, Draye X
@@ -178,11 +219,12 @@
    year: 2012
    url: https://dx.doi.org/10.6084/m9.figshare.97204.v5
    doi: 10.6084/m9.figshare.97204.v5
-   image: img/dataset_rhizotron.png
+   image: img/dataset_rhizotron.jpg
    tags:
    - root
    - phenotyping
    citations: '0'
+
 -  type: journal
    title: Integrating roots into a whole plant network of flowering time genes in
       Arabidopsis thaliana
@@ -194,12 +236,15 @@
    url: http://www.nature.com/articles/srep29042
    pdf: http://www.nature.com/articles/srep29042.pdf
    doi: 10.1038/srep29042
-   image: img/microarrays.png
+   image: img/microarrays.jpg
    pmid: 27352932
    tags:
    - root
    - flowering
    citations: 3.0
+   description: >
+      Molecular data concerning the involvement of roots in the genetic pathways regulating floral transition are lacking. In this study, we performed global analyses of the root transcriptome in Arabidopsis in order to identify flowering time genes that are expressed in the roots and genes that are differentially expressed in the roots during the induction of flowering. Data mining of public microarray experiments uncovered that about 200 genes whose mutations are reported to alter flowering time are expressed in the roots (i.e. were detected in more than 50% of the microarrays). However, only a few flowering integrator genes passed the analysis cutoff. Comparison of root transcriptome in short days and during synchronized induction of flowering by a single 22-h long day revealed that 595 genes were differentially expressed. Enrichment analyses of differentially expressed genes in root tissues, gene ontology categories, and cis-regulatory elements converged towards sugar signaling. We concluded that roots are integrated in systemic signaling, whereby carbon supply coordinates growth at the whole plant level during the induction of flowering. This coordination could involve the root circadian clock and cytokinin biosynthesis as a feed forward loop towards the shoot.
+
 -  type: journal
    title: Environmental Control of Root System Biology
    authors: Rellan-Alvarez R*, Lobet G*, Dinneny J
@@ -212,11 +257,14 @@
    pmid: 26905656
    doi: 10.1146/annurev-arplant-043015-111848
    review: yes
-   image: img/art-envi.png
+   image: img/art-envi.jpg
    tags:
    - root
    - modelling
    citations: 18.0
+   description: >
+      The plant root system traverses one of the most complex environments on earth. Understanding how roots support plant life on land requires knowing how soil properties affect the availability of nutrients and water and how roots manipulate the soil environment to optimize acquisition of these resources. Imaging of roots in soil allows the integrated analysis and modeling of environmental interactions occurring at micro- to macroscales. Advances in phenotyping of root systems is driving innovation in cross-platformcompatible methods for data analysis. Root systems acclimate to the environment through architectural changes that act at the root-type level as well as through tissue-specific changes that affect the metabolic needs of the root and the efficiency of nutrient uptake. A molecular understanding of the signaling mechanisms that guide local and systemic signaling is providing insight into the regulatory logic of environmental responses and has identified points where crosstalk between pathways occurs.
+
 -  type: journal
    title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis
       thaliana
@@ -230,11 +278,16 @@
    pmid: 26476447
    doi: 10.1093/nar/gkv1054
    f1000: 725855174
-   image: img/art-florid.png
+   image: img/art-florid.jpg
    tags:
    - flowering
    - database
    citations: 28.0
+   description: >
+      Flowering is a hot topic in Plant Biology and important progress has been made in Arabidopsis thaliana toward unraveling the genetic networks involved. The increasing complexity and the explosion of literature however require development of new tools for information management and update. We therefore created an evolutive and interactive database of flowering time genes, named FLOR-ID (FloweringInteractive Database), which is freely accessible at http://www.flor-id.org. The hand-curated database contains information on 306 genes and links to 1595 publications gathering the work of >4500 authors. Gene/protein functions and interactions within the flowering pathways were inferred from the analysis of related publications, included in the database and translated into interactive manually drawn snapshots
+   other: >
+      The database was <a href="https://f1000.com/prime/725855174?bd=1">recommended on the F1000 platform</a>. It was also featured in the <a href="https://floweringhighlights.org/2016/01/21/flowering-highlights-a-database-for-all-things-flowering-by-frank-wellmer/">Flowering Highlight</a> from the Journal of Experimental Botany. You can also find a <a href="https://www.youtube.com/watch?v=yyp8W5A0L88">video describing the database on Youtube</a>.
+
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
@@ -247,11 +300,14 @@
    month: ~
    pdf: https://www.dropbox.com/s/onakb6kkvonclvv/RevisedManuscript_PlantSoil_2015.pdf?dl=0
    doi: 10.1007/s11104-015-2673-4
-   image: img/art-archidart.png
+   image: img/art-archidart.jpg
    tags:
    - data analysis
    - root
    citations: 6.0
+   description: >
+      In order to analyse root system architectures (RSAs) from captured images, a variety of manual (e.g. Data Analysis of Root Tracings, DART), semi-automated and fully automated software packages have been developed. These tools offer complementary approaches to study RSAs and the use of the Root System Markup Language (RSML) to store RSA data makes the comparison of measurements obtained with different (semi-) automated root imaging platforms easier. The throughput of the data analysis process using exported RSA data, however, should benefit greatly from batch analysis in a generic data analysis environment (R software). We developed an R package (archiDART) with five functions. It computes global RSA traits, root growth rates, root growth directions and trajectories, and lateral root distribution from DART-generated and/or RSML files. It also has specific plotting functions designed to visualise the dynamics of root system growth. The results demonstrated the ability of the package’s functions to compute relevant traits for three contrasted RSAs (Brachypodium distachyon [L.] P. Beauv., Hevea brasiliensis Müll. Arg. and Solanum lycopersicum L.). This work extends the DART software package and other image analysis tools supporting the RSML format, enabling users to easily calculate a number of RSA traits in a generic data analysis environment.
+
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
@@ -265,11 +321,14 @@
    pdf: http://elifesciences.org/content/4/e07597.full.pdf
    pmid: 26287479
    doi: 10.7554/eLife.07597
-   image: img/art-gloroot.png
+   image: img/art-gloroot.jpg
    tags:
    - root
    - phenotyping
    citations: 45.0
+   description: >
+      Root systems develop different root types that individually sense cues from their local environment and integrate this information with systemic signals. This complex multi-dimensional amalgam of inputs enables continuous adjustment of root growth rates, direction, and metabolic activity that define a dynamic physical network. Current methods for analyzing root biology balance physiological relevance with imaging capability. To bridge this divide, we developed an integrated-imaging system called Growth and Luminescence Observatory for Roots (GLO-Roots) that uses luminescence-based reporters to enable studies of root architecture and gene expression patterns in soil-grown, light-shielded roots. We have developed image analysis algorithms that allow the spatial integration of soil properties, gene expression, and root system architecture traits. We propose GLO-Roots as a system that has great utility in presenting environmental stimuli to roots in ways that evoke natural adaptive responses and in providing tools for studying the multi-dimensional nature of such processes.
+
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
@@ -283,13 +342,16 @@
    pdf: http://www.plantphysiol.org/content/early/2015/01/22/pp.114.253625.full.pdf+html
    pmid: 25614065
    doi: 10.1104/pp.114.253625
-   image: img/art-rsml.png
+   image: img/art-rsml.jpg
    tags:
    - root
    - image analysis
    - modelling
    - data analysis
    citations: 35.0
+   description: >
+      The number of image analysis tools supporting the extraction of architectural features of root systems has increased in recent years. These tools offer a handy set of complementary facilities, yet it is widely accepted that none of these software tools is able to extract in an efficient way the growing array of static and dynamic features for different types of images and species. We describe the Root System Markup Language (RSML), which has been designed to overcome two major challenges: (1) to enable portability of root architecture data between different software tools in an easy and interoperable manner, allowing seamless collaborative work; and (2) to provide a standard format upon which to base central repositories that will soon arise following the expanding worldwide root phenotyping effort. RSML follows the XML standard to store two- or three-dimensional image metadata, plant and root properties and geometries, continuous functions along individual root paths, and a suite of annotations at the image, plant, or root scale at one or several time points. Plant ontologies are used to describe botanical entities that are relevant at the scale of root system architecture. An XML schema describes the features and constraints of RSML, and open-source packages have been developed in several languages (R, Excel, Java, Python, and C#) to enable researchers to integrate RSML files into popular research workflow.
+
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
@@ -302,12 +364,15 @@
    pdf: http://www.plantmethods.com/content/pdf/s13007-015-0046-x.pdf
    pmid: 25657812
    doi: 10.1186/s13007-015-0046-x
-   image: img/art-rhizoponics.png
+   image: img/art-rhizoponics.jpg
    tags:
    - root
    - shoot
    - phenotyping
    citations: 19.0
+   description: >
+      Well-developed and functional roots are critical to support plant life and reach high crop yields. Their study however, is hampered by their underground growth and characterizing complex root system architecture (RSA) therefore remains a challenge. In the last few years, several phenotyping methods, including rhizotrons and x-ray computed tomography, have been developed for relatively thick roots. But in the model plant Arabidopsis thaliana, in vitro culture remains the easiest and preferred method to study root development, which technically limits the analyses to young seedlings. We present here an innovative design of hydroponic rhizotrons (rhizoponics) adapted to Arabidopsis thaliana. The setup allows to simultaneously characterize the RSA and shoot development from seedling to adult stages, i.e. from seed to seed. This system offers the advantages of hydroponics such as control of root environment and easy access to the roots for measurements or sampling. Being completely movable and low cost, it can be used in controlled cabinets. We chose the case of cadmium treatment to illustrate potential applications, from cell to organ levels. Rhizoponics makes possible, on the same plants of Arabidopsis, RSA measurements, root sampling and characterization of aerial development up to adult size. It therefore provides a valuable tool for addressing fundamental questions in whole plant physiology.
+
 -  type: journal
    title: Inflorescence development in tomato, gene functions within a zigzag model
    authors: Périlleux C*, Lobet G* and Tocquin P
@@ -319,11 +384,14 @@
    pdf: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/pdf
    pmid: 24744766
    doi: 10.3389/fpls.2014.00121
-   image: img/art-flomato.png
+   image: img/art-flomato.jpg
    tags:
    - flowering
    - modelling
    citations: 16.0
+   description: >
+      Tomato is a major crop plant and several mutants have been selected for breeding but also for isolating important genes that regulate flowering and sympodial growth. Besides, current research in developmental biology aims at revealing mechanisms that account for diversity in inflorescence architectures. We therefore found timely to review the current knowledge of the genetic control of flowering in tomato and to integrate the emerging network into modeling attempts. We developed a kinetic model of the tomato inflorescence development where each meristem was represented by its “vegetativeness” (V), reflecting its maturation state toward flower initiation. The model followed simple rules: maturation proceeded continuously at the same rate in every meristem (dV); floral transition and floral commitment occurred at threshold levels of V; lateral meristems were initiated with a gain of V (ΔV) relative to the V level of the meristem from which they derived. This last rule created a link between successive meristems and gave to the model its zigzag shape. We next exploited the model to explore the diversity of morphotypes that could be generated by varying dV and ΔV and matched them with existing mutant phenotypes. This approach, focused on the development of the primary inflorescence, allowed us to elaborate on the genetic regulation of the kinetic model of inflorescence development. We propose that the lateral inflorescence meristem fate in tomato is more similar to an immature flower meristem than to the inflorescence meristem of Arabidopsis. In the last part of our paper, we extend our thought to spatial regulators that should be integrated in a next step for unraveling the relationships between the different meristems that participate to sympodial growth.
+
 -  type: journal
    title: Plant Water Uptake in Drying Soils
    authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
@@ -336,11 +404,14 @@
    pmid: 24515834
    doi: 10.1104/pp.113.233486
    review: yes
-   image: img/art-water.png
+   image: img/art-water.jpg
    tags:
    - root
    - water
    citations: 41.0
+   description: >
+      Over the last decade, investigations on root water uptake have evolved toward a deeper integration of the soil and roots compartment properties, with the goal of improving our understanding of water acquisition from drying soils. This evolution parallels the increasing attention of agronomists to suboptimal crop production environments. Recent results have led to the description of root system architectures that might contribute to deep-water extraction or to water-saving strategies. In addition, the manipulation of root hydraulic properties would provide further opportunities to improve water uptake. However, modeling studies highlight the role of soil hydraulics in the control of water uptake in drying soil and call for integrative soil-plant system approaches.
+
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
@@ -353,12 +424,15 @@
    month: March
    pdf: https://www.dropbox.com/s/s8m9jmsolak7kkb/lobet2013.pdf
    doi: 10.1016/j.ecolmodel.2013.11.025
-   image: img/art-planet.png
+   image: img/art-planet.jpg
    tags:
    - root
    - water
    - modelling
    citations: 9.0
+   description: >
+      We present here a new model, PlaNet-Maize, with the purpose of investigating the effect of environmental and endogenous factors on the growth and water relations of the maize plant. This functional–structural plant model (FSPM) encompasses the entire soil-plant-atmosphere continuum with a sub-organ resolution. The model simulates the growth and development of an individual maize plant and the flux of water through the plant structure, from the rhizosphere to the leaf boundary layer. Leaf stomatal conductance and root radial and axial conductivities are considered as functions of local water potential. Finally, a simple carbon allocation rule is included in the model to allow the feedback effect of water deficit on plant growth. The model was successfully used to reproduce experimental plant hydraulic behavior in response to water deficit. The quantitative contribution of leaf conductance and root conductivities were assessed individually and in combination. Our results highlight the importance of regulating hydraulic properties in FSPM as these can strongly modify the water uptake dynamics and lead to emerging water uptake behaviors. The modeling results also indicate that plant hydraulic properties can theoretically be tailored to improve plant water use in challenging environments.
+
 -  type: journal
    title: Comparative analysis of Cd and Zn impacts on root distribution and morphology
       of Lolium perenne and Trifolium repens. Implications for phytostabilization
@@ -370,9 +444,12 @@
    month: March
    pdf: http://link.springer.com/content/pdf/10.1007%2Fs11104-013-1975-7.pdf
    doi: 10.1007/s11104-013-1975-7
-   image: img/art-lamb.png
+   image: img/art-lamb.jpg
    tags: root
    citations: 8.0
+   description: >
+      The phytostabilization potential of plants is a direct function of their root systems. An experimental design was developed to investigate the impact of Cd and Zn on the root distribution and morphology of Lolium perenne and Trifolium repens. Seedlings were transplanted into columns filled with washed quartz and irrigated daily with Cd- or Zn-containing nutrient solutions during 1 month. Root biomass, root length density (RLD) and diameter were subsequently quantified as a function of depth. Pot experiments were also performed to quantify metal, lignin and structural polysaccharides concentrations as well as cell viability. Lolium perenne accumulated Cd and Zn in the roots whereas T. repens was unable to restrict heavy metal translocation. Cadmium and Zn reduced rooting depth and RLD but induced thick shoot-borne roots in L. perenne. Cd-induced root swelling was related to lignification occurring in the exodermis and parenchyma of central cylinder. Hemicelluloses and lignin did not play a key role in root metal retention. Cadmium slightly reduced mean root cell viability whereas Zn increased this parameter in comparison to Cd. Even though plant species like Lolium perenne and Trifolium repens may appear suitable for a phytostabilization scheme based on their shoot metal tolerance, exposure to toxic heavy metals drastically impairs their root distribution. This could jeopardize the setting up of phytostabilization trials. The metal-induced alterations of root system properties are clearly metal- and species-specific. At sites polluted with multiple metals, it is therefore recommended to first test their impact on the root system of multiple plant species so as to select the most appropriate species for each site.
+
 -  type: journal
    title: Root systems biology, integrative modeling across scales, from gene regulatory
       networks to the rhizosphere
@@ -386,11 +463,14 @@
    pmid: 24143806
    doi: 10.1104/pp.113.227215
    review: yes
-   image: img/art-hill.png
+   image: img/art-hill.jpg
    tags:
    - root
    - modelling
    citations: 22.0
+   description: >
+      Genetic and genomic approaches in model organisms have advanced our understanding of root biology over the last decade. Recently, however, systems biology and modeling have emerged as important approaches, as our understanding of root regulatory pathways has become more complex and interpreting pathway outputs has become less intuitive. To relate root genotype to phenotype, we must move beyond the examination of interactions at the genetic network scale and employ multiscale modeling approaches to predict emergent properties at the tissue, organ, organism, and rhizosphere scales. Understanding the underlying biological mechanisms and the complex interplay between systems at these different scales requires an integrative approach. Here, we describe examples of such approaches and discuss the merits of developing models to span multiple scales, from network to population levels, and to address dynamic interactions between plants and their environment.
+
 -  type: journal
    title: An online database for plant image analysis software tools
    authors: Lobet G, Draye X and Périlleux C
@@ -404,11 +484,16 @@
    link: http://www.plant-image-analysis.org
    link_name: View Database
    doi: 10.1186/1746-4811-9-38
-   image: img/art-pia.png
+   image: img/art-pia.jpg
    tags:
    - database
    - image analysis
    citations: 84.0
+   description: >
+      Recent years have seen an increase in methods for plant phenotyping using image analyses. These methods require new software solutions for data extraction and treatment. These solutions are instrumental in supporting various research pipelines, ranging from the localisation of cellular compounds to the quantification of tree canopies. However, due to the variety of existing tools and the lack of central repository, it is challenging for researchers to identify the software that is best suited for their research. We present an online, manually curated, database referencing more than 90 plant image analysis software solutions. The website, plant-image-analysis.org, presents each software in a uniform and concise manner enabling users to identify the available solutions for their experimental needs. The website also enables user feedback, evaluations and new software submissions. The plant-image-analysis.org database provides an overview of existing plant image analysis software. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
+   other: >
+      By the end of 2017, the <a href="http://www.plant-image-analysis.org/">database</a> contained 159 tools. It has been extended to reference plant image datasets (1 800 000 images referenced). It has an average trafic of 10 000 monthly page views.
+
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
@@ -421,11 +506,15 @@
    pdf: http://www.plantmethods.com/content/pdf/1746-4811-9-1.pdf
    pmid: 23286457
    doi: 10.1186/1746-4811-9-1
-   image: img/art-scanning.png
+   image: img/art-scanning.jpg
    tags:
    - root
    - phenotyping
    citations: 28.0
+   description: >
+      This paper presents an original spit-and-combine imaging procedure that enables the complete vectorization of complex root systems grown in rhizotrons. The general principle of the method is to (1) separate the root system into a small number of large pieces to reduce root overlap, (2) scan these pieces one by one, (3) analyze separate images with a root tracing software and (4) combine all tracings into a single vectorized root system. This method generates a rich dataset containing morphological, topological and geometrical information of entire root systems grown in rhizotrons. The utility of the method is illustrated with a detailed architectural analysis of a 20-day old maize root system, coupled with a spatial analysis of water uptake patterns.
+
+
 -  type: journal
    title: A novel image-analysis toolbox enabling quantitative analysis of root system
       architecture
@@ -438,11 +527,14 @@
    pdf: http://www.plantphysiol.org/content/157/1/29.full.pdf
    pmid: 21771915
    doi: 10.1104/pp.111.179895
-   image: img/art-smartroot.png
+   image: img/art-smartroot.jpg
    tags:
    - root
    - image analysis
    citations: 170.0
+   description: >
+      We present in this paper a novel, semiautomated image-analysis software to streamline the quantitative analysis of root growth and architecture of complex root systems. The software combines a vectorial representation of root objects with a powerful tracing algorithm that accommodates a wide range of image sources and quality. The root system is treated as a collection of roots (possibly connected) that are individually represented as parsimonious sets of connected segments. Pixel coordinates and gray level are therefore turned into intuitive biological attributes such as segment diameter and orientation as well as distance to any other segment or topological position. As a consequence, user interaction and data analysis directly operate on biological entities (roots) and are not hampered by the spatially discrete, pixel-based nature of the original image. The software supports a sampling-based analysis of root system images, in which detailed information is collected on a limited number of roots selected by the user according to specific research requirements. The use of the software is illustrated with a time-lapse analysis of cluster root formation in lupin (Lupinus albus) and an architectural analysis of the maize (Zea mays) root system. The software, SmartRoot, is an operating system-independent freeware based on ImageJ and relies on cross-platform standards for communication with data-analysis software.
+
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
@@ -455,12 +547,15 @@
    pdf: http://jxb.oxfordjournals.org/content/61/8/2145.full.pdf
    pmid: 20453027
    doi: 10.1093/jxb/erq077
-   image: img/art-model.png
+   image: img/art-model.jpg
    tags:
    - root
    - water
    - modelling
    citations: 121.0
+   description: >
+      Due in part to recent progress in root genetics and genomics, increasing attention is being devoted to root system architecture (RSA) for the improvement of drought tolerance. The focus is generally set on deep roots, expected to improve access to soil water resources during water deficit episodes. Surprisingly, our quantitative understanding of the role of RSA in the uptake of soil water remains extremely limited, which is mainly due to the inherent complexity of the soil–plant continuum. Evidently, there is a need for plant biologists and hydrologists to develop together their understanding of water movement in the soil–plant system. Using recent quantitative models coupling the hydraulic behaviour of soil and roots in an explicit 3D framework, this paper illustrates that the contribution of RSA to root water uptake is hardly separable from the hydraulic properties of the roots and of the soil. It is also argued that the traditional view that either the plant or the soil should be dominating the patterns of water extraction is not generally appropriate for crops growing with a sub-optimal water supply. Hopefully, in silico experiments using this type of model will help explore how water fluxes driven by soil and plant processes affect soil water availability and uptake throughout a growth cycle and will embed the study of RSA within the domains of root hydraulic architecture and sub-surface hydrology.
+
 -  type: bookchapter
    title: Root water uptake and water flow in the soil-root domain
    authors: Lobet G, Hachez C, Chaumont F, Javaux M and Draye X
@@ -468,14 +563,18 @@
    book: Plant Roots, The Hidden Half, 4h edition,
    url: http://www.crcpress.com/product/isbn/9781439846483
    pdf: https://www.dropbox.com/s/k059e2ehdc8y241/lobet_2013_PRTHH.pdf?dl=0
-   image: img/book-water.png
+   image: img/book-water.jpg
    citations: '0'
+   description: >
+
 -  type: thesis
    title: Regulation of water flow in the soil-root domain. New tools and methods.
    authors: Lobet G
    year: 2012
    book: Université catholique de Louvain
    doi: 10.6084/m9.figshare.2009226
-   image: img/thesis.png
+   image: img/thesis.jpg
    citations: '0'
+   description: >
+
 

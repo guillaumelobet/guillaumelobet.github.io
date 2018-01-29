@@ -1,3 +1,5 @@
+
+
 body {
   -webkit-font-smoothing:antialiased;
      -moz-font-smoothing:antialiased;
@@ -8,7 +10,7 @@ body {
   font-family:'Roboto', 'Arial', sans-serif;
   font-size:16px;
   padding-top:100px;
-  background-color:#fff;
+  background-color:#ececec;
 }
 
 /*******************
@@ -35,7 +37,7 @@ header {
   padding-bottom:5px;
   /*background-color: #F2F2F2;¨*/
   border-bottom: 3px solid #27517f;
-  background-color: #005b82;  /*  4789CF #2D4972; #5294f7;*/
+  background-color: #0081f8;  /*  4789CF #2D4972; #5294f7;*/
   color:#fff;
 }
 

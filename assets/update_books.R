@@ -6,7 +6,7 @@ library(XML)
 library(yaml)
 
 
-rs <- yaml.load_file("~/Dropbox/research/scripts/websites/guillaumelobet.github.io/_data/book.yml")
+rs <- yaml.load_file("~/Dropbox/science/outputs/websites/guillaumelobet.github.io/_data/book.yml")
 
 for(i in 1:length(rs)){
     print(rs[[i]]$goodread) 
@@ -24,15 +24,25 @@ for(i in 1:length(rs)){
       
       # Get book title
       plain.text <- xpathSApply(doc, "//meta[@property='og:title']", xmlAttrs)
-      rs[[i]]$title <- plain.text[2]
+      rs[[i]]$title <- plain.text[1]
       
       # Get ISBN
-      plain.text <- xpathSApply(doc, "//meta[@property='good_reads:isbn']", xmlAttrs)
-      rs[[i]]$isbn <- plain.text[2]
+      plain.text <- xpathSApply(doc, "//meta[@property='books:isbn']", xmlAttrs)
+      rs[[i]]$isbn <- plain.text[1]
       
       # Get author
       rs[[i]]$author <- xpathSApply(doc, "//a[@class='authorName']/span", xmlValue)[1]
 
+      
+      rs[[i]]$author <- gsub("Ã¨", "è", rs[[i]]$author)
+      rs[[i]]$author <- gsub("Ã©", "é", rs[[i]]$author)
+      rs[[i]]$author <- gsub("Ã«", "ë", rs[[i]]$author)
+      rs[[i]]$author <- gsub("Ã", "E", rs[[i]]$author)
+
+      rs[[i]]$title <- gsub("Ã¨", "è", rs[[i]]$title)
+      rs[[i]]$title <- gsub("Ã©", "é", rs[[i]]$title)
+      rs[[i]]$title <- gsub("Ã«", "ë", rs[[i]]$title)
+      
       rs[[i]]$url <- paste0('http://www.goodreads.com/book/show/', ref)
       
             
@@ -48,5 +58,5 @@ for(i in 1:length(rs)){
 }
 
 cat(as.yaml(rs, precision = 3, indent = 3), 
-    file=paste("~/Dropbox/research/scripts/websites/guillaumelobet.github.io/_data/book.yml",sep=""), sep='\n\n\n') # Create the input file for Archisimple
+    file=paste("~/Dropbox/science/outputs/websites/guillaumelobet.github.io/_data/book.yml",sep=""), sep='\n\n\n') # Create the input file for Archisimple
 
