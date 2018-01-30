@@ -350,33 +350,35 @@ An Elbowpatched theme
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <h5 class="modal-title">{{ publication.title }}</h5>
+                        
                         <div class="row ml-1">
-                          
-                            <div class="col-auto">
-                             <div class="btn-group" role="group" aria-label="pub_links">
+                          <div class="col-12 col-sm-8 mb-2">
+                            <h5 class="modal-title">{{ publication.title }}</h5>
+                          </div>
+                          <div class="col-12 col-sm-4">
+                             
                                 {% if publication.doi %}
-                                    <a class="btn btn-outline-primary btn-sm" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
                                       <i class="fal fa-link"></i> Publisher
                                     </a>
                                 {% elsif publication.url %}
-                                    <a class="btn btn-outline-primary btn-sm" href="{{ publication.url }}" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.url }}" target="_blank">
                                       <i class="fal fa-link"></i> Publisher
                                     </a>
                                 {% endif %}
 
                                 {% if publication.pmid %}
-                                    <a class="btn btn-outline-primary btn-sm" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
                                       <i class="fal fa-link"></i> PubMed
                                     </a>
                                 {% endif %}
 
                                 {% if publication.pdf %}
-                                    <a class="btn btn-outline-primary btn-sm" href="{{ publication.pdf }}" target="_blank">
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.pdf }}" target="_blank">
                                       <i class="fal fa-file-alt"></i> PDF
                                     </a>
                                 {% endif %}
-                              </div>
+                              
                             </div>
                           </div>                        
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -412,6 +414,7 @@ An Elbowpatched theme
                                 </button>
                                 {% endfor %}
                               {% endif %} 
+                              <hr>
                             </div>
                             <div class="col-12 col-xl-9">
                               <h4>Abstract</h4>
