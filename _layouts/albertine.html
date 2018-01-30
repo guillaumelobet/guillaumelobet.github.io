@@ -196,7 +196,7 @@ An Elbowpatched theme
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">{{ project.name }}</h5>
                 {% if project.url %}
-                  <a href="{{ project.url }}" type="button" class="btn btn-default btn-sm" target="_blank">
+                  <a href="{{ project.url }}" type="button" class="btn btn-outline-primary btn-sm" target="_blank">
                     <i class="fal fa-external-link"></i> More
                   </a>
                 {% endif %}
@@ -227,7 +227,7 @@ An Elbowpatched theme
               <div class="d-flex w-100 justify-content-between">
                 <h5 class="mb-1">{{ course.name }}</h5>
                 {% if course.url %}
-                  <a href="{{ course.url }}" type="button" class="btn btn-default btn-sm" target="_blank">
+                  <a href="{{ course.url }}" type="button" class="btn btn-outline-primary btn-sm" target="_blank">
                     <i class="fal fa-external-link"></i> More
                   </a>
                 {% endif %}
@@ -272,18 +272,18 @@ An Elbowpatched theme
                       <small>{{ counter }} - </small><strong>{{ presentation.title }}</strong>
                       <small>- {{ presentation.date }}<br>
                       {{ presentation.location }}</br>
-                      </small>
+                      </small><hr>
                       {% if presentation.status %}
                           <button type="button" class="btn btn-outline-info btn-sm">
                             <i class="fal fa-check"></i> invited
                           </button>
                       {% endif %}
                       {% if presentation.doi %}
-                        <a class="btn btn-default" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
+                        <a class="btn btn-outline-primary btn-sm" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
                           <i class="fal fa-file-pdf"></i> PDF
                         </a>
                       {% elsif presentation.slides_url %}
-                        <a class="btn btn-default" href="{{ presentation.slides_url }}" target="_blank">
+                        <a class="btn btn-outline-primary btn-sm" href="{{ presentation.slides_url }}" target="_blank">
                           <i class="fal fa-file-pdf"></i> PDF
                         </a>
                       {% endif %}                     
@@ -310,36 +310,10 @@ An Elbowpatched theme
           {% for publication in site.data.publications %}
               {% case publication.type %}
                 {% when 'journal' %}
-                  {% assign counter = counter | plus: 1 %}
-                  {% assign auths = publication.authors | split:"," %}
-                  {% if publication.authors contains 'G*' %}
-                    {% assign counter2 = counter2 | plus: 1 %}
-                  {% elsif auths[0] contains "Lobet"%}
-                    {% assign counter2 = counter2 | plus: 1 %}
-                  {% endif %}
-                {% when 'summary' %}
-                  {% assign hindex = publication.hindex %}
-                  {% assign citations = publication.citations %}
-                  {% assign update = publication.update %}                
+                  {% assign counter = counter | plus: 1 %}              
               {% endcase %}
           {% endfor %}
           {% assign counter3 = counter | minus :1 %}
-
-
-
-          <div class="alert alert-primary">
-            <ul>
-              <li>Number of articles:<b> {{counter3}}</b></li>
-              <li>As first/last author:<b> {{counter2}}</b></li>
-              <li>Google Scholar h-index:<b> {{hindex}}</b></li>
-              <li>Number of citations:<b> {{citations}}</b></li>
-            </ul>
-            <small>Last update on {{update}}.</small>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-
-          </div>
 
           
           <div class="alert alert-info">
@@ -351,21 +325,19 @@ An Elbowpatched theme
           </div>
 
           <div class="row">
-
             {% assign counter = 1 %}
             {% for publication in site.data.publications %}
 
               {% case publication.type %}
                 {% when 'journal' %}
-                {% assign counter = counter | plus: 1 %}
-
+                {% assign counter = counter | plus:1 %}
                 <div class="card p-3 mt-3 col-12 ">
                   <div class="row">
                     <div class="col-4  d-none d-sm-block">
                       <img src="{{ site.baseurl }}{{ publication.image }}" class="img-thumbnail">
                     </div>
                     <div class="col-12 col-sm-8 justify-content-end">
-                      <strong class="mb-1">{{ publication.title }}</strong></br>
+                      <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong></br>
                       <small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small></br>
                       <button type="button" class="btn btn-outline-secondary btn-sm " style="float: right" data-toggle="modal" data-target="#modal{{counter}}">
                         <i class="fal fa-plus"></i>
@@ -379,20 +351,52 @@ An Elbowpatched theme
                     <div class="modal-content">
                       <div class="modal-header">
                         <h5 class="modal-title">{{ publication.title }}</h5>
+                        <div class="row ml-1">
+                          
+                            <div class="col-auto">
+                             <div class="btn-group" role="group" aria-label="pub_links">
+                                {% if publication.doi %}
+                                    <a class="btn btn-outline-primary btn-sm" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                                      <i class="fal fa-link"></i> Publisher
+                                    </a>
+                                {% elsif publication.url %}
+                                    <a class="btn btn-outline-primary btn-sm" href="{{ publication.url }}" target="_blank">
+                                      <i class="fal fa-link"></i> Publisher
+                                    </a>
+                                {% endif %}
+
+                                {% if publication.pmid %}
+                                    <a class="btn btn-outline-primary btn-sm" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                                      <i class="fal fa-link"></i> PubMed
+                                    </a>
+                                {% endif %}
+
+                                {% if publication.pdf %}
+                                    <a class="btn btn-outline-primary btn-sm" href="{{ publication.pdf }}" target="_blank">
+                                      <i class="fal fa-file-alt"></i> PDF
+                                    </a>
+                                {% endif %}
+                              </div>
+                            </div>
+                          </div>                        
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                           <span aria-hidden="true">&times;</span>
                         </button>
+
+
                       </div>
                       <div class="modal-body">
+
                         <p>
                           <div class="row">
-                            <div class="col-3">
-                              <span class="__dimensions_badge_embed__" data-doi="{{publication.doi}}" data-style="small_circle"></span> 
-                            </div>
-                            <div class="col-3">
+                            
+                            <div class="col-12 col-xl-2 mx-auto">
+
+                              <span class="__dimensions_badge_embed__" data-doi="{{publication.doi}}" data-style="small_circle"></span> <hr>
+
                               <span data-badge-popover="right" data-badge-type="donut" data-doi="{{publication.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></span>
-                            </div>
-                            <div class="col-6">
+                              <hr>
+                            
                               {% if publication.review %}
                                 <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fal fa-book mr-1"></i>review</button>
                               {% endif %} 
@@ -409,45 +413,24 @@ An Elbowpatched theme
                                 {% endfor %}
                               {% endif %} 
                             </div>
+                            <div class="col-12 col-xl-9">
+                              <h4>Abstract</h4>
+                              {{publication.description}}
+                              <hr>
+                              {% if publication.other %}
+                                <h4>Other informations</h4>
+                                {{publication.other}}
+                              {% endif %} 
+                            </div>
                           </div>
-                          <hr>
-                          <h4>Abstract</h4>
-                          {{publication.description}}
-                          <hr>
-                          {% if publication.other %}
-                            <h4>Other informations</h4>
-                            {{publication.other}}
-                          {% endif %} 
+
                         </p>
-                      </div>
-                      <div class="modal-footer">
-                         <div class="btn-group" role="group" aria-label="pub_links">
-                            {% if publication.doi %}
-                                <a class="btn btn-outline-primary btn-sm" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
-                                  <i class="fal fa-link"></i> Publisher
-                                </a>
-                            {% elsif publication.url %}
-                                <a class="btn btn-outline-primary btn-sm" href="{{ publication.url }}" target="_blank">
-                                  <i class="fal fa-link"></i> Publisher
-                                </a>
-                            {% endif %}
-
-                            {% if publication.pmid %}
-                                <a class="btn btn-outline-primary btn-sm" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
-                                  <i class="fal fa-link"></i> PubMed
-                                </a>
-                            {% endif %}
-
-                            {% if publication.pdf %}
-                                <a class="btn btn-outline-primary btn-sm" href="{{ publication.pdf }}" target="_blank">
-                                  <i class="fal fa-file-alt"></i> PDF
-                                </a>
-                            {% endif %}
-                          </div>
                       </div>
                     </div>
                   </div>
                 </div>
+
+                {% assign counter3 = counter3 | minus: 1 %}
 
               {% endcase %}
             {% endfor %}
@@ -497,7 +480,7 @@ An Elbowpatched theme
                   <h5 class="card-title">{{ book.title }}</h5>
                   <p class="card-text">by {{ book.author }}</p>
                   {% if book.url %}
-                      <a class="btn btn-default btn-sm" href="{{ book.url }}" target="_blank">
+                      <a class="btn btn-outline-primary btn-sm" href="{{ book.url }}" target="_blank">
                         <i class="fa fa-external-link"></i> More
                       </a>
                   {% endif %}                 
@@ -685,7 +668,7 @@ An Elbowpatched theme
 
     <hr>
 
-    <div class="col-6 mx-auto text-center mb-5">
+    <div class="col-10 col-sm-6 mx-auto text-center mb-5">
       {{site.data.personal.footer}}
     </div>
   </footer>
