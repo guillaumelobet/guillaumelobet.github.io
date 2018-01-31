@@ -17,6 +17,8 @@
    preprint: yes
    description: >
     Quantifying plant morphology is a very challenging task that requires methods able to capture the geometry and topology of plant organs at various spatial scales. Recently, the use of persistent homology as a mathematical framework to quantify plant morphology has been successfully demonstrated for leaves, shoots, and root systems. In this paper, we present a new data analysis pipeline implemented in the R package archiDART to analyse root system architectures using persistent homology. In addition, we also show that both geometric and topological descriptors are necessary to accurately compare root systems and assess their natural complexity.
+   other: >
+      This paper was <a href="https://www.nature.com/articles/d41586-018-01322-9?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf180719177=1">featured in Nature News</a>, for its interactive figure. 
  
 -  type: journal
    title: Teaching Tools in Plant Biology, Phenomics of root system architecture
