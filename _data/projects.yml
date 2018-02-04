@@ -2,7 +2,7 @@
 -
   name: PRIMAL
   description: >
-    PRIMAL stands for a Pipeline of Root Image analysis using MAchine Learning. In short, the pipeline use Machine Learning techniques (Random Forest in particular), tu streamline the image analysis of large root dataset. PRIMAL needs only a subset of the data to be analyse manual, instead of the full dataset. That subset is then used to train the algorithm behind PRIMAL the predict the parameters of interest, based on automatically acquired descriptors.
+    PRIMAL stands for a Pipeline of Root Image analysis using MAchine Learning. In short, the pipeline use Machine Learning techniques (Random Forest in particular), to streamline the image analysis of large plant image dataset. PRIMAL needs only a subset of the data to be analysed manually, instead of the full dataset. That subset is then used to train the algorithm behind PRIMAL to predict the parameters of interest, based on automatically acquired descriptors.
   image: /img/primal.jpg
   url: https://plantmodelling.github.io/primal/
   tags:
@@ -20,7 +20,7 @@
 -
   name: archiDART
   description: >
-    archiDART is an R package that was developed for the automated analysis of plant root system architectures using Data Analysis of Root Tracings (DART) and Root System Markup Language (RSML) files.
+    archiDART is an R package that was developed for the automated analysis of plant root system architectures using Root System Markup Language (RSML) files.
   image: /img/archidart_1.jpg
   url: https://archidart.github.io/
   tags:
