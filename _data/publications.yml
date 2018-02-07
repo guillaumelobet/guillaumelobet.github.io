@@ -4,6 +4,18 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: Measuring root system traits of wheat in 2D images to parameterize 3D root architecture models
+   authors: Landl M, Schnepf A, Vanderborght J, Bengough G, Bauke S, Lobet G, Bol R, Vereecken H
+   journal: Plant and Soil
+   year: 2018
+   image: img/art-magda.jpg
+   tags:
+   - root
+   - modelling
+   description: >
+      The main difficulty in the use of 3D root architecture models is correct parameterization. We evaluated distributions of the root traits inter-branch distance, branching angle and axial root trajectories from contrasting experimental systems to improve model parameterization.. We analyzed 2D root images of different wheat varieties (Triticum Aestivum) from three different sources using automatic root tracking. Model input parameters and common parameter patterns were identified from extracted root system coordinates. Simulation studies were used to (1) link observed axial root trajectories with model input parameters (2) evaluate errors due to the 2D (versus 3D) nature of image sources and (3) investigate the effect of model parameter distributions on root foraging performance. Distributions of inter-branch distances were approximated with lognormal functions. Branching angles showed mean values <90°. Gravitropism and tortuosity parameters were quantified in relation to downwards reorientation and segment angles of root axes. Root system projection in 2D increased the variance of branching angles. Root foraging performance was very sensitive to parameter distribution and variance. Conclusions 2D image analysis can systematically and efficiently analyze root system architectures and parameterize 3D root architecture models. Effects of root system projection (2D from 3D) and deflection (at rhizotron face) on size and distribution of particular parameters are potentially significant
+
+-  type: journal
    title: archiDART v3.0, A new data analysis pipeline allowing the topological analysis of plant root systems
    authors: Delory B, Li M, Topp C and Lobet G
    journal: F1000Research
