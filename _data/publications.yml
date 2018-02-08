@@ -4,6 +4,23 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
+   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
+      C, Zoerner M, Vanderborght J, Vereecken H
+   journal: biorxiv
+   year: 2018
+   url: https://doi.org/10.1093/aob/mcx221
+   pdf: https://paperpile.com/shared/Y3OVEr
+   doi: 10.1093/aob/mcx221
+   image: img/art-crootbox.jpg
+   tags:
+   - root
+   - phenotyping
+   citations: 1.0
+   description: >
+      Root architecture development determines the sites in soil where roots provide input of carbon and take up water and solutes. However, root architecture is difficult to determine experimentally when grown in opaque soil. Thus, root architectural models have been widely used and been further developed into functional-structural models that simulate the fate of water and solutes in the soil-root system. We present a root architectural model, CRootBox, as a flexible framework to model architecture and its interactions with static and dynamic soil environments. CRootBox is a C++-based root architecture model with Python binding, so that CRootBox can be included via a shared library into any Python code. Output formats include VTP, DGF, RSML and CSV. We further created a database of published root architectural parameters. The capabilities of CRootBox for the unconfined growth of single root systems, as well as the different parameter sets, are highlighted into a freely available web application. We demonstrate the use of CRootBox for 5 different cases (1) free growth of individual root systems (2) growth of root systems in containers as a way to mimic experimental setups, (3), field scale simulation, (4) root growth as affected by heterogeneous, static soil conditions, and (5) coupling CRootBox with Soil Physics with Python code to dynamically compute water flow in soil, root water uptake, and water flow inside roots. In conclusion, we present a fast and flexible functional-structural root model which is based on state-of-the-art computational science methods. Its aim is to facilitate modelling of root responses to environmental conditions as well as the impact of root on soil. In the future, we plan to extend this approach to the aboveground part of the plant.
+
+-  type: journal
    title: Measuring root system traits of wheat in 2D images to parameterize 3D root architecture models
    authors: Landl M, Schnepf A, Vanderborght J, Bengough G, Bauke S, Lobet G, Bol R, Vereecken H
    journal: Plant and Soil
@@ -108,25 +125,6 @@
       Image analysis has become a powerful technique for most plant scientists. In recent years dozens of image analysis tools have been published in plant science journals. These tools cover the full spectrum of plant scales, from single cells to organs and canopies. However, the field of plant image analysis remains in its infancy. It still has to overcome important challenges, such as the lack of robust validation practices or the absence of long-term support. In this Opinion article, I: (i) present the current state of the field, based on data from the plant-image-analysis.org database; (ii) identify the challenges faced by its community; and (iii) propose workable ways of improvement.
    other: >
       The review made the cover of Trends in Plant Science in June 2017.
-
--  type: journal
-   title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
-   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
-      C, Zoerner M, Vanderborght J, Vereecken H
-   journal: biorxiv
-   year: 2017
-   url: https://doi.org/10.1101/139980
-   pdf: http://biorxiv.org/content/early/2017/05/19/139980.full.pdf
-   doi: 10.1101/139980
-   image: img/art-crootbox.jpg
-   tags:
-   - root
-   - phenotyping
-   citations: 1.0
-   preprint: yes
-   description: >
-      Root architecture development determines the sites in soil where roots provide input of carbon and take up water and solutes. However, root architecture is difficult to determine experimentally when grown in opaque soil. Thus, root architectural models have been widely used and been further developed into functional-structural models that simulate the fate of water and solutes in the soil-root system. We present a root architectural model, CRootBox, as a flexible framework to model architecture and its interactions with static and dynamic soil environments. CRootBox is a C++-based root architecture model with Python binding, so that CRootBox can be included via a shared library into any Python code. Output formats include VTP, DGF, RSML and CSV. We further created a database of published root architectural parameters. The capabilities of CRootBox for the unconfined growth of single root systems, as well as the different parameter sets, are highlighted into a freely available web application. We demonstrate the use of CRootBox for 5 different cases (1) free growth of individual root systems (2) growth of root systems in containers as a way to mimic experimental setups, (3), field scale simulation, (4) root growth as affected by heterogeneous, static soil conditions, and (5) coupling CRootBox with Soil Physics with Python code to dynamically compute water flow in soil, root water uptake, and water flow inside roots. In conclusion, we present a fast and flexible functional-structural root model which is based on state-of-the-art computational science methods. Its aim is to facilitate modelling of root responses to environmental conditions as well as the impact of root on soil. In the future, we plan to extend this approach to the aboveground part of the plant.
-
 
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
