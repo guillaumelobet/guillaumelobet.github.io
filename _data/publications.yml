@@ -4,6 +4,35 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
+   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
+      C, Zoerner M, Vanderborght J, Vereecken H
+   journal: biorxiv
+   year: 2018
+   url: https://doi.org/10.1093/aob/mcx221
+   pdf: https://paperpile.com/shared/Y3OVEr
+   doi: 10.1093/aob/mcx221
+   image: img/art-crootbox.jpg
+   tags:
+   - root
+   - phenotyping
+   citations: 1.0
+   description: >
+      Root architecture development determines the sites in soil where roots provide input of carbon and take up water and solutes. However, root architecture is difficult to determine experimentally when grown in opaque soil. Thus, root architectural models have been widely used and been further developed into functional-structural models that simulate the fate of water and solutes in the soil-root system. We present a root architectural model, CRootBox, as a flexible framework to model architecture and its interactions with static and dynamic soil environments. CRootBox is a C++-based root architecture model with Python binding, so that CRootBox can be included via a shared library into any Python code. Output formats include VTP, DGF, RSML and CSV. We further created a database of published root architectural parameters. The capabilities of CRootBox for the unconfined growth of single root systems, as well as the different parameter sets, are highlighted into a freely available web application. We demonstrate the use of CRootBox for 5 different cases (1) free growth of individual root systems (2) growth of root systems in containers as a way to mimic experimental setups, (3), field scale simulation, (4) root growth as affected by heterogeneous, static soil conditions, and (5) coupling CRootBox with Soil Physics with Python code to dynamically compute water flow in soil, root water uptake, and water flow inside roots. In conclusion, we present a fast and flexible functional-structural root model which is based on state-of-the-art computational science methods. Its aim is to facilitate modelling of root responses to environmental conditions as well as the impact of root on soil. In the future, we plan to extend this approach to the aboveground part of the plant.
+
+-  type: journal
+   title: Measuring root system traits of wheat in 2D images to parameterize 3D root architecture models
+   authors: Landl M, Schnepf A, Vanderborght J, Bengough G, Bauke S, Lobet G, Bol R, Vereecken H
+   journal: Plant and Soil
+   year: 2018
+   image: img/art-magda.jpg
+   tags:
+   - root
+   - modelling
+   description: >
+      The main difficulty in the use of 3D root architecture models is correct parameterization. We evaluated distributions of the root traits inter-branch distance, branching angle and axial root trajectories from contrasting experimental systems to improve model parameterization.. We analyzed 2D root images of different wheat varieties (Triticum Aestivum) from three different sources using automatic root tracking. Model input parameters and common parameter patterns were identified from extracted root system coordinates. Simulation studies were used to (1) link observed axial root trajectories with model input parameters (2) evaluate errors due to the 2D (versus 3D) nature of image sources and (3) investigate the effect of model parameter distributions on root foraging performance. Distributions of inter-branch distances were approximated with lognormal functions. Branching angles showed mean values <90°. Gravitropism and tortuosity parameters were quantified in relation to downwards reorientation and segment angles of root axes. Root system projection in 2D increased the variance of branching angles. Root foraging performance was very sensitive to parameter distribution and variance. Conclusions 2D image analysis can systematically and efficiently analyze root system architectures and parameterize 3D root architecture models. Effects of root system projection (2D from 3D) and deflection (at rhizotron face) on size and distribution of particular parameters are potentially significant
+
+-  type: journal
    title: archiDART v3.0, A new data analysis pipeline allowing the topological analysis of plant root systems
    authors: Delory B, Li M, Topp C and Lobet G
    journal: F1000Research
@@ -17,6 +46,8 @@
    preprint: yes
    description: >
     Quantifying plant morphology is a very challenging task that requires methods able to capture the geometry and topology of plant organs at various spatial scales. Recently, the use of persistent homology as a mathematical framework to quantify plant morphology has been successfully demonstrated for leaves, shoots, and root systems. In this paper, we present a new data analysis pipeline implemented in the R package archiDART to analyse root system architectures using persistent homology. In addition, we also show that both geometric and topological descriptors are necessary to accurately compare root systems and assess their natural complexity.
+   other: >
+      This paper was <a href="https://www.nature.com/articles/d41586-018-01322-9?utm_source=twt_nnc&utm_medium=social&utm_campaign=naturenews&sf180719177=1">featured in Nature News</a>, for its interactive figure. 
  
 -  type: journal
    title: Teaching Tools in Plant Biology, Phenomics of root system architecture
@@ -96,25 +127,6 @@
       The review made the cover of Trends in Plant Science in June 2017.
 
 -  type: journal
-   title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
-   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
-      C, Zoerner M, Vanderborght J, Vereecken H
-   journal: biorxiv
-   year: 2017
-   url: https://doi.org/10.1101/139980
-   pdf: http://biorxiv.org/content/early/2017/05/19/139980.full.pdf
-   doi: 10.1101/139980
-   image: img/art-crootbox.jpg
-   tags:
-   - root
-   - phenotyping
-   citations: 1.0
-   preprint: yes
-   description: >
-      Root architecture development determines the sites in soil where roots provide input of carbon and take up water and solutes. However, root architecture is difficult to determine experimentally when grown in opaque soil. Thus, root architectural models have been widely used and been further developed into functional-structural models that simulate the fate of water and solutes in the soil-root system. We present a root architectural model, CRootBox, as a flexible framework to model architecture and its interactions with static and dynamic soil environments. CRootBox is a C++-based root architecture model with Python binding, so that CRootBox can be included via a shared library into any Python code. Output formats include VTP, DGF, RSML and CSV. We further created a database of published root architectural parameters. The capabilities of CRootBox for the unconfined growth of single root systems, as well as the different parameter sets, are highlighted into a freely available web application. We demonstrate the use of CRootBox for 5 different cases (1) free growth of individual root systems (2) growth of root systems in containers as a way to mimic experimental setups, (3), field scale simulation, (4) root growth as affected by heterogeneous, static soil conditions, and (5) coupling CRootBox with Soil Physics with Python code to dynamically compute water flow in soil, root water uptake, and water flow inside roots. In conclusion, we present a fast and flexible functional-structural root model which is based on state-of-the-art computational science methods. Its aim is to facilitate modelling of root responses to environmental conditions as well as the impact of root on soil. In the future, we plan to extend this approach to the aboveground part of the plant.
-
-
--  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
       rhizotrons
    authors: Mohamed A, Monnier Y,  Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
@@ -137,7 +149,7 @@
       of root image analysis pipelines
    authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
    journal: Frontiers in Plant Science
-   year: 2016
+   year: 2017
    url: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/abstract
    doi: 10.3389/fpls.2017.00447
    pdf: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/pdf
