@@ -217,7 +217,7 @@ An Elbowpatched theme
         <div class="tab-pane fade" id="list-teaching" role="tabpanel" aria-labelledby="list-teaching-list">
           
           <h3>Teaching</h3>
-          <p>I have the great chance to give lectures at the University of Louvain, in the bio-engenering faculty. I also give seminars and workshop on random topics.</p>
+          <p>I have the great chance to give lectures at the University of Louvain, in the Faculty of bioscience engineering. I also give seminars and workshop on random topics.</p>
 
           <div class="list-group">
 
@@ -530,7 +530,7 @@ An Elbowpatched theme
                   {% for reject in site.data.rejections %}
                     {% case reject.type %}
                       {% when 'quote' %}
-                        <li class="mb-2"><quote>{{reject.title}}</quote> - <small>{{reject.year}}</small></li>
+                        <li class="mb-2"><quote>{{reject.title}}</quote> [<small>{{reject.year}}</small>]</li>
                     {% endcase %}
                   {% endfor %}
                 </ul>
@@ -567,7 +567,7 @@ An Elbowpatched theme
                   {% for reject in site.data.rejections %}
                     {% case reject.type %}
                       {% when 'grant' %}
-                        <li class="mb-2">{{reject.title}} - <small>{{reject.year}}</small></li>
+                        <li class="mb-2">{{reject.title}} [<small>{{reject.year}}</small>]</li>
                     {% endcase %}
                   {% endfor %}        
                 </ul> 

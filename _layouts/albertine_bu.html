@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+
+<!--
+
+Albertine 0.1
+An Elbowpatched theme
+
+(c) 2014 Ian Li (http://ianli.com)
+
+####
+
+-->
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.data.personal.name }}</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700">
+  <!--link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"-->
+  <link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400' rel='stylesheet' type='text/css'>    
+  
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/bootstrap.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/fontawesome-all.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}public/css/albertine.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Javascript -->
+  <!--script src="{{ site.baseurl }}public/js/isotope.pkgd.min.js"></script-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!--script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script-->
+  <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}public/js/bootstrap.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}public/js/jquery.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}public/js/jquery.isotope.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}public/js/isotope.pkgd.min.js'></script>
+  <script type='text/javascript' src='{{ site.baseurl }}public/js/fontawesome-all.js'></script>
+  
+</head>
+<body class="intro-screen">
+
+  <!-- ==================== -->
+  <!-- HEADER -->
+  <!-- ==================== -->
+  <header>
+    <div class="container" id="section_start">
+      <div class="row">
+        <div class="col-xs-2 col-lg-1">
+
+          <div class="dropdown">
+            <button type="button" class="btn btn-lg btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-align-justify"></i>
+            </button>   
+
+            <ul class="dropdown-menu">
+              <li class="dropdown-item"><a href="#section-about"><i class="fa fa-chevron-up"></i>  Top</a></li>
+              <li class="dropdown-item"><a href="#projects"><i class="fa fa-flask"></i>  Projects</a></li>
+              <li class="dropdown-item"><a href="#publications"><i class="fa fa-file-text-o"></i>  Publications</a></li>
+              <li class="dropdown-item"><a href="#presentations"><i class="fa fa-picture-o"></i>  Presentations</a></li>
+              <li class="dropdown-item"><a href="#misc"><i class="fa fa-plus-square"></i>  Other stuffs</a></li>
+              <li class="dropdown-item"><a href="#failures"><i class="fa fa-thumbs-o-down"></i>  My Failures</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-item"><a href="blog"><i class="fa fa-pencil"></i>  Blog</a></li>
+              <li class="dropdown-item"><a href="book"><i class="fa fa-book"></i>  Books</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-item"><a href="{{ site.data.personal.curriculum }}" target="_blank"><i class="fa fa-user"></i>  Curriculum</a></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-xs-10 col-sm-8 col-md-8 col-lg-8">
+
+          <h1>
+            {{ site.data.personal.name }}
+          </h1>
+          <h2 class="hidden-xs">
+            {{ site.data.personal.label }}
+          </h2>
+        </div>
+
+        <div class="col-xs-1 col-lg-3">
+          <a  href="#section-about">
+            <img src="{{ site.baseurl }}{{ site.data.personal.picture }}" 
+               class="img-circle hidden-xs"
+               style="margin-top:-6px;width:66px; margin-right: 20px;">
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== -->
+  <!-- SECTION -->
+  <!-- ==================== -->
+  <div class="container" id="section-about">
+    <div class="row">
+      <section class="col-md-8">
+        {% if site.data.personal.intro.title %}
+          <h3 style="font-size:48px">
+            {{ site.data.personal.intro.title }}
+          </h3>
+        {% else %}
+          <h3>
+            About
+          </h3>
+        {% endif %}
+
+        <div class="lead">
+          {{ site.data.personal.intro.body | markdownify }}
+        </div>
+        
+      </section>
+      <section class="col-md-offset-1 col-md-3">
+        <h3>About me</h3>
+        <p>
+          {{ site.data.personal.email | replace:'@','<small> [at] </small>'}}
+        </p>
+        <p>
+          {{ site.data.personal.department }}<br>
+          {{ site.data.personal.institution }}<br>
+          {{ site.data.personal.mailing_address | replace:'\n','<br>' }}
+        </p>
+            
+        <hr>
+        
+        <p>
+          {% for profile in site.data.personal.profiles %}
+            {% if profile.network == 'ORCID' %}
+              <b>iD</b>            
+            {% elsif profile.network == 'Google Scholar' %}
+              <i class="fa fa-google"></i>
+            {% elsif profile.network == 'Science Open' %}
+		<b>SO</b>		
+            {% elsif profile.network == 'LinkedIn' %}
+              <i class="fa fa-linkedin-square"></i>
+            {% elsif profile.network == 'Twitter' %}
+              <i class="fa fa-twitter-square"></i>
+        	{% elsif profile.network == 'Github' %}
+              <i class="fa fa-github"></i>
+        	{% elsif profile.network == 'ImpactStory' %}
+              <i class="fa fa-star"></i>              
+        	{% elsif profile.network == 'Plant Image Analysis' %}
+              <i class="fa fa-leaf"></i>   
+        	{% elsif profile.network == 'Publons' %}
+              <i class="fa fa-file-powerpoint-o"></i>   
+        	{% elsif profile.network == 'Figshare' %}
+              <i class="fa fa-share-alt-square"></i>                              
+        	{% elsif profile.network == 'Tumblr' %}
+              <i class="fa fa-tumblr-square"></i>              
+            {% endif %}
+            <a href="{{ profile.url }}">
+               {{ profile.network }}
+            </a>
+            {% if forloop.last == false %}
+              <br>
+            {% endif %}
+          {% endfor %}
+        </p>
+ 
+         <hr>
+         
+        <p>
+          {% for website in site.data.personal.websites %}
+            <i class="fa fa-external-link-square"></i>
+            <a href="{{ website.url }}">
+              {{ website.name }}
+            </a>
+            {% if forloop.last == false %}
+              <br>
+            {% endif %}
+          {% endfor %}
+        </p>   
+        
+        <hr>
+        
+        <p>
+            <i class="fa fa-cloud-download"></i>
+            <a href="{{ site.data.personal.curriculum }}"><b>Download CV</b></a>
+        </p>               
+      </section>
+    </div>
+  </div>
+
+<!-- ==================== -->
+<!-- PROJECTS -->
+<!-- ==================== -->
+
+
+  <section class="container" id="projects">
+    <div class="row">
+      <div class="col-md-9">
+        <h3>Tools and databases</h3>
+      </div>
+    </div>
+      <div class="row-fluid">
+    
+    {% assign counterLG = 0 %}
+    {% assign counterMD = 0 %}
+    {% assign counterSM = 0 %}
+
+    {% for project in site.data.projects %}
+        <div class="col-xs-12
+                    col-sm-6
+                    col-md-6
+                    col-lg-6">
+		<div class="row-fluid">
+			<div class="col-md-4">
+			    <img src="{{ site.baseurl }}{{ project.image }}" 
+				 class="img-responsive img-thumbnail"
+				 style="width:80%">
+			</div>
+			<div class="col-md-8">
+				<b>{{ project.name }}</b>
+				</br></br>
+				{% if project.tags %}
+					{% for tag in project.tags %}
+					  <button type="button" class="btn btn-info btn-xs">
+					    <i class="fa fa-tag"></i> {{tag}}
+					  </button>
+				      {% endfor %}
+				  {% endif %}
+				  {% if project.url %}
+				      <a class="btn btn-default btn-xs" href="{{ project.url }}" target="_blank">
+					<i class="fa fa-external-link"></i> More info
+				      </a>
+				  {% endif %} 
+			</br><hr>
+          		{{ project.description | markdownify }}
+	  		</div>
+		</div>
+	<hr>
+	</div>
+
+        {% assign counterLG = counterLG | plus: 1 %}
+        {% assign counterMD = counterMD | plus: 1 %}
+        {% assign counterSM = counterSM | plus: 1 %}
+
+        {% if counterLG == 4 %}
+          <div class="clearfix visible-lg-block"></div>
+          {% assign counterLG = 0 %}
+        {% endif %}
+        {% if counterMD == 3 %}
+          <div class="clearfix visible-md-block"></div>
+          {% assign counterMD = 0 %}
+        {% endif %}
+        {% if counterSM == 2 %}
+          <div class="clearfix visible-sm-block"></div>
+          {% assign counterSM = 0 %}
+        {% endif %}
+
+    {% endfor %}
+      </div>
+
+
+
+
+  </section>
+
+  <!-- ==================== -->
+  <!-- PUBLICATIONS -->
+  <!-- ==================== -->
+
+
+            
+<!-------------  ARTICLES   ---------------->
+
+
+
+  <div class="container" id="publications">
+    <div class="row">
+      <section class="col-md-9 col-lg-12">
+
+        <h3>Scientific articles</h3>
+
+
+        <!- Count the publications ->
+        {% assign counter = 1 %}
+        {% assign counter2 = 0 %}
+        {% for publication in site.data.publications %}
+            {% case publication.type %}
+              {% when 'journal' %}
+                {% assign counter = counter | plus: 1 %}
+                {% assign auths = publication.authors | split:"," %}
+                {% if publication.authors contains 'G*' %}
+                  {% assign counter2 = counter2 | plus: 1 %}
+                {% elsif auths[0] contains "Lobet"%}
+                  {% assign counter2 = counter2 | plus: 1 %}
+                {% endif %}
+              {% when 'summary' %}
+                {% assign hindex = publication.hindex %}
+                {% assign citations = publication.citations %}
+                {% assign update = publication.update %}                
+            {% endcase %}
+        {% endfor %}
+        {% assign counter3 = counter | minus :1 %}
+
+        <div class="alert alert-info">
+          <ul>
+            <li>Number of articles:<b> {{counter3}}</b></li>
+            <li>As first/last author:<b> {{counter2}}</b></li>
+            <li>Google Scholar h-index:<b> {{hindex}}</b></li>
+            <li>Number of citations:<b> {{citations}}</b></li>
+          </ul>
+        </br>
+          <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i> first author</button>
+          <button type="button" class="btn btn-danger btn-xs"><i class="fa fa-thumbs-up"></i> F1000Prime recommanded</button>
+          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i> review</button>
+          <button type="button" class="btn btn-success btn-xs"><i class="fa fa-recycle"></i> preprint</button>
+          <button type="button" class="btn btn-info btn-xs"><i class="fa fa-tag"></i> tags</button>
+          <button type="button" class="btn btn-primary btn-xs"><i class="fa fa-quote-left"></i> citations</button></br></br>
+          <small>I do not believe that journal names convey information regarding the quality of my published work, so I left it blank. I did include other usefull information though.</small></br> 
+      		<small>Last update on {{update}}.</small>
+        </div>
+
+        <div class="row-fluid">
+
+        {% assign counterLG = 0 %}
+        {% assign counterMD = 0 %}
+        {% assign counterSM = 0 %}
+
+        {% for publication in site.data.publications %}
+
+              {% case publication.type %}
+                {% when 'journal' %}
+
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+
+                <p>
+                  <img src="{{ site.baseurl }}{{ publication.image }}" 
+                       class="img-responsive img-thumbnail"
+                       style="width:80%">
+                </p> 
+
+                <p>
+                {% assign counter = counter | minus: 1 %}
+                
+                {{ publication.title }} <small> - {{ publication.year }}</small><br>
+
+                <small>{{ publication.authors }}</small><br>              
+
+                <!-------- TAGS -------->
+
+                {% assign auths = publication.authors | split:"," %}
+                {% if publication.authors contains 'G*' %}
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i></button>
+                {% elsif auths[0] contains "Lobet"%}
+                    <button type="button" class="btn btn-warning btn-xs"><i class="fa fa-asterisk"></i></button>
+                {% endif %} 
+
+                {% if publication.f1000 %}
+                    <a class="btn btn-danger btn-xs" href="http://f1000.com/prime/{{ publication.f1000 }}?bd=1" target="_blank">
+                      <i class="fa fa-thumbs-up"></i>
+                    </a>
+                {% endif %} 
+
+                {% if publication.review %}
+                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-book"></i></button>
+                {% endif %} 
+
+                {% if publication.preprint %}
+                        <button type="button" class="btn btn-success btn-xs"><i class="fa fa-recycle"></i></button>
+                {% endif %} 
+
+                
+                {% if publication.tags %}
+                    {% for tag in publication.tags %}
+                        <button type="button" class="btn btn-info btn-xs">
+                          <i class="fa fa-tag"></i> {{tag}}
+                        </button>
+                    {% endfor %}
+                {% endif %} 
+
+                {% if publication.citations %}
+                        <button type="button" class="btn btn-primary btn-xs">
+                          <i class="fa fa-quote-left"></i> {{publication.citations | round}}
+                        </button>
+                {% endif %} 
+                <!-------- LINKS -------->
+
+                </br>
+                <div class="btn-group" role="group" aria-label="pub_links">
+              	  {% if publication.doi %}
+                      <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+              	  {% elsif publication.url %}
+                      <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                        <i class="fa fa-link"></i> Publisher
+                      </a>
+                  {% endif %}
+
+                  {% if publication.pmid %}
+                      <a class="btn btn-default btn-xs" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                        <i class="fa fa-link"></i> PubMed
+                      </a>
+                  {% endif %}
+
+
+                  {% if publication.pdf %}
+                      <a class="btn btn-default btn-xs" href="{{ publication.pdf }}" target="_blank">
+                        <i class="fa fa-file-pdf-o"></i> PDF
+                      </a>
+              	  {% endif %}
+                </div>            	               
+
+                </br>
+                {% if publication.doi %}
+		  <div class='altmetric-embed' data-badge-type='1' data-hide-less-than="5" data-doi='{{publication.doi}}'></div>
+                  <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="bottom" data-badge-type='bar' data-doi="{{publication.doi}}"></div>
+                {% endif  %}
+                
+                </p>               
+                </br></br>
+            </div>
+
+            {% assign counterLG = counterLG | plus: 1 %}
+            {% assign counterMD = counterMD | plus: 1 %}
+            {% assign counterSM = counterSM | plus: 1 %}
+
+            {% if counterLG == 4 %}
+              <div class="clearfix visible-lg-block"></div>
+              {% assign counterLG = 0 %}
+            {% endif %}
+            {% if counterMD == 3 %}
+              <div class="clearfix visible-md-block"></div>
+              {% assign counterMD = 0 %}
+            {% endif %}
+            {% if counterSM == 2 %}
+              <div class="clearfix visible-sm-block"></div>
+              {% assign counterSM = 0 %}
+            {% endif %}
+
+
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+
+
+  <!----------- OTHERS ------------------>
+
+
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Book chapters - thesis</h3>
+
+        <div class="row-fluid">
+
+        {% for publication in site.data.publications %}
+              {% case publication.type %}
+                {% when 'bookchapter' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                      <img src="{{ site.baseurl }}{{ publication.image }}" 
+                        class="img-responsive img-thumbnail"
+                        style="width:100%">                
+                  </p> 
+
+                  <p>
+                    {{ publication.title }}<small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>
+
+                    <small>{{ publication.book }}</small><br>
+
+	                <div class="btn-group" role="group" aria-label="pub_links">
+    	          	  {% if publication.url %}
+        	              <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+            	            <i class="fa fa-link"></i> Publisher
+            	          </a>
+            	      {% endif %}
+            	      
+            	      {% if publication.pdf %}
+            	          <a class="btn btn-default btn-xs" href="{{ publication.pdf }}" target="_blank">
+            	            <i class="fa fa-link"></i> PDF
+            	          </a>
+            	      {% endif %}
+					</div>
+                  </p>
+
+              </div>
+
+              {% when 'thesis' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                    <img src="{{ site.baseurl }}{{ publication.image }}" 
+                       class="img-responsive img-thumbnail"
+                       style="width:80%">
+                  </p> 
+
+                  <p>
+                    {{ publication.title }}
+                    
+                    <small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>              
+
+                    <small>{{ publication.book }}</small><br>
+
+                    <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                      <i class="fa fa-file-pdf-o"></i> PDF
+                    </a>
+                  </p>
+
+                </div>              
+            {% endcase %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+
+
+ <!----------- OTHERS ------------------>
+
+
+  <div class="container">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Datasets</h3>
+
+        <div class="row-fluid">
+
+        {% for publication in site.data.publications %}
+              {% case publication.type %}
+                {% when 'dataset' %}
+              <div class="col-xs-12
+                    col-sm-6
+                    col-md-4
+                    col-lg-3">
+                 <p>
+                      <img src="{{ site.baseurl }}{{ publication.image }}" 
+                        class="img-responsive img-thumbnail"
+                        style="width:100%">                
+                  </p> 
+
+                  <p>
+                    {{ publication.title }}<small> - {{ publication.year }}</small><br>
+
+                    <small>{{ publication.authors }}</small><br>
+
+                    <small>{{ publication.journal }}</small><br>
+                  
+                    {% if publication.tags %}
+                        {% for tag in publication.tags %}
+                            <button type="button" class="btn btn-info btn-xs">
+                              <i class="fa fa-tag"></i> {{tag}}
+                            </button>
+                        {% endfor %}
+                    {% endif %} 
+
+                    <div class="btn-group" role="group" aria-label="pub_links">
+                      {% if publication.url %}
+                          <a class="btn btn-default btn-xs" href="{{ publication.url }}" target="_blank">
+                            <i class="fa fa-link"></i> View dataset
+                          </a>
+                      {% endif %}
+                      
+                   </div>
+
+                  </p>
+
+              </div>
+           
+            {% endcase %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-------------  PRESENTATIONS ------------------>
+        
+
+        
+  <div class="container" id="presentations">
+    <div class="row">
+      <section class="col-md-9 col-lg-12">
+        
+        <h3>Presentations | <small><a href="http://figshare.com/authors/Guillaume_Lobet/98389">view figshare profile</a></small></h3>
+
+        {% assign counter = 1 %}
+        {% for presentation in site.data.presentations %}
+          {% assign counter = counter | plus: 1 %}
+        {% endfor %}
+
+        {% assign counterLG = 0 %}
+        {% assign counterMD = 0 %}
+        {% assign counterSM = 0 %}
+
+        <div class="row-fluid">
+          {% for presentation in site.data.presentations %}
+            <div class="col-xs-12
+                        col-sm-6
+                        col-md-4
+                        col-lg-3">
+               <p>
+                    <img src="{{ site.baseurl }}{{ presentation.image }}" 
+                     class="img-responsive img-thumbnail"
+                     style="width:80%">            
+              </p> 
+              <p>
+                {% assign counter = counter | minus: 1 %}
+                <small>{{ counter }} - </small>{{ presentation.title }}
+                <small>- {{ presentation.date }}<br>
+
+                {{ presentation.location }}</br>
+                            
+                </small>
+              
+                {% if presentation.status %}
+                    <button type="button" class="btn btn-info btn-xs">
+                      <i class="fa fa-check"></i> invited
+                    </button>
+                {% endif %}
+                {% if presentation.doi %}
+                  <a class="btn btn-default btn-xs" href="http://dx.doi.org/{{ presentation.doi }}" target="_blank">
+                    <i class="fa fa-file-pdf-o"></i> PDF
+                  </a>
+                {% elsif presentation.slides_url %}
+                  <a class="btn btn-default btn-xs" href="{{ presentation.slides_url }}" target="_blank">
+                    <i class="fa fa-file-pdf-o"></i> PDF
+                  </a>
+                {% endif %}
+
+                {% if presentation.doi %}
+                  <div class='altmetric-embed'  data-hide-no-mentions="true" data-hide-less-than="5" data-badge-popover="right" data-badge-type='bar' data-doi="{{presentation.doi}}"></div>
+                {% endif  %}
+
+              </p>
+            </br></br>
+            </div>
+            
+
+            {% assign counterLG = counterLG | plus: 1 %}
+            {% assign counterMD = counterMD | plus: 1 %}
+            {% assign counterSM = counterSM | plus: 1 %}
+
+            {% if counterLG == 4 %}
+              <div class="clearfix visible-lg-block"></div>
+              {% assign counterLG = 0 %}
+            {% endif %}
+            {% if counterMD == 3 %}
+              <div class="clearfix visible-md-block"></div>
+              {% assign counterMD = 0 %}
+            {% endif %}
+            {% if counterSM == 2 %}
+              <div class="clearfix visible-sm-block"></div>
+              {% assign counterSM = 0 %}
+            {% endif %}
+
+          {% endfor %}
+
+        </div>
+      </section>     
+    </div>
+  </div>
+
+  
+  <!-- ==================== -->
+  <!-- MISC -->
+  <!-- ==================== -->
+
+  <div class="container" id="misc">
+    <div class="row">
+      <section class="col-md-9">
+
+        <h3>Miscellaneous</h3>
+
+        {% for ms in site.data.misc %}
+          <p>
+              <h4>{{ ms.name }}</h4>
+              {{ ms.description | markdownify }}
+          </p>
+        {% endfor %}
+      </section>
+    </div>
+  </div>
+
+
+  <!-- ==================== -->
+  <!-- REJECTIONS -->
+  <!-- ==================== -->
+
+
+  <div class="container" id="failures">
+    <div class="row">
+      <section class="col-md-9 col-lg-9">
+
+        <h3>My failures</h3>
+
+        <div class="alert alert-info">
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'intro' %}
+              {{reject.title}}
+          {% endcase %}
+        {% endfor %}
+        </div>
+
+        <h4>What referees (anonymous) have said about my work</h4>
+        <ul>
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'quote' %}
+              <li><quote>{{reject.title}}</quote> - <small>{{reject.year}}</small></li>
+          {% endcase %}
+        {% endfor %}
+        </ul>
+
+
+
+        <h4>Paper rejections from academic journals</h4>
+
+        <ul>
+        {% for year in (2015..2017) %}
+          <li>
+            <b>{{year}}: </b>
+            {% for reject in site.data.rejections %}
+              {% case reject.type %}
+                {% when 'paper' %}
+                  {% if reject.year == year %}
+                    {{reject.title}},
+                  {% endif %}
+              {% endcase %}
+            {% endfor %}  
+          </li>      
+        {% endfor %}
+        </ul>
+
+        <h4>Grants I did not get</h4>
+        <ul>
+
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'grant' %}
+              <li>{{reject.title}} - <small>{{reject.year}}</small></li>
+          {% endcase %}
+        {% endfor %}        
+        </ul>        
+
+      </div>
+    </section>
+  </div>
+</div>
+
+
+
+  <!-- ==================== -->
+  <!-- FOOTER -->
+  <!-- ==================== -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">          
+          <img src="{{ site.baseurl }}/img/elbowpatched-icon.svg" alt="Elbowpatched"
+               style="float:left;margin-right:5px;width:20px;height:20px;">
+          Powered by 
+          <a href="http://www.elbowpatched.com">
+            Elbowpatched
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== -->
+  <!-- JAVASCRIPTS -->
+  <!-- ==================== -->
+
+
+  <a href="#0" class="cd-top">Top</a>
+  <script>
+    jQuery(document).ready(function($){
+      // browser window scroll (in pixels) after which the "back to top" link is shown
+      var offset = 300,
+        //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+        offset_opacity = 1200,
+        //duration of the top scrolling animation (in ms)
+        scroll_top_duration = 700,
+        //grab the "back to top" link
+        $back_to_top = $('.cd-top');
+
+      //hide or show the "back to top" link
+      $(window).scroll(function(){
+        ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+        if( $(this).scrollTop() > offset_opacity ) { 
+          $back_to_top.addClass('cd-fade-out');
+        }
+      });
+
+      //smooth scroll to top
+      $back_to_top.on('click', function(event){
+        event.preventDefault();
+        $('body,html').animate({
+          scrollTop: 0 ,
+          }, scroll_top_duration
+        );
+      });
+
+    });
+  </script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.4/waypoints.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('#section-about').waypoint(function (direction) {
+        if (direction === 'down') {
+          $('body').removeClass('intro-screen');
+        } else {
+          $('body').addClass('intro-screen');
+        }
+      });
+    });
+  </script>
+  <script>    
+    $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+        if (target.length) {
+          $('html,body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+
+  </script>
+  
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-31455360-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+</body>
+</html>

@@ -2,22 +2,16 @@
   name: Soil-Root interactions
   description: >
     Lecture on soil-root interactions given a the University of Louvain, to master students of the bio-engeneering faculty. 
+    Covering, among other, hydrotropisms, branching, hydropatterning, retention curves and many other cool topics.
   image: /img/lbres2106.jpg
   url: https://plantmodelling.github.io/LBRES2106/
 
 -
   name: Systems biology modelling
   description: >
-    LEcture on the modelisation of biological systems. Not a classical lecture, but project driven. Students are asked to learn about a model of their choice and use it to do some basic simulations. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on Botany One.
+    Lecture on the modelisation of biological systems. Not a classical lecture, but project driven. Students are asked to learn about a model of their choice and use it to do some basic simulations. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on Botany One.
   image: /img/systems.jpg
   url: https://uclouvain.be/en-cours-2017-lbrai2219.html
-
--
-  name: Root Modelling
-  description: >
-    Workshop I gave on structural root modelling
-  image: /img/model.jpg
-  url: http://dx.doi.org/10.6084/m9.figshare.1594792
 
 -
   name: Introduction to ImageJ
