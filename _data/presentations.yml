@@ -1,5 +1,12 @@
 
-
+-
+  title: Non-linear plant phenotyping pipelines. How can structural models and machine learning can help us analyse large plant image datasets
+  location: Phenome 2018, Tucson, USA
+  date: February 2018
+  slides_url: https://doi.org/10.6084/m9.figshare.5885329.v2
+  status: invited speaker
+  doi: 10.6084/m9.figshare.5885329.v2
+  image: /img/tuscon.jpg
 -
   title: Using machine learning and growth models to streamline large scale root phenotyping
   location: JST International Workshop on Field Phenotyping, Tokyo, Japan
