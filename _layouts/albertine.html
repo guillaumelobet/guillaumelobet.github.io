@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 
-<!--
 
-Albertine 0.1
-An Elbowpatched theme
-
-(c) 2014 Ian Li (http://ianli.com)
-
-####
-
--->
 
 <html lang="en">
 <head>
@@ -349,6 +340,27 @@ An Elbowpatched theme
                     <div class="col-12 col-sm-8 justify-content-end">
                       <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong></br>
                       <small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small></br>
+                      {% if publication.doi %}
+                          <a class="btn btn-outline-primary btn-sm mb-1" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                            <i class="fal fa-link"></i> Publisher
+                          </a>
+                      {% elsif publication.url %}
+                          <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.url }}" target="_blank">
+                            <i class="fal fa-link"></i> Publisher
+                          </a>
+                      {% endif %}
+
+                      {% if publication.pmid %}
+                          <a class="btn btn-outline-primary btn-sm mb-1" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                            <i class="fal fa-link"></i> PubMed
+                          </a>
+                      {% endif %}
+
+                      {% if publication.pdf %}
+                          <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.pdf }}" target="_blank">
+                            <i class="fal fa-file-alt"></i> PDF
+                          </a>
+                      {% endif %}
                       <button type="button" class="btn btn-outline-secondary btn-sm " style="float: right" data-toggle="modal" data-target="#modal{{counter}}">
                         <i class="fal fa-plus"></i>
                       </button>
