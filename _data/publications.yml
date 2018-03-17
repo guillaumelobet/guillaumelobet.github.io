@@ -4,6 +4,18 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: A spatio-temporal analysis of early root system development reveals three types of lateral roots
+   authors: Passot S, Moreno-Ortega B, Moukouanga D, Balsera C, GUYOMARC'H S, Lucas M, Lobet G, Laplaze L, Muller B, Guédon Y 
+   journal: Plant Physiology
+   year: 2018
+   image: img/art-lateral.jpg
+   tags:
+   - root
+   - phenotyping
+   description: >
+      Recent progresses in root phenotyping focused mainly on increasing throughput for genetic studies while the identification of root developmental patterns has been comparatively underexplored. We introduce a new phenotyping pipeline for producing high-quality spatio-temporal root system development data and identifying developmental patterns within these data. This pipeline combining the SmartRoot image analysis system with temporal and spatial statistical models was applied to two cereals, pearl millet and maize. Semi-Markov switching linear models were used to cluster lateral roots based on their growth rate profiles. These models revealed three types of lateral roots with similar characteristics in both species. A first type corresponds to fast and accelerating roots, a second to rapidly arrested roots and a third to an intermediate type where roots cease elongation after a few days. These types were retrieved in different proportions in a maize mutant affected in auxin signaling while the most vigorous type was absent in maize plants exposed to severe shading. High correlations between these lateral root types and anatomical traits were found in pearl millet. Potential dependencies in the succession of lateral root types along the primary root were then analyzed using variable-order Markov chains. The lateral root type was neither influenced by the shootward neighbor root type nor by the distance from this root. This random branching pattern of primary roots was remarkably conserved despite the high variability of root systems in both species. Our pipeline opens the door to an exploration of the genetic variability of lateral root developmental patterns.
+
+-  type: journal
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
    authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
       C, Zoerner M, Vanderborght J, Vereecken H
