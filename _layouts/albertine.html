@@ -405,6 +405,9 @@
                             <i class="fal fa-file-alt"></i> PDF
                           </a>
                       {% endif %}
+                      {% if publication.preprint %}
+                                <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fal fa-recycle mr-1"></i></button>
+                              {% endif %} 
                       <button type="button" class="btn btn-outline-secondary btn-sm " style="float: right" data-toggle="modal" data-target="#modal{{counter}}">
                         <i class="fal fa-plus"></i>
                       </button>

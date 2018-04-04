@@ -1,4 +1,10 @@
 -
+  name: BotAlgorithme
+  description: >
+    Teaching project that aims a gathering plant models to teach plant biology. Models should be usable online and based on sound biology. 
+  image: /img/botalgorithme.jpg
+  url: http://www.botalgorithme.be/
+-
   name: Soil-Root interactions
   description: >
     Lecture on soil-root interactions given a the University of Louvain, to master students of the bio-engeneering faculty. 
