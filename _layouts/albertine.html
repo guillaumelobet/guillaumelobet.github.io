@@ -125,6 +125,10 @@
           <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
             <i class="fal fa-plus-hexagon mr-2"></i>More about me
           </a>
+
+          <a class="list-group-item list-group-item-action" id="list-people-list" data-toggle="list" href="#list-people" role="tab" aria-controls="settings">
+            <i class="fal fa-users mr-2"></i>They work with me
+          </a>
           
           <a class="list-group-item list-group-item-action" id="list-failures-list" data-toggle="list" href="#list-failures" role="tab" aria-controls="failures">
             <i class="fal fa-thumbs-down mr-2"></i>My failures
@@ -245,6 +249,46 @@
           </div>
 
         </div>
+
+
+<!-  --------------------------  -!>
+        <div class="tab-pane fade" id="list-people" role="tabpanel" aria-labelledby="list-people-list">
+          
+          <h3>They work with me</h3>
+          <p>I have the great chance to have awesome colleagues in my team. Go check them out!</p>
+
+          <div class="list-group">
+
+            {% for people in site.data.students %}
+
+            <div href="#" class="list-group-item list-group-item-action flex-column align-items-start mb-3">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">{{ people.name }}</h5>
+                {% if people.url %}
+                  <a href="{{ people.url }}" type="button" class="btn btn-outline-primary btn-sm" target="_blank">
+                    <i class="fal fa-external-link"></i> More
+                  </a>
+                {% endif %}
+                {% if people.twitter %}
+                  <a href="https://twitter.com//{{ people.twitter }}" type="button" class="btn btn-outline-primary btn-sm" target="_blank">
+                    <i class="fab fa-twitter"></i> {{ people.twitter }}
+                  </a>
+                {% endif %}
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-4 d-none d-sm-block"><img src="{{ site.baseurl }}{{ people.image }}" style="width:100%">
+                  <button type="button" class="btn btn-outline-info btn-sm mt-2">{{people.role}}</button>
+                </div>
+                <div class="col-12 col-sm-8"><p class="mb-1"><p>{{ people.description | markdownify }}</p></div>
+              </div>
+            </div>
+
+            {% endfor %}
+
+          </div>
+
+        </div>        
 
 
 <!-  --------------------------  -!>
