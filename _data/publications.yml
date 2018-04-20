@@ -19,7 +19,7 @@
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
    authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
       C, Zoerner M, Vanderborght J, Vereecken H
-   journal: biorxiv
+   journal: Annals of Botany
    year: 2018
    url: https://doi.org/10.1093/aob/mcx221
    pdf: https://paperpile.com/shared/Y3OVEr
@@ -73,6 +73,7 @@
    doi: 10.1105/tpc.117.tt0917
    image: img/art-teaching.jpg
    pmid: 29018159
+   open: yes
    tags:
    - root
    - image analysis
@@ -93,6 +94,7 @@
    doi: 10.1093/gigascience/gix084
    image: img/art-combining.jpg
    pmid: 29020748
+   open: yes
    tags:
    - machine learning
    - image analysis
@@ -152,6 +154,7 @@
    doi: 10.1186/s13007-017-0160-z
    image: img/smartphone.jpg
    pmid: 28286541
+   open: yes
    tags:
    - root
    - phenotyping
@@ -170,6 +173,7 @@
    pdf: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/pdf
    image: img/segment.jpg
    pmid: 28421089
+   open: yes
    tags:
    - root
    - rsml
@@ -189,6 +193,7 @@
    url: https://zenodo.org/record/50831
    doi: 10.5281/zenodo.50831
    image: img/dataset_flowering.jpg
+   open: yes
    tags:
    - root
    - rsml
@@ -202,6 +207,7 @@
    year: 2017
    url: https://github.com/guillaumelobet/latex_thesis
    image: img/latex.jpg
+   open: yes
    tags: design
    citations: '0'
 
@@ -214,6 +220,7 @@
    url: https://doi.org/10.6084/m9.figshare.c.3745478.v1
    doi: 10.6084/m9.figshare.c.3745478.v1
    image: img/dataset_crootbox.jpg
+   open: yes
    tags: root
    citations: '0'
 
@@ -225,6 +232,7 @@
    url: https://dx.doi.org/10.5281/zenodo.208214
    doi: 10.5281/zenodo.208214
    image: img/dataset_library.jpg
+   open: yes
    tags: root
    citations: '0'
 
@@ -236,6 +244,7 @@
    url: https://dx.doi.org/10.6084/m9.figshare.1411214.v1
    doi: 10.6084/m9.figshare.1411214.v1
    image: img/dataset_emergence.jpg
+   open: yes
    tags: root
    citations: '0'
 
@@ -247,6 +256,7 @@
    url: https://dx.doi.org/10.6084/m9.figshare.97204.v5
    doi: 10.6084/m9.figshare.97204.v5
    image: img/dataset_rhizotron.jpg
+   open: yes
    tags:
    - root
    - phenotyping
@@ -257,6 +267,7 @@
       Arabidopsis thaliana
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
    journal: Scientific Reports
+   open: yes
    volume: 6
    year: 2016
    pages: 29042
@@ -300,6 +311,7 @@
    volume: in press
    pages: 1-5
    year: 2015
+   open: yes
    month: ~
    pdf: http://nar.oxfordjournals.org/content/early/2015/10/15/nar.gkv1054.full.pdf
    pmid: 26476447
@@ -344,6 +356,7 @@
    volume: ~
    pages: ~
    year: 2015
+   open: yes
    month: ~
    pdf: http://elifesciences.org/content/4/e07597.full.pdf
    pmid: 26287479
@@ -366,6 +379,7 @@
    pages: 617-627
    year: 2015
    month: March
+   open: yes
    pdf: http://www.plantphysiol.org/content/early/2015/01/22/pp.114.253625.full.pdf+html
    pmid: 25614065
    doi: 10.1104/pp.114.253625
@@ -387,6 +401,7 @@
    volume: 11
    pages: 1-7
    year: 2015
+   open: yes
    month: March
    pdf: http://www.plantmethods.com/content/pdf/s13007-015-0046-x.pdf
    pmid: 25657812
@@ -408,6 +423,7 @@
    pages: 1-12
    year: 2014
    month: March
+   open: yes
    pdf: http://journal.frontiersin.org/Journal/10.3389/fpls.2014.00121/pdf
    pmid: 24744766
    doi: 10.3389/fpls.2014.00121
@@ -432,6 +448,7 @@
    doi: 10.1104/pp.113.233486
    review: yes
    image: img/art-water.jpg
+   open: yes
    tags:
    - root
    - water
@@ -490,6 +507,7 @@
    pmid: 24143806
    doi: 10.1104/pp.113.227215
    review: yes
+   open: yes
    image: img/art-hill.jpg
    tags:
    - root
@@ -512,6 +530,7 @@
    link_name: View Database
    doi: 10.1186/1746-4811-9-38
    image: img/art-pia.jpg
+   open: yes
    tags:
    - database
    - image analysis
@@ -530,6 +549,7 @@
    pages: ~
    year: 2013
    month: March
+   open: yes
    pdf: http://www.plantmethods.com/content/pdf/1746-4811-9-1.pdf
    pmid: 23286457
    doi: 10.1186/1746-4811-9-1
@@ -555,6 +575,7 @@
    pmid: 21771915
    doi: 10.1104/pp.111.179895
    image: img/art-smartroot.jpg
+   open: yes
    tags:
    - root
    - image analysis
@@ -569,6 +590,7 @@
    journal: Journal of Experimental Botany
    volume: 61
    pages: 2145-2155
+   open: yes
    year: 2010
    month: March
    pdf: http://jxb.oxfordjournals.org/content/61/8/2145.full.pdf
@@ -600,6 +622,7 @@
    year: 2012
    book: Université catholique de Louvain
    doi: 10.6084/m9.figshare.2009226
+   open: yes
    image: img/thesis.jpg
    citations: '0'
    description: >
