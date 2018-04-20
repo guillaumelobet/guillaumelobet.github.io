@@ -420,7 +420,11 @@
                       <img src="{{ site.baseurl }}{{ publication.image }}" class="img-thumbnail">
                     </div>
                     <div class="col-12 col-sm-8 justify-content-end">
-                      <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong></br>
+                      <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong>
+                      {% if publication.open %}
+                        <span style="color: lightgreen;"><i class="fal fa-unlock"></i></span>
+                      {% endif %}
+                      </br>
                       <small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small></br><hr>
                       {% if publication.doi %}
                           <a class="btn btn-outline-secondary btn-sm mb-1" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
