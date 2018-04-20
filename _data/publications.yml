@@ -9,7 +9,6 @@
    journal: Plant Physiology
    year: 2018
    image: img/art-lateral.jpg
-   open: yes
    tags:
    - root
    - phenotyping
@@ -55,6 +54,7 @@
    pdf: https://f1000research.com/articles/7-22/v1/pdf
    doi: 10.12688/f1000research.13541.1
    image: img/art-archidart-2.jpg
+   open: yes
    tags:
    - root
    citations: 0
