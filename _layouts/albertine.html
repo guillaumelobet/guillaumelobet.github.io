@@ -422,8 +422,11 @@
                     <div class="col-12 col-sm-8 justify-content-end">
                       <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong>
                       {% if publication.open %}
-                        <span style="color: lightgreen;"><i class="fal fa-unlock"></i></span>
+                        <span style="color: green;"><i class="far fa-unlock"></i></span>
                       {% endif %}
+                      {% if publication.preprint %}
+                         <span style="color: green;"><i class="far fa-recycle"></i></span>
+                      {% endif %}                       
                       </br>
                       <small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small></br><hr>
                       {% if publication.doi %}
@@ -447,9 +450,7 @@
                             <i class="fal fa-file-alt"></i> PDF
                           </a>
                       {% endif %}
-                      {% if publication.preprint %}
-                                <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fal fa-recycle mr-1"></i></button>
-                              {% endif %} 
+                      
                       <button type="button" class="btn btn-outline-secondary btn-sm " style="float: right" data-toggle="modal" data-target="#modal{{counter}}">
                         <i class="fal fa-plus"></i>
                       </button>
