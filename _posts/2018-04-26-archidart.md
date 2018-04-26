@@ -46,3 +46,5 @@ In July 2017, Guillaume sent me an Email about a new method (called persistent h
 For readers familiar with The Lord of The Rings, you probably remember what Bilbo said to Frodo when he left the Shire: ‘It’s a dangerous business, Frodo, going out your door…You step into the road, and if you don’t keep your feet, there is no knowing where you might be swept off to’. Sometimes, I believe that this quote can be a nice summary to describe the development of archiDART. What a journey! From three functions in the first version, we now have more than ten functions available in the latest version available on GitHub. The package is what it is today because of ideas and efforts of numerous collaborators coming from many different countries (Belgium, Germany, France, USA, etc.), as well as users giving useful feedbacks! There is always more in two brains than in one, and this package is a very good example of that! That’s probably what I like the most about it. 
 
 
+
+{% include twitter_plug.html %}
