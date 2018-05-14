@@ -10,6 +10,7 @@
    year: 2018
    image: img/water_network.jpg
    preprint: yes
+   open: yes
    doi: 10.1101/312918 
    pdf: https://www.biorxiv.org/content/early/2018/05/09/312918.full.pdf
    tags:
@@ -31,6 +32,7 @@
    image: img/art-lateral.jpg
    doi: 10.1104/pp.17.01648
    pdf: http://www.plantphysiol.org/content/early/2018/05/11/pp.17.01648.full-text.pdf
+   open: yes
    tags:
    - root
    - phenotyping
@@ -132,6 +134,7 @@
    authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
    journal: biorxiv
    year: 2017
+   open: yes
    pdf: http://biorxiv.org/content/early/2017/06/07/147314.full.pdf
    doi: 10.1101/147314
    image: img/art-mecha.jpg
