@@ -527,6 +527,10 @@
                                 {% endfor %}
                               {% endif %} 
                               <hr>
+                              {% if publication.doi %}
+                                    {{ publication.doi }}
+                              {% endif %}
+                              
                             </div>
                             <div class="col-12 col-xl-9">
                               <h4>Abstract</h4>
