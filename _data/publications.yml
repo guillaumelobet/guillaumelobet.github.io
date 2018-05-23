@@ -2,6 +2,23 @@
    hindex: '12'
    citations: '669'
    update: '2018-01-08'
+   
+-  type: journal
+   title: Impact of crop residue management on crop production and soil chemistry after seven years of crop rotation in temperate climate, loamy soils
+   authors: Hiel MP, Barbieux S, Pierreux J, Olivier C, Lobet G, Roisin C, Garré S, Colinet G, Bodson B, Dumont B
+   journal: PeerJ
+   year: 2018
+   image: img/art-peerj.jpg
+   open: yes
+   doi: 10.7717/peerj.4836
+   pdf: https://peerj.com/articles/4836.pdf
+   tags:
+   - field
+   - agriculture
+   - soil
+   description: >
+      Society is increasingly demanding a more sustainable management of agro-ecosystems in a context of climate change and an ever growing global population. The fate of crop residues is one of the important management aspects under debate, since it represents an unneglectable quantity of organic matter which can be kept in or removed from the agro-ecosystem. The topic of residue management is not new, but the need for global conclusion on the impact of crop residue management on the agro-ecosystem linked to local pedo-climatic conditions has become apparent with an increasing amount of studies showing a diversity of conclusions. This study specifically focusses on temperate climate and loamy soil using a seven-year data set. Between 2008 and 2016, we compared four contrasting residue management strategies differing in the amount of crop residues returned to the soil (incorporation vs. exportation of residues) and in the type of tillage (reduced tillage (10 cm depth) vs. conventional tillage (ploughing at 25 cm depth)) in a field experiment. We assessed the impact of the crop residue management on crop production (three crops—winter wheat, faba bean and maize—cultivated over six cropping seasons), soil organic carbon content, nitrate (NO3), phosphorus (P) and potassium (K) soil content and uptake by the crops. The main differences came primarily from the tillage practice and less from the restitution or removal of residues. All years and crops combined, conventional tillage resulted in a yield advantage of 3.4% as compared to reduced tillage, which can be partly explained by a lower germination rate observed under reduced tillage, especially during drier years. On average, only small differences were observed for total organic carbon (TOC) content of the soil, but reduced tillage resulted in a very clear stratification of TOC and also of P and K content as compared to conventional tillage. We observed no effect of residue management on the NO3 content, since the effect of fertilization dominated the effect of residue management. To confirm the results and enhance early tendencies, we believe that the experiment should be followed up in the future to observe whether more consistent changes in the whole agro-ecosystem functioning are present on the long term when managing residues with contrasted strategies.
+   
 
 -  type: journal
    title: Connecting the dots between computational tools to analyse soil-root water relations
