@@ -3,6 +3,22 @@
    citations: '669'
    update: '2018-01-08'
    
+
+   
+-  type: journal
+   title: EZ-Root-VIS: A Software Pipeline for the Visual Reconstruction of Averaged Root System Architecture   
+   authors: Shahzad Z, Kellermeier F, Armstrong E, Rogers S, Lobet G, Hills , Amtmann A
+   journal: Plant Physiology
+   year: 2018
+   image: img/art-rootvis.jpg
+   pdf: https://www.dropbox.com/s/6n154q2pu70uybs/12718_1_merged_1527272666.pdf?dl=0
+   tags:
+   - root
+   - visualisation
+   description: >
+      If we want to understand how the environment has shaped the appearance and behavior of living creatures we need to compare groups of individuals that differ in genetic make-up and environment experience. For complex phenotypic features, such as body posture or facial expression in humans, comparison is not straightforward because some of the contributing factors cannot easily be quantified or averaged across individuals. Therefore computational methods are used to reconstruct representative prototypes using a range of algorithms for filling in missing information and calculating means. The same problem applies to the root system architecture (RSA) of plants. Several computer programs are available for extracting numerical data from root images but they usually do not offer customized data analysis or visual reconstruction of RSA. We have developed Root-VIS, a free software tool, which facilitates the determination of means and variance of many different RSA features across user-selected sets of root images. Furthermore, Root-VIS offers several options to generate visual reconstructions of root systems from the averaged data to enable screening and modelling. We have confirmed the suitability of Root-VIS, combined with a new version of EZ-Rhizo, for the rapid characterization of genotype-environment interactions and gene discovery through genome-wide association studies in Arabidopsis.
+      
+   
 -  type: journal
    title: Impact of crop residue management on crop production and soil chemistry after seven years of crop rotation in temperate climate, loamy soils
    authors: Hiel MP, Barbieux S, Pierreux J, Olivier C, Lobet G, Roisin C, Garré S, Colinet G, Bodson B, Dumont B
