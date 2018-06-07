@@ -199,6 +199,8 @@
       Image analysis has become a powerful technique for most plant scientists. In recent years dozens of image analysis tools have been published in plant science journals. These tools cover the full spectrum of plant scales, from single cells to organs and canopies. However, the field of plant image analysis remains in its infancy. It still has to overcome important challenges, such as the lack of robust validation practices or the absence of long-term support. In this Opinion article, I: (i) present the current state of the field, based on data from the plant-image-analysis.org database; (ii) identify the challenges faced by its community; and (iii) propose workable ways of improvement.
    other: >
       The review made the cover of Trends in Plant Science in June 2017.
+   quote:  >
+      \rule{\linewidth}{0.2pt} This is a timely article, and one which correctly characterises key issues facing those creating and using image analysis tools in the biological sciences. The data presented is interesting and informative, and biologists using image analysis tools should be made aware of the issues raised in this paper.\\ \hspace*{\fill} [ Anonymous Reviewer 2 ]
 
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
@@ -383,6 +385,10 @@
       Flowering is a hot topic in Plant Biology and important progress has been made in Arabidopsis thaliana toward unraveling the genetic networks involved. The increasing complexity and the explosion of literature however require development of new tools for information management and update. We therefore created an evolutive and interactive database of flowering time genes, named FLOR-ID (FloweringInteractive Database), which is freely accessible at http://www.flor-id.org. The hand-curated database contains information on 306 genes and links to 1595 publications gathering the work of >4500 authors. Gene/protein functions and interactions within the flowering pathways were inferred from the analysis of related publications, included in the database and translated into interactive manually drawn snapshots
    other: >
       The database was <a href="https://f1000.com/prime/725855174?bd=1">recommended on the F1000 platform</a>. It was also featured in the <a href="https://floweringhighlights.org/2016/01/21/flowering-highlights-a-database-for-all-things-flowering-by-frank-wellmer/">Flowering Highlight</a> from the Journal of Experimental Botany. You can also find a <a href="https://www.youtube.com/watch?v=yyp8W5A0L88">video describing the database on Youtube</a>.
+   quote: >
+      \rule{\linewidth}{0.2pt}
+      \textbf{F1000 Recommended:} FLOR-ID presents an impressive effort in bringing together literature on flowering-time regulation in Arabidopsis. Pathways are presented as interconnected schemes with the possibility of accessing individual gene information such as mutant phenotype or post-translational regulation. Every scheme presents data in a very explicit way, making this database ideal for newcomers to the field or for teaching.\\ 
+      \hspace*{\fill} [F. Parcy, CNRS]
 
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
@@ -449,6 +455,11 @@
    citations: 35.0
    description: >
       The number of image analysis tools supporting the extraction of architectural features of root systems has increased in recent years. These tools offer a handy set of complementary facilities, yet it is widely accepted that none of these software tools is able to extract in an efficient way the growing array of static and dynamic features for different types of images and species. We describe the Root System Markup Language (RSML), which has been designed to overcome two major challenges: (1) to enable portability of root architecture data between different software tools in an easy and interoperable manner, allowing seamless collaborative work; and (2) to provide a standard format upon which to base central repositories that will soon arise following the expanding worldwide root phenotyping effort. RSML follows the XML standard to store two- or three-dimensional image metadata, plant and root properties and geometries, continuous functions along individual root paths, and a suite of annotations at the image, plant, or root scale at one or several time points. Plant ontologies are used to describe botanical entities that are relevant at the scale of root system architecture. An XML schema describes the features and constraints of RSML, and open-source packages have been developed in several languages (R, Excel, Java, Python, and C#) to enable researchers to integrate RSML files into popular research workflow.
+   quote: >
+      \rule{\linewidth}{0.2pt}
+      It is clear that the language will help empower plant biologists and computation scientist working in root phenotyping and modeling fields to leverage and share work more efficiently with others.\\ 
+      \hspace*{\fill} [ Anonymous Reviewer 2 ]
+
 
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
@@ -512,6 +523,10 @@
    citations: 41.0
    description: >
       Over the last decade, investigations on root water uptake have evolved toward a deeper integration of the soil and roots compartment properties, with the goal of improving our understanding of water acquisition from drying soils. This evolution parallels the increasing attention of agronomists to suboptimal crop production environments. Recent results have led to the description of root system architectures that might contribute to deep-water extraction or to water-saving strategies. In addition, the manipulation of root hydraulic properties would provide further opportunities to improve water uptake. However, modeling studies highlight the role of soil hydraulics in the control of water uptake in drying soil and call for integrative soil-plant system approaches.
+   quote: >
+      \rule{\linewidth}{0.2pt}
+      In summary, the update delivers a very useful overview of this complex, fast moving multidisciplinary area, that will be invaluable to non-specialists and specialists alike.\\ 
+      \hspace*{\fill} [ Anonymous Reviewer 2 ]
 
 -  type: journal
    title: A modeling approach to determine the importance of dynamic regulation of
@@ -596,6 +611,12 @@
       Recent years have seen an increase in methods for plant phenotyping using image analyses. These methods require new software solutions for data extraction and treatment. These solutions are instrumental in supporting various research pipelines, ranging from the localisation of cellular compounds to the quantification of tree canopies. However, due to the variety of existing tools and the lack of central repository, it is challenging for researchers to identify the software that is best suited for their research. We present an online, manually curated, database referencing more than 90 plant image analysis software solutions. The website, plant-image-analysis.org, presents each software in a uniform and concise manner enabling users to identify the available solutions for their experimental needs. The website also enables user feedback, evaluations and new software submissions. The plant-image-analysis.org database provides an overview of existing plant image analysis software. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
    other: >
       By the end of 2017, the <a href="http://www.plant-image-analysis.org/">database</a> contained 159 tools. It has been extended to reference plant image datasets (1 800 000 images referenced). It has an average trafic of 10 000 monthly page views.
+   quote: >
+      \rule{\linewidth}{0.2pt}
+      The database has a visiting rate of 10 000 page views / month \\
+      \rule{\linewidth}{0.2pt}
+      Guillaume did the community of plant biologists a huge favor by creating a webpage that describes and links to a large number of image analysis tools that have been designed to solve a measurement problem in plant biology. Nobody knows more about what's already out there than Guillaume.\\ 
+      \hspace*{\fill} [ E. Spalding, University of Madison ]
 
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
