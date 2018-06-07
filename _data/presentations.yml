@@ -33,7 +33,7 @@
   image: /img/pres-alternative.jpg
 -
   title: Using structural models to validate and improve root image analysis pipelines
-  location: nternational Plant Phenotyping Symposium, Mexico City, Mexico
+  location: International Plant Phenotyping Symposium, Mexico City, Mexico
   date: Dec 2016
   slides_url: http://dx.doi.org/10.6084/m9.figshare.4311848.v1
   doi: 10.6084/m9.figshare.4311848.v1
@@ -62,7 +62,7 @@
   image: /img/pres-open.jpg
 -
   title: Science Valorisation 
-  location: Communiquer sa recherche, ULB, Brussels, Belgium
+  location: Communiquer sa recherche, Brussels, Belgium
   date: Nov 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1057995
   status: invited speaker
@@ -93,7 +93,7 @@
   
 -
   title: Plant Image Analysis tools. Current trends and limitations
-  location: Plant Image Analysis Problems and Solution - Madison, Misconsin
+  location: Plant Image Analysis Problems and Solution, Madison, Wisconsin
   date: Apr 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   status: invited speaker
@@ -102,7 +102,7 @@
 
 -
   title: Introducing Root System Markup Language
-  location: Modeling plant development from the organ to the whole plant scale - Montpellier
+  location: Modeling plant development from the organ to the whole plant scale, Montpellier, France
   date: Apr 2015
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1379862
   status: invited speaker
@@ -111,7 +111,7 @@
 
 -
   title: Water relations in the SPAC. What can we learn from functional-structural plant models
-  location: Soil Science Society Belgium - Brussels
+  location: Soil Science Society Belgium, Brussels, Belgium
   date: Dec 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker
@@ -120,7 +120,7 @@
   
 -
   title: Water relations in the soil-plant system. What can we learn from functional-structural plant models
-  location: BASF Top Science Meeting - 
+  location: BASF Top Science Meeting, Mannheim, Germany 
   date: Oct 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker  
@@ -129,7 +129,7 @@
 
 -
   title: Plant Image Analysis tools. Current trends and limitations
-  location: International workshop on Image analysis methods for the plant sciences - Aberythwyth
+  location: International workshop on Image analysis methods for the plant sciences, Aberythwyth, UK
   date: Sep 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.1169928
   doi: 10.6084/m9.figshare.1169928
@@ -137,7 +137,7 @@
 
 -
   title: Modelling water relations in the soil-plant-atmosphere system
-  location: SEB Main Meeting - Manchester
+  location: SEB Main Meeting, Manchester, UK
   date: Jul 2014
   slides_url: http://figshare.com/articles/Modelling_water_relations_in_the_soil_plant_atmosphere_system/1091425
   status: invited speaker 
@@ -146,7 +146,7 @@
 
 -
   title: Inflorescence development in tomato. Gene functions within a zigzag model.
-  location: Genetic Variation of Flowering Time Genes and Applications for Crop Improvement - Bielefeld
+  location: Genetic Variation of Flowering Time Genes and Applications for Crop Improvement, Bielefeld, Germany
   date: Mar 2014
   slides_url: http://dx.doi.org/10.6084/m9.figshare.976039
   image: /img/pres-flomato.jpg
@@ -154,14 +154,14 @@
 
 -
   title: First steps towards an explicit modeling of aba production and translocation in relation with the water uptake dynamics
-  location: 9th International Workshop on Sap Flow - Ghent
+  location: 9th International Workshop on Sap Flow, Ghent, Belgium
   date: Jun 2013
   slides_url: http://dx.doi.org/10.6084/m9.figshare.713568
   image: /img/pres-aba.jpg
 
 -
   title: A Novel Image Analysis Toolbox Enabling Quantitative Analysis of Root System Architecture.
-  location: International Workshop on Image Analysis Methods for Plant Science - Nottingham
+  location: International Workshop on Image Analysis Methods for Plant Science, Nottingham, UK
   date: Sep 2012
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95665
   status: invited speaker  
@@ -170,7 +170,7 @@
 
 -
   title: New insights on the role of root radial conductivity on the overall uptake dynamics
-  location: Roots for improving resource acquisition in crops - Grasmere, UK
+  location: Roots for improving resource acquisition in crops, Grasmere, UK
   date: Apr 2011
   slides_url: http://dx.doi.org/10.6084/m9.figshare.95591
   status: invited speaker 
