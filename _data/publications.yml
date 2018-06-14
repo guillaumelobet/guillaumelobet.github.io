@@ -74,8 +74,7 @@
 
 -  type: journal
    title: CRootBox, A Structural-Functional Modelling Framework For Root Systems
-   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng
-      C, Zoerner M, Vanderborght J, Vereecken H
+   authors: Schnepf A, Leitner D, Landl M, Lobet G, Hieu Mai T, Morandage S, Sheng C, Zoerner M, Vanderborght J, Vereecken H
    journal: Annals of Botany
    year: 2018
    url: https://doi.org/10.1093/aob/mcx221
@@ -105,7 +104,7 @@
 
 -  type: journal
    title: archiDART v3.0, A new data analysis pipeline allowing the topological analysis of plant root systems
-   authors: Delory B, Li M, Topp C and Lobet G
+   authors: Delory B, Li M, Topp C, Lobet G
    journal: F1000Research
    year: 2018
    pdf: https://f1000research.com/articles/7-22/v1/pdf
@@ -122,7 +121,7 @@
  
 -  type: journal
    title: Teaching Tools in Plant Biology, Phenomics of root system architecture
-   authors: York L and Lobet G
+   authors: York L, Lobet G
    journal: The Plant Cell
    year: 2017
    pdf: http://www.plantcell.org/highwire/filestream/68693/field_highwire_adjunct_files/1/TTPB36LectureNotes.pdf
@@ -205,7 +204,7 @@
 -  type: journal
    title: An evaluation of inexpensive methods for root image acquisition when using
       rhizotrons
-   authors: Mohamed A, Monnier Y,  Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
+   authors: Mohamed A, Monnier Y, Mao Z, Lobet G, Maeght J-L, Ramel M, Stokes A
    journal: Plant Methods
    year: 2017
    url: http://plantmethods.biomedcentral.com/articles/10.1186/s13007-017-0160-z
@@ -224,7 +223,7 @@
 -  type: journal
    title: Using a structural root system model to evaluate and improve the accuracy
       of root image analysis pipelines
-   authors: Lobet G, Koevoets I T, Tocquin P, Pagès L, Périlleux C
+   authors: Lobet G, Koevoets I, Tocquin P, Pagès L, Périlleux C
    journal: Frontiers in Plant Science
    year: 2017
    url: http://journal.frontiersin.org/article/10.3389/fpls.2017.00447/abstract
@@ -322,8 +321,7 @@
    citations: '0'
 
 -  type: journal
-   title: Integrating roots into a whole plant network of flowering time genes in
-      Arabidopsis thaliana
+   title: Integrating roots into a whole plant network of flowering time genes in Arabidopsis thaliana
    authors: Bouché F, D Alioa M, Tocquin P, Lobet G, Detry N, Périlleux C
    journal: Scientific Reports
    open: yes
@@ -365,7 +363,7 @@
 -  type: journal
    title: FLOR-ID, an interactive database of flowering-time gene networks in Arabidopsis
       thaliana
-   authors: Bouché F*, Lobet G*, Tocquin P and Périlleux C
+   authors: Bouché F*, Lobet G*, Tocquin P, Périlleux C
    journal: Nucleic Acid Research
    volume: in press
    pages: 1-5
@@ -393,8 +391,7 @@
 -  type: journal
    title: archiDART, an R package for the automated 2D computation of plant root architectural
       traits
-   authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L and Delaplace
-      P
+   authors: Delory B, Baudson C, Brostaux Y, Lobet G, du Jardin P, Pagès L, Delaplace P
    journal: Plant and Soil
    volume: in press
    pages: 1-15
@@ -413,8 +410,7 @@
 -  type: journal
    title: GLO-Roots, an imaging platform enabling multidimensional characterization
       of soil grown root systems
-   authors: Rellán-Álvarez R, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee C,
-      Yu G, LaRue T, Trontin C, Nieu R, Vogel J and Dinneny J
+   authors: Rellán-Álvarez R, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee C, Yu G, LaRue T, Trontin C, Nieu R, Vogel J, Dinneny J
    journal: eLife
    volume: ~
    pages: ~
@@ -435,8 +431,7 @@
 -  type: journal
    title: Root System Markup Language. Toward an unified root architecture description
       language
-   authors: Lobet G, Pound MP, Diener J, Pradal C, Draye X, Godin C, Javaux M, Leitner
-      D, Meunier F, Nacry P, Pridmore TP and Schnepf A
+   authors: Lobet G, Pound MP, Diener J, Pradal C, Draye X, Godin C, Javaux M, Leitner D, Meunier F, Nacry P, Pridmore TP, Schnepf A
    journal: Plant Physiology
    volume: 167
    pages: 617-627
@@ -464,7 +459,7 @@
 -  type: journal
    title: Rhizoponics, a novel hydroponic rhizotron for root system analyses on mature
       Arabidopsis thaliana plants
-   authors: Mathieu L*, Lobet G*, Tocquin P and Périlleux C
+   authors: Mathieu L*, Lobet G*, Tocquin P, Périlleux C
    journal: Plant Methods
    volume: 11
    pages: 1-7
@@ -485,7 +480,7 @@
 
 -  type: journal
    title: Inflorescence development in tomato, gene functions within a zigzag model
-   authors: Périlleux C*, Lobet G* and Tocquin P
+   authors: Périlleux C*, Lobet G*, Tocquin P
    journal: Frontiers in Plant Sciences
    volume: 5
    pages: 1-12
@@ -505,7 +500,7 @@
 
 -  type: journal
    title: Plant Water Uptake in Drying Soils
-   authors: Lobet G, Couvreur C, Meunier F, Javaux M and Draye X
+   authors: Lobet G, Couvreur C, Meunier F, Javaux M, Draye X
    journal: Plant Physiology
    volume: 164
    pages: 1619-1627
@@ -532,7 +527,7 @@
    title: A modeling approach to determine the importance of dynamic regulation of
       plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere
       system
-   authors: Lobet G, Pagès P and Draye X
+   authors: Lobet G, Pagès P, Draye X
    journal: Ecological Modeling
    volume: 290
    pages: 65-75
@@ -552,7 +547,7 @@
 -  type: journal
    title: Comparative analysis of Cd and Zn impacts on root distribution and morphology
       of Lolium perenne and Trifolium repens. Implications for phytostabilization
-   authors: Lambrechts T, Lequeue G, Lobet G, Godin B, Bielders CL and Lutts S
+   authors: Lambrechts T, Lequeue G, Lobet G, Godin B, Bielders CL, Lutts S
    journal: Plant and Soil
    volume: 376
    pages: 229-244
@@ -569,7 +564,7 @@
 -  type: journal
    title: Root systems biology, integrative modeling across scales, from gene regulatory
       networks to the rhizosphere
-   authors: Hill K, Porco S, Lobet G, Zappala S, Mooney S, Draye X and Bennett MJ
+   authors: Hill K, Porco S, Lobet G, Zappala S, Mooney S, Draye X, Bennett MJ
    journal: Plant Physiology
    volume: 163
    pages: 1487-1503
@@ -590,7 +585,7 @@
 
 -  type: journal
    title: An online database for plant image analysis software tools
-   authors: Lobet G, Draye X and Périlleux C
+   authors: Lobet G, Draye X, Périlleux C
    journal: Plant Methods
    volume: 9
    pages: ~
@@ -621,7 +616,7 @@
 -  type: journal
    title: Novel scanning procedure enabling the vectorization of entire rhizotron-grown
       root systems
-   authors: Lobet G and Draye X
+   authors: Lobet G, Draye X
    journal: Plant Methods
    volume: 9
    pages: ~
@@ -643,7 +638,7 @@
 -  type: journal
    title: A novel image-analysis toolbox enabling quantitative analysis of root system
       architecture
-   authors: Lobet G, Pagès L and Draye X
+   authors: Lobet G, Pagès L, Draye X
    journal: Plant Physiology
    volume: 157
    pages: 29-39
@@ -664,7 +659,7 @@
 -  type: journal
    title: Model-assisted integration of physiological and environmental constraints
       affecting the dynamic and spatial patterns of root water uptake from soils
-   authors: Draye X, Kim YX, Lobet G and Javaux M
+   authors: Draye X, Kim YX, Lobet G, Javaux M
    journal: Journal of Experimental Botany
    volume: 61
    pages: 2145-2155
