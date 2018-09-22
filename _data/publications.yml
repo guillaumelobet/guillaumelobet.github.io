@@ -3,7 +3,20 @@
    citations: '669'
    update: '2018-01-08'
    
-
+   
+-  type: journal
+   title: Demystifying roots, A need for clarification and extended concepts in root phenotyping
+   authors: Lobet G, Paez-Garcia A, Schneider H, Junker A, Atkinson J, Tracy S 
+   journal: Plant Science
+   year: 2018
+   image: img/demystifying.jpg
+   pdf: https://paperpile.com/shared/I6gUVN
+   tags:
+   - root
+   - phenotyping
+   description: >
+      Plant roots have major roles in plant anchorage, resource acquisition and offer environmental benefits including carbon sequestration and soil erosion mitigation. As such, the study of root system architecture, anatomy and functional properties is of crucial interest to plant breeding, with the aim of sustainable yield production and environmental stewardship. Due to  the importance of the root system studies, there is a  need for clarification of terms and concepts in the root phenotyping community. In particular in this contribution, we advocate for the use of a reference naming system (ontologies) for roots and root phenes. Such uniformity would not only allow better understanding of research results, but would also enable a better sharing of data. In addition, we highlight the need to incorporate the concept of plasticity in breeding programs, as it is an essential component of root system development in heterogeneous environments. 
+      
    
 -  type: journal
    title: EZ-Root-VIS, A Software Pipeline for the Visual Reconstruction of Averaged Root System Architecture   
