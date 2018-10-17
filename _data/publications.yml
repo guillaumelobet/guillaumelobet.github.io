@@ -2,7 +2,26 @@
    hindex: '12'
    citations: '669'
    update: '2018-01-08'
-   
+ 
+-  type: journal
+   title: Connecting the dots between computational tools to analyse soil-root water relations
+   authors: Passot S, Couvreur C, Meunier F, Draye X, Javaux M, Leitner D, Pagès L, Schnepf A, Vanderborght J, Lobet G
+   journal: Journal of Experimental Botany
+   year: 2018
+   image: img/water_network.jpg
+   open: yes
+   doi: 10.1093/jxb/ery361 
+   pdf: https://academic.oup.com/jxb/advance-article-pdf/doi/10.1093/jxb/ery361/26078207/ery361.pdf
+   tags:
+   - root
+   - phenotyping
+   - modelling
+   - image analysis
+   description: >
+      In the recent years, many computational tools, such as image analysis, data management, process-based simulation and upscaling tools, were developed to help quantify and understand water flow in the soil-root system, at multiple scales (tissue, organ, plant and population). Several of these tools work together or, at least, are compatible. However, for the un-informed researcher, they might seem disconnected, forming a unclear and disorganised succession of tools. In this article, we present how different pieces of work can be further developed by connecting them to analyse soil-root-water relations in a comprehensive and structured network. This explicit network of soil-root computational tools informs the reader about existing tools and help them understand how their data (past and future) might fit within the network. We also demonstrate the novel possibilities of scale-consistent parameterizations made possible by the network with a set of case studies from the literature. Finally, we discuss existing gaps in the network and how we can move forward to fill them.
+   other: >
+      We made a shiny app as companion for the paper. It is available here: [https://plantmodelling.shinyapps.io/water_network/]()
+ 
    
 -  type: journal
    title: Demystifying roots, A need for clarification and extended concepts in root phenotyping
@@ -51,27 +70,6 @@
    description: >
       Society is increasingly demanding a more sustainable management of agro-ecosystems in a context of climate change and an ever growing global population. The fate of crop residues is one of the important management aspects under debate, since it represents an unneglectable quantity of organic matter which can be kept in or removed from the agro-ecosystem. The topic of residue management is not new, but the need for global conclusion on the impact of crop residue management on the agro-ecosystem linked to local pedo-climatic conditions has become apparent with an increasing amount of studies showing a diversity of conclusions. This study specifically focusses on temperate climate and loamy soil using a seven-year data set. Between 2008 and 2016, we compared four contrasting residue management strategies differing in the amount of crop residues returned to the soil (incorporation vs. exportation of residues) and in the type of tillage (reduced tillage (10 cm depth) vs. conventional tillage (ploughing at 25 cm depth)) in a field experiment. We assessed the impact of the crop residue management on crop production (three crops—winter wheat, faba bean and maize—cultivated over six cropping seasons), soil organic carbon content, nitrate (NO3), phosphorus (P) and potassium (K) soil content and uptake by the crops. The main differences came primarily from the tillage practice and less from the restitution or removal of residues. All years and crops combined, conventional tillage resulted in a yield advantage of 3.4% as compared to reduced tillage, which can be partly explained by a lower germination rate observed under reduced tillage, especially during drier years. On average, only small differences were observed for total organic carbon (TOC) content of the soil, but reduced tillage resulted in a very clear stratification of TOC and also of P and K content as compared to conventional tillage. We observed no effect of residue management on the NO3 content, since the effect of fertilization dominated the effect of residue management. To confirm the results and enhance early tendencies, we believe that the experiment should be followed up in the future to observe whether more consistent changes in the whole agro-ecosystem functioning are present on the long term when managing residues with contrasted strategies.
    
-
--  type: journal
-   title: Connecting the dots between computational tools to analyse soil-root water relations
-   authors: Passot S, Couvreur C, Meunier F, Draye X, Javaux M, Leitner D, Pagès L, Schnepf A, Vanderborght J, Lobet G
-   journal: biorxiv
-   year: 2018
-   image: img/water_network.jpg
-   preprint: yes
-   open: yes
-   doi: 10.1101/312918 
-   pdf: https://www.biorxiv.org/content/early/2018/05/09/312918.full.pdf
-   tags:
-   - root
-   - phenotyping
-   - modelling
-   - image analysis
-   description: >
-      In the recent years, many computational tools, such as image analysis, data management, process-based simulation and upscaling tools, were developed to help quantify and understand water flow in the soil-root system, at multiple scales (tissue, organ, plant and population). Several of these tools work together or, at least, are compatible. However, for the un-informed researcher, they might seem disconnected, forming a unclear and disorganised succession of tools. In this article, we present how different pieces of work can be further developed by connecting them to analyse soil-root-water relations in a comprehensive and structured network. This explicit network of soil-root computational tools informs the reader about existing tools and help them understand how their data (past and future) might fit within the network. We also demonstrate the novel possibilities of scale-consistent parameterizations made possible by the network with a set of case studies from the literature. Finally, we discuss existing gaps in the network and how we can move forward to fill them.
-   other: >
-      We made a shiny app as companion for the paper. It is available here: [https://plantmodelling.shinyapps.io/water_network/]()
-
 
 -  type: journal
    title: A New Phenotyping Pipeline Reveals Three Types of Lateral Roots and a Random Branching Pattern in Two Cereals
