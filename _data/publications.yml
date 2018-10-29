@@ -4,6 +4,26 @@
    update: '2018-01-08'
  
 -  type: journal
+   title: Going with the flow. Multiscale insights into the composite nature of water transport in roots
+   authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
+   journal: Plant Physiology
+   year: 2018
+   open: yes
+   pdf: http://biorxiv.org/content/early/2017/06/07/147314.full.pdf
+   doi: 10.1104/pp.18.01006
+   image: img/art-mecha.jpg
+   tags:
+   - anatomy
+   - root
+   - water
+   - model
+   citations: 1.0
+   description: >
+      As water often limits crop production, a more complete understanding of plant water capture and transport is necessary. Here, we developed MECHA, a mathematical model that computes the flow of water across the root at the scale of walls, membranes, and plasmodesmata of individual cells, and used it to test hypotheses related to root water transport in maize (Zea mays). The model uses detailed root anatomical descriptions and a minimal set of experimental cell properties, including the conductivity of plasma membranes (Lp), cell walls, and plasmodesmata, which yield quantitative and scale consistent estimations of water pathways and root radial hydraulic conductivity (kr). MECHA revealed that the mainstream hydraulic theories derived independently at the cell and root segment scales are compatible only if osmotic potentials within the apoplastic domains are uniform. Results suggested that the convection-diffusion of apoplastic solutes explained most of the offset between estimated kr in pressure clamp and osmotic experiments, while the contribution of water-filled intercellular spaces was limited. Furthermore, sensitivity analyses quantified the relative impact of cortex and endodermis cell Lp on root kr and suggested that only the latter substantially contributed to kr due to the composite nature of water flow across roots. The explicit root hydraulic anatomy framework brings insights into contradictory interpretations of experiments from the literature and suggests experiments to efficiently address questions pertaining to root water relations. Its scale-consistency opens avenues for cross-scale communication in the world of root hydraulics.
+   other: >
+      We made a shiny app as companion for the paper. It is available here: [https://plantmodelling.shinyapps.io/mecha/]()
+ 
+-  type: journal
    title: Connecting the dots between computational tools to analyse soil-root water relations
    authors: Passot S, Couvreur C, Meunier F, Draye X, Javaux M, Leitner D, Pagès L, Schnepf A, Vanderborght J, Lobet G
    journal: Journal of Experimental Botany
@@ -173,25 +193,6 @@
       We trained a Random Forest algorithm to infer architectural traits from automatically extracted image descriptors. The training was performed on a subset of the dataset, then applied to its entirety. This strategy allowed us to (i) decrease the image analysis time by 73% and (ii) extract meaningful architectural traits based on image descriptors. We also show that these traits are sufficient to identify Quantitative Trait Loci that had previously been discovered using a semi-automated method.
       We have shown that combining semi-automated image analysis with machine learning algorithms has the power to increase the throughput of large scale root studies. We expect that such an approach will enable the quantification ofmore complex root systems for genetic studies. We also believe that our approach could be extended to other areasof plant phenotyping
 
--  type: journal
-   title: Novel multiscale insights into the composite nature of water transport in
-      roots
-   authors: Couvreur V, Faget M, Lobet G, Javaux M, Chaumont F, Draye X
-   journal: biorxiv
-   year: 2017
-   open: yes
-   pdf: http://biorxiv.org/content/early/2017/06/07/147314.full.pdf
-   doi: 10.1101/147314
-   image: img/art-mecha.jpg
-   tags:
-   - anatomy
-   - root
-   - water
-   - model
-   citations: 1.0
-   preprint: yes
-   description: >
-      MECHA is a novel mathematical model that computes the flow of water through the walls, membranes and plasmodesmata of each individual cell throughout complete root cross-sections, from a minimal set of cell level hydraulic properties and detailed root anatomical descriptions. Using the hydraulic anatomical framework of the Zea mays root reveals that hydraulic principles at the cell and root segment scales, derived independently by Katchalsky and Curran [1967] and Fiscus and Kramer [1975], are fully compatible, irrespective of apoplastic barriers leakiness. The hydraulic anatomy model accurately predicts empirical root radial permeability (kr) from relatively high cell wall hydraulic conductivity and low plasmodesmatal conductance reported in the literature. MECHA brings novel insights into contradictory interpretations of experiments from the literature by quantifying the impact of intercellular spaces, cortical cell permeability and plasmodesmata among others on root kr, and suggests new experiments efficiently addressing questions of root water relations.
 
 -  type: journal
    title: Image analysis in plant science. Publish then perish
