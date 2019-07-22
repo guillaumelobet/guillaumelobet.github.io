@@ -4,6 +4,21 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: Lateral Roots, Random Diversity in Adversity
+   authors: Muller B, Guédon Y, Passot S, Lobet G, Nacry P, Pagès L, Wissuwa M, Draye X
+   journal: Trends in Plant Science
+   year: 2019
+   image: img/art-tips-lat.png
+   doi: 10.1016/j.tplants.2019.05.011
+   pdf: https://paperpile.com/app/p/f9039a66-4491-0bea-a8e4-ce4c04649bba
+   tags:
+   - randomness
+   - root
+   - model
+   description: >
+       Lateral roots are essential for soil foraging and uptake of minerals and water. They feature a large morphological diversity that results from divergent primordia or root growth and development patterns. Besides a structured diversity, resulting from the hierarchical and developmental organization of root systems, there exists a random diversity, occurring between roots of similar age, of the same hierarchical order, and exposed to uniform conditions. The physiological bases and functional consequences of this random diversity are largely ignored. Here we review the evidence for such random diversity throughout the plant kingdom, present innovative approaches based on statistical modeling to account for such diversity, and set the list of its potential benefits in front of a variable and unpredictable soil environment.
+
+-  type: journal
    title: GRANAR, a new computational tool to better understand the functional importance of root anatomy
    authors: Heymans A, Couvreur V, Larue T, Paez Garcia A, Lobet G
    journal: biorxiv
