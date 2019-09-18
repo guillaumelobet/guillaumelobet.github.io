@@ -9,6 +9,9 @@ image: img/choose_root.png
 
 In this post, I will try to point out the most important characteristics you will have to consider while choosing your root image analysis software.
 
+<!-- more -->
+
+
 Very often, there is a strong link between an experimental design and the software used to treat the root images. Be careful that you should **not be designing your experiment according to the available software** in your lab, but the other way round. As there is more and more available software, the field of possible analysis widens. Do not hesitate to** try different software** to find the one that suits your needs.
 
 <h3>The type of measurement</h3>

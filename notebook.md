@@ -1,4 +1,0 @@
----
-layout: notebook
-title: Notebook
----

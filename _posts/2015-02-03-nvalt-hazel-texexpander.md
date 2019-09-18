@@ -7,6 +7,7 @@ tags: productivity
 image: /img/nvalt/hazel-nvalt.png
 ---
 As I scientist, I write a lot and in various ways. I write notes and ideas. I write projects. Papers. Reviews. Blog posts. Codes. Pretty much everything. As a consequence, I need the right tools to write, organise and find all these document. I also like to keep my folders well organised (by projects / experiments / ...). This is important, as I want my different project folders to be complete and contains everything related to the project. 
+<!-- more -->
 
 
 ![legend ](/img/nvalt/hazel-nvalt.png)

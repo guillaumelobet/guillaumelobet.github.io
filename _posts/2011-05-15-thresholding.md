@@ -10,6 +10,8 @@ image: img/threshold_diam.jpg
 
 Many root image analysis procedures have a thresholding step in their workflow (e.i. WinRHIZO or EZ-RHIZO). The thresholding step aims at segmenting the original image (fig. 1A) in two parts: the "object" (the roots) and the "background", and to assign to each of them a different pixel value (typically 1 and 0). The subsequent binary image (fig. 1B) can be used, for instance, to generate a "root skeleton" (fig. 1C) or to estimate root diameter.
 
+<!-- more -->
+
 
 <img src="/img/threshold_workflow.jpg" alt="threshold workflow" width="100%">
 

@@ -1,97 +1,145 @@
+-  goodread: 40180098-the-overstory
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562786502l/40180098._SY475_.jpg
+   title: The Overstory
+   isbn: '9780393356687'
+   author: Richard Powers
+   url: http://www.goodreads.com/book/show/40180098-the-overstory
+-  goodread: 163529.At_the_Water_s_Edge
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348478265l/163529.jpg
+   title: At the Water's Edge
+   isbn: '9780684856230'
+   author: Carl Zimmer
+   url: http://www.goodreads.com/book/show/163529.At_the_Water_s_Edge
+-  goodread: 42775720-vivant
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1542175168l/42775720._SY475_.jpg
+   title: Vivant
+   isbn: 'null'
+   author: Aymeric Caron
+   url: http://www.goodreads.com/book/show/42775720-vivant
+-  goodread: 10914780-science-ink
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767434l/10914780.jpg
+   title: Science Ink
+   isbn: '9781402783609'
+   author: Carl Zimmer
+   url: http://www.goodreads.com/book/show/10914780-science-ink
+-  goodread: 68428.The_Final_Empire
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480717416l/68428._SY475_.jpg
+   title: 'The Final Empire (Mistborn, #1)'
+   isbn: '9780765311788'
+   author: Brandon Sanderson
+   url: http://www.goodreads.com/book/show/68428.The_Final_Empire
+-  goodread: 7235533-the-way-of-kings
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388184640l/7235533.jpg
+   title: 'The Way of Kings (The Stormlight Archive, #1)'
+   isbn: '9780765326355'
+   author: Brandon Sanderson
+   url: http://www.goodreads.com/book/show/7235533-the-way-of-kings
+-  goodread: 36815126-seeds-of-science
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523524438l/36815126._SY475_.jpg
+   title: Seeds of Science
+   isbn: '9781472946980'
+   author: Mark Lynas
+   url: http://www.goodreads.com/book/show/36815126-seeds-of-science
+-  goodread: 32335739-flora-of-middle-earth
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476260320l/32335739.jpg
+   title: Flora of Middle-Earth
+   isbn: '9780190276317'
+   author: Walter S. Judd
+   url: http://www.goodreads.com/book/show/32335739-flora-of-middle-earth
 -  goodread: 26367751-slow-professor
-   image: https://images.gr-assets.com/books/1464180701l/26367751.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464180701l/26367751._SY475_.jpg
    title: Slow Professor
    isbn: '9781442613850'
    author: Maggie Berg
    url: http://www.goodreads.com/book/show/26367751-slow-professor
 -  goodread: 34602415-academia-obscura
-   image: https://images.gr-assets.com/books/1512835729l/34602415.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512835729l/34602415.jpg
    title: Academia Obscura
    isbn: '9781783523412'
    author: Glen Wright
    url: http://www.goodreads.com/book/show/34602415-academia-obscura
 -  goodread: 35295383-does-it-fart
-   image: https://images.gr-assets.com/books/1496537999l/35295383.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496537999l/35295383._SX318_.jpg
    title: Does It Fart?
    isbn: 'null'
-   author: Dani Rabaiotti
+   author: Nick Caruso
    url: http://www.goodreads.com/book/show/35295383-does-it-fart
 -  goodread: 11538670-la-belle-mort
-   image: https://images.gr-assets.com/books/1334135761l/11538670.jpg
-   title: La Belle Mort
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1334135761l/11538670.jpg
+   title: La belle mort
    isbn: '9782359101751'
    author: Mathieu Bablet
    url: http://www.goodreads.com/book/show/11538670-la-belle-mort
 -  goodread: 31868276-shangri-la
-   image: https://images.gr-assets.com/books/1473275500l/31868276.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473275500l/31868276._SX318_.jpg
    title: Shangri-La
    isbn: '9782359109696'
    author: Mathieu Bablet
    url: http://www.goodreads.com/book/show/31868276-shangri-la
 -  goodread: 28256439-the-hidden-life-of-trees
-   image: https://images.gr-assets.com/books/1464281905l/28256439.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1464281905l/28256439.jpg
    title: The Hidden Life of Trees
    isbn: '9781771642484'
    author: Peter Wohlleben
    url: http://www.goodreads.com/book/show/28256439-the-hidden-life-of-trees
 -  goodread: 2674261-la-belette
-   image: https://images.gr-assets.com/books/1332530005l/2674261.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1332530005l/2674261.jpg
    title: La Belette
    isbn: '9782203334175'
    author: Comès
    url: http://www.goodreads.com/book/show/2674261-la-belette
 -  goodread: 6077296-silence
-   image: https://images.gr-assets.com/books/1327899248l/6077296.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327899248l/6077296.jpg
    title: Silence
    isbn: '9782203334038'
    author: Comès
    url: http://www.goodreads.com/book/show/6077296-silence
 -  goodread: 910594.Corto_Maltese
    serie: Corto Maltese
-   image: https://images.gr-assets.com/books/1179377662l/910594.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1179377662l/910594._SX318_.jpg
    title: Corto Maltese
    isbn: '9782203332287'
    author: Hugo Pratt
    url: http://www.goodreads.com/book/show/910594.Corto_Maltese
 -  goodread: 35056823-l-ordre-du-jour
-   image: https://images.gr-assets.com/books/1493819993l/35056823.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1493819993l/35056823._SY475_.jpg
    title: L'Ordre du jour
    isbn: 'null'
    author: "E\x89ric Vuillard"
    url: http://www.goodreads.com/book/show/35056823-l-ordre-du-jour
 -  goodread: 163529.At_the_Water_s_Edge
-   image: https://images.gr-assets.com/books/1348478265l/163529.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348478265l/163529.jpg
    title: At the Water's Edge
    isbn: '9780684856230'
    author: Carl Zimmer
    url: http://www.goodreads.com/book/show/163529.At_the_Water_s_Edge
 -  goodread: 1420.Hamlet
-   image: https://images.gr-assets.com/books/1351051208l/1420.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1351051208l/1420.jpg
    title: Hamlet
    isbn: '9780521618748'
    author: William Shakespeare
    url: http://www.goodreads.com/book/show/1420.Hamlet
 -  goodread: 16033842-la-v-rit-sur-l-affaire-harry-quebert
-   image: https://images.gr-assets.com/books/1347987605l/16033842.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347987605l/16033842.jpg
    title: La Vérité sur l'affaire Harry Quebert
    isbn: '9782877068161'
    author: Joël Dicker
    url: http://www.goodreads.com/book/show/16033842-la-v-rit-sur-l-affaire-harry-quebert
 -  goodread: 26836349-le-livre-des-baltimore
-   image: https://images.gr-assets.com/books/1443554912l/26836349.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1443554912l/26836349._SX318_.jpg
    title: Le Livre des Baltimore
    isbn: '9782877069472'
    author: Joël Dicker
    url: http://www.goodreads.com/book/show/26836349-le-livre-des-baltimore
 -  goodread: 25733983-lab-girl
-   image: https://images.gr-assets.com/books/1441826687l/25733983.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441826687l/25733983.jpg
    title: Lab Girl
    isbn: '9781101874936'
    author: Hope Jahren
    url: http://www.goodreads.com/book/show/25733983-lab-girl
    tag: science
 -  goodread: 23379245-the-dragons-of-dorcastle
-   image: https://images.gr-assets.com/books/1417241658l/23379245.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1417241658l/23379245.jpg
    title: 'The Dragons of Dorcastle (The Pillars of Reality, #1)'
    isbn: '9781491540336'
    author: Jack Campbell
@@ -101,23 +149,23 @@
 -  goodread: 33.The_Lord_of_the_Rings
    serie: The Lord of the Rings
    tags: fantasy
-   image: https://images.gr-assets.com/books/1411114164l/33.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566425108l/33.jpg
    title: 'The Lord of the Rings (The Lord of the Rings, #1-3)'
-   isbn: '9780618640157'
+   isbn: 'null'
    author: J.R.R. Tolkien
    url: http://www.goodreads.com/book/show/33.The_Lord_of_the_Rings
 -  goodread: 228665.The_Eye_of_the_World
    serie: The Wheel of Time
    tags: fantasy
-   image: https://images.gr-assets.com/books/1337818095l/228665.jpg
-   title: 'The Eye of the World (Wheel of Time, #1)'
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1337818095l/228665.jpg
+   title: 'The Eye of the World (The Wheel of Time, #1)'
    isbn: '9780812511819'
    author: Robert Jordan
    url: http://www.goodreads.com/book/show/228665.The_Eye_of_the_World
 -  goodread: 45100.Ship_of_Magic
    serie: LiveShip Traders
    tags: fantasy
-   image: https://images.gr-assets.com/books/1360507722l/45100.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360507722l/45100.jpg
    title: 'Ship of Magic (Liveship Traders, #1)'
    isbn: '9780006498858'
    author: Robin Hobb
@@ -125,7 +173,7 @@
 -  goodread: 97905.The_No_Asshole_Rule
    serie: ~
    tags: work
-   image: https://images.gr-assets.com/books/1406910242l/97905.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1406910242l/97905.jpg
    title: The No Asshole Rule
    isbn: '9780446526562'
    author: Robert I. Sutton
@@ -133,7 +181,7 @@
 -  goodread: 2474830.Tomorrow_s_Table
    serie: ~
    tags: GMO
-   image: https://images.gr-assets.com/books/1347611624l/2474830.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347611624l/2474830.jpg
    title: Tomorrow's Table
    isbn: '9780195301755'
    author: Pamela C. Ronald
@@ -141,7 +189,7 @@
 -  goodread: 8520610-quiet
    serie: ~
    tags: work
-   image: https://images.gr-assets.com/books/1328562861l/8520610.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328562861l/8520610.jpg
    title: Quiet
    isbn: '9780307352149'
    author: Susan Cain
@@ -149,7 +197,7 @@
 -  goodread: 11084145-steve-jobs
    serie: ~
    tags: apple
-   image: https://images.gr-assets.com/books/1511288482l/11084145.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511288482l/11084145._SY475_.jpg
    title: Steve Jobs
    isbn: '9781451648539'
    author: Walter Isaacson
@@ -157,7 +205,7 @@
 -  goodread: 3869.A_Brief_History_of_Time
    serie: ~
    tags: science
-   image: https://images.gr-assets.com/books/1333578746l/3869.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1333578746l/3869.jpg
    title: A Brief History of Time
    isbn: '9780553380163'
    author: Stephen Hawking
@@ -165,7 +213,7 @@
 -  goodread: 13496.A_Game_of_Thrones
    serie: A Song of Fire and Ice
    tags: fantasy
-   image: https://images.gr-assets.com/books/1436732693l/13496.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562726234l/13496.jpg
    title: 'A Game of Thrones (A Song of Ice and Fire, #1)'
    isbn: '9780553588484'
    author: George R.R. Martin
@@ -173,7 +221,7 @@
 -  goodread: 589455.Full_Catastrophe_Living
    serie: ~
    tags: livestyle
-   image: https://images.gr-assets.com/books/1441601293l/589455.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441601293l/589455._SY475_.jpg
    title: Full Catastrophe Living
    isbn: '9780385303125'
    author: Jon Kabat-Zinn
@@ -181,7 +229,7 @@
 -  goodread: 17316682-remote
    serie: ~
    tags: work
-   image: https://images.gr-assets.com/books/1363265098l/17316682.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363265098l/17316682.jpg
    title: Remote
    isbn: '9780804148993'
    author: David Heinemeier Hansson
@@ -189,7 +237,7 @@
 -  goodread: 12262741-wild
    serie: ~
    tags: adventure
-   image: https://images.gr-assets.com/books/1453189881l/12262741.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453189881l/12262741._SY475_.jpg
    title: Wild
    isbn: '9780307592736'
    author: Cheryl Strayed
@@ -197,7 +245,7 @@
 -  goodread: 11038479-the-whisperer
    serie: ~
    tags: polar
-   image: https://images.gr-assets.com/books/1344264752l/11038479.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344264752l/11038479.jpg
    title: The Whisperer
    isbn: '9780316194723'
    author: Donato Carrisi
@@ -205,7 +253,7 @@
 -  goodread: 17333325-the-lost-girls-of-rome
    serie: ~
    tags: polar
-   image: https://images.gr-assets.com/books/1365992985l/17333325.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365992985l/17333325.jpg
    title: The Lost Girls of Rome
    isbn: '9780316246798'
    author: Donato Carrisi
@@ -213,7 +261,7 @@
 -  goodread: 23434395-l-corch-e
    serie: ~
    tags: polar
-   image: https://images.gr-assets.com/books/1413966280l/23434395.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1413966280l/23434395.jpg
    title: L'écorchée
    isbn: '9782253179122'
    author: Donato Carrisi
@@ -221,7 +269,7 @@
 -  goodread: 26514505-malefico
    serie: ~
    tags: polar
-   image: https://images.gr-assets.com/books/1442211579l/26514505.jpg
+   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442211579l/26514505._SY475_.jpg
    title: Malefico
    isbn: 'null'
    author: Donato Carrisi

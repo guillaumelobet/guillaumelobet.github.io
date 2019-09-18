@@ -9,7 +9,8 @@ image: img/camera_vertical.png
 
 
 One way to take root picture using a camera is just to hold your root system by the collar and take a picture. While this technique might be the fastest and the easiest one, it is also to easiest way to get a bad picture. 
-  
+  <!-- more -->
+
 
 Here is a couple of things to think of before taking such image.
 

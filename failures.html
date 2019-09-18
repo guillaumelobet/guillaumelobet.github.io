@@ -1,0 +1,63 @@
+---
+layout: page
+title: My failures
+background: '/img/bg-failures.jpg'
+---
+
+
+
+
+    <h2>My failures</h2>
+
+    <div class="alert alert-info">
+    {% for reject in site.data.rejections %}
+      {% case reject.type %}
+        {% when 'intro' %}
+          {{reject.title}}
+      {% endcase %}
+    {% endfor %}
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+
+   	<h4 class="mb-1">What referees have said about my work</h4>
+  		<ul>
+          {% for reject in site.data.rejections %}
+            {% case reject.type %}
+              {% when 'quote' %}
+                <li class="mb-2"><i>{{reject.title}}</i> [<small>{{reject.year}}</small>]</li>
+            {% endcase %}
+          {% endfor %}
+        </ul>
+
+	<hr>
+  	
+  	<h4 class="mb-1">Paper rejections from academic journals</h4>
+    <ul>
+    {% for year in (2015..2018) %}
+      <li class="mb-2">
+        <b>{{year}}: </b>
+        {% for reject in site.data.rejections %}
+          {% case reject.type %}
+            {% when 'paper' %}
+              {% if reject.year == year %}
+                {{reject.title}},
+              {% endif %}
+          {% endcase %}
+        {% endfor %}  
+      </li>      
+    {% endfor %}
+    </ul>
+
+    <hr>
+
+  	<h4 class="mb-1">Grants I did not get</h4>
+     <ul>
+      {% for reject in site.data.rejections %}
+        {% case reject.type %}
+          {% when 'grant' %}
+            <li class="mb-2">{{reject.title}} [<small>{{reject.year}}</small>]</li>
+        {% endcase %}
+      {% endfor %}        
+	 </ul> 

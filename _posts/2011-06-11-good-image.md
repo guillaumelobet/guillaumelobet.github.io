@@ -10,6 +10,9 @@ image: img/good-image-4.jpg
 
 The quality of an image is central if you want to get useful information out of it. Even the best software will not be able to analyse crappy images, so it is crucial to think about what makes a good image and how to acquire it. 
 
+<!-- more -->
+
+
 Usually, you will have the opportunity to improve your images at different steps of the process:
 
 - the growth of the plant (substrate, ...)

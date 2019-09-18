@@ -1,0 +1,167 @@
+---
+layout: page
+title: Publications
+background: '/img/bg-publications.jpg'
+form: false
+---
+
+	
+
+          <div class="alert alert-info">
+            I do not believe that journal names convey information regarding the quality of my published work, so I left it blank. I did include other usefull informations.<br> 
+            <small><span style="color: green;"><i class="far fa-cog fa-spin"></i></span> = preprint</small>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+
+
+<!- Count the publications ->
+          {% assign counter = 1 %}
+          {% assign counter2 = 0 %}
+          {% for publication in site.data.publications %}
+              {% case publication.type %}
+                {% when 'journal' %}
+                  {% assign counter = counter | plus: 1 %}              
+              {% endcase %}
+          {% endfor %}
+          {% assign counter3 = counter | minus :1 %}
+
+            {% assign counter = 1 %}
+            {% for publication in site.data.publications %}
+
+              {% case publication.type %}
+                {% when 'journal' %}
+                {% assign counter = counter | plus:1 %}
+                  <small>{{ counter3 }}</small> | <strong class="mb-1">{{ publication.title }}</strong>
+                  {% if publication.open %}
+                    <span style="color: green;"><i class="far fa-lock-open"></i></span>
+                  {% endif %}
+                  {% if publication.preprint %}
+                     <span style="color: green;"><i class="far fa-cog fa-spin"></i></span>
+                  {% endif %}                       
+                  <br>
+
+                  <small>{{ publication.year }}</small> | <small>{{ publication.authors }}</small>
+                  <br>
+
+				 <div class="float-right">
+                  {% if publication.doi %}
+                      <a class="btn btn-outline-secondary btn-sm mb-1" href="http://dx.doi.org/{{ publication.doi }}" target="_blank" >
+                        <i class="fal fa-link"></i>
+                      </a>
+                  {% elsif publication.url %}
+                      <a class="btn btn-outline-secondary btn-sm mb-1" href="{{ publication.url }}" target="_blank">
+                        <i class="fal fa-link"></i>
+                      </a>
+                  {% endif %}
+
+                  {% if publication.pdf %}
+                      <a class="btn btn-outline-secondary btn-sm mb-1" href="{{ publication.pdf }}" target="_blank">
+                        <i class="fal fa-file-alt"></i>
+                      </a>
+                  {% endif %}
+                  
+                  <a class="btn btn-outline-secondary btn-sm  mb-1" data-toggle="modal" href="#modal{{counter}}">
+                    <i class="fal fa-plus"></i>
+                  </a>
+              	 </div>
+              	 <br>
+                  <hr>
+
+                <div class="modal fade" tabindex="-1" role="dialog" id="modal{{counter}}">
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        
+                        <div class="row ml-1">
+                          <div class="col-12 col-sm-8 mb-2">
+                            <h5 class="modal-title">{{ publication.title }}</h5>
+                          </div>
+                          <div class="col-12 col-sm-4">
+                             
+                                {% if publication.doi %}
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="http://dx.doi.org/{{ publication.doi }}" target="_blank">
+                                      <i class="fal fa-link"></i> Publisher
+                                    </a>
+                                {% elsif publication.url %}
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.url }}" target="_blank">
+                                      <i class="fal fa-link"></i> Publisher
+                                    </a>
+                                {% endif %}
+
+                                {% if publication.pmid %}
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="http://www.ncbi.nlm.nih.gov/pubmed/{{ publication.pmid }}" target="_blank">
+                                      <i class="fal fa-link"></i> PubMed
+                                    </a>
+                                {% endif %}
+
+                                {% if publication.pdf %}
+                                    <a class="btn btn-outline-primary btn-sm mb-1" href="{{ publication.pdf }}" target="_blank">
+                                      <i class="fal fa-file-alt"></i> PDF
+                                    </a>
+                                {% endif %}
+                              
+                            </div>
+                          </div>                        
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+
+
+                      </div>
+                      <div class="modal-body">
+
+                        <p>
+                          <div class="row">
+                            
+                            <div class="col-12 col-xl-2 mx-auto">
+
+                              <span class="__dimensions_badge_embed__" data-doi="{{publication.doi}}" data-style="small_circle"></span> <hr>
+
+                              <span data-badge-popover="right" data-badge-type="donut" data-doi="{{publication.doi}}" data-hide-no-mentions="true" class="altmetric-embed"></span>
+                              <hr>
+                            
+                              {% if publication.review %}
+                                <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fal fa-book mr-1"></i>review</button>
+                              {% endif %} 
+
+                              {% if publication.preprint %}
+                                <button type="button" class="btn btn-outline-success btn-sm mt-1"><i class="fal fa-recycle mr-1"></i>preprint</button>
+                              {% endif %} 
+                    
+                              {% if publication.tags %}
+                                {% for tag in publication.tags %}
+                                <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
+                                  <i class="fal fa-tag mr-1"></i>{{tag}}
+                                </button>
+                                {% endfor %}
+                              {% endif %} 
+                              <hr>
+                              {% if publication.doi %}
+                                    {{ publication.doi }}
+                              {% endif %}
+                              
+                            </div>
+                            <div class="col-12 col-xl-9">
+                              <h4>Abstract</h4>
+                              {{publication.description}}
+                              <hr>
+                              {% if publication.other %}
+                                <h4>Other informations</h4>
+                                {{publication.other}}
+                              {% endif %} 
+                            </div>
+                          </div>
+
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {% assign counter3 = counter3 | minus: 1 %}
+
+              {% endcase %}
+            {% endfor %}
+

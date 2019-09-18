@@ -10,6 +10,7 @@ image: /img/rhizoponics/rhizoponic-3.png
 
 
 About two years ago, we ([Laura Mathieu](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/laura-mathieu), [Pierre Tocquin](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/pierre-tocquin), [Claire Périlleux](http://www.phytosystems.ulg.ac.be/en/groups/plant-physiology/members/claire-perilleux) and myself) started to think about an efficient way to monitor the development of the Arabidopsis root system from the seedling to the flowering stages. 
+<!-- more -->
 
 ### Why we needed something new...
 

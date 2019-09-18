@@ -9,6 +9,7 @@ image: img/archidart.png
 
 
 That will not come as a surprise for the root researchers reading this post: analysing plant root system architectures and measuring root functional traits are challenging tasks! The first challenge is methodological: How to efficiently acquire root images? And what is the ‘best’ method to analyse them? The answers to these questions are not easy to find and will depend on a number of factors, such as the traits or variables you would like to measure and the level of automation you wish to have, for instance. Guillaume has already written several nice posts on these topics [here](https://guillaumelobet.github.io//2015/12/17/rsml/). 
+<!-- more -->
 
 
 The second challenge is linked to time management. If you have ever worked with roots, you probably already know the unspeakable truth: it can take a lot of time to analyse root images! But once all the roots in each image have been traced, I am often (positively) surprised by the amount of information that one can get from such analyses. Root image analysis generates information-rich datasets from which numerous morphological and architectural traits can be derived. However, this information is often hidden in complex and well-structured data files. When I was a PhD student in Belgium, I thought it would be very useful to have a ‘code’ able to compute as many traits as possible from all the data files produced during root image analysis (and if possible, able to do everything at once!). That is how this story began!

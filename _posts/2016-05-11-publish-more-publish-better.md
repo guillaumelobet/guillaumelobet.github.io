@@ -9,6 +9,7 @@ image: img/h_predictor.png
 
 
 A couple of month ago, I was discussing with senior colleagues about the conditions to (have a chance to) be tenured in Belgium. One of them told that the first thing the evaluation committee will look at will be my [h-index.]() He also told me that, below a h-index of 10, I have few chances to even be *considered*. He admitted it to be bad, but that it the case anyway...
+<!-- more -->
 
 I am not a defender of the h-index, on the contrary. I have been an [ImpactStory advisor](http://blog.impactstory.org/advisor-month-lobet/) for quite some time  and I advocate for the [valorisation of every scientific outputs](www.guillaumelobet.be/science_valorisation/), no only peer-review papers. So it depressed me a little to know that the h-index was still so strongly used by evaluation committees.
 

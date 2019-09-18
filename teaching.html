@@ -1,0 +1,30 @@
+---
+layout: page
+title: Teaching
+background: '/img/bg-teaching.jpg'
+form: false
+---
+
+  <div class="alert alert-info">
+    I have the chance to be a lecturer at the <a href="http://www.uclouvain.be" target="_blank">UCLouvain</a>, in the <a href="http://www.uclouvain.be/agro" target="_blank">Faculty of bioscience engineering</a>. I also give seminars and workshop on image analysis, figure design and Open Science.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <hr>
+
+    {% for course in site.data.teaching %}
+
+      <h4 class="mb-1">{{ course.name }}</h4>
+      <p class="mb-1"><p>{{ course.description | markdownify }}</p>
+      {% if course.url %}
+      <div class="float-right">
+        <a href="{{ course.url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+          <i class="fal fa-external-link"></i> More
+        </a>
+      </div>
+      {% endif %}
+      <br>
+      <hr>
+    {% endfor %}

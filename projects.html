@@ -1,0 +1,60 @@
+---
+layout: page
+title: Projects
+background: '/img/bg-projects.jpg'
+form: false
+---
+
+
+    {% for project in site.data.projects %}
+
+      <h4 class="mb-1">{{ project.name }}</h4>
+      <p class="mb-1"><p>{{ project.description | markdownify }}</p>
+      
+      {% if project.tags %}
+        {% for tag in project.tags %}
+        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
+          <i class="fal fa-tag mr-1"></i>{{tag}}
+        </button>
+        {% endfor %}
+      {% endif %} 
+      {% if project.url %}
+      <div class="float-right">
+        <a href="{{ project.url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+          <i class="fal fa-external-link"></i> More
+        </a>
+      </div>
+      {% endif %}
+      <br>
+      <hr>
+    {% endfor %}
+
+
+
+
+    <div class="alert alert-info">
+      Some random projects I did and maintain just for fun...
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    </div>
+
+
+    {% for fu in site.data.fun %}
+
+        <h4 class="mb-1">{{ fu.name }}</h4>
+        <p class="mb-1"><p>{{ fu.description | markdownify }}</p>
+        {% if fu.url %}
+        <div class="float-right">
+          <a href="{{ fu.url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+            <i class="fal fa-external-link"></i> More
+          </a>
+          
+        </div>
+        {% endif %}
+        <br>
+        <hr>
+
+    {% endfor %}
+
+  </div>

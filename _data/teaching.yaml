@@ -1,28 +1,40 @@
 -
-  name: BotAlgorithme
+  name: Introduction to plant biology [LBIR1151]
   description: >
-    Teaching project that aims a gathering plant models to teach plant biology. Models should be usable online and based on sound biology. 
-  image: /img/botalgorithme.jpg
-  url: http://www.botalgorithme.be/
+    Lecture about plant organography, morphology and anatomy, give to first year bachelor student of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro) at UCLouvain. With this lecture, we try to include new teaching techniques, such as [student peer-assesement](https://www.d-pac.be/), [virtual microscope](https://cytomine.uclouvain.be), conceptual maps or large scale treasure hunt of biological structures. 
+  image: /img/lbres2106.jpg
+  url: https://uclouvain.be/en-cours-2019-LBIR1151.html
+
 -
-  name: Soil-Root interactions
+  name: Integrative biology [LBIR1353]
   description: >
-    Lecture on soil-root interactions given a the University of Louvain, to master students of the bio-engeneering faculty. 
-    Covering, among other, hydrotropisms, branching, hydropatterning, retention curves and many other cool topics.
+    The integrative biology lecture focuses on mecanismes used by the plant to cope with changing (and challenging) environments. One specificity of the lecture is that it heavily rely on the use of [functional-structural plant models](https://plantmodelling.shinyapps.io/PlaNet_Maize/).
+  url: https://uclouvain.be/en-cours-2019-LBIR1353.html
+
+-
+  name: Soil-Root interactions [LBRES2106]
+  description: >
+    Lecture on soil-root interactions given a the [UCLouvain](http://www.uclouvain.be), to master students of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro). Covering, among other thing, hydrotropisms, branching, hydropatterning and soil retention curves.
   image: /img/lbres2106.jpg
   url: https://plantmodelling.github.io/LBRES2106/
 
 -
-  name: Systems biology modelling
+  name: Systems biology modelling [LBRAI2219]
   description: >
-    Lecture on the modelisation of biological systems. Not a classical lecture, but project driven. Students are asked to learn about a model of their choice and use it to do some basic simulations. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on Botany One.
+    Lecture on biological systems modelling. Not a classical lecture, but project-driven. Students are asked to learn about a plant model and use it to answer a research question. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on [Botany One](https://www.botany.one/2018/02/hard-use-plant-computational-models-ask-students/).
   image: /img/systems.jpg
   url: https://uclouvain.be/en-cours-2017-lbrai2219.html
 
 -
+  name: BotAlgorithme
+  description: >
+    BotAlgorithme is a teaching project that aims a gathering plant models that can be used to teach plant biology. Models should be usable online and based on sound biology. We use the different models in the classroom, to add quantitative twist to our plant biology classes. 
+  image: /img/botalgorithme.jpg
+  url: http://www.botalgorithme.be/
+-
   name: Introduction to ImageJ
   description: >
-    Hands on on ImageJ. How to make some basic image analysis. Introduction to macros.
+    Hands on the image analysis suite ImageJ. Describes how to make some basic image analysis. Small introduction to ImageJ macros.
   image: /img/imagej.jpg
   url: https://plantmodelling.github.io/intro-imagej/        
 

@@ -71,16 +71,14 @@ profiles:
 intro:
   title: Hello!
   body: >
-    I am an Assistant Professor between the Forschungszentrum Jülich and the Université catholique de Louvain since Sept 2016. More about [my (new) group here](http://www.plantmodelling.xyz).
-      
-    The aim of my research is (i) to understand how various signals that carry information are interacting and being conveyed and integrated at the plant level and (ii) to amplify discrete physiological knowledge into functional plant processes. All of that using Functional Structural Plant Models.
-      
-    I develop image analysis and phenotyping tools to help researchers in their scientific workflow. And when I am not implementing image analysis tools, I often play with plant models.  
-      
-    Apart from my daily research activity, I love to reference [plant image analysis software](http://www.plant-image-analysis.org) and [funny plant genes names](http://www.toplessninja.tumblr.com).
-    
-    
-    An overview of my research vision can be found [in this presentation](http://bit.ly/lobet-ucl-fzj-2).
+
+    The aim of my research is (i) to understand how various signals that carry information are interacting and being conveyed and integrated at the plant level and (ii) to amplify discrete physiological knowledge into functional plant processes. All of that using Functional Structural Plant Models. 
+
+
+    I also develop image analysis and phenotyping tools to help researchers in their scientific workflow. I am an Open Science enthousiat, diversity advocate and coffee drinker. 
+
+
+    I am currently an Assistant Professor between the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html) and the [UCLouvain](http://www.uclouvain.be/eli) since September 2016. More about [my group here](http://www.plantmodelling.xyz). An overview of my research vision can be found [in this presentation](http://bit.ly/lobet-ucl-fzj-2).
     
 
 footer: >

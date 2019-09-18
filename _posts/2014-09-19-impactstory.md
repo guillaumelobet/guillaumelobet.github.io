@@ -12,6 +12,7 @@ This interview was originally posted by Stacy Konkiel on the <a href="http://blo
 </div>
 
 Guillaume is a post-doc researcher at the Université de Liège in Belgium, in the Plant Physiology lab of Pr. Claire Perilleux. He’s also a dedicated practitioner of open, web native science, creating awesome tools ranging from a Plant Image Analysis software finder to an image analysis toolbox that allows the quantitative analysis of root system architecture. He’s even created an open source webapp that uses Impactstory’s open profile data to automatically create CVs in LaTeX, HTML, and PDF formats. (More on that below.)
+<!-- more -->
 
 
 I had the pleasure of corresponding with Guillaume this week to talk about his research, what he enjoys about practicing web native science, and his approach to being an Impactstory Advisor.

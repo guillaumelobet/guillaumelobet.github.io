@@ -1,18 +1,24 @@
+title:              Guillaume Lobet
+email:              g.lobet@fz-juelich.de
+description:        My personal website
+author:             Guillaume Lobet
+baseurl:            ""
+url:                "https://www.guillaumelobet.be"
+
+# Social Profiles
+twitter_username:   guillaumelobet
+github_username:    guillaumelobet
+facebook_username:  /
+linkedin_username:  guillaumelobet
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
 # Build settings
-markdown: kramdown
-
-# Permalinks
-permalink:        pretty
-#relative_permalinks: true
-
-# http://jekyllrb.com/docs/github-pages/#project-page-url-structure
-baseurl: https://guillaumelobet.github.io/
-#baseurl: /perso/ # for local testing
-
-# Setup
-title:            Guillaume's Blog
-paginate:         1
-author:
-  name:           Guillaume Lobet
-  url:            https://twitter.com/guillaumelobet
-  email:          guillaume.lobet@ulg.ac.be
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site

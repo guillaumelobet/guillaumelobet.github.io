@@ -2,14 +2,14 @@
 -
   name: Topless Ninja
   description: >
-    Website referencing fun plant gene names
+    Website referencing fun plant gene names. Yes Plant biologists can be funny sometimes.
   image: /img/ninja.png
   url: http://toplessninja.tumblr.com/
 
 -
   name: Conference Bingo
   description: >
-    Shiny app to create bingo table for scientific conference (plant science and others)
+    Shiny app to create bingo tables for scientific conferences (plant science theme and others)
   image: /img/bingo.png
   url: https://plantmodelling.shinyapps.io/phenome_bingo/
 
@@ -17,6 +17,6 @@
 -
   name: Science podcast finder
   description: >
-    Shiny app to find science podcast. Base on this article: Science podcasts: analysis of global production and output from 2004 to 2018, MacKenzie (2018), bioRxiv [https://doi.org/10.1101/298356]()
+    Shiny app to find science podcast. Based on this article: Science podcasts: analysis of global production and output from 2004 to 2018, MacKenzie (2018), bioRxiv [https://doi.org/10.1101/298356]()
   image: /img/podcast.png
   url: https://plantmodelling.shinyapps.io/science_podcast

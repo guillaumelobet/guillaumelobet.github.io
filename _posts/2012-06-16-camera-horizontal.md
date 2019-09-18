@@ -10,6 +10,8 @@ image: img/camera_horizontal.png
 
 One way to take root picture using a camera is to put the root system on a flat surface and take picture from above. This technique is fast and can be used with large root system.
 
+<!-- more -->
+
 Here is a couple of things to think of before taking such image.
 
 

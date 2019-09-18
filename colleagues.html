@@ -1,0 +1,35 @@
+---
+layout: page
+title: My research group
+background: '/img/bg-colleagues.jpg'
+form: false
+---
+
+  <div class="alert alert-info">
+    I have awesome colleagues in my team. Go check them out!
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+      {% for people in site.data.students %}
+
+          <h5 class="mb-1">{{ people.name }}</h5>
+
+          <p class="mb-1"><p>{{ people.description | markdownify }}</p>
+          <div class="float-right">
+            
+            <button type="button" class="btn btn-outline-info btn-sm mb-1">{{people.role}}</button>
+
+            {% if people.twitter %}
+              <a href="https://twitter.com//{{ people.twitter }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                <i class="fab fa-twitter"></i> {{ people.twitter }}
+              </a>
+            {% endif %}
+
+          </div>
+        
+        <br>
+        <hr>
+
+      {% endfor %}
