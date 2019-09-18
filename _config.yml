@@ -2,8 +2,8 @@ title:              Guillaume Lobet
 email:              g.lobet@fz-juelich.de
 description:        My personal website
 author:             Guillaume Lobet
-baseurl:            ""
-url:                "https://www.guillaumelobet.be"
+baseurl:            http://www.guillaumelobet.be
+url:                https://www.guillaumelobet.be
 
 # Social Profiles
 twitter_username:   guillaumelobet
