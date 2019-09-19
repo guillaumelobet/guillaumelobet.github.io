@@ -92,7 +92,8 @@
           </li>
           {% endif %}
         </ul-->
-        <p class="copyright text-muted">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</p>
+        <hr>
+        <p class="copyright text-muted">{{ site.data.personal.footer | markdownify }}</p>
       </div>
     </div>
   </div>
