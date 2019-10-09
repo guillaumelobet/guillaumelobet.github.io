@@ -4,6 +4,24 @@
    update: '2018-01-08'
 
 -  type: journal
+   title: MARSHAL, a novel tool for virtual phenotyping of maize root system hydraulic architectures
+   authors: Meunier F, Heymans A, Draye X,Couvreur V, Lobet G, Javaux M
+   journal: biorxiv
+   year: 2019
+   image: img/art-granar.png
+   doi: 10.1101/798975
+   preprint: yes
+   open: yes
+   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/09/798975.full-text.pdf
+   tags:
+   - water
+   - root
+   - model
+   description: >
+      Functional-structural root system models combine functional and structural root traits to represent the growth and development of root systems. In general, they are characterized by a large number of growth, architectural and functional root parameters, generating contrasted root systems evolving in a highly nonlinear environment (soil, atmosphere), which makes unclear what impact of each single root system on root system functioning actually is. On the other end of the root system modelling continuum, macroscopic root system models associate to each root system instance a set of plant-scale, easily interpretable parameters. However, as of today, it is unclear how these macroscopic parameters relate to root-scale traits and whether the upscaling of local root traits are compatible with macroscopic parameter measurements. The aim of this study was to bridge the gap between these two modelling approaches by providing a fast and reliable tool, which eventually can help performing plant virtual breeding. We describe here the MAize Root System Hydraulic Architecture soLver (MARSHAL), a new efficient and user-friendly computational tool that couples a root architecture model (CRootBox) with fast and accurate algorithms of water flow through hydraulic architectures and plant-scale parameter calculations, and a review of architectural and hydraulic parameters of maize. To illustrate the tool's potential, we generated contrasted maize hydraulic architectures that we compared with architectural (root length density) and hydraulic (root system conductance) observations. Observed variability of these traits was well captured by model ensemble runs We also analyzed the multivariate sensitivity of mature root system conductance, mean depth of uptake, root system volume and convex hull to the input parameters to highlight the key parameters to vary for efficient virtual root system breeding. MARSHAL enables inverse optimisations, sensitivity analyses and virtual breeding of maize hydraulic root architecture. It is available as an R package, an RMarkdown pipeline, and a web application.
+
+
+-  type: journal
    title: Lateral Roots, Random Diversity in Adversity
    authors: Muller B, Guédon Y, Passot S, Lobet G, Nacry P, Pagès L, Wissuwa M, Draye X
    journal: Trends in Plant Science
