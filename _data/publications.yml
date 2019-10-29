@@ -3,6 +3,24 @@
    citations: '669'
    update: '2018-01-08'
 
+-  type: journal
+   title: CPlantBox, a whole plant modelling framework for the simulation of water and carbon related processes
+   authors: Zhou X, Schnepf A, Vanderborght J, Leitner D, Lacointe A, Vereecken H, Lobet G
+   journal: biorxiv
+   year: 2019
+   doi: 10.1101/810507
+   preprint: yes
+   open: yes
+   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/24/810507.full-text.pdf
+   tags:
+   - water
+   - carbon
+   - shoot
+   - root
+   - model
+   description: >
+      The interaction between carbon and flows within the plant is at the center of most growth and developmental processes. Understanding how these fluxes influence each other, and how they respond to heterogeneous environmental conditions, is important to answer diverse questions in forest, agriculture and environmental sciences. However, due to the high complexity of the plant environment system, specific tools are needed to perform such quantitative analyses.Here we present CPlantBox, full plant modelling framework based on the root system model CRootBox. CPlantbox is capable of simulating the growth and development of a variety of plant architectures (root and shoot). In addition, the flexibility of CPlantBox enables its coupling with external modeling tools. Here, we connected it to an existing mechanistic model of water and carbon flows in the plant, PiafMunch.The usefulness of the CPlantBox modelling framework is exemplified in four case studies. Firstly, we illustrate the range of plant structures that can be simulated using CPlantBox. In the second example, we simulated diurnal carbon and water flows, which corroborates published experimental data. In the third case study, we simulated impacts of heterogeneous environment on carbon and water flows. Finally, we showed that our modelling framework can be used to fit phloem pressure and flow speed to (published) experimental data. The CPlantBox modelling framework is open-source, highly accessible and flexible. Its aim is to provide a quantitative framework for the understanding of plant-environment interaction.
+
 
 
 -  type: journal
