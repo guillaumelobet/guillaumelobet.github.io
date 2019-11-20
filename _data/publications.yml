@@ -76,14 +76,14 @@
    journal: biorxiv
    year: 2019
    image: img/art-granar.png
-   doi: 10.1101/645036
-   preprint: yes
+   doi: 10.1104/pp.19.00617
    open: yes
-   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/05/22/645036.full-text.pdf
+   pdf: http://www.plantphysiol.org/content/plantphysiol/early/2019/11/19/pp.19.00617.full.pdf
    tags:
    - water
    - root
    - model
+   - anatomy
    description: >
       Root hydraulic conductivity is an important determinant of plant water uptake capacity. In particular, the root radial conductivity is often thought to be a limiting factor along the water pathways between the soil and the leaf. The root radial conductivity is itself defined by cell scale hydraulic properties and anatomical features. However, quantifying the influence of anatomical features on the radial conductivity remains challenging due to complex, and time-consuming, experimental procedures. We present a new computation tool, the Generator of Root ANAtomy in R (GRANAR) that can be used to rapidly generate digital versions of root anatomical networks. GRANAR uses a limited set of root anatomical parameters, easily acquired with existing image analysis tools. The generated anatomical network can then be used in combination with hydraulic models to estimate the corresponding hydraulic properties. We used GRANAR to re-analyse large maize (Zea mays) anatomical datasets from the literature. Our model was successful at creating virtual anatomies for each experimental observation. We also used GRANAR to generate anatomies not observed experimentally, over wider ranges of anatomical parameters. The generated anatomies were then used to estimate the corresponding radial conductivities with the hydraulic model MECHA. This enabled us to quantify the effect of individual anatomical features on the root radial conductivity. In particular, our simulations highlight the large importance of the width of the stele and the cortex. GRANAR is an open-source project available here: http://granar.github.io .
 
