@@ -40,13 +40,12 @@
 -  type: journal
    title: MARSHAL, a novel tool for virtual phenotyping of maize root system hydraulic architectures
    authors: Meunier F, Heymans A, Draye X,Couvreur V, Lobet G, Javaux M
-   journal: biorxiv
+   journal: in silico Plants
    year: 2019
    image: img/art-granar.png
-   doi: 10.1101/798975
-   preprint: yes
+   doi: 10.1093/insilicoplants/diz012
    open: yes
-   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/09/798975.full-text.pdf
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diz012/31064488/diz012.pdf
    tags:
    - water
    - root
@@ -73,7 +72,7 @@
 -  type: journal
    title: GRANAR, a new computational tool to better understand the functional importance of root anatomy
    authors: Heymans A, Couvreur V, Larue T, Paez Garcia A, Lobet G
-   journal: biorxiv
+   journal: Plant Physiology
    year: 2019
    image: img/art-granar.png
    doi: 10.1104/pp.19.00617
