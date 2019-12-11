@@ -1,5 +1,18 @@
 
 -
+  name: Thomas Feron
+  description: >
+    Thomas is a PhD student at the Forschungszentrum Jülich, within the framework of the PhenoRob project. His research is at the intersection of plant modelling, phenotyping an machine learning.
+  image: /img/xiaoran.png
+  twitter: _ThomasFeron_
+  role: PhD student
+  tags:
+    - root
+    - shoot
+    - modelling
+    - machine learning
+    
+-
   name: Xiaoran Zhou
   description: >
     Xiaoran is a PhD student at the Forschungszentrum Jülich. His previous experiences are based on studying his major, Viticulture and Enology, with modeling and web applications. His interest is to develop a mechanistic plant model (CPLantBox)that traces carbon and water movement in maize by explicit coupling of xylem and phloem fluxes.
