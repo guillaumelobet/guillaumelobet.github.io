@@ -1,12 +1,11 @@
 -  type: journal
    title: CPlantBox, a whole plant modelling framework for the simulation of water and carbon related processes
    authors: Zhou X, Schnepf A, Vanderborght J, Leitner D, Lacointe A, Vereecken H, Lobet G
-   journal: biorxiv
-   year: 2019
-   doi: 10.1101/810507
-   preprint: yes
+   journal: in silico Plants
+   year: 2020
+   doi: 10.1093/insilicoplants/diaa001
    open: yes
-   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/24/810507.full-text.pdf
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diaa001/31876474/diaa001.pdf
    tags:
    - water
    - carbon
