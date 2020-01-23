@@ -1,23 +1,4 @@
 -  type: journal
-   title: CPlantBox, a whole plant modelling framework for the simulation of water and carbon related processes
-   authors: Zhou X, Schnepf A, Vanderborght J, Leitner D, Lacointe A, Vereecken H, Lobet G
-   journal: in silico Plants
-   year: 2020
-   doi: 10.1093/insilicoplants/diaa001
-   open: yes
-   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diaa001/31876474/diaa001.pdf
-   tags:
-   - water
-   - carbon
-   - shoot
-   - root
-   - model
-   description: >
-      The interaction between carbon and flows within the plant is at the center of most growth and developmental processes. Understanding how these fluxes influence each other, and how they respond to heterogeneous environmental conditions, is important to answer diverse questions in forest, agriculture and environmental sciences. However, due to the high complexity of the plant environment system, specific tools are needed to perform such quantitative analyses.Here we present CPlantBox, full plant modelling framework based on the root system model CRootBox. CPlantbox is capable of simulating the growth and development of a variety of plant architectures (root and shoot). In addition, the flexibility of CPlantBox enables its coupling with external modeling tools. Here, we connected it to an existing mechanistic model of water and carbon flows in the plant, PiafMunch.The usefulness of the CPlantBox modelling framework is exemplified in four case studies. Firstly, we illustrate the range of plant structures that can be simulated using CPlantBox. In the second example, we simulated diurnal carbon and water flows, which corroborates published experimental data. In the third case study, we simulated impacts of heterogeneous environment on carbon and water flows. Finally, we showed that our modelling framework can be used to fit phloem pressure and flow speed to (published) experimental data. The CPlantBox modelling framework is open-source, highly accessible and flexible. Its aim is to provide a quantitative framework for the understanding of plant-environment interaction.
-
-
-
--  type: journal
    title: Collaborative benchmarking of functional-structural root architecture models. The case of root water uptake.
    authors: Schnepf A, Black CK, Couvreur V, Delory BM, Doussan C, Koch A, Koch T, Javaux M, Landl M, Leitner D, Lobet G, Mai TH, Meunier F, Petrich L, Postma JA, Priesack E, Schmidt V, Vanderborght J, Vereecken H, Weber M
    journal: biorxiv
@@ -34,6 +15,23 @@
    description: >
       Three-dimensional models of root growth, architecture and function are becoming important tools that aid the design of agricultural management schemes and the selection of beneficial root traits. However, while benchmarking is common in many disciplines that use numerical models such as natural and engineering sciences, functional-structural root architecture models have never been systematically compared. The following reasons might induce disagreement between the simulation results of different models: different representation of root growth, sink term of root water and solute uptake and representation of the rhizosphere. Presently, the extent of discrepancies is unknown, and a framework for quantitatively comparing functional-structural root architecture models is required. We propose, in a first step, to define benchmarking scenarios that test individual components of complex models: root architecture, water flow in soil and water flow in roots. While the latter two will focus mainly on comparing numerical aspects, the root architectural models have to be compared at a conceptual level as they generally differ in process representation. Therefore defining common inputs that allow recreating reference root systems in all models will be a key challenge. In a second step, benchmarking scenarios for the coupled problems are defined. We expect that the results of step 1 will enable us to better interpret differences found in step 2. This benchmarking will result in a better understanding of the different models and contribute towards improving them. Improved models will allow us to simulate various scenarios with greater confidence and avoid bugs, numerical errors or conceptual misunderstandings. This work will set a standard for future model development.
 
+
+-  type: journal
+   title: CPlantBox, a whole plant modelling framework for the simulation of water and carbon related processes
+   authors: Zhou X, Schnepf A, Vanderborght J, Leitner D, Lacointe A, Vereecken H, Lobet G
+   journal: in silico Plants
+   year: 2020
+   doi: 10.1093/insilicoplants/diaa001
+   open: yes
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diaa001/31876474/diaa001.pdf
+   tags:
+   - water
+   - carbon
+   - shoot
+   - root
+   - model
+   description: >
+      The interaction between carbon and flows within the plant is at the center of most growth and developmental processes. Understanding how these fluxes influence each other, and how they respond to heterogeneous environmental conditions, is important to answer diverse questions in forest, agriculture and environmental sciences. However, due to the high complexity of the plant environment system, specific tools are needed to perform such quantitative analyses.Here we present CPlantBox, full plant modelling framework based on the root system model CRootBox. CPlantbox is capable of simulating the growth and development of a variety of plant architectures (root and shoot). In addition, the flexibility of CPlantBox enables its coupling with external modeling tools. Here, we connected it to an existing mechanistic model of water and carbon flows in the plant, PiafMunch.The usefulness of the CPlantBox modelling framework is exemplified in four case studies. Firstly, we illustrate the range of plant structures that can be simulated using CPlantBox. In the second example, we simulated diurnal carbon and water flows, which corroborates published experimental data. In the third case study, we simulated impacts of heterogeneous environment on carbon and water flows. Finally, we showed that our modelling framework can be used to fit phloem pressure and flow speed to (published) experimental data. The CPlantBox modelling framework is open-source, highly accessible and flexible. Its aim is to provide a quantitative framework for the understanding of plant-environment interaction.
 
 
 -  type: journal
