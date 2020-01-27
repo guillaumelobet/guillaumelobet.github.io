@@ -19,4 +19,4 @@
   description: >
     Shiny app to find science podcast. Based on this article: Science podcasts: analysis of global production and output from 2004 to 2018, MacKenzie (2018), bioRxiv [https://doi.org/10.1101/298356]()
   image: /img/podcast.png
-  url: https://plantmodelling.shinyapps.io/science_podcast
+  url: https://plantmodelling.shinyapps.io/science_podcasts
