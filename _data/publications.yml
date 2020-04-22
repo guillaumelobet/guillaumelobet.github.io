@@ -1,13 +1,12 @@
 -  type: journal
    title: Collaborative benchmarking of functional-structural root architecture models. The case of root water uptake.
    authors: Schnepf A, Black CK, Couvreur V, Delory BM, Doussan C, Koch A, Koch T, Javaux M, Landl M, Leitner D, Lobet G, Mai TH, Meunier F, Petrich L, Postma JA, Priesack E, Schmidt V, Vanderborght J, Vereecken H, Weber M
-   journal: biorxiv
-   year: 2019
+   journal: Frontiers in Plant Sciences
+   year: 2020
    image: img/art-granar.png
-   doi: 10.1101/808972
-   preprint: yes
+   doi: 10.3389/fpls.2020.00316
    open: yes
-   pdf: https://www.biorxiv.org/content/biorxiv/early/2019/10/17/808972.full-text.pdf
+   pdf: https://www.frontiersin.org/articles/10.3389/fpls.2020.00316/pdf
    tags:
    - water
    - root
