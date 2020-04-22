@@ -32,12 +32,28 @@
    description: >
       The interaction between carbon and flows within the plant is at the center of most growth and developmental processes. Understanding how these fluxes influence each other, and how they respond to heterogeneous environmental conditions, is important to answer diverse questions in forest, agriculture and environmental sciences. However, due to the high complexity of the plant environment system, specific tools are needed to perform such quantitative analyses.Here we present CPlantBox, full plant modelling framework based on the root system model CRootBox. CPlantbox is capable of simulating the growth and development of a variety of plant architectures (root and shoot). In addition, the flexibility of CPlantBox enables its coupling with external modeling tools. Here, we connected it to an existing mechanistic model of water and carbon flows in the plant, PiafMunch.The usefulness of the CPlantBox modelling framework is exemplified in four case studies. Firstly, we illustrate the range of plant structures that can be simulated using CPlantBox. In the second example, we simulated diurnal carbon and water flows, which corroborates published experimental data. In the third case study, we simulated impacts of heterogeneous environment on carbon and water flows. Finally, we showed that our modelling framework can be used to fit phloem pressure and flow speed to (published) experimental data. The CPlantBox modelling framework is open-source, highly accessible and flexible. Its aim is to provide a quantitative framework for the understanding of plant-environment interaction.
 
+-  type: journal
+   title: GRANAR, a new computational tool to better understand the functional importance of root anatomy
+   authors: Heymans A, Couvreur V, Larue T, Paez Garcia A, Lobet G
+   journal: Plant Physiology
+   year: 2020
+   image: img/art-granar.png
+   doi: 10.1104/pp.19.00617
+   open: yes
+   pdf: http://www.plantphysiol.org/content/plantphysiol/early/2019/11/19/pp.19.00617.full.pdf
+   tags:
+   - water
+   - root
+   - model
+   - anatomy
+   description: >
+      Root hydraulic conductivity is an important determinant of plant water uptake capacity. In particular, the root radial conductivity is often thought to be a limiting factor along the water pathways between the soil and the leaf. The root radial conductivity is itself defined by cell scale hydraulic properties and anatomical features. However, quantifying the influence of anatomical features on the radial conductivity remains challenging due to complex, and time-consuming, experimental procedures. We present a new computation tool, the Generator of Root ANAtomy in R (GRANAR) that can be used to rapidly generate digital versions of root anatomical networks. GRANAR uses a limited set of root anatomical parameters, easily acquired with existing image analysis tools. The generated anatomical network can then be used in combination with hydraulic models to estimate the corresponding hydraulic properties. We used GRANAR to re-analyse large maize (Zea mays) anatomical datasets from the literature. Our model was successful at creating virtual anatomies for each experimental observation. We also used GRANAR to generate anatomies not observed experimentally, over wider ranges of anatomical parameters. The generated anatomies were then used to estimate the corresponding radial conductivities with the hydraulic model MECHA. This enabled us to quantify the effect of individual anatomical features on the root radial conductivity. In particular, our simulations highlight the large importance of the width of the stele and the cortex. GRANAR is an open-source project available here: http://granar.github.io .
 
 -  type: journal
    title: MARSHAL, a novel tool for virtual phenotyping of maize root system hydraulic architectures
    authors: Meunier F, Heymans A, Draye X,Couvreur V, Lobet G, Javaux M
    journal: in silico Plants
-   year: 2019
+   year: 2020
    image: img/art-granar.png
    doi: 10.1093/insilicoplants/diz012
    open: yes
@@ -64,24 +80,6 @@
    - model
    description: >
        Lateral roots are essential for soil foraging and uptake of minerals and water. They feature a large morphological diversity that results from divergent primordia or root growth and development patterns. Besides a structured diversity, resulting from the hierarchical and developmental organization of root systems, there exists a random diversity, occurring between roots of similar age, of the same hierarchical order, and exposed to uniform conditions. The physiological bases and functional consequences of this random diversity are largely ignored. Here we review the evidence for such random diversity throughout the plant kingdom, present innovative approaches based on statistical modeling to account for such diversity, and set the list of its potential benefits in front of a variable and unpredictable soil environment.
-
--  type: journal
-   title: GRANAR, a new computational tool to better understand the functional importance of root anatomy
-   authors: Heymans A, Couvreur V, Larue T, Paez Garcia A, Lobet G
-   journal: Plant Physiology
-   year: 2019
-   image: img/art-granar.png
-   doi: 10.1104/pp.19.00617
-   open: yes
-   pdf: http://www.plantphysiol.org/content/plantphysiol/early/2019/11/19/pp.19.00617.full.pdf
-   tags:
-   - water
-   - root
-   - model
-   - anatomy
-   description: >
-      Root hydraulic conductivity is an important determinant of plant water uptake capacity. In particular, the root radial conductivity is often thought to be a limiting factor along the water pathways between the soil and the leaf. The root radial conductivity is itself defined by cell scale hydraulic properties and anatomical features. However, quantifying the influence of anatomical features on the radial conductivity remains challenging due to complex, and time-consuming, experimental procedures. We present a new computation tool, the Generator of Root ANAtomy in R (GRANAR) that can be used to rapidly generate digital versions of root anatomical networks. GRANAR uses a limited set of root anatomical parameters, easily acquired with existing image analysis tools. The generated anatomical network can then be used in combination with hydraulic models to estimate the corresponding hydraulic properties. We used GRANAR to re-analyse large maize (Zea mays) anatomical datasets from the literature. Our model was successful at creating virtual anatomies for each experimental observation. We also used GRANAR to generate anatomies not observed experimentally, over wider ranges of anatomical parameters. The generated anatomies were then used to estimate the corresponding radial conductivities with the hydraulic model MECHA. This enabled us to quantify the effect of individual anatomical features on the root radial conductivity. In particular, our simulations highlight the large importance of the width of the stele and the cortex. GRANAR is an open-source project available here: http://granar.github.io .
-
 
 -  type: journal
    title: Accuracy of image analysis tools for functional root traits. A comment on Delory et al., 2017
