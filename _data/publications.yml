@@ -1,4 +1,21 @@
 -  type: journal
+   title: Value of sun-induced chlorophyll fluorescence for quantifying hydrological states and fluxes. Current status and challenges
+   authors: Jonard F, De Cannière S, Brüggeman N, Gentine P, Gianottid DJS, Lobet G, Miralles D, Montzka C, Pagán BR, Rascher U, Vereecken H
+   journal: Agricultural and Forest Meteorology
+   year: 2020
+   image: img/art-granar.png
+   doi: 10.1016/j.agrformet.2020.108088
+   open: no
+   pdf: https://www.sciencedirect.com/science/article/pii/S0168192320301908/pdfft?md5=f93486df6caa6b0df9e0dfb8d0004cbc&pid=1-s2.0-S0168192320301908-main.pdf
+   tags:
+   - water
+   - SIF
+   - model
+   description: >
+      Predictions of hydrological states and fluxes, especially transpiration, are poorly constrained in hydrological models due to large uncertainties in parameterization and process description. Novel technologies like remote sensing of sun induced chlorophyll fluorescence (SIF), which provides information from the photosynthetic apparatus, may help in constraining water cycle components. This paper discusses the nature of the plant physiological basis of the fluorescence signal and analyses the current literature linking hydrological states and fluxes to SIF. Given the connection between photosynthesis and transpiration, through the water use efficiency, SIF may serve as a pertinent constraint for hydrological models. The FLuorescence EXplorer (FLEX) satellite, planned to be launched in 2023, is expected to provide spatially high resolution measurements of red and far red SIF complementing the products from existing satellite missions and the high temporal resolution products from upcoming geostationary missions. This new data stream may allow us to better constrain plant transpiration, assess the impacts of water stress on plants, and infer processes occurring in the root zone through the soil plant water column. To make optimal use of this data, progress needs to be made in 1) our process representation of spatially aggregated fluorescence signals from spaceborne SIF instruments, 2) integration of fluorescence processes in hydrological models—particularly when paired with other satellite data, 3) quantifying the impact of soil moisture on SIF across scales, and 4) assessment of the accuracy of SIF measurements—especially from space.
+
+
+-  type: journal
    title: Collaborative benchmarking of functional-structural root architecture models. The case of root water uptake.
    authors: Schnepf A, Black CK, Couvreur V, Delory BM, Doussan C, Koch A, Koch T, Javaux M, Landl M, Leitner D, Lobet G, Mai TH, Meunier F, Petrich L, Postma JA, Priesack E, Schmidt V, Vanderborght J, Vereecken H, Weber M
    journal: Frontiers in Plant Sciences
