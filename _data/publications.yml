@@ -1,4 +1,21 @@
 -  type: journal
+   title: QuoVidi, an open-source web application for the organisation of large scale biological treasure hunts
+   authors: Lobet G, Descamps C, Leveau L, Guillet A, Rees JF
+   journal: biorxiv
+   year: 2020
+   image: img/art-granar.png
+   doi: 10.1101/2020.06.30.177006
+   open: yes
+   preprint: yes
+   pdf: https://www.biorxiv.org/content/10.1101/2020.06.30.177006v1.full.pdf
+   tags:
+   - teaching
+   - web
+   - active learning
+   description: >
+      Learning biology, and in particular systematics, requires learning a substantial amount of specific vocabulary, both for botanical and zoological studies. While crucial, the precise identification of structures serving as evolutionary traits and systematic criteria is not per se a highly motivating task for students. Teaching this in a traditional teaching setting is quite challenging especially with a large crowd of students to be kept engaged. This is even more difficult if, as during the COVID-19 crisis, students are not allowed to access laboratories for hands-on observation on fresh specimens and sometimes restricted to short-range movements outside their home. Here we present QuoVidi, a new open-source web platform for the organisation of large scale treasure hunts. The platform works as follows: students, organised in teams, receive a list of quests that contain morphologic, ecologic or systematic terms. They have to first understand the meaning of the quest, then go and find them in the environment. Once they find the organism corresponding to a quest, they upload a geotagged picture of their find and submit this on the platform. The correctness of each submission is evaluated by the staff. During the COVID-19 lockdown, previously validated pictures were also submitted for evaluation to students that were locked in low-biodiversity areas. From a research perspective, the system enables the creation of large image databases by the students, similar to citizen-science projects. Beside the enhanced motivation of students to learn the vocabulary and perform observations on self-found specimens, this system allows faculties to remotely follow and assess the work performed by large numbers of students. The interface is freely available, open source and customizable. It can be used in other disciplines with adapted quests and we expect it to be of interest in many classroom settings.
+
+-  type: journal
    title: Value of sun-induced chlorophyll fluorescence for quantifying hydrological states and fluxes. Current status and challenges
    authors: Jonard F, De Cannière S, Brüggeman N, Gentine P, Gianottid DJS, Lobet G, Miralles D, Montzka C, Pagán BR, Rascher U, Vereecken H
    journal: Agricultural and Forest Meteorology
