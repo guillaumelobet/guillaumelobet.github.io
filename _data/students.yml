@@ -1,3 +1,14 @@
+-
+  name: Mona Giraud
+  description: >
+    Mona Giraud is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is mainly concerned with the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
+  image: /img/xiaoran.png
+  role: PhD student
+  tags:
+    - root
+    - shoot
+    - modelling
+
 
 -
   name: Thomas Feron
