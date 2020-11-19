@@ -1,6 +1,17 @@
 
 
 -
+  name: CROP, Combining ROot contrasted Phenotypes for more resilient agro ecosystem
+  description: >
+    The CROP project aims at estimating the beneficial impact of combining contrasted root phenotypes within a single field. We will evaluate the benefit of the combination of water, carbon and nitrogen flow, microbial communities, and yield. To achieve this goal, we will use a set of complementary experimental and modelling tools.
+  image: /img/crootbox_1.jpg
+  url: https://www.crop-project.de/
+  tags:
+    - root
+    - modelling
+    - wheat
+
+-
   name: GRANAR
   description: >
     GRANAR is a generator of complete root cross-section network in R. Upon a small set of anatomical features the GRANAR model is able to reconstruct a generic root cell network for mono and dicotyledon. Among the few parameters you can modify, there is the aerenchyma proportion, the number and size of the xylem vessels, but also the number of cell layers and the mean size of each cell type.
