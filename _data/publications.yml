@@ -1,12 +1,11 @@
 -  type: journal
    title: QuoVidi, an open-source web application for the organisation of large scale biological treasure hunts
    authors: Lobet G, Descamps C, Leveau L, Guillet A, Rees JF
-   journal: biorxiv
+   journal: Ecology and Evolution
    year: 2020
    image: img/art-granar.png
-   doi: 10.1101/2020.06.30.177006
+   doi: 10.1002/ece3.7130
    open: yes
-   preprint: yes
    pdf: https://www.biorxiv.org/content/10.1101/2020.06.30.177006v1.full.pdf
    tags:
    - teaching
