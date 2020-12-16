@@ -1,4 +1,22 @@
 -  type: journal
+   title: Heymans A, Couvreur V, Lobet G. Connecting the dots between root cross-section images and modelling tools to create a high resolution root system hydraulic maps in Zea mays. 
+   authors: Heymans A, Couvreur C, Lobet G
+   journal: biorxiv
+   year: 2020
+   image: img/art-granar.png
+   doi: 10.1101/2020.12.15.422825
+   open: yes
+   preprint: yes 
+   pdf: https://www.biorxiv.org/content/10.1101/2020.12.15.422825v1.full.pdf
+   tags:
+   - water
+   - root
+   - analtomy
+   description: >
+      Root hydraulic properties play a central role in the global water cycle, agricultural systems productivity, and ecosystem survival as they impact the global canopy water supply. However, the available experimental methods to quantify root hydraulic conductivities, such as the root pressure probing, are particularly challenging and their applicability on thin roots and small root segments is limited. There is a gap in methods enabling easy estimations of root hydraulic conductivities across a diversity of root types and at high resolution along root axes. In this case study, we analysed Zea mays (maize) plants of the var. B73 that were grown in pots for 14 days. Root cross-section data were used to extract anatomical measurements. We used the Generator of Root Anatomy in R (GRANAR) model to generate root anatomical networks from anatomical features. Then we used the Model of Explicit Cross section Hydraulic Anatomy (MECHA) to compute an estimation of the root axial and radial hydraulic conductivities (kx and kr, respectively), based on the generated anatomical networks and cell hydraulic properties from the literature. The root hydraulic conductivity maps obtained from the root cross-sections suggest significant functional variations along and between different root types. Predicted variations of kr along the root axis were strongly dependent on the maturation stage of hydrophobic barriers. The same was also true for the maturation rates of the metaxylem. The different anatomical features, as well as their evolution along the root type add significant variation to the kr estimation in between root type and along the root axe. Under the prism of root types, anatomy, and hydrophobic barriers, our results highlight the diversity of root radial and axial hydraulic conductivities, which may be veiled under low resolution measurements of the root system hydraulic conductivity. While predictions of our root hydraulic maps match the range and trend of measurements reported in the literature, future studies could focus on the quantitative validation of hydraulic maps. From now on, a novel method, which turns root cross section images into hydraulic maps will offer an inexpensive and easily applicable investigation tool for root hydraulics, in parallel to root pressure probing experiments.
+
+
+-  type: journal
    title: QuoVidi, an open-source web application for the organisation of large scale biological treasure hunts
    authors: Lobet G, Descamps C, Leveau L, Guillet A, Rees JF
    journal: Ecology and Evolution
