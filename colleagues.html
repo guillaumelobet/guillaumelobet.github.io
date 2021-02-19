@@ -26,6 +26,12 @@ form: false
                 <i class="fab fa-twitter"></i> {{ people.twitter }}
               </a>
             {% endif %}
+            
+            {% if people.url %}
+              <a href="{{ people.url }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                <i class="fab fa-external-link"></i> Website
+              </a>
+            {% endif %}
 
           </div>
         
