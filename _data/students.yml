@@ -1,7 +1,19 @@
 -
+  name: Clément Saint-Cast
+  description: >
+    Clément is a post-doc working on quantifying the influence of root anatomical traits on water dynamics in tomato roots. He loves models, databases and ontologies!
+  image: /img/xiaoran.png
+  role: Post-doc researcher
+  url: https://scholar.google.com/citations?user=YZvgsJgAAAAJ&hl=en
+  tags:
+    - root
+    - shoot
+    - modelling
+
+-
   name: Mona Giraud
   description: >
-    Mona Giraud is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is mainly concerned with the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
+    Mona is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is mainly concerned with the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
   image: /img/xiaoran.png
   role: PhD student
   tags:
