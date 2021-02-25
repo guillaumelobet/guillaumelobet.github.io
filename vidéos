@@ -1,0 +1,16 @@
+---
+layout: page
+title: Vidéos
+background: '/img/bg-teaching.jpg'
+form: false
+---
+
+  <div class="alert alert-info">
+    this page references some of my educational vidéos, in french
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <hr>
+<iframe src="https://player.vimeo.com/video/516576912" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
