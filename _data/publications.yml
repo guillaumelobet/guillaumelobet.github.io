@@ -1,4 +1,19 @@
 -  type: journal
+   title: Évaluations par Cartes Conceptuelles à trous et apprentissage par les pairs
+   authors: Guisset M, Coertjens L, De Jaeger D, Lobet G, Servais O, Wertz V, Willems P, Rees JF
+   journal: Les Annales De QPES 
+   year: 2021
+   image: img/art-granar.png
+   doi: 10.14428/qpes.v1i3.62073
+   open: yes
+   preprint: yes 
+   pdf: https://ojs.uclouvain.be/index.php/Annales_QPES/article/view/62073/58263
+   tags:
+   - teaching
+   description: > 
+      Cet article décrit un nouveau dispositif d’évaluation des acquis d’apprentissage basé sur des cartes conceptuelles « à trous » (CCàT) permettant également l’apprentissage par les pairs en grands auditoires durant les tests et une correction automatisée par des formulaires QCM. L’intérêt du dispositif est de garantir une évaluation qualitative (à haut niveau taxonomique) des apprentissages tout en facilitant la conception et la correction de ces évaluations par l’enseignant, même pour de grands groupes d’étudiants (>500) et en favorisant la coopération entre étudiants en amont et pendant les évaluations.
+
+-  type: journal
    title: Evidence for a multicellular symplasmic water pumping mechanism across vascular plant roots
    authors: Couvreur C, Heymans A, Lobet G, Draye X
    journal: biorxiv
