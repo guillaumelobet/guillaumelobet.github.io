@@ -30,15 +30,14 @@
       With global warming, climate zones are projected to shift poleward, and the frequency and intensity of droughts to increase, driving threats to crop production and ecosystems. Plant hydraulic traits play major roles in coping with such droughts, and process-based plant hydraulics (water flowing along decreasing pressure Psip or total water potential Psitot gradients) has newly been implemented in land surface models. An enigma reported for the past 35 years is the observation of water flowing along increasing water potential gradients across roots. By combining the most advanced modelling tool from the emerging field of plant microhydrology with pioneering cell solute mapping data, we found that the current paradigm of water flow across roots of all vascular plants is incomplete. It lacks the impact of solute concentration (and thus negative osmotic potential Psio) gradients across living cells. This gradient acts as a water pump as it reduces water tension without loading solutes in plant vasculature (xylem). Importantly, water tension adjustments in roots may have large impacts in leaves due to the tension cavitation feedback along stems. Here, we mathematically demonstrate the water pumping mechanism by solving water flow equations analytically on a triple cell system. Then we show that the simplistic upscaled equations hold in 2 and 3D maize, grapevine and Arabidopsis complex hydraulic anatomies, and that water may flow “uphill” of water potential gradients toward xylem as observed experimentally. Besides its contribution to the fundamental understanding of plant water relations, this study lays new foundations for future multidisciplinary research encompassing plant physiology and ecohydrology, and has the ambition to mathematically capture a keystone process for the accurate forecasting of plant water status in crop models and LSMs.
    
 -  type: journal
-   title: Connecting the dots between root cross-section images and modelling tools to create a high resolution root system hydraulic maps in Zea mays. 
+   title: Combining cross section images and modeling tools to create high resolution root system hydraulic atlases in Zea mays
    authors: Heymans A, Couvreur C, Lobet G
    journal: biorxiv
    year: 2020
    image: img/art-granar.png
-   doi: 10.1101/2020.12.15.422825
+   doi: 10.1002/pld3.334
    open: yes
-   preprint: yes 
-   pdf: https://www.biorxiv.org/content/10.1101/2020.12.15.422825v1.full.pdf
+   pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/pld3.334
    tags:
    - water
    - root
