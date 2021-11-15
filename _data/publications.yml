@@ -1,4 +1,20 @@
 -  type: journal
+   title: Uncovering natural variation in root system architecture and growth dynamics using a robotics-assisted phenomics platform.
+   authors: LaRue T, Lindner H, Srinivas A, Exposito-Alonso M, Lobet G, Dinneny J
+   journal: biorxiv
+   year: 2021
+   image: img/art-granar.png
+   doi: 10.1101/2021.11.13.468476 
+   open: yes
+   preprint: yes
+   pdf: https://ojs.uclouvain.be/index.php/Annales_QPES/article/view/62073/58263
+   tags:
+   - root
+   - phenotyping
+   description: > 
+      The plant kingdom contains a stunning array of complex morphologies easily observed above ground, but largely unexplored belowground. Understanding the magnitude of diversity in root distribution within the soil, termed root system architecture (RSA), is fundamental to determining how this trait contributes to species adaptation in local environments. Roots are the interface between the soil environment and the shoot system and therefore play a key role in anchorage, resource uptake, and stress resilience. Previously, we presented the GLORoots (Growth and Luminescence Observatory for Roots) system to study the RSA of soil grown Arabidopsis thaliana plants from germination to maturity. In this study, we present the automation of GLORoots using robotics and the development of image analysis pipelines in order to examine the natural variation of RSA in Arabidopsis over time. This dataset describes the developmental dynamics of 93 accessions and reveals highly complex and polygenic RSA traits that show significant correlation with climate variables.
+
+-  type: journal
    title: Évaluations par Cartes Conceptuelles à trous et apprentissage par les pairs
    authors: Guisset M, Coertjens L, De Jaeger D, Lobet G, Servais O, Wertz V, Willems P, Rees JF
    journal: Les Annales De QPES 
