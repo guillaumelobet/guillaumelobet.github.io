@@ -1,4 +1,18 @@
 -  type: journal
+   title: Investigating Soil–Root Interactions with the Numerical Model RSWMS
+   authors: Meunier F, Couvreur V, Draye X, Lobet G, Huber K, Schroeder N, Jorda H, Koch A, Landl M, Schnepf A, Vanderborght J, Vereecken H, Javaux M
+   year: 2022
+   image: img/art-granar.png
+   doi: 10.1007/978-1-0716-1816-5_13
+   open: yes
+   pdf: https://link.springer.com/content/pdf/10.1007%2F978-1-0716-1816-5_13.pdf
+   tags:
+   - root
+   - modelling
+   description: > 
+      In this chapter, we present the Root and Soil Water Movement and Solute transport model RSWMS, which can be used to simulate flow and transport in the soil plant system. The equations describing water flow in soil root systems are presented and numerical solutions are provided. An application of RSWMS is then briefly discussed, in which we combine in vivo and in silico experiments in order to decrypt water flow in the soil root domain. More precisely, light transmission imaging experiments were conducted to generate data that can serve as input for the RSWMS model. These data include the root system architecture, the soil hydraulic properties and the environmental conditions (initial soil water content and boundary conditions, BC). Root hydraulic properties were not acquired experimentally, but set to theoretical values found in the literature. In order to validate the results obtained by the model, the simulated and experimental water content distributions were compared. The model was then used to estimate variables that were not experimentally accessible, such as the actual root water uptake distribution and xylem water potential.
+
+-  type: journal
    title: Uncovering natural variation in root system architecture and growth dynamics using a robotics-assisted phenomics platform.
    authors: LaRue T, Lindner H, Srinivas A, Exposito-Alonso M, Lobet G, Dinneny J
    journal: biorxiv
