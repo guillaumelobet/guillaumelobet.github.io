@@ -1,4 +1,20 @@
 -  type: journal
+   title: Combining deep learning and automated feature extraction to analyze minirhizotron images. Development and validation of a new pipeline
+   authors: Bauer F, Lärm L, Morandage S, Lobet G, Vanderborght J, Vereecken H, Schnepf A
+   journal: biorxiv
+   year: 2021
+   image: img/art-granar.png
+   doi: 10.1101/2021.12.01.470811
+   open: yes
+   preprint: yes
+   pdf: https://www.biorxiv.org/content/10.1101/2021.12.01.470811v1.full.pdf
+   tags:
+   - root
+   - phenotyping
+   description: > 
+      Root systems of crops play a significant role in agro-ecosystems. The root system is essential for water and nutrient uptake, plant stability, symbiosis with microbes and a good soil structure. Minirhizotrons, consisting of transparent tubes that create windows into the soil, have shown to be effective to non-invasively investigate the root system. Root traits, like root length observed around the tubes of minirhizotron, can therefore be obtained throughout the crop growing season. Analyzing datasets from minirhizotrons using common manual annotation methods, with conventional software tools, are time consuming and labor intensive. Therefore, an objective method for high throughput image analysis that provides data for field root-phenotyping is necessary. In this study we developed a pipeline combining state-of-the-art software tools, using deep neural networks and automated feature extraction. This pipeline consists of two major components and was applied to large root image datasets from minirhizotrons. First, a segmentation by a neural network model, trained with a small image sample is performed. Training and segmentation are done using “Root-Painter”. Then, an automated feature extraction from the segments is carried out by “RhizoVision Explorer”. To validate the results of our automated analysis pipeline, a comparison of root length between manually annotated and automatically processed data was realized with more than 58,000 images. Mainly the results show a high correlation (R=0.81) between manually and automatically determined root lengths. With respect to the processing time, our new pipeline outperforms manual annotation by 98.1 - 99.6 %. Our pipeline,combining state-of-the-art software tools, significantly reduces the processing time for minirhizotron images. Thus, image analysis is no longer the bottle-neck in high throughput phenotyping approaches.
+
+-  type: journal
    title: Investigating Soil–Root Interactions with the Numerical Model RSWMS
    authors: Meunier F, Couvreur V, Draye X, Lobet G, Huber K, Schroeder N, Jorda H, Koch A, Landl M, Schnepf A, Vanderborght J, Vereecken H, Javaux M
    year: 2022
