@@ -1,4 +1,18 @@
 -  type: journal
+   title: Loïc Pagès, founding scientist in root ecology and modelling
+   authors: Root scentists
+   journal: in silico Plants
+   year: 2021
+   image: img/art-granar.png
+   doi: 10.1093/insilicoplants/diab035
+   open: yes
+   pdf: https://academic.oup.com/insilicoplants/article-pdf/3/2/diab035/41513074/diab035.pdf
+   tags:
+   - root
+   - phenotyping
+   - model
+
+-  type: journal
    title: Combining deep learning and automated feature extraction to analyze minirhizotron images. Development and validation of a new pipeline
    authors: Bauer F, Lärm L, Morandage S, Lobet G, Vanderborght J, Vereecken H, Schnepf A
    journal: biorxiv
