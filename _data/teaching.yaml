@@ -1,7 +1,7 @@
 -
   name: Introduction to plant biology [LBIR1151]
   description: >
-    Lecture about plant organography, morphology and anatomy, give to first year bachelor student of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro) at UCLouvain. With this lecture, we try to include new teaching techniques, such as [student peer-assesement](https://www.d-pac.be/), [virtual microscope](https://cytomine.uclouvain.be), conceptual maps or [large scale treasure hunt of biological structures](http://www.quovidi.xyz). Since 2021, the content of the lecture was recorded as short video clips (in french), available on [Vimeo](https://vimeo.com/showcase/intro-bota) 
+    Lecture about plant organography, morphology and anatomy, given to first year bachelor student of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro) at UCLouvain. With this lecture, we try to include new teaching techniques, such as [student peer-assesement](https://www.d-pac.be/), [virtual microscope](https://cytomine.uclouvain.be), conceptual maps or [large scale treasure hunt of biological structures](http://www.quovidi.xyz). Since 2021, the content of the lecture was recorded as short video clips (in french), available on [Vimeo](https://vimeo.com/showcase/intro-bota) 
   image: /img/lbres2106.jpg
   url: https://uclouvain.be/en-cours-2019-LBIR1151.html
 
@@ -21,14 +21,14 @@
 -
   name: Systems biology modelling [LBRAI2219]
   description: >
-    Lecture on biological systems modelling. Not a classical lecture, but project-driven. Students are asked to learn about a plant model and use it to answer a research question. We also ask them to go on Twitter to learn to communicate about complex biological issues (in this case modelling). In 2017, the course lead to a blog post on [Botany One](https://www.botany.one/2018/02/hard-use-plant-computational-models-ask-students/).
+    Lecture on biological systems modelling. Not a classical lecture, but project-driven. Students are asked to learn about a plant model and use it to answer a research question. In 2017, the course lead to a blog post on [Botany One](https://www.botany.one/2018/02/hard-use-plant-computational-models-ask-students/).
   image: /img/systems.jpg
   url: https://uclouvain.be/en-cours-2017-lbrai2219.html
 
 -
   name: BotAlgorithme
   description: >
-    BotAlgorithme is a teaching project that aims a gathering plant models that can be used to teach plant biology. Models should be usable online and based on sound biology. We use the different models in the classroom, to add quantitative twist to our plant biology classes. 
+    BotAlgorithme is a teaching project that aims a gathering plant models that can be used to teach plant biology. Listed models should be usable online and based on sound biology. We use the different models in the classroom, to add quantitative twist to our plant biology classes. 
   image: /img/botalgorithme.jpg
   url: http://www.botalgorithme.be/
 -
