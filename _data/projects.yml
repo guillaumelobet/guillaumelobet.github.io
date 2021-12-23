@@ -1,5 +1,15 @@
 
-
+-
+  name: DETECT, Regional Climate Change. Disentangling the Role of Land Use and Water Management
+  description: >
+    While several continental regions on Earth are getting wetter, others are drying out not only in terms of precipitation but also measured by the increase or decrease in surface water, water stored in the soils, the plant root zone, and in groundwater. Observations, however, do not support a simple dry-gets-dryer and wet-gets-wetter logic and existing climate models fail to explain observed patterns of hydrological change sufficiently. This CRC aims to close this gap in understanding. To better comprehend the origin of these patterns, it is necessary to build a modelling framework that explains past observations as realistically as possible, accounts for potential drivers of change that may have been understudied in the past, and can predict future changes.
+  image: /img/crootbox_1.jpg
+  url: https://www.lf.uni-bonn.de/en/research/crc-detect?set_language=en
+  tags:
+    - water
+    - climate
+    - wheat
+    
 -
   name: CROP, Combining ROot contrasted Phenotypes for more resilient agro ecosystem
   description: >
@@ -10,6 +20,18 @@
     - root
     - modelling
     - wheat
+    
+-
+  name: PHENOROB. Robotics and Phenotyping for Sustainable Crop Production
+  description: >
+    Food, feed, fiber, and fuel: Crop farming plays an essential role for the future of humanity and our planet. The environmental footprint of agriculture needs to be reduced: less input of chemicals like herbicides and fertilizer and other limited resources like water or energy. Simultaneously, the decline in arable land and climate change pose additional constraints like drought, heat, and other extreme weather events. Achieving sustainable crop production with limited resources is a task of immense proportions. In order to achieve this, the University of Bonn together with Forschungszentrum Jülich conducts research in the Cluster of Excellence “PhenoRob – Robotics and Phenotyping for Sustainable Crop Production” to develop methods and new technologies that observe, analyze, better understand and specifically treat plants. Our research focuses on improving the fundamental understanding of all relevant parameters like plant growth, soil, biodiversity, or atmosphere. PhenoRob, the only Cluster of Excellence in agriculture in Germany, aims at addressing these issues: Change crop production by optimizing breeding and farming management using new technologies.
+  image: /img/crootbox_1.jpg
+  url: https://www.phenorob.de/
+  tags:
+    - phenotyping
+    - robotics
+    - modeling
+    - agriculture
 
 -
   name: GRANAR
@@ -35,13 +57,13 @@
     - modelling
 
 -
-  name: plant-image-analysis.org
+  name: quantitative-plant.org
   description: >
     The Plant Image Analysis website is an online, manually curated, database referencing more than 130 plant image analysis software solutions. 
     The website presents each software in a uniform and concise manner enabling users to identify the available solutions for their experimental needs. 
     The website also enables user feedback, evaluations and new software submissions. The aim of such a toolbox is to help users to find solutions, and to provide developers a way to exchange and communicate about their work.
   image: /img/pia.jpg
-  url: http://www.plant-image-analysis.org  
+  url: http://www.quantitative-plant.org  
   tags:
     - database
     - image analysis
