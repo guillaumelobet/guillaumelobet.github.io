@@ -26,14 +26,11 @@ mailing_address: >
 
 websites:
     - 
-        name: Plant Image Analysis
-        url: http://www.plant-image-analysis.org
+        name: Quantitative Plants
+        url: https://quantitative-plant.org/
     - 
         name: The Topless Ninja
         url: http://toplessninja.tumblr.com
-    - 
-        name: ROSI
-        url: http://www.rosi.science
     - 
         name: FLOR-ID
         url: http://www.flor-id.org
@@ -72,13 +69,11 @@ intro:
   title: Hi, I am Guillaume and this is my personnal website!
   body: >
 
-    The aim of my research is (i) to understand how various signals that carry information are interacting and being conveyed and integrated at the plant level and (ii) to amplify discrete physiological knowledge into functional plant processes. All of that using Functional Structural Plant Models. 
+    Plants are fascinating. They form complex and plastic networks (both above- and below- ground), ever integrating and adapting to endogenous and exogenous clues. Manipulation of these networks brings the promise to unlock plant productivity in limiting environments. My primary research interests lie in the understanding of these interconnected, multi-scale regulations pathways in cropping systems.
+    
+    The incredible complexity of plants calls for integrative research strategies such as combining innovative plant phenotyping pipelines with powerful data analysis and modeling tools. My belief is that combining computational tools with the latest biological knowledge will open new horizons for plant research. I spend most of my time developing and using new computational tools, connecting them to existing ones and making them available for the community.  
 
-
-    I also develop image analysis and phenotyping tools to help researchers in their scientific workflow. I am an Open Science enthousiat, diversity advocate and coffee drinker. 
-
-
-    I am currently an Assistant Professor between the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html) and the [UCLouvain](http://www.uclouvain.be/eli) since September 2016. More about [our group here](http://www.rosi.science). An overview of my research vision can be found [in this presentation](http://bit.ly/lobet-ucl-fzj-2).
+    I am currently an Assistant Professor between the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html) and the [UCLouvain](http://www.uclouvain.be/eli) since September 2016.
     
 
 footer: >
