@@ -1,3 +1,17 @@
+
+-  type: journal
+   title: Genetic Variability of Arabidopsis thaliana Mature Root System Architecture and Genome-Wide Association Study
+   authors: Deja-Muylle A, Opdenacker D, Parizot B, Motte H, Lobet G, Storme V, Clauw P, Njo M, Beeckman T
+   journal: Frontiers in Plant Sciences
+   year: 2022
+   image: img/art-granar.png
+   doi: 10.3389/fpls.2021.814110
+   open: yes
+   pdf: https://www.frontiersin.org/articles/10.3389/fpls.2021.814110/pdf
+   tags:
+   - root
+   - phenotyping
+
 -  type: journal
    title: Loïc Pagès, founding scientist in root ecology and modelling
    authors: Root scientists
