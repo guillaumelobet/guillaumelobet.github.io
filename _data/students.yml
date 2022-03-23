@@ -22,6 +22,16 @@
     - root
     - water
     - modelling
+    
+-
+  name: Nicolas Biot (he/him)
+  description: >
+    Nicolas is a teaching assistant at the bioengineering faculty of the UCLouvain. His work focus on the understand of local food system dynamics, with a strong modelling approach
+  role: PhD student
+  current: yes
+  tags:
+    - food system
+    - modelling    
 
 -
   name: Mona Giraud (she/her)
