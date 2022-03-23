@@ -12,7 +12,8 @@ form: false
     </button>
   </div>
 
-<h3> Current members</h3>
+<h2> Current members</h2>
+<hr>
 
 
       {% for people in site.data.students %}
@@ -44,7 +45,8 @@ form: false
 
       {% endfor %}
 
-
+<h2>Alumni</h2>
+<hr>
 
       {% for people in site.data.students %}
         {% if people.alumni %}
