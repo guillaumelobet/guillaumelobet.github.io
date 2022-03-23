@@ -12,6 +12,17 @@
     - modelling
     
 -
+  name: Nicolas Biot (he/him)
+  description: >
+    Nicolas is a teaching assistant at the Bioengineering Faculty of the UCLouvain. His work focus on the understand of local food system dynamics, with a strong modelling approach
+  role: PhD student
+  current: yes
+  tags:
+    - foodsystem
+    - modelling    
+    
+    
+-
   name: Felix Bauer (he/him)
   description: >
     Felix work on the PhenoRob project, trying to understand how phosphorus affect the plant growth and functionning, using (of course) functional plant models. He is also a avid plant phenotyper and enthousiatic pipeline developper. 
@@ -23,16 +34,6 @@
     - water
     - modelling
     
--
-  name: Nicolas Biot (he/him)
-  description: >
-    Nicolas is a teaching assistant at the Bioengineering Faculty of the UCLouvain. His work focus on the understand of local food system dynamics, with a strong modelling approach
-  role: PhD student
-  current: yes
-  tags:
-    - foodsystem
-    - modelling    
-
 -
   name: Mona Giraud (she/her)
   description: >
