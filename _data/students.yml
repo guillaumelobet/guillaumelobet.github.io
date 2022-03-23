@@ -1,20 +1,20 @@
 -
-  name: Clément Saint-Cast
+  name: Remy Schoppach (he/him)
   description: >
-    Clément is a post-doc working on quantifying the influence of root anatomical traits on water dynamics in tomato roots. He loves models, databases and ontologies!
-  image: /img/xiaoran.png
+    Remy's work aims at understanding how environmental stresses affect plant physiology and identifying innovative traits that allow adapted crops/genotypes to improve their tolerance strategies and to maintain an economically viable yield under stress conditions. He defines himself as a plant physiologist who examines the bases of exceptional stress tolerance through the investigation of underlying physiological mechanisms. 
   role: Post-doc researcher
-  url: https://scholar.google.com/citations?user=YZvgsJgAAAAJ&hl=en
-  alumni: yes
+  twitter: RSchppch
+  url: https://schoppach.github.io/
+  current: yes
   tags:
     - root
-    - shoot
+    - water
     - modelling
 
 -
-  name: Mona Giraud
+  name: Mona Giraud (she/her)
   description: >
-    Mona is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is mainly concerned with the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
+    Mona is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is very enthousiastic about the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
   image: /img/xiaoran.png
   role: PhD student
   current : yes
@@ -25,7 +25,7 @@
 
 
 -
-  name: Thomas Feron
+  name: Thomas Feron (he/him)
   description: >
     Thomas is a PhD student at the Forschungszentrum Jülich, within the framework of the PhenoRob project. His research is at the intersection of plant modelling, phenotyping an machine learning.
   image: /img/xiaoran.png
@@ -39,9 +39,9 @@
     - machine learning
     
 -
-  name: Xiaoran Zhou
+  name: Xiaoran Zhou (he/him)
   description: >
-    Xiaoran is a PhD student at the Forschungszentrum Jülich. His previous experiences are based on studying his major, Viticulture and Enology, with modeling and web applications. His interest is to develop a mechanistic plant model (CPLantBox)that traces carbon and water movement in maize by explicit coupling of xylem and phloem fluxes.
+    Xiaoran is a PhD student at the Forschungszentrum Jülich. His previous experiences are based on studying his major, Viticulture and Enology, with modeling and web applications. His interest is to develop a mechanistic plant model (CPlantBox)that traces carbon and water movement in maize by explicit coupling of xylem and phloem fluxes.
   image: /img/xiaoran.png
   twitter: zxrzxr
   role: PhD student
@@ -51,9 +51,9 @@
     - shoot
     - modelling
 -
-  name: Adrien Heymans
+  name: Adrien Heymans (he/him)
   description: >
-    Adrien is a PhD student at the UCLouvain. He is deeply interest "in silico" plants and ways to grow a more suistanable  agriculture. 
+    Adrien is a PhD student at the UCLouvain. He is deeply interest "in silico" plants and ways to grow a more suistanable  agriculture. Adrien now works as a post-doc researcher in the lab of Mathieu Javaux. We were very sad (but also happy) to see him leave the nest. 
   image: /img/adrien.jpg
   twitter: Heymans_Adrien
   role: PhD student
@@ -63,3 +63,16 @@
     - water
     - modelling   
     - phenotyping
+
+-
+  name: Clément Saint-Cast (he/him)
+  description: >
+    Clément is a post-doc working on quantifying the influence of root anatomical traits on water dynamics in tomato roots. He loves models, databases and ontologies! Clément is now permanent research at the INRAE in Bordeaux, working on FSPM and grape vines. 
+  image: /img/xiaoran.png
+  role: Post-doc researcher
+  url: https://scholar.google.com/citations?user=YZvgsJgAAAAJ&hl=en
+  alumni: yes
+  tags:
+    - root
+    - shoot
+    - modelling
