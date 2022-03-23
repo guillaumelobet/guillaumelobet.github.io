@@ -12,8 +12,42 @@ form: false
     </button>
   </div>
 
-      {% for people in site.data.students %}
+<h3> Current members</h3>
 
+      {% for people in site.data.students %}
+        {% if people.current %}
+          <h5 class="mb-1">{{ people.name }}</h5>
+
+          <p class="mb-1"><p>{{ people.description | markdownify }}</p>
+          <div class="float-right">
+            
+            <button type="button" class="btn btn-outline-info btn-sm mb-1">{{people.role}}</button>
+
+            {% if people.twitter %}
+              <a href="https://twitter.com//{{ people.twitter }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                <i class="fab fa-twitter"></i> {{ people.twitter }}
+              </a>
+            {% endif %}
+            
+            {% if people.url %}
+              <a href="{{ people.url }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank">
+                <i class="fal fa-external-link"></i> Website
+              </a>
+            {% endif %}
+
+          </div>
+        
+        <br>
+        <hr>            
+      {% endif %}
+
+      {% endfor %}
+
+
+<h3> Alumni </h3>
+
+      {% for people in site.data.students %}
+        {% if people.alumni %}
           <h5 class="mb-1">{{ people.name }}</h5>
 
           <p class="mb-1"><p>{{ people.description | markdownify }}</p>
@@ -37,5 +71,6 @@ form: false
         
         <br>
         <hr>
+        {% endif %}
 
       {% endfor %}
