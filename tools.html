@@ -1,0 +1,33 @@
+---
+layout: page
+title: Tools
+background: '/img/bg-tools.jpg'
+form: false
+---
+
+
+    {% for tool in site.data.tools %}
+
+      <h4 class="mb-1">{{ tool.name }}</h4>
+      <p class="mb-1"><p>{{ tool.description | markdownify }}</p>
+      
+      {% if tool.tags %}
+        {% for tag in tool.tags %}
+        <button type="button" class="btn btn-outline-secondary btn-sm mt-1">
+          <i class="fal fa-tag mr-1"></i>{{tag}}
+        </button>
+        {% endfor %}
+      {% endif %} 
+      {% if tool.url %}
+      <div class="float-right">
+        <a href="{{ tool.url }}" class="btn btn-outline-primary btn-sm" target="_blank">
+          <i class="fal fa-external-link"></i> More
+        </a>
+      </div>
+      {% endif %}
+      <br>
+      <hr>
+    {% endfor %}
+
+
+  </div>
