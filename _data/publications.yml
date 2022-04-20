@@ -1,5 +1,20 @@
 
 -  type: journal
+   title: Connecting plant phenotyping and modelling communities: lessons from science mapping and operational perspectives
+   authors: Saint Cast C, Lobet G, Cabrera-Bosquet L, Couvreur V, Pradal C, Tardieu F, Draye X
+   journal: in silico Plants
+   year: 2022
+   image: img/art-granar.png
+   doi: 10.1093/insilicoplants/diac005
+   open: yes
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diac005/43398038/diac005.pdf
+   tags:
+   - modelling
+   - phenotyping
+   description : > 
+      Plant phenotyping platforms generate large amounts of high dimensional data at different scales of plant organization. The possibility to use this information as inputs of models is an opportunity to develop models that integrate new processes and genetic inputs. We assessed to what extent the phenomics and modelling communities can address the issues of interoperability and data exchange, using a science mapping approach (i.e. visualization and analysis of a broad range of scientific and technological activities as a whole). In this paper, we (i) evaluate connections, (ii) identify compatible and connectable research topics, and (iii) propose strategies to facilitate connection across communities. We applied a science mapping approach based on reference and term analyses to a set of 4332 scientific papers published by the plant phenomics and modelling communities from 1980 to 2019, retrieved using the Elsevier’s Scopus database and the quantitative-plant.org website. The number of papers on phenotyping and modelling dramatically increased during the past decade, boosted by progress in phenotyping technologies and by key developments at hard- and software levels. The science mapping approach indicated a large diversity of research topics studied in each community. Despite compatibilities of research topics, the level of connection between the phenomics and modelling communities was low. Although phenomics and modelling crucially need to exchange data, the two communities appeared to be weakly connected. We encourage these communities to work on ontologies, harmonized formats, translators and connectors to facilitate transparent data exchange.
+
+-  type: journal
    title: Genetic Variability of Arabidopsis thaliana Mature Root System Architecture and Genome-Wide Association Study
    authors: Deja-Muylle A, Opdenacker D, Parizot B, Motte H, Lobet G, Storme V, Clauw P, Njo M, Beeckman T
    journal: Frontiers in Plant Sciences
