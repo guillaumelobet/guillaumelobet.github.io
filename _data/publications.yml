@@ -1,18 +1,33 @@
 
 -  type: journal
-   title: Connecting plant phenotyping and modelling communities. lessons from science mapping and operational perspectives
-   authors: Saint Cast C, Lobet G, Cabrera-Bosquet L, Couvreur V, Pradal C, Tardieu F, Draye X
-   journal: in silico Plants
+   title: Grain size modulates volcanic ash retention on crop foliage and potential yield loss
+   authors: Ligot N, Bogaert P, Biass S, Lobet G, Delmelle P
+   journal: Natural Hazards and Earth System Sciences
    year: 2022
    image: img/art-granar.png
    doi: 10.1093/insilicoplants/diac005
    open: yes
    pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diac005/43398038/diac005.pdf
    tags:
+   - volcano
+   - crop production
+   description : > 
+      Plant phenotyping platforms generate large amounts of high dimensional data at different scales of plant organization. The possibility to use this information as inputs of models is an opportunity to develop models that integrate new processes and genetic inputs. We assessed to what extent the phenomics and modelling communities can address the issues of interoperability and data exchange, using a science mapping approach (i.e. visualization and analysis of a broad range of scientific and technological activities as a whole). In this paper, we (i) evaluate connections, (ii) identify compatible and connectable research topics, and (iii) propose strategies to facilitate connection across communities. We applied a science mapping approach based on reference and term analyses to a set of 4332 scientific papers published by the plant phenomics and modelling communities from 1980 to 2019, retrieved using the Elsevier’s Scopus database and the quantitative-plant.org website. The number of papers on phenotyping and modelling dramatically increased during the past decade, boosted by progress in phenotyping technologies and by key developments at hard- and software levels. The science mapping approach indicated a large diversity of research topics studied in each community. Despite compatibilities of research topics, the level of connection between the phenomics and modelling communities was low. Although phenomics and modelling crucially need to exchange data, the two communities appeared to be weakly connected. We encourage these communities to work on ontologies, harmonized formats, translators and connectors to facilitate transparent data exchange.
+
+-  type: journal
+   title: Connecting plant phenotyping and modelling communities. lessons from science mapping and operational perspectives
+   authors: Saint Cast C, Lobet G, Cabrera-Bosquet L, Couvreur V, Pradal C, Tardieu F, Draye X
+   journal: in silico Plants
+   year: 2022
+   image: img/art-granar.png
+   doi: https://natural-hazards-and-earth-system-sciences.net/
+   open: yes
+   pdf: https://natural-hazards-and-earth-system-sciences.net/
+   tags:
    - modelling
    - phenotyping
    description : > 
-      Plant phenotyping platforms generate large amounts of high dimensional data at different scales of plant organization. The possibility to use this information as inputs of models is an opportunity to develop models that integrate new processes and genetic inputs. We assessed to what extent the phenomics and modelling communities can address the issues of interoperability and data exchange, using a science mapping approach (i.e. visualization and analysis of a broad range of scientific and technological activities as a whole). In this paper, we (i) evaluate connections, (ii) identify compatible and connectable research topics, and (iii) propose strategies to facilitate connection across communities. We applied a science mapping approach based on reference and term analyses to a set of 4332 scientific papers published by the plant phenomics and modelling communities from 1980 to 2019, retrieved using the Elsevier’s Scopus database and the quantitative-plant.org website. The number of papers on phenotyping and modelling dramatically increased during the past decade, boosted by progress in phenotyping technologies and by key developments at hard- and software levels. The science mapping approach indicated a large diversity of research topics studied in each community. Despite compatibilities of research topics, the level of connection between the phenomics and modelling communities was low. Although phenomics and modelling crucially need to exchange data, the two communities appeared to be weakly connected. We encourage these communities to work on ontologies, harmonized formats, translators and connectors to facilitate transparent data exchange.
+      Ash fall from volcanic eruptions endangers crop production and food security and jeopardises agricultural livelihoods. As population in the vicinity of volcanoes continues to grow, strategies to reduce volcanic risks to and impacts on crops are increasingly needed. This effort involves the use of quantitative relationships for anticipating crop damage from ash exposure. However, current models of crop vulnerability to ash rely solely on ash thickness (or loading) and fail to reproduce the complex interplay of other volcanic and non-volcanic factors that drive impact. Ash retention on crop leaves affects photosynthesis and is ultimately responsible for widespread damage to crops. In this context, we carried out greenhouse experiments to assess how ash grain size, leaf pubescence and humidity conditions at leaf surfaces influence the retention of ash (defined as the percentage of foliar cover coated with ash) in tomato and chilli pepper plants, two crop types commonly grown in volcanic regions. For a fixed ash mass load (~570 g m-2), we found that ash retention decreases exponentially with increasing grain size and is enhanced when leaves are pubescent (such as in tomato) or their surfaces are wet. Assuming that leaf area index (LAI) diminishes with ash retention in tomato and chilli pepper, we derived a new expression for predicting potential crop yield loss after an ash fall event. A corollary result is that the measurement of crop LAI in ash-affected areas may serve as a useful impact metric. Our study demonstrates that quantitative insights into crop vulnerability can be gained rapidly from controlled experiments, thereby providing a mean to improve models that can predict ash risks to crops accurately. We advocate this approach to broaden our understanding of ash-plant interaction and to validate the use of remote sensing methods for assessing crop damage and recovery at various spatial and time scales after an eruption.
 
 -  type: journal
    title: Genetic Variability of Arabidopsis thaliana Mature Root System Architecture and Genome-Wide Association Study
