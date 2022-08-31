@@ -5,9 +5,9 @@
    journal: Natural Hazards and Earth System Sciences
    year: 2022
    image: img/art-granar.png
-   doi: 10.1093/insilicoplants/diac005
+   doi: 10.5194/egusphere-2022-687
    open: yes
-   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diac005/43398038/diac005.pdf
+   pdf: https://egusphere.copernicus.org/preprints/2022/egusphere-2022-687/
    tags:
    - volcano
    - crop production
@@ -20,9 +20,9 @@
    journal: in silico Plants
    year: 2022
    image: img/art-granar.png
-   doi: https://natural-hazards-and-earth-system-sciences.net/
+   doi: 10.1093/insilicoplants/diac005
    open: yes
-   pdf: https://natural-hazards-and-earth-system-sciences.net/
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diac005/43398038/diac005.pdf
    tags:
    - modelling
    - phenotyping
