@@ -92,13 +92,12 @@
 -  type: journal
    title: Uncovering natural variation in root system architecture and growth dynamics using a robotics-assisted phenomics platform.
    authors: LaRue T, Lindner H, Srinivas A, Exposito-Alonso M, Lobet G, Dinneny J
-   journal: biorxiv
-   year: 2021
+   journal: eLife
+   year: 2022
    image: img/art-granar.png
-   doi: 10.1101/2021.11.13.468476 
+   doi: 10.7554/eLife.76968
    open: yes
-   preprint: yes
-   pdf: https://ojs.uclouvain.be/index.php/Annales_QPES/article/view/62073/58263
+   pdf: https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNzY5NjgvZWxpZmUtNzY5NjgtdjEucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzc2OTY4/elife-76968-v1.pdf?_hash=lvjZArz%2ByA%2BlfcoMkB0Q58kLjdjZb9cvr%2FdtOvYsfhw%3D
    tags:
    - root
    - phenotyping
