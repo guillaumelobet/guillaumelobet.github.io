@@ -1,3 +1,21 @@
+-  type: journal
+   title: Phloem anatomy restricts root system architecture development. Theoretical clues from in silico experiments.
+   authors: Zhou X, Scnhepf A, Vanderborgth J, Leitner D, Vereecken H, Lobet G
+   journal: biorxiv
+   year: 2022
+   image: img/art-granar.png
+   doi: 10.1101/2022.10.04.510862
+   open: yes
+   preprint : yes
+   pdf: https://www.biorxiv.org/content/10.1101/2022.10.04.510862v1.full.pdf
+   tags:
+   - root
+   - phloem
+   - xylem
+   - carbon
+   - water
+   description : > 
+      Plant growth and development involve the integration of numerous processes, influenced by both endogenous and exogenous factors. At any given time during a plant's life cycle, the plant architecture is a readout of this continuous integration. However, untangling the individual factors and processes involved in the plant development and quantifying their influence on the plant developmental process is experimentally challenging. Here we used a combination of computational plant models to help understand experimental findings about how local phloem anatomical features influence the root system architecture. In particular, we simulated the mutual interplay between the root system architecture development and the carbohydrate distribution to provide a plausible mechanistic explanation for several experimental results. Our in silico study highlighted the strong influence of local phloem hydraulics on the root growth rates, growth duration and final length. The model result showed that a higher phloem resistivity leads to shorter roots due to the reduced flow of carbon within the root system. This effect was due to local properties of individual roots, and not linked to any of the pleiotropic effects at the root system level. Our results open the door to a better representation of growth processes in plant computational models.
 
 -  type: journal
    title: Grain size modulates volcanic ash retention on crop foliage and potential yield loss
