@@ -39,7 +39,7 @@ profiles:
   - 
     network: ORCID
     username:
-    url: https://orcid.org/0000-0002-5883-4572   
+    url: https://orcid.org/0000-0002-5883-4572 
   - 
     network: ImpactStory
     username:
@@ -80,6 +80,8 @@ intro:
 
     I am currently an Assistant Professor between the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html) and the [UCLouvain](http://www.uclouvain.be/eli) since September 2016.
     
+    I recently move from Twitter to <a rel="me" href="https://scholar.social/@guillaume">Mastodon</a>. 
+ 
 
 footer: >
     Website created and maintained by myself with <span style="color: red;"><i class="fas fa-heart"></i></span> and <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>. Heavily relying on <a href="https://getbootstrap.com/">Bootstrap 4.0</a> and <a href="https://fontawesome.com">Font Awesome 5</a>. Also tacking advantage of the awesome badges from <a href="https://www.altmetric.com/">Altmetrics</a> and <a href="https://www.dimensions.ai/">Dimensions</a>. Hosted on <i class="fab fa-github"></i>. Source code available <a href="https://github.com/guillaumelobet/guillaumelobet.github.io">here</a>.
