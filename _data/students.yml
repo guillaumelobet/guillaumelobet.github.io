@@ -1,4 +1,27 @@
 -
+  name: Marco D'Agostino  (he/him)
+  description: >
+    Marco is working on better understing how tomato anatomies is linked to water uptake dynamics at the plant level. He is interested in exploring how natural variation in closely related wild species can help us develop more resilient tomato plants. 
+  role: PhD student
+  current: yes
+  tags:
+    - root
+    - tomato
+    - anatomy
+    - modelling
+-
+  name: Hermann Prodjinoto (he/him)
+  description: >
+    Hermann is a plant physiologist with a special interest in toxicity resilience in Africa Rice. He is currently making a research stay in the lab to learn how to model such processes. 
+  role: Post-doc researcher
+  url: https://www.researchgate.net/profile/Hermann-Prodjinoto-2
+  current: yes
+  tags:
+    - root
+    - rice
+    - salinity
+    - modelling
+-
   name: Juan Baca (he/him)
   description: >
     Juan is a plant physiologist with a special interest in improving the mechanistic understanding of grass responses to global change parameters. He works on the DETECT project in modelling the impacts of agricultural management on soil–plant–atmosphere interactions
