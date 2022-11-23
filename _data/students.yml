@@ -1,4 +1,15 @@
 -
+  name: Renaud Bulpa  (he/him)
+  description: >
+    Renaud is intersted in cereal root development, with a current focus on spelt and wheat at the seedling stage. I also loves (I hope.. ) rhizotrons experiments. 
+  role: Researh assistant
+  current: yes
+  tags:
+    - root
+    - wheat
+    - architecture
+    - phenotyping
+-
   name: Marco D'Agostino  (he/him)
   description: >
     Marco is working on better understing how tomato anatomies is linked to water uptake dynamics at the plant level. He is interested in exploring how natural variation in closely related wild species can help us develop more resilient tomato plants. 
@@ -88,7 +99,7 @@
   image: /img/xiaoran.png
   twitter: _ThomasFeron_
   role: PhD student
-  current : yes
+  alumni: yes
   tags:
     - root
     - shoot
