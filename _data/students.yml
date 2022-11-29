@@ -1,4 +1,15 @@
 -
+  name: Sacha Pollet  (she/her)
+  description: >
+    Sasha Pollet is a PhD student in Soil Science at the faculty of Land and Food system, University of British Columbia, under the supervision of Dr. Jean-Thomas Cornelis, and co-supervised by myself. Sasha will be studying how the pedological context and P fertilization gradient impact the production and quality of root exudates, as well as their roles in acquiring nutrients and storing carbon in the soil. 
+  role: PhD student
+  url: https://soilprocesses.landfood.ubc.ca/people-2/
+  current: yes
+  tags:
+    - root
+    - exudation
+    - phosphorus
+-
   name: Renaud Bulpa  (he/him)
   description: >
     Renaud is intersted in cereal root development, with a current focus on spelt and wheat at the seedling stage. I also loves (I hope.. ) rhizotrons experiments. 
