@@ -49,9 +49,9 @@ profiles:
     username:
     url: http://scholar.google.com/citations?user=XHIe6wsAAAAJ&hl=en
   -
-    network: Twitter
-    username: guillaumelobet
-    url: http://twitter.com/guillaumelobet/
+    network: Mastodon
+    username: guillaume@scholar.social
+    url: https://scholar.social/@guillaume
   -
     network: Github
     username: guillaumelobet
