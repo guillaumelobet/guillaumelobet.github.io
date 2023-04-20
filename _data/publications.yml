@@ -1,4 +1,23 @@
 -  type: journal
+   title: Development and calibration of the FSPM CPlantBox to represent the interactions between water and carbon fluxes in the soil-plant-atmosphere continuum
+   authors: Giraud M, Le Gall S, Harings M, Javaux M, Leitner D, Meunier F, Rothfuss Y, van Dusschoten D, Vanderborght J, Vereecken H, Lobet G, Schnepf A
+   journal: biorxiv
+   year: 2023
+   image: img/art-granar.png
+   doi: 10.1101/2023.04.18.537289v2
+   open: yes
+   preprint : yes
+   pdf: https://www.biorxiv.org/content/10.1101/2023.04.18.537289v2.full.pdf
+   tags:
+   - root
+   - phloem
+   - xylem
+   - carbon
+   - water
+   description : > 
+      A plant's development is strongly linked to the water and carbon flows in the soil-plant-atmosphere continuum. Expected climate shifts will alter the water and carbon cycles and affect plant phenotypes. Comprehensive models which simulate mechanistically and dynamically the feedback loops between a plant's three-dimensional development and the water and carbon flows are useful tools to evaluate the sustainability of genotype-environment-management combinations which do not yet exist. In this study, we present the latest version of the open-source three-dimensional Functional-Structural Plant Model CPlantBox with PiafMunch and DuMux coupling. We simulated semi-mechanistically the development of generic C3 monocots from 10 to 25 days after sowing and undergoing an atmospheric dry spell of one week (no precipitation). We compared the results for dry spells starting on different days (day 11 or 18) and with different climates (wetter and colder against drier and warmer atmospheric and initial soil conditions). Compared with the wetter and colder climate, the dry spell with the drier and warmer climate led to a lower instantaneous water use efficiency. Moreover, the lower symplasm turgor for the drier and warmer climate limited the growth, which made the sucrose available for other processes, such as maintenance respiration. Both of these effects were stronger for the later dry spell compared with the early dry spell under the drier and warmer climate. We could thus use CPlantBox to simulate diverging emerging processes (like carbon partitioning) defining the plants' phenotypic plasticity response to their environment.
+
+-  type: journal
    title: Phloem anatomy restricts root system architecture development. Theoretical clues from in silico experiments.
    authors: Zhou X, Scnhepf A, Vanderborgth J, Leitner D, Vereecken H, Lobet G
    journal: biorxiv
