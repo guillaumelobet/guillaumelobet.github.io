@@ -1,4 +1,20 @@
 -  type: journal
+   title: Collaborative benchmarking of functional-structural root architecture models: Quantitative comparison of simulated root water uptake
+   authors: Schnepf A, Black CK, Couvreur V, Delory BM, Doussan C, Heymans A, Javaux M, Khare D, Koch A, Koch T, Kuppe CW, Landl M, Leitner D, Lobet G, Meunier F, Postma JA, Schäfer ED, Selzner T, Vanderborght J, Vereecken H
+   journal: in silico Plants
+   year: 2023
+   image: img/art-granar.png
+   doi: 10.1093/insilicoplants/diad005
+   open: yes
+   pdf: https://academic.oup.com/insilicoplants/advance-article-pdf/doi/10.1093/insilicoplants/diad005/50515619/diad005.pdf
+   tags:
+   - root
+   - water
+   - model
+   description : > 
+      Functional structural root architecture models have evolved as tools for the design of improved agricultural management practices and for the selection of optimal root traits. In order to test their accuracy and reliability, we present the first benchmarking of root water uptake from soil using five well established functional structural root architecture models: DuMux, CPlantBox, RSWMS, OpenSimRoot and SRI. The benchmark scenarios include basic tests for water flow in soil and roots as well as advanced tests for the coupled soil-root system. The reference solutions and the solutions of the different simulators are available through Jupyter Notebooks on a GitHub repository. All of the simulators were able to pass the basic tests and continued to perform well in the benchmarks for the coupled soil-plant system. For the advanced tests, we created an overview of the different ways of coupling the soil and the root domains as well as the different methods used to account for rhizosphere resistance to water flow. Although the methods used for coupling and modelling rhizosphere resistance were quite different, all simulators were in reasonably good agreement with the reference solution. During this benchmarking effort, individual simulators were able to learn about their strengths and challenges, while some were even able to improve their code. Some now include the benchmarks as standard tests within their codes. Additional model results may be added to the GitHub repository at any point in the future and will be automatically included in the comparison.
+      
+-  type: journal
    title: Development and calibration of the FSPM CPlantBox to represent the interactions between water and carbon fluxes in the soil-plant-atmosphere continuum
    authors: Giraud M, Le Gall S, Harings M, Javaux M, Leitner D, Meunier F, Rothfuss Y, van Dusschoten D, Vanderborght J, Vereecken H, Lobet G, Schnepf A
    journal: biorxiv
