@@ -17,13 +17,12 @@
 -  type: journal
    title: Development and calibration of the FSPM CPlantBox to represent the interactions between water and carbon fluxes in the soil-plant-atmosphere continuum
    authors: Giraud M, Le Gall S, Harings M, Javaux M, Leitner D, Meunier F, Rothfuss Y, van Dusschoten D, Vanderborght J, Vereecken H, Lobet G, Schnepf A
-   journal: biorxiv
+   journal: in silico Plants
    year: 2023
    image: img/art-granar.png
    doi: 10.1101/2023.04.18.537289v2
    open: yes
-   preprint : yes
-   pdf: https://www.biorxiv.org/content/10.1101/2023.04.18.537289v2.full.pdf
+   pdf: https://doi.org/10.1093/insilicoplants/diad009
    tags:
    - root
    - phloem
