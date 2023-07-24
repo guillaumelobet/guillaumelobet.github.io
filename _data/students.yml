@@ -1,4 +1,15 @@
 -
+  name: Sathyanarayan Rao  (he/him)
+  description: >
+    Dr. Sathyanarayan Rao is a post-doctoral scientist with the Phenorob project, working on the forefront of digital agriculture. His work concentrates on creating a digital twin to replicate real-world agricultural environments, offering a fresh perspective on how we understand and interact with these systems. Intrigued by the complexity of agricultural and environmental systems, he seeks to understand how integrating models across multiple scales can reveal the intricate interactions within these systems. This research, driven by the pursuit of capturing these interactions and feedbacks, aims to enhance our comprehension of these complex systems at various scales, from the cellular level to regional phenomena.
+  role: Post-doc researcher
+  url: https://www.linkedin.com/in/sathyanarayanrao1/
+  current: yes
+  tags:
+    - model
+    - root
+    - crop
+-
   name: Sacha Pollet  (she/her)
   description: >
     Sasha Pollet is a PhD student in Soil Science at the faculty of Land and Food system, University of British Columbia, under the supervision of Dr. Jean-Thomas Cornelis, and co-supervised by myself. Sasha will be studying how the pedological context and P fertilization gradient impact the production and quality of root exudates, as well as their roles in acquiring nutrients and storing carbon in the soil. 
