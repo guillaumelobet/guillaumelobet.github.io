@@ -1,5 +1,23 @@
 -  type: journal
    title: Collaborative benchmarking of functional structural root architecture models. Quantitative comparison of simulated root water uptake
+   authors: Baca Cabrera J, Vanderborght J, Couvreur C, Behrend D, Gaiser T, Huu Nguyen T, Lobet G
+   journal: biorxiv
+   year: 2023
+   image: img/art-granar.png
+   doi: 10.1101/2023.12.06.570353
+   open: yes
+   preprint: yes
+   pdf: https://www.biorxiv.org/content/10.1101/2023.12.06.570353v1.full.pdf
+   tags:
+   - root
+   - water
+   - hydraulics
+   description : > 
+      Root hydraulic properties are key physiological traits that determine the capacity of root systems to take up water, at a specific evaporative demand. They can strongly vary among species, cultivars or even within the same genotype, but a systematic analysis of their variation across plant functional types (PFTs) is still missing. Here, we reviewed published empirical studies on root hydraulic properties at the segment-, individual root-, or root system scale and determined its variability and the main factors contributing to it. We observed an extremely large range of variation (of orders of magnitude) in root hydraulic properties, but this was not caused by systematic differences among PFTs. Rather, the (combined) effect of factors such as root system age, driving force used for measurement, or stress treatments shaped the results. We found a significant decrease in root hydraulic properties under stress conditions (drought and aquaporin inhibition) and a significant effect of the driving force used for measurement (hydrostatic or osmotic gradients). Furthermore, whole root system conductance increased significantly with root system age across several crop species, causing very large variation in the data (> 2 orders of magnitude). Interestingly, this relationship showed an asymptotic shape, with a steep increase during the first days of growth and a flattening out at later stages of development. This behaviour was also observed in simulations with computational plant models, suggesting common patterns across studies and species. These findings provide better understanding of the main causes of root hydraulic properties variations observed across empirical studies. They also open the door to better representation of hydraulic processes across multiple plant functional types and at large scales. All data collected in our analysis has been aggregated into an open access database (https://roothydraulic-properties.shinyapps.io/database/), fostering scientific exchange.
+      
+
+-  type: journal
+   title: Collaborative benchmarking of functional structural root architecture models. Quantitative comparison of simulated root water uptake
    authors: Schnepf A, Black CK, Couvreur V, Delory BM, Doussan C, Heymans A, Javaux M, Khare D, Koch A, Koch T, Kuppe CW, Landl M, Leitner D, Lobet G, Meunier F, Postma JA, Schäfer ED, Selzner T, Vanderborght J, Vereecken H
    journal: in silico Plants
    year: 2023
