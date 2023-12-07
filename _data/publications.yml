@@ -53,13 +53,12 @@
 -  type: journal
    title: Phloem anatomy restricts root system architecture development. Theoretical clues from in silico experiments.
    authors: Zhou X, Scnhepf A, Vanderborgth J, Leitner D, Vereecken H, Lobet G
-   journal: biorxiv
-   year: 2022
+   journal: in silico Plants
+   year: 2023
    image: img/art-granar.png
-   doi: 10.1101/2022.10.04.510862
+   doi: 10.1093/insilicoplants/diad012
    open: yes
-   preprint : yes
-   pdf: https://www.biorxiv.org/content/10.1101/2022.10.04.510862v1.full.pdf
+   pdf: https://academic.oup.com/insilicoplants/article-pdf/5/2/diad012/51728172/diad012.pdf
    tags:
    - root
    - phloem
