@@ -2,7 +2,7 @@
   name: Clara Lhoest  (she/her)
   description: >
     Meet Clara, a PhD student at UCLouvain University with an unwavering passion for plants. But Clara's journey isn't your typical botanical affair : she's embarking on a captivating investigation. Her mission? To unravel the mystery of enhancing water resilience in wheat through the enigmatic world of root traits. Armed with a unique blend of greenhouse trials, real-world field missions, and modeling experiments, Clara is on the trail of nature's secrets, determined to crack the case.
-  role: PhD student
+  role: Doctoral researcher
   url: https://www.linkedin.com/in/clara-lhoest-3ba547206/
   current: yes
   tags:
@@ -24,7 +24,7 @@
   name: Sacha Pollet  (she/her)
   description: >
     Sasha Pollet is a PhD student in Soil Science at the faculty of Land and Food system, University of British Columbia, under the supervision of Dr. Jean-Thomas Cornelis, and co-supervised by myself. Sasha will be studying how the pedological context and P fertilization gradient impact the production and quality of root exudates, as well as their roles in acquiring nutrients and storing carbon in the soil. 
-  role: PhD student
+  role: Doctoral researcher
   url: https://soilprocesses.landfood.ubc.ca/people-2/
   current: yes
   tags:
@@ -35,7 +35,7 @@
   name: Renaud Bulpa  (he/him)
   description: >
     Renaud is intersted in cereal root development, with a current focus on spelt and wheat at the seedling stage. I also loves (I hope.. ) rhizotrons experiments. Renaud is now a PhD student in the lab of the Saoirse Tracy at the University Colleage in Dublin.
-  role: Researh assistant
+  role: Research assistant
   alumni: yes
   tags:
     - root
@@ -46,7 +46,7 @@
   name: Marco D'Agostino  (he/him)
   description: >
     Marco is working on better understing how tomato anatomies is linked to water uptake dynamics at the plant level. He is interested in exploring how natural variation in closely related wild species can help us develop more resilient tomato plants. 
-  role: PhD student
+  role: Doctoral researcher
   current: yes
   tags:
     - root
@@ -93,7 +93,7 @@
   name: Nicolas Biot (he/him)
   description: >
     Nicolas is a teaching assistant at the Bioengineering Faculty of the UCLouvain. His work focus on the understand of local food system dynamics, with a strong modelling approach
-  role: PhD student
+  role: Doctoral researcher
   current: yes
   tags:
     - foodsystem
@@ -104,7 +104,7 @@
   name: Felix Bauer (he/him)
   description: >
     Felix work on the PhenoRob project, trying to understand how phosphorus affect the plant growth and functionning, using (of course) functional plant models. He is also a avid plant phenotyper and enthousiatic pipeline developper. 
-  role: PhD student
+  role: Doctoral researcher
   twitter: felix__bauer
   current: yes
   tags:
@@ -117,7 +117,7 @@
   description: >
     Mona is a PhD student working on a BMBF-funded project entitled "Rhizo4Bio (Phase 1): CROP - Combination of Complementary Root Phenotypes for More Resistant Agroecosystems". She is very enthousiastic about the modelling of wheat whole plant growth, water and carbon fluxes within the plant, and root-soil interactions.
   image: /img/xiaoran.png
-  role: PhD student
+  role: Doctoral researcher
   current : yes
   tags:
     - root
@@ -131,7 +131,7 @@
     Thomas worked within the framework of the PhenoRob project. His research is at the intersection of plant modelling, phenotyping an machine learning. Thomas is now a Computer Vision Engineer at Colruyt Group Smart Technics. 
   image: /img/xiaoran.png
   twitter: _ThomasFeron_
-  role: PhD student
+  role: Doctoral researcher
   alumni: yes
   tags:
     - root
@@ -145,7 +145,7 @@
     Xiaoran is a PhD student at the Forschungszentrum Jülich. His previous experiences are based on studying his major, Viticulture and Enology, with modeling and web applications. His interest is to develop a mechanistic plant model (CPlantBox)that traces carbon and water movement in maize by explicit coupling of xylem and phloem fluxes.
   image: /img/xiaoran.png
   twitter: zxrzxr
-  role: PhD student
+  role: Doctoral researcher
   current : yes
   tags:
     - root
@@ -157,7 +157,7 @@
     Adrien was a PhD student at the UCLouvain. He is deeply interest "in silico" plants and ways to grow a more suistanable  agriculture. Adrien now works as a post-doc researcher at Umeå Plant Science Centre and work on leaf epidermis. We were very sad (but also happy) to see him leave the nest. 
   image: /img/adrien.jpg
   twitter: Heymans_Adrien
-  role: PhD student
+  role: Doctoral researcher
   alumni: yes
   tags:
     - root
