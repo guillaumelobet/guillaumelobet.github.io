@@ -1,4 +1,14 @@
 -
+  name: Root Hydraulic Database
+  description: > 
+    We compiled an online database that corresponds to a systematic review of scientific articles in which root hydraulic properties were determined empirically. The relevant data presented in the publications was digitilized manually and can be easily accesed thorugh this application.
+  image: /img/crootbox_1.jpg
+  url: https://roothydraulic-properties.shinyapps.io/database/
+  tags:
+    - root
+    - hydraulics
+
+-
   name: GRANAR
   description: >
     GRANAR is a generator of complete root cross-section network in R. Upon a small set of anatomical features the GRANAR model is able to reconstruct a generic root cell network for mono and dicotyledon. Among the few parameters you can modify, there is the aerenchyma proportion, the number and size of the xylem vessels, but also the number of cell layers and the mean size of each cell type.
@@ -56,15 +66,6 @@
     - modelling
     - image analysis
 
--
-  name: archiDART
-  description: >
-    archiDART is an R package that was developed for the automated analysis of plant root system architectures from Root System Markup Language (RSML) files. The package enable the extraction of morphological (length, diameters), dynamic (growth rates, tropisms) and topological (Fitter indices, persistent homology) traits.
-  image: /img/archidart_1.jpg
-  url: https://archidart.github.io/
-  tags:
-    - root
-    - data analysis
 -
   name: Plant Illustrations
   description: >
