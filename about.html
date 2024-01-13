@@ -19,9 +19,12 @@ background: '/img/bg-about.jpg'
   {% if profile.network == 'Figshare' %}
 		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
 		<i class="fal fa-share-alt"></i></a>
-	{% elsif profile.network == 'Twitter' %}
+	{% elsif profile.network == 'BlueSky' %}
 		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
-		<i class="fab fa-twitter"></i></a>
+		<i class="fal fa-sun"></i></a>
+	{% elsif profile.network == 'ORCID' %}
+		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+		<i class=""></i>iD</a>	
 	{% elsif profile.network == 'Github' %}
 		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
 		<i class="fab fa-github"></i></a>
@@ -74,8 +77,8 @@ background: '/img/bg-about.jpg'
 
     <script>
   function safeEmailAddress(name, element) {
-    dnssuffix = 'de';
-    domain = 'fz-juelich';
+    dnssuffix = 'be';
+    domain = 'uclouvain';
     document.getElementById(element).innerHTML = '<a href="mailto:'+name+'@'+domain+'.'+dnssuffix+'" class="btn btn-sm btn-outline-primary"><i class="fal fa-envelope"></i>';
   }
   </script>
