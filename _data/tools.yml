@@ -5,6 +5,7 @@
   image: /img/crootbox_1.jpg
   url: https://roothydraulic-properties.shinyapps.io/database/
   tags:
+    - database 
     - root
     - hydraulics
 
@@ -15,8 +16,8 @@
   image: /img/crootbox_1.jpg
   url: https://granar.github.io/
   tags:
+    - model
     - root
-    - modelling
     - anatomy
 
 
@@ -27,9 +28,9 @@
   image: /img/crootbox_1.jpg
   url: https://plant-root-soil-interactions-modelling.github.io/CRootBox/
   tags:
+    - model
     - root
     - shoot
-    - modelling
 
 -
   name: quantitative-plant.org
@@ -52,8 +53,9 @@
   image: /img/smartroot.jpg
   url: https://smartroot.github.io/
   tags:
-    - root
     - image analysis
+    - root
+    
 
 -
   name: Root System Markup Language | RSML
@@ -62,9 +64,8 @@
   image: /img/rsml.jpg
   url: http://rootsystemml.github.io/
   tags:
+    - file format
     - root
-    - modelling
-    - image analysis
 
 -
   name: Plant Illustrations
@@ -73,10 +74,10 @@
   image: /img/plant_illustrations.jpg
   url: https://figshare.com/authors/Plant_Illustrations/3773596
   tags:
+    - database
     - root
     - shoot
     - flowering
-    - database
 -
   name: Flowering Interactive Database - FLOR-ID
   description: >
@@ -84,5 +85,5 @@
   image: /img/flowering_net.jpg
   url: http://www.phytosystems.ulg.ac.be/florid
   tags:
-    - flowering
     - database
+    - flowering
