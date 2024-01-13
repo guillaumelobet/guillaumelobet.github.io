@@ -1,12 +1,12 @@
 name: Guillaume Lobet
 
-label: Roots - Image Analysis - Modelling - Open Science
+label: Roots - Cereals - Drought- Computation tools - Open Science
 
 position: Assistant Professor
 
 picture: /img/profile-picture.jpg
 
-email: g.lobet
+email: guillaume.lobet
 
 phone: 
 
@@ -53,6 +53,10 @@ profiles:
     username: guillaume@scholar.social
     url: https://scholar.social/@guillaume
   -
+    network: BlueSky
+    username: guillaumelobet.bsky.social
+    url: https://bsky.app/profile/guillaumelobet.bsky.social
+  -
     network: Github
     username: guillaumelobet
     url: http://github.com/guillaumelobet/   
@@ -69,18 +73,15 @@ intro:
   title: Hi, I am Guillaume (he/him) and this is my personnal website!
   body: >
 
-    Plants are fascinating. They form complex and plastic networks (both above- and below- ground), ever integrating and adapting to endogenous and exogenous clues. Manipulation of these networks brings the promise to unlock plant productivity in limiting environments. My primary research interests lie in the understanding of these interconnected, multi-scale regulations pathways in cropping systems.
+    I try to understand how **plant** can better cope with changes in water availability during their growth cycle. To do so, I look at **roots**, their structure and their organisation . In a wider context, I want to help create **sustainable agrosystems** that are resilient to **drought** event and lack of water.  
     
-    
-    In particular, we try to understand how plant can better cope with changes in water availability during their growth cycle. In a wider context, I want to help create future sustainable agrosystems that are resilient to drought event and lack of water.  
-    
-    
-    The incredible complexity of plants calls for integrative research strategies such as combining innovative plant phenotyping pipelines with powerful data analysis and modeling tools. My belief is that combining computational tools with the latest biological knowledge will open new horizons for plant research. I spend most of my time developing and using new computational tools, connecting them to existing ones and making them available for the community.
-    
+    Plants' complexity calls for integrative research strategies such as combining innovative plant phenotyping pipelines with powerful data analysis and modeling tools. Combining computational tools with the latest biological knowledge opens new horizons for plant research.
 
-    I am currently an Assistant Professor between the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html) and the [UCLouvain](http://www.uclouvain.be/eli) since September 2016.
+    I believe in Open Science, the importance of science communication and good bread. 
+
+    I am currently an Assistant Professor between the [UCLouvain](http://www.uclouvain.be/eli) and the [Forschungszentrum Juelich](https://www.fz-juelich.de/ibg/ibg-3/EN/Home/home_node.html).
     
-    I recently move from Twitter to <a rel="me" href="https://scholar.social/@guillaume">Mastodon</a>. 
+    I recently move from Twitter to <a rel="me" href="https://bsky.app/profile/guillaumelobet.bsky.social">BlueSky</a>. 
  
 
 footer: >
