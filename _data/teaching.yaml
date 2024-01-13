@@ -1,29 +1,22 @@
 -
   name: Introduction to plant biology [LBIR1151]
   description: >
-    Lecture about plant organography, morphology and anatomy, given to first year bachelor student of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro) at UCLouvain. With this lecture, we try to include new teaching techniques, such as [student peer-assesement](https://www.d-pac.be/), [virtual microscope](https://cytomine.uclouvain.be), conceptual maps or [large scale treasure hunt of biological structures](http://www.quovidi.xyz). Since 2021, the content of the lecture was recorded as short video clips (in french), available on [Vimeo](https://vimeo.com/showcase/intro-bota) 
+    Lecture about plant organography, morphology and anatomy, given to first year bachelor student of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro) at UCLouvain. With this lecture, we try to include new teaching techniques, such as [student peer-assesement](https://comproved.com/en/), [virtual microscope](https://cytomine.uclouvain.be), conceptual maps or [large scale treasure hunt of biological structures](http://www.quovidi.xyz). Since 2021, the content of the lecture was recorded as short video clips (in french), available on [Vimeo](https://vimeo.com/showcase/intro-bota) and [Youtube](https://www.youtube.com/playlist?list=PLbrIVQlCHYB-q5JqBj_yqC8Uot2Ie9pj2) 
   image: /img/lbres2106.jpg
-  url: https://uclouvain.be/en-cours-2019-LBIR1151.html
+  url: https://uclouvain.be/en-cours-2023-LBIR1151.html
 
 -
   name: Integrative biology [LBIR1353]
   description: >
     The integrative biology lecture focuses on mecanismes used by the plant to cope with changing (and challenging) environments. One specificity of the lecture is that it heavily rely on the use of [functional-structural plant models](https://plantmodelling.shinyapps.io/PlaNet_Maize/).
-  url: https://uclouvain.be/en-cours-2019-LBIR1353.html
-
--
-  name: Soil-Root interactions [LBRES2106]
-  description: >
-    Lecture on soil-root interactions given a the [UCLouvain](http://www.uclouvain.be), to master students of the [Faculty of bioscience engineering](http://www.uclouvain.be/agro). Covering, among other thing, hydrotropisms, branching, hydropatterning and soil retention curves.
-  image: /img/lbres2106.jpg
-  url: https://plantmodelling.github.io/LBRES2106/
+  url: https://uclouvain.be/en-cours-2023-LBIR1353.html
 
 -
   name: Systems biology modelling [LBRAI2219]
   description: >
-    Lecture on biological systems modelling. Not a classical lecture, but project-driven. Students are asked to learn about a plant model and use it to answer a research question. In 2017, the course lead to a blog post on [Botany One](https://www.botany.one/2018/02/hard-use-plant-computational-models-ask-students/).
+    Lecture on biological systems modelling. Not a classical lecture, but project-driven. Students are asked to learn about plant models and use them to answer a research question. In 2017, the course lead to a blog post on [Botany One](https://www.botany.one/2018/02/hard-use-plant-computational-models-ask-students/).
   image: /img/systems.jpg
-  url: https://uclouvain.be/en-cours-2017-lbrai2219.html
+  url: https://uclouvain.be/en-cours-2023-lbrai2219.html
 
 -
   name: BotAlgorithme
