@@ -1,3 +1,16 @@
+-
+  name: DROOGHT
+  description: >
+    As droughts are becoming more frequent and severe, there is a call for adaptation strategies that enhance the crop’s resilience to these climate conditions. One pathway to do so is to select crops whose root system optimize the soil water uptake. However, the identification of adequate ideotypes is compromised by the limited understanding of the structural drivers controlling the water uptake from the root to crop scales. This knowledge gap is attributable to the multiscale and nonlinear nature of the soil-plant interactions. DROOGHT aims to address these gaps by identifying the dominant drivers of the complex below-ground processes in cereal crops.
+
+
+    DROOGHT is financed by the European Research Concil under the Consolidator Grant scheme. 
+  image: /img/crootbox_1.jpg
+  url: http://www.drooght.science/
+  tags:
+    - water
+    - root
+    - wheat
 
 -
   name: DETECT, Regional Climate Change. Disentangling the Role of Land Use and Water Management
