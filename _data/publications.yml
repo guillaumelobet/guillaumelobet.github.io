@@ -1,13 +1,12 @@
 -  type: journal
    title: Root hydraulic properties, an exploration of their variability across scales
    authors: Baca Cabrera J, Vanderborght J, Couvreur C, Behrend D, Gaiser T, Huu Nguyen T, Lobet G
-   journal: biorxiv
+   journal: plant direct
    year: 2023
    image: img/art-granar.png
-   doi: 10.1101/2023.12.06.570353
+   doi: 10.1002/pld3.582
    open: yes
-   preprint: yes
-   pdf: https://www.biorxiv.org/content/10.1101/2023.12.06.570353v1.full.pdf
+   pdf: https://onlinelibrary.wiley.com/doi/epdf/10.1002/pld3.582
    tags:
    - root
    - water
