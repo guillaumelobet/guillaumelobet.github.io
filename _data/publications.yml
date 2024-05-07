@@ -1,4 +1,23 @@
 -  type: journal
+CPB-LiDAR : RECOVER PLANT DATA FROM LiDAR METRICS USING STRUCTURAL MODELING AND MACHINE LEARNING
+
+   title: CPB-LiDAR : Recovering plant data from LIDAR metrics using structural modeling and machine learning
+   authors: D'Agostino M, Bates J, Lobet G
+   journal: gihut
+   year: 2024
+   image: img/art-granar.png
+   open: yes
+   preprint : yes
+   pdf: https://plant-root-soil-interactions-modelling.github.io/CPB-LiDAR/index.html
+   tags:
+   - shoot
+   - model
+   - machine learning
+   description : > 
+      In this project, we want to investigate the idea of using CPlantBox, a plant structural model, to emulate LiDAR field data, and find relations between LiDAR metrics and plant parameters. CPlantBox is a functional-structural plant model (FSPM) that can generate 3D plant architectures. CPlantBox generates individual plants, and it is possible to loop the process to generate a whole virtual field. Since these virtual fields are composed of nodes and segments, it would be theoritically possible to apply algorithms to extract artificial LiDAR data (Crop Height and Gap Fraction) from it. It would be next possible to loop this process with different sets of plant parameters, and study the sensistivity of artificial LiDAR metrics to these plant parameters. Finally, by inverting the process, it would be possible to build regressions of plant parameters from artificial LiDAR metrics, and therefore bring new insights on LiDAR-based plant status predictions.
+      
+
+-  type: journal
    title: Root hydraulic properties, an exploration of their variability across scales
    authors: Baca Cabrera J, Vanderborght J, Couvreur C, Behrend D, Gaiser T, Huu Nguyen T, Lobet G
    journal: plant direct
