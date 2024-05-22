@@ -1,4 +1,19 @@
 -  type: journal
+   title: Seedling root system adaptation to water availability during maize domestication and global expansion
+   authors: Yu, Li, Li, He, Wang, Li,  Marcon, Li,  Perez-Limón, Chen, Delgado-Baquerizo, Koller, Metzner,  van Dusschoten, Pflugfelder, Borisjuk, Plutenko, Mahon,  Resende,  Salvi,  Akale,  Abdalla, Ahmed,  Bauer,  Schnepf,  Lobet, Heymans, Suresh, Schreiber, McLaughlin, Li, Mayer, Schön, Bernau, von Wirén, Sawers,  Wang, Hochholdinger
+   journal: Nature Genetics
+   year: 2024
+   image: img/art-granar.png
+   doi: 10.1038/s41588-024-01761-3
+   tags:
+   - maize
+   - model
+   - water
+   - root
+   description : > 
+      The maize root system has been reshaped by indirect selection during global adaptation to new agricultural environments. In this study, we characterized the root systems of more than 9,000 global maize accessions and its wild relatives, defining the geographical signature and genomic basis of variation in seminal root number. We demonstrate that seminal root number has increased during maize domestication followed by a decrease in response to limited water availability in locally adapted varieties. By combining environmental and phenotypic association analyses with linkage mapping, we identified genes linking environmental variation and seminal root number. Functional characterization of the transcription factor ZmHb77 and in silico root modeling provides evidence that reshaping root system architecture by reducing the number of seminal roots and promoting lateral root density is beneficial for the resilience of maize seedlings to drought.      
+
+-  type: journal
    title: CPB-LiDAR, Recovering plant data from LIDAR metrics using structural modeling and machine learning
    authors: D'Agostino M, Bates J, Lobet G
    journal: gihut
