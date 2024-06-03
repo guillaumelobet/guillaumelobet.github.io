@@ -1,4 +1,22 @@
 -  type: journal
+   title: Root System Architecture Reorganization Under Decreasing Soil Phosphorus Lowers Root System Conductance of Zea mays
+   authors: Bauer F, Baker D, Giraud M, Baca Cabrera J, Vanderborght J, Lobet G, Schnepf A
+   journal: biorxiv
+   year: 2024
+   preprint: yes
+   open: yes
+   image: img/art-granar.png
+   doi: 10.1101/2024.05.31.596894v1
+   tags:
+   - maize
+   - model
+   - water
+   - root
+   - phosphorus
+   description : > 
+      The global supply of phosphorus is decreasing. At the same time, climate change reduces the water availability in most regions of the world. Insights on how decreasing phosphorus availability influences plant architecture is crucial to understand its influence on plant functional properties, such as the root system's water uptake capacity. In this study we investigated the structural and functional responses of Zea mays to varying phosphorus fertilization levels focusing especially on the root system's conductance. A rhizotron experiment with soils ranging from severe phosphorus deficiency to sufficiency was conducted. We measured architectural parameters of the whole plant and combined them with root hydraulic properties to simulate time-dependent root system conductance of growing plants under different phosphorus levels. We observed changes of the root system architecture, characterized by decreasing crown root elongation and reduced axial root radii with declining phosphorus availability. Modeling revealed that only plants with optimal phosphorus availability sustained a high root system conductance, while all other phosphorus levels led to a significantly lower root system conductance, both under light and severe phosphorus deficiency. We postulate that phosphorus deficiency initially enhances root system function for drought mitigation but eventually reduce biomass and impairs root development and water uptake in prolonged or severe cases of drought. Our results also highlight the fact that root system organization, rather than its total size, is critical to estimate important root functions.
+
+-  type: journal
    title: Seedling root system adaptation to water availability during maize domestication and global expansion
    authors: Yu, Li, Li, He, Wang, Li,  Marcon, Li,  Perez-Limón, Chen, Delgado-Baquerizo, Koller, Metzner,  van Dusschoten, Pflugfelder, Borisjuk, Plutenko, Mahon,  Resende,  Salvi,  Akale,  Abdalla, Ahmed,  Bauer,  Schnepf,  Lobet, Heymans, Suresh, Schreiber, McLaughlin, Li, Mayer, Schön, Bernau, von Wirén, Sawers,  Wang, Hochholdinger
    journal: Nature Genetics
