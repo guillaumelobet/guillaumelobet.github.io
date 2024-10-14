@@ -1,4 +1,21 @@
 -  type: journal
+   title: The evolution of root hydraulic traits in wheat over 100 years of breeding
+   authors: Baca Cabrera J, Vanderborght J, Boursiac Y, Behrend D, Gaiser T, Nguyen TH, Lobet G
+   journal: biorxiv
+   year: 2024
+   preprint: yes
+   open: yes
+   image: img/art-granar.png
+   pdf: https://www.biorxiv.org/content/10.1101/2024.10.10.617660v2.full.pdf
+   tags:
+   - wheat
+   - root
+   - hydraulics
+   - breeding
+   description : > 
+      Wheat (Triticum aestivum L.) plays a vital role in global food security, and understanding its root traits is essential for improving water uptake under varying environmental conditions. This study investigates how breeding over a century has influenced root morphological and hydraulic properties in six German winter wheat cultivars released between 1895 and 2002. Field and hydroponic experiments were used to measure root diameter, root number, branching density, and whole root system hydraulic conductance (Krs). Results showed a significant decline in root axes number and Krs over time, while root diameter remained stable across cultivars. Additionally, dynamic functional-structural modeling using the whole-plant model CPlantBox was employed to simulate the development of Krs with root system growth, revealing that older cultivars consistently had higher hydraulic conductance than modern ones. The combined approach of field phenotyping and modeling provided a comprehensive view of the changes in root traits with breeding. These findings suggest that breeding may have unintentionally favored cultivars with smaller root systems and more conservative water uptake strategies, under the high-input, high-density conditions of modern agriculture. The lessons from this study may inform future breeding efforts aimed at optimizing wheat root systems, helping to develop cultivars with water uptake better tailored to locally changing environmental conditions.
+      
+-  type: journal
    title: The importance of distribution channels and food supply chain challenges on the viability of market gardening farms. Insights from market gardeners in Belgium at a territorial level.
    authors: Biot N, Hecquet C, Maréchal K, Lobet G, Dendoncker N
    journal: Hal
