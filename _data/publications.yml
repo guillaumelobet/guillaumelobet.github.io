@@ -1,4 +1,22 @@
 -  type: journal
+   title: A collection of field-based indicators for assessing ecosystem services in crop fields
+   authors: Leveau L, Biot N, Lobet G, Bertin P
+   journal: arpa
+   year: 2025
+   preprint: yes
+   open: yes
+   doi: 10.3897/arphapreprints.e151539
+   image: img/art-granar.png
+   pdf: https://preprints.arphahub.com/article/151539/
+   tags:
+   - crop
+   - ecosystem services
+   - field
+   - indicators
+   description : > 
+      The transition from intensive crop production to more sustainable practices, such as ecologically intensive cropping systems, requires precise, field-based assessments of Ecosystem Services (ES). These assessments depend on selecting appropriate indicators that can measure the supply of ES directly within crop fields. Despite the growing recognition of ES role in sustainable agriculture, comprehensive lists of field-applicable indicators remain scarce. To address this gap, we present a collection of indicators for assessing ES in cropping systems, specifically designed for in situ measurements. The collection aims to support researchers and practitioners in selecting context-specific indicators that enhance site-specific knowledge for developing sustainable cropping systems. It was derived from the exhaustive list provided by Boerema et al. (2016), which included 507 indicators applicable across various ecosystem types and linked to various data collection methods. It covers provisioning and regulating ES, emphasizing empirical data collection methods such as field observations and remote sensing. Our analysis highlights significant disparities in indicator distribution across ES, cascade levels, and measurement methods, with a predominance of indicators for soil quality regulation and pollination ES. We also identify gaps in field-based assessments, particularly for air quality regulation, life cycle maintenance and water provision. Finally, we underscore the importance of staying alert to emerging indicators driven by recent research trends and technological advancements, such as remote sensing.
+      
+-  type: journal
    title: The evolution of root hydraulic traits in wheat over 100 years of breeding
    authors: Baca Cabrera J, Vanderborght J, Boursiac Y, Behrend D, Gaiser T, Nguyen TH, Lobet G
    journal: biorxiv
