@@ -52,12 +52,11 @@
 -  type: journal
    title: Root System Architecture Reorganization Under Decreasing Soil Phosphorus Lowers Root System Conductance of Zea mays
    authors: Bauer F, Baker D, Giraud M, Baca Cabrera J, Vanderborght J, Lobet G, Schnepf A
-   journal: biorxiv
+   journal: annals of Botany
    year: 2024
-   preprint: yes
    open: yes
    image: img/art-granar.png
-   doi: 10.1101/2024.05.31.596894v1
+   doi: 10.1093/aob/mcae198
    tags:
    - maize
    - model
