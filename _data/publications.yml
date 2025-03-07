@@ -1,4 +1,21 @@
 -  type: journal
+   title: In silico analysis of carbon stabilisation by plant and soil microbes for different weather scenarios
+   authors: Giraud M, Sırcan AK, Streck T, Leitner D, Lobet G, Pagel H, Schnepf A
+   journal: arpa
+   year: 2025
+   preprint: yes
+   open: yes
+   doi: 10.5194/egusphere-2025-572
+   image: img/art-granar.png
+   pdf: https://egusphere.copernicus.org/preprints/2025/egusphere-2025-572/egusphere-2025-572.pdf
+   tags:
+   - model
+   - carbon
+   - water
+   description : > 
+      A plant's development is strongly linked to the water and carbon (C) flows in the soil-plant-atmosphere continuum. Ongoing climate shifts will alter the water and C cycles and affect plant phenotypes. Comprehensive models that simulate mechanistically and dynamically the feedback loops between water and C fluxes in the soil-plant system are useful tools to evaluate the sustainability of genotype-environment-management combinations that do not yet exist. In this study, we present the equations and implementation of a rhizosphere-soil model within the CPlantBox framework, a functional-structural plant model that represents plant processes and plant-soil interactions. The multi-scale plant-rhizosphere-soil coupling scheme previously used for CPlantBox was likewise updated, among others to include an implicit time-stepping. The model was implemented to simulate the effect of dry spells occurring at different plant development stages, and for different soil biokinetic parametrisations of microbial dynamics in soil. We could observe diverging results according to the date of occurrence of the dry spells and soil parametrisations. For instance, an earlier dry spell led to a lower cumulative plant C release, while later dry spells led to higher C input to the soil. For more reactive microbial communities, this higher C input caused a strong increase in CO2 emissions, while, for the same weather scenario, we observed a lasting stabilisation of soil C with less reactive communities. This model can be used to gain insight into C and water flows at the plant scale, and the influence of soil-plant interactions on C cycling in soil.
+      
+-  type: journal
    title: A collection of field-based indicators for assessing ecosystem services in crop fields
    authors: Leveau L, Biot N, Lobet G, Bertin P
    journal: arpa
