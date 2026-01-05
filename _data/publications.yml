@@ -1,4 +1,18 @@
 -  type: journal
+   title: Root anatomical gradients and cultivar differences underlie variation in root hydraulic properties in German winter wheat
+   authors: Baca Cabrera J, Dylan H. Jones DH, Vanderborght J, Behrend D, Schneider HM, Lobet G
+   journal: BiorXiv
+   year: 2025
+   open: yes
+   preprint: yes
+   doi: 10.1101/2025.11.19.689226
+   pdf: https://www.biorxiv.org/content/10.1101/2025.11.19.689226v2.full.pdf
+   tags:
+   - root
+   - anatomy
+   - hydraulics  
+
+-  type: journal
    title: Intraspecific variability rivals interspecific differences in root traits of temperate tree seedlings
    authors: Dendoncker M, Maheu A, Weemstra M, Villemaire-Cote O, Darquie L, Lobet G, Thiffault N, Ola A, Munson AD, Asselin G, Messier C, Aubin I
    journal: Quantitative Plant Biology
