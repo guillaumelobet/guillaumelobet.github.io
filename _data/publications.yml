@@ -1,4 +1,75 @@
 -  type: journal
+   title: Intraspecific variability rivals interspecific differences in root traits of temperate tree seedlings
+   authors: Dendoncker M, Maheu A, Weemstra M, Villemaire-Cote O, Darquie L, Lobet G, Thiffault N, Ola A, Munson AD, Asselin G, Messier C, Aubin I
+   journal: Quantitative Plant Biology
+   year: 2025
+   open: yes
+   preprint: yes
+   doi: 10.64898/2025.12.15.694302
+   pdf: https://www.biorxiv.org/content/10.64898/2025.12.15.694302v1.full.pdf
+   tags:
+   - root
+   - tree
+   - architecture
+   description : > 
+      Global change and associated disturbances are increasing the risk of regeneration failure for tree species in temperate forests. Seedlings are particularly vulnerable to water stress due to their shallow root systems, making belowground plasticity a potentially key component of species adaptive capacity. Quantifying root trait variability and its drivers can improve our understanding of regeneration success under increasingly warm and dry conditions. We quantified between species variation (BTV) and intraspecific variation (ITV) in seven root traits linked to water uptake, root-to-shoot ratio, maximum rooting depth, proportion of absorptive roots, specific root length, root tissue density, average absorptive root diameter, and root branching density, for seedlings of seven common, co-occurring tree species in forests of northeastern North America. We sampled seedlings under contrasting climate and light conditions, and assessed the influence of abiotic (climate, light conditions, soil properties) and biotic drivers (neighboring vegetation) as well as seedling characteristics (species identity, age, spermatophyte type) on root ITV at local and regional scales. Species differed significantly for some traits but differed even more strongly in multivariate trait syndromes, suggesting distinct belowground strategies. ITV was substantial but trait-dependent, with maximum rooting depth and root to shoot ratio being the most variable (coefficient of variation smaller than 45%) and branching density the least variable. BTV was the primary driver of overall trait variation for three traits, explaining more than 60% of variation, whereas within plot ITV accounted for more than 50% of variation in the remaining four traits. Local drivers did not outweigh regional factors, and the overall explanatory power of measured drivers was limited, suggesting that fine scale heterogeneity, not captured in our study, may strongly influence root ITV. High ITV in most traits suggests substantial plasticity in roots, which may contribute to the adaptive capacity of seedlings facing climate change. Integrating this plasticity into mechanistic models is critical for predicting regeneration dynamics or root mediated ecosystem processes. We propose a set of guidelines for integrating root traits into comparative studies and models based on trait measurability and extent of ITV. We further highlight the need to account for the scale and gradient intensity dependence of ITV environment relationships.
+
+
+-  type: journal
+   title: Role of xylem in root hydraulics. Functionality and implications for drought adaptation
+   authors: Barry L, Baca Cabrera J, Lucas M, Lobet G, Boursiac Y, Grondin A
+   journal: Quantitative Plant Biology
+   year: 2025
+   open: yes
+   doi: 10.1017/qpb.2025.10026
+   image: img/art-granar.png
+   pdf: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F4A5ED2D094C4FD67CC531BCCFF032F8/S263288282510026Xa.pdf/role-of-xylem-in-root-hydraulics-functionality-and-implications-for-drought-adaptation.pdf
+   tags:
+   - drought
+   - root
+   - xylem
+   - anatomy
+   - architecture
+   description : > 
+      Root water transport has been viewed as primarily limited by the radial component, with the axial pathway considered highly conductive and non limiting. This is supported by theoretical estimates of axial conductance using the Hagen Poiseuille equation. However, increasing evidence indicates that actual axial conductance is often nearly an order of magnitude lower than predicted, challenging assumptions that it does not limit water uptake. In this review, we discuss how recent model inversion approaches, guided by root hydraulic conductance measurements, have revealed that water transport can be co-limited by radial and axial conductance. We explore possible explanations for this co-limitation, with particular attention to root topology. Finally, we highlight how drought-induced adjustments in xylem vessel traits can reduce axial conductance, contributing to water conservation and cavitation resistance, thereby supporting drought adaptation strategies. Leveraging this overlooked limitation opens new avenues for breeding crops with improved water-use efficiency and resilience to drought .
+
+-  type: journal
+   title: Beyond efficiency. The multi-scale architecture of robust water transport in plants
+   authors: Julkowska M, Lobet G, Chandrasekhar A
+   journal: Quantitative Plant Biology
+   year: 2025
+   open: yes
+   doi: 10.1017/qpb.2025.10035
+   image: img/art-granar.png
+   pdf: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A8B8A5B72AFA5BBFB512CA66FACBCDF0/S2632882825100350a.pdf/beyond-efficiency-the-multi-scale-architecture-of-robust-water-transport-in-plants.pdf
+   tags:
+   - drought
+   - root
+   - anatomy
+   - architecture
+   description : > 
+      Agronomic research has long prioritized efficiency (optimizing resource use to maximize yield under stable conditions). However, as climate variability intensifies, efficiency alone might be insufficient to sustain agricultural production in the future. Instead, robustness (the ability to maintain function across diverse and unpredictable environments) emerges as a critical trait. Robustness is not a simple metric but an emergent property, arising from the interplay of redundancy, heterogeneity and plasticity across biological scales. We examine how the components of robustness (redundance, heterogeneity and plasticity) express themselves at the anatomical, architectural and genomic scale. A major challenge is the lack of a unified framework to measure robustness. We propose integrating empirical metrics – such as vessel grouping indices, root trait heterogeneity and gene expression plasticity (with computational models to quantify redundancy, heterogeneity and plasticity). By synthesizing insights from physiology, genomics and modelling, we outline a path towards designing crops that thrive in ideal settings and under environmental uncertainty.
+
+
+-  type: journal
+   title: Biomass partitioning and canopy architecture of six German winter wheat cultivars released between 1895 and 2002
+   authors: Behrend D, Nguyen T, Huering H, Baca Cabrera J, Lobet G, Seidel S, Srivastava A, Goncalves Bazzo C, KRamer N, Nachtweide P, Vanderborght J, Ewert F, Gaiser T
+   journal: EES Open Archive
+   year: 2025
+   preprint: yes
+   open: yes
+   doi: 10.22541/essoar.175822260.03180911/v1
+   image: img/art-granar.png
+   pdf: https://essopenarchive.org/doi/pdf/10.22541/essoar.175822260.03180911/v1
+   tags:
+   - wheat
+   - root
+   - shoot
+   - field
+   description : > 
+      Breeding has significantly improved grain yields in winter wheat. Yield improvements were mainly associated with changes in biomass partitioning and canopy architecture. While many studies address physiological differences at harvest or single times during development, data covering the physiology of modern and historic varieties throughout growth are rare. This study investigated how breeding progress influenced canopy structure and biomass partitioning across six German winter wheat cultivars released between 1895 and 2002. Field experiments were conducted over two seasons to measure aboveground and root biomass and canopy traits such as leaf area index (LAI) and specific leaf area at multiple stages. Root biomass was assessed using large pots that were buried within an already sown field. Results showed differences in partitioning patterns between cultivars and a trend towards a lower root to shoot ratio at anthesis in modern cultivars. Historic cultivars displayed larger flag leaves and a higher LAI but similar light extinction coefficients. Significant years effects were observed, with reduced shoot biomass and increased root allocation in the drier year of 2023, particularly in older cultivars. Yield increases were closely related to phenology and partitioning dynamics. These findings provide stage specific insights into cultivar physiology that are essential for calibrating crop models and guiding future breeding strategies.
+
+-  type: journal
    title: In silico analysis of carbon stabilisation by plant and soil microbes for different weather scenarios
    authors: Giraud M, Sırcan AK, Streck T, Leitner D, Lobet G, Pagel H, Schnepf A
    journal: arpa
@@ -18,13 +89,12 @@
 -  type: journal
    title: A collection of field-based indicators for assessing ecosystem services in crop fields
    authors: Leveau L, Biot N, Lobet G, Bertin P
-   journal: arpa
+   journal: One Ecosystem
    year: 2025
-   preprint: yes
    open: yes
-   doi: 10.3897/arphapreprints.e151539
+   doi: 10.3897/oneeco.10.e151491
    image: img/art-granar.png
-   pdf: https://preprints.arphahub.com/article/151539/
+   pdf: https://oneecosystem.pensoft.net/article/151491/download/pdf/
    tags:
    - crop
    - ecosystem services
