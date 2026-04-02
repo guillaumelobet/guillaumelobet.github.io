@@ -73,21 +73,12 @@ intro:
   title: Hi, I am Guillaume (he/him) and this is my research website!
   body: >
 
-    I try to understand how **plant** can better cope with changes in water availability during their growth cycle. To do so, I look at **roots**, their structure and their organisation . In a wider context, I want to help create **sustainable agrosystems** that are resilient to **drought** event and lack of water.  
-
+    My current research sits at the intersection of plant science, agronomy, and sustainable agriculture. I co-lead the PEPA Lab ([Plant Ecology, ecoPhysiology and sustainable Agriculture](https://pepa-lab.github.io/ )) at UCLouvain, where a team of 37 researchers investigates how plants grow and respond to environmental stresses, and how agricultural systems can be designed for long-term robustness.
     
-    Plants' complexity calls for integrative research strategies such as combining innovative plant phenotyping pipelines with powerful data analysis and modeling tools. Combining **computational tools** with the latest biological knowledge opens new horizons for plant research.
-
-
-    I believe in **Open Science**, the importance of science communication and good bread. 
-
-    I am PI in the [Plant Ecology, ecoPhysiology and sustainable Agriculture lab](https://pepa-lab.github.io/ ).
-
-    I am an Associate Professor at the [UCLouvain](http://www.uclouvain.be/eli).
-
+    Our work is rooted in both the field and the lab. We study the hidden world of plant root systems (their structure, hydraulics, and function) to understand how crops access water under drought. Combining field phenotyping, on-farm experimentation, and computational modelling, we bridge scales from root anatomy to cropping systems, with a strong focus on cereals and market gardening.
     
-    I recently move from Twitter to <a rel="me" href="https://bsky.app/profile/guillaumelobet.bsky.social">BlueSky</a>. 
- 
+    Beyond fundamental research, we are deeply committed to translating scientific knowledge into actionable outcomes for farmers and society. We develop open-source tools, participate in community-driven projects on sustainable farming in Wallonia, and actively engage with field practitioners. We believe that a just and ecologically sustainable food system requires embedding research in the realities of the field.
+
 
 footer: >
     Website created and maintained by myself with <span style="color: red;"><i class="fas fa-heart"></i></span> and <span style="color:#4f3130;"><i class="fas fa-coffee"></i></span>. Heavily relying on <a href="https://getbootstrap.com/">Bootstrap 4.0</a> and <a href="https://fontawesome.com">Font Awesome 5</a>. Also tacking advantage of the awesome badges from <a href="https://www.altmetric.com/">Altmetrics</a> and <a href="https://www.dimensions.ai/">Dimensions</a>. Hosted on <i class="fab fa-github"></i>. Source code available <a href="https://github.com/guillaumelobet/guillaumelobet.github.io">here</a>.
