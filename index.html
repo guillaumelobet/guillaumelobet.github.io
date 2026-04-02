@@ -4,6 +4,37 @@ title: Welcome !
 background: '/img/bg-about.jpg'
 ---
 
+	<div style="text-align: centered;">
+	<a href="{{ site.data.personal.curriculum}}" target="_blank" class="btn btn-sm btn-outline-primary">
+	<i class="fal fa-arrow-to-bottom mr-2"></i>My CV</a>
+
+	  <span class="info" id="email_1">
+	      <a href=""  onmouseover="safeEmailAddress('{{ site.data.personal.email }}', 'email_1');" class="btn btn-sm btn-outline-primary">
+	            <i class="fal fa-envelope"></i>
+	      </a>
+	  </span> 
+
+{% for profile in site.data.personal.profiles %}
+  {% if profile.network == 'Figshare' %}
+		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+		<i class="fal fa-share-alt"></i></a>
+	{% elsif profile.network == 'BlueSky' %}
+		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+		<i class="fal fa-sun"></i></a>
+	{% elsif profile.network == 'ORCID' %}
+		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+		<i class=""></i>iD</a>	
+	{% elsif profile.network == 'Github' %}
+		<a href="{{ profile.url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+		<i class="fab fa-github"></i></a>
+  	{% endif %}
+{% endfor %}	
+
+
+	</div>
+
+	<hr>
+
 {{ site.data.personal.intro.title | markdownify }}
 
 {{ site.data.personal.intro.body | markdownify }}
